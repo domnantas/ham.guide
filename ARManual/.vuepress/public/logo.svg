@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="640" version="1">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#647DEE"/>
+      <stop offset="100%" stop-color="#7F53AC"/>
+    </linearGradient>
+    <linearGradient id="mango-rotated" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FB7BA2"/>
+      <stop offset="100%" stop-color="#FCE043"/>
+    </linearGradient>
+    <linearGradient id="mango" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%"   stop-color="#FCE043"/>
+      <stop offset="100%" stop-color="#FB7BA2"/>
+    </linearGradient>
+  </defs>
+<g><path transform="scale(.59554 -1.2827) rotate(45 -156.688 -218.49)" fill="url(#blue)" stroke="url(#mango-rotated)" stroke-width="45.766" stroke-linecap="round" stroke-linejoin="round" d="M-32.181-695.521h308.707v308.707H-32.181z"/><g fill="none" stroke="url(#mango)" stroke-width="6.424"><path d="M160.013 429.125l.014-57.912c-17.095 0-23.982-4.123-23.982-10.438 0-9.999 47.964-23.049 47.964-10.194 0 11.928-47.964.028-47.964-10.193 0-10.222 47.964-23.05 47.964-10.194 0 11.927-47.964.028-47.964-10.194 0-10.222 47.964-22.121 47.964-10.194 0 12.855-47.964.028-47.964-10.194 0-10.221 47.964-22.12 47.964-10.193 0 12.855-47.964-.195-47.964-10.194 0-6.315 6.887-10.438 23.982-10.438l-.014-96.973"/><path d="M136.79 171.814h46.447l-23.224 41.993-23.223-41.993zM149.208 467.987h21.611-21.611zM143.402 455.287h33.223-33.223zM137.596 442.587h44.835-44.835zM131.79 429.888h56.447-56.447zM154.208 480.686h11.611-11.611z"/></g></g></svg>

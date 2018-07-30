@@ -1,0 +1,15 @@
+{
+  "name": "lrmd-docs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev ARManual",
+    "build": "vuepress build ARManual"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.13.0"
+  },
+  "dependencies": {
+    "confetti-js": "https://github.com/FistMeNaruto/confetti-js"
+  }
+}
