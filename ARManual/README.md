@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 actionText: Read →
 actionLink: /radio-operating-ethics/
 features:

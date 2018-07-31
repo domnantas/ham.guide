@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 actionText: Skaityti →
 actionLink: /lt/radio-operating-ethics/
 features:
