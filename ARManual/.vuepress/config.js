@@ -61,7 +61,7 @@ module.exports = {
     updatePopup: true
   },
   themeConfig: {
-    repo: "LRMD/zinynas",
+    repo: "LRMD/ARManual",
     editLinks: true,
     docsDir: "ARManual",
     locales: {
