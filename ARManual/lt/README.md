@@ -4,11 +4,41 @@ heroImage: /logo.svg
 actionText: Skaityti →
 actionLink: /lt/radio-operating-ethics/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: Kuriamas Bendruomenės
+    details: Šio žinyno turinys yra paremtas atviru kodu ir išlaikomas bendruomenės. Bet kas gali prisidėti prie projekto vystymo. Ne veltui projekto pavadinimas skamba kaip Our Manual!
+  - title: Daugiakalbis
+    details: Informacija turėtų būti prieinama visiems, nesvarbu kokia kalba jie kalba. Jeigu ARManual nėra išversta į Jūsų kalbą, padėkite savo bendruomenei jį išversti.
+  - title: Veikia Offline
+    details: ARManual veikia be interneto prieigos - jis išsaugomas įrenginyje ir atsinaujina atsiradus naujam turiniui. Jeigu apsilankysite šiame puslapyje per mobiliojo įrenginio naršyklę, galėsite net įsirašyti ARManual kaip programėlę!
 footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 ---
+
+---
+
+# Atnaujinimai
+
+## 0.0.1 - 2018-07-31
+
+### Pridėta
+
+- **Anglų** markdown patarimai
+- **Lietuvių** _Ethics and operating procedures for the radio amateur_ vertimas
+- **Lietuvių** markdown paratimai
+- Vuepress v0.13.0
+
+## 0.0.2 - 2018-09-09
+
+### Pridėta
+
+- Pagrindinio puslapio atnaujinimas
+
+### Pakeista
+
+- **Lietuvių** pataisytos _Ethics and operating procedures for the radio amateur_ nuorodos
+- Vuepress v0.14.2
+
+---
+
+Projektas remiamas [Lietuvos Radijo Mėgėjų Draugijos](http://lrmd.lt/)
+
+[![LRMD Logo](/lrmd.svg)](http://lrmd.lt)

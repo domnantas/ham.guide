@@ -1,6 +1,6 @@
 module.exports = {
   title: "ARManual",
-  description: "Amateur radio manual",
+  description: "Introduction to amateur radio",
   locales: {
     "/": {
       lang: "en-US"
@@ -99,12 +99,12 @@ module.exports = {
               "/lt/radio-operating-ethics/introduction",
               "/lt/radio-operating-ethics/general-operating",
               "/lt/radio-operating-ethics/advanced-operating",
-              "/lt/radio-operating-ethics/phonetic-alphabet",
-              "/lt/radio-operating-ethics/q-code",
               "/lt/radio-operating-ethics/authors",
               "/lt/radio-operating-ethics/translators-note"
             ]
           },
+          "/lt/phonetic-alphabet/",
+          "/lt/q-code/",
           {
             title: "Prisidėkite",
             collapsable: true,

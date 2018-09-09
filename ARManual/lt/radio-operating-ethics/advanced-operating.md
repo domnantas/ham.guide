@@ -41,7 +41,7 @@ Jei visus aukščiau išvardintus reikalavimus išpildysite, tuomet tikrai galė
 
 #### Kaip tinkamai įsiterpti dirbant DX telefonu ir būnant viename dažnyje?
 
-- Niekada nekvieskite DX, kol nėra užbaigtas prieš tai buvęs QSO. Nelipkite kitiems ant uodegos (žr. III.2). <!-- TODO:link -->
+- Niekada nekvieskite DX, kol nėra užbaigtas prieš tai buvęs QSO. [Nelipkite kitiems ant uodegos](#lipimas-ant-kulnu).
 - Tinkamo momento parinkimas - raktas į sėkmę. Nepulkite kviesti iš karto, palaukite kol eteryje aprims triukšmas, nes tuomet tikimybė, jog būsite išgirstas, bus gerokai didesnė. Juk tai nėra varžybos, kuriose turite būti pirmas ir greičiausias operatorius. Svarbu DX kviesti tinkamu momentu. Prieš perduodami savo šaukinį palaukite kelias sekundes kol patys didžiausi entuziastai nustos siuntę kvietimo signalus ir QRM dažnyje šiek tiek aprims. Tai užtrunka apie 5 - 7 sekundes.
 
 #### Kaip kviesti?
@@ -49,15 +49,15 @@ Jei visus aukščiau išvardintus reikalavimus išpildysite, tuomet tikrai galė
 - Jokiu būdu nereikia kviesti DX stoties jos šaukiniu - operatorius tikrai žino savo šaukinį. Siųskite pilną savo šaukinį vieną kartą. Jokiu būdu nesiųskite dalies savo šaukinio - tai sukelia sąmyšį bei nėra aišku, kurią savo šaukinio dalį perduodate, taip prailginate procedūrą ir erzinate kitus eteryje laukiančius korespondentus.
 - Dažnai galite išgirsti daug kvietimų ryšiui, kurių metu operatoriai perduoda tik dalį savo šaukinio, tai blogas pavyzdys, nes daugumoje pasaulio šalių toks perdavimas nelegalus.
 - Nekvieskite nei per lėtai, nei per greitai, nešaukite, palaikykite taisyklingą dikciją ir ramų balso toną.
-- Kviesdami naudokite tik tarptautinę fonetinę abėcėlę (žr. priedą nr. 1) <!-- TODO: link --> ir nesusigalvokite savo santrumpų.
-  - Radijo eteryje tarptautinė fonetinė abėcėlė (nuo Alpha iki Zulu), sudaryta ITU, tarnauja vienam tikslui - siekiama sumažinti priėmimo/perdavimo klaidų skaičių tarp korespondentų apsikeičiant informacija. Tokia abėcėlė yra vienintelė ir unikali, todėl sėkmingai tarnauja šiam tikslui (jei kalbate lietuviškai ir dirbate su lietuviška DX stotimi, galima naudoti lietuvišką fonetinę abėcėlę - žr. priedą nr. 1)<!-- TODO: link -->.
+- Kviesdami naudokite tik [tarptautinę fonetinę abėcėlę](/lt/phonetic-alphabet/) ir nesusigalvokite savo santrumpų.
+  - Radijo eteryje tarptautinė fonetinė abėcėlė (nuo Alpha iki Zulu), sudaryta ITU, tarnauja vienam tikslui - siekiama sumažinti priėmimo/perdavimo klaidų skaičių tarp korespondentų apsikeičiant informacija. Tokia abėcėlė yra vienintelė ir unikali, todėl sėkmingai tarnauja šiam tikslui (jei kalbate lietuviškai ir dirbate su lietuviška DX stotimi, galima naudoti [lietuvišką fonetinę abėcėlę](/lt/phonetic-alphabet/)).
   - DX stotis klauso tik šių unikalių fonetinės abėcėlės žodžių visame kvietimų orkestre. Papildomų žodžių naudojimas tik apsunkina DX stoties darbą. Taigi, jei naudojame žodžius, kurių DX stotis nesitiki išgirsti eteryje, QSO atlikimo procedūra tampa **neefektyvi**.
   - Dažnai dirbant eilėse galima pastebėti, kad DX operatorius praleidžia būtent tas raides, kurios buvo perduotos nestandartine fonetine abėcėle ir paprašo pakartoti trūkstamas kviečiančios stoties šaukinio dalis.
     :::warning Pavyzdys
     Naudojant fonetinės abėcėlės žodžius _Lima Yankee_ triukšme nesunkiai suprantama, kad perduodama LY, tuo tarpu kviesdami _London Yankee_ sukeliate sumaištį, ypač tada jeigu Jūsų signalas silpnas ir vos girdimas. Taigi, daugiau šansų, kad DX operatorius supras _Lima_, o ne _London_, nes jis nusiteikęs išgirsti šaukinį sakoma standartine fonetine abėcėle ir neturi laiko šifruoti prasimanymų.
     :::
   - DX operatorius ne tik klauso tinkamų žodžių, tačiau kartu ir tikisi juose tam tikrų sąskambių/garsų, reikiamų skiemenų skaičiaus, kurie jam leistų triukšme išskirti perduodamą informaciją. Jei siunčiant nesugebame tinkamai perduoti vienos ar kitos priebalsės dėl QRM ar QRN, tikėtina, kad standartinės fonetinės abėcėlės naudojimas leis DX operatoriui lengviau iššifruoti perduodamus žodžius.
-  - Naudokite tik tinkamą anglų kalbos tartį. Priede nr. 1 <!-- TODO: link --> yra pateikiamos apytikrės tarties rekomendacijos. Savaime suprantama, tai priklauso nuo Jūsų anglų kalbos žinių, tačiau išmokti taisyklingai tarti fonetinę abėcėlę, specialiai mokytis anglų kalbos nebūtina.
+  - Naudokite tik tinkamą anglų kalbos tartį. Puslapyje [Tarptautinė fonetinė abėcėlė](/lt/phonetic-alphabet/) yra pateikiamos apytikrės tarties rekomendacijos. Savaime suprantama, tai priklauso nuo Jūsų anglų kalbos žinių, tačiau išmokti taisyklingai tarti fonetinę abėcėlę, specialiai mokytis anglų kalbos nebūtina.
 - DX stotis kartais gali išgirsti dalį Jūsų šaukinio ir perduoti: `9ZZZ you’re 59, QSL?`. Tai reiškia, _korespondentą, kurio šaukinio pabaiga yra 9ZZZ, girdžiu puikiai, priimate?_
 - Tada atsakant būtinai reikia pabrėžti trūkstamą savo šaukinio dalį, pvz.: `This is`**`lima`** **`yankee`**`,`**`lima`** **`yankee`**`, nine zulu zulu zulu, 59 QSL?`.
 - Paprastai visą šaukinį išgirdusi DX stotis Jums atsakys: `LY9ZZZ thanks`, tuo patvirtindama, kad į ryšių žurnalą įvedė teisingą Jūsų šaukinį. Jei taip neįvyko ir negavote patvirtinimo, kvieskite vėl: `Please confirm my call, LY9ZZZ over`. Reikalaukite informacijos, galbūt tik šiuo metu yra tinkamos bangų sklidimo sąlygos gauti aiškų ryšio patvirtinimą. Jei DX stotis nepatvirtina pilno Jūsų šaukinio, tai yra rimtas pagrindas kviesti vėl ir reikalauti patvirtinimo, kad Jūsų šaukinys teisingai priimtas.
@@ -136,7 +136,7 @@ Nenutylančių ir nepavargstančių šauklių eteryje yra apstu. Jų įsivaizduo
 - Dauguma ryšių DXpedicijų metu yra užmezgama dvidažniu režimu.
 - Operatorių įgūdžiai paprastai vertinami pagal tai, kokio dydžio spektro dalį jie užima dirbdami dvidažniu režimu.
 - Vykstant svarbesnėms DXpedicijoms atsiranda radijo mėgėjų, kurie jaučiasi turintys šventą pareigą reguliuoti DX stočių darbą eteryje. Nesusigundykite tapti tokiu reguliuotoju, nes jų ir taip per daug (niekas nereguliuoja jų pačių atsiradimo).
-- Dalis operatorių mėgaujasi savo atliekamu tyčiniu QRM, nukreiptu būtent į DXpedicijas. Tyčinis QRM dar vadinamas DQRM (angl. _deliberate QRM_). Jei eteryje girdite tokius trukdymus, tiesiog nekreipkite į juos dėmesio ir trukdymai nesuradę sau reikiamos auditorijos anksčiau ar vėliau liausis. Kartais sunku susilaikyti nuo komentarų, tačiau būtent dėmesio rodymas dar labiau paaštrina situaciją ir sukelia didesnį chaosą (žr. III.11)<!-- TODO: link -->. Jei tiksliai nustatėte stotį kuri sukelia DQRM, geriau nukreipkite savo energiją kitur ir parenkite oficialų skundą licenciją išdavusiai institucijai.
+- Dalis operatorių mėgaujasi savo atliekamu tyčiniu QRM, nukreiptu būtent į DXpedicijas. Tyčinis QRM dar vadinamas DQRM (angl. _deliberate QRM_). Jei eteryje girdite tokius trukdymus, tiesiog nekreipkite į juos dėmesio ir trukdymai nesuradę sau reikiamos auditorijos anksčiau ar vėliau liausis. Kartais sunku susilaikyti nuo komentarų, tačiau būtent [dėmesio rodymas dar labiau paaštrina situaciją ir sukelia didesnį chaosą](#patarimai-dx-stociu-ir-dx-ekspediciju-operatoriams). Jei tiksliai nustatėte stotį kuri sukelia DQRM, geriau nukreipkite savo energiją kitur ir parenkite oficialų skundą licenciją išdavusiai institucijai.
 - Norint sužinoti daugiau apie konkrečią DXpediciją, klausti apie tai ekspedicijos dažnyje nėra pati geriausia mintis. Informacija apie DXpedicijas pateikiama internete ir įvairiuose DXpedicijų biuleteniuose. Iš šių šaltinių galite sužinoti QSL adresą, dažnius, operatorių šaukinius ir kitą informaciją, pvz., pilotines stotis.
 - Pilotinės stotys yra atsakingos už DXpedicijų viešuosius ryšius ir yra stočių kontaktiniai asmenys. Jei norite sužinoti daugiau apie DXpediciją ir Jūsų ieškoma informacija nėra pateikta DXpedicijos svetainėje ar biuletenyje, parašykite el. laišką pilotinei stočiai. Jos operatoriai suteiks daugiau Jums reikalingos informacijos.
 - Niekuomet DXpedicijos dažnyje neužduokite tokių klausimų kaip: `QSL MGR?`, `PSE SSB` ar `QSY 20M`. Ir išvis niekuomet nesiųskite tokio signalo ekspedicijos dažnyje (jei ji dirba dviem dažniais).
@@ -148,7 +148,7 @@ Nenutylančių ir nepavargstančių šauklių eteryje yra apstu. Jų įsivaizduo
 - Tokie tinklai egzistuoja tam, kad paglostyti jų operatorių savimeilę. Darbas tokių DX tinklų pagalba:
   - Tinklo vedančioji stotis (VS) kviečia kitas stotis, kurios nori užmegzti ryšį su DX ir laukia jos dažnyje;
   - Dažnai VS prašo stočių identifikuotis tik paskutinėmis šaukinio raidėmis, o tai daugumoje valstybių yra nelegalu;
-  - VS sudaro šių stočių sąrašą ir kai sąrašas užbaigiamas, vedantysis po vieną perduoda šių stočių šaukinius DX stočiai. Jei pirmas QSO bandymas nepavyksta, VS ilgai nelaukusi įsiterpia pakviesdama ar padrąsindama stotį kviesti vėl (from `...SS station, callagain...` up to giving half of the report: `...you have the readability correct, but the signal strength is better than what you said...`<!-- TODO: translation -->). Dažnai pati VS atlieka pusę QSO. Nenuostabu, kad kartais girdime komentarus: `make one more guess...`.
+  - VS sudaro šių stočių sąrašą ir kai sąrašas užbaigiamas, vedantysis po vieną perduoda šių stočių šaukinius DX stočiai. Jei pirmas QSO bandymas nepavyksta, VS ilgai nelaukusi įsiterpia pakviesdama ar padrąsindama stotį kviesti vėl (nuo `...SS station, call again...` iki signalo įvertinimo: `...you have the readability correct, but the signal strength is better than what you said...`). Dažnai pati VS atlieka pusę QSO. Nenuostabu, kad kartais girdime komentarus: `make one more guess...`.
 - Akivaizdu, jog visa tai turi labai nedaug bendro su tikrais DX iššūkiais. Tiek rimtos DX stotys, tiek patyrę DX medžiotojai stengiasi laikytis kuo toliau nuo tokių DX tinklų.
 - Tokio tipo DX tinkluose greičiausiai neišmoksite nei tinkamai elgtis eteryje, nei savarankiškai užmegzti ryšio su DX stotimi.
 
@@ -216,7 +216,7 @@ Neskelbkite informacijos, kuri neturi jokios vertės. Neskelbkite kasdien girdim
 - Nepradėkite iš karto aklai kviesti DX stoties.
 - Įsitikinkite, kad girdite stotį pakankamai gerai, patikrinkite ar perduodamas šaukinys atitinka paskelbtą.
 - Įsitikinkite, kad prieš kviesdami išgirdote ir susipažinote su DX stoties instrukcijomis (klausymo dažniu, ar ji dirba su visais korespondentais, ar pagal numerius/geografinius vienetus?).
-- Sekite darbo eilėje rekomendacijomis (III.1)<!-- TODO: link -->. Sėkmės!
+- Sekite [darbo eilėje rekomendacijomis](#eiles-pileups). Sėkmės!
 
 ### Ko nedaryti DX klasteryje?
 
@@ -281,9 +281,8 @@ DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
 | ---------- | --------------------- |
 | **80m**    | 3 500 – 3 510 (CW)    |
 | **80m**    | 3 775 – 3 800 (SSB)   |
+| **40m**    | 7 175 – 7 200 (SSB)   |
 | **20m**    | 14 190 – 14 200 (SSB) |
-
-<!-- TODO: Confirm bandplan-->
 
 - IARU R2 (Šiaurės ir Pietų Amerikoje) dažnių plane yra 6 DX ruožai:
 
@@ -327,7 +326,7 @@ Pirmi kiekvieno diapazono 5 kHz taip pat neoficialiai naudojami CW DX ryšiui.
 
 ### DX ruožai UTB
 
-- Žr. Oficialų IARU dažnių planą: [iaru.org/regions](http://iaru.org/regions).<!-- TODO: table -->
+- Žr. Oficialų IARU dažnių planą: [iaru.org/regions](http://iaru.org/regions).
 
 ### Specifinės UTB darbo procedūros
 
@@ -340,11 +339,11 @@ Pirmi kiekvieno diapazono 5 kHz taip pat neoficialiai naudojami CW DX ryšiui.
   - meteorų pėdsakus­;
   - aurorą;
   - naudojant ATV (plačiajuostę mėgėjišką televiziją – _wideband amateur television_).
-- Šio dokumento tikslas nėra detaliai aprašyti kiekvieną iš šių procedūrų. Visais atvejais Jums galioja etikos nuostatai, numatyti I.2 skyriuje. <!-- TODO: link -->
+- Šio dokumento tikslas nėra detaliai aprašyti kiekvieną iš šių procedūrų. Visais atvejais Jums galioja [etikos nuostatai](introduction.md#radijo-megejo-elgesio-kodeksas).
 
 ### Konfliktinės situacijos
 
-Kaip paaiškinome 1.2 skyriuje<!-- TODO: link -->, mes visi (keli šimtai tūkstančių radijo mėgėjų visame pasaulyje) žaidžiame žaidimą toje pačioje aikštėje, todėl kartais viena ar kita situacija neišvengiamai pakrypsta konflikto link. Susitvarkyti su šiais konfliktais radijo eteryje galime remdamiesi bendru supratimu (_common sense_), geromis manieromis ir abipuse pagarba.
+Kaip paaiškinome [Radijo mėgėjo elgesio kodekse](introduction.md#radijo-megejo-elgesio-kodeksas), mes visi (keli šimtai tūkstančių radijo mėgėjų visame pasaulyje) žaidžiame žaidimą toje pačioje aikštėje, todėl kartais viena ar kita situacija neišvengiamai pakrypsta konflikto link. Susitvarkyti su šiais konfliktais radijo eteryje galime remdamiesi bendru supratimu (_common sense_), geromis manieromis ir abipuse pagarba.
 
 - Taisyklė nr. 1: **eteryje niekuomet nesielkite taip, kaip nesielgtumėte viešoje vietoje bei nekalbėkite taip, kaip nekalbėtumėte su penkiamečiu vaiku ar savo geriausiu draugu.**
 - Viena iš radijo pranešimų problemų yra ta, kad juos galima perduoti anonimiškai. Asmuo, turintis piktų ketinimų ir perduodantis signalą be identifikacijos nėra vertas radijo mėgėjo vardo.
