@@ -1,6 +1,6 @@
 <template>
   <div class="doubler">
-    <pre>{{ number }}</pre>
+    <h3>{{ number }}</h3>
     <button @click="double">Double</button>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@require '~@default-theme/styles/config.styl'
+@import '~@default-theme/styles/config.styl'
 
 .doubler
   text-align center
