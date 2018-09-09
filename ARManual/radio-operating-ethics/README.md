@@ -15,6 +15,7 @@ pageClass: cover
 **Bob Whelan, G3PJT** - proof reading and corrections
 
 ---
+a
 
 ::: tip PowerPoint version
 A PowerPoint presentation version of this document is also available. Both documents can be downloaded in various languages from: [ham-operating-ethics.org](http://ham-operating-ethics.org). The PDF document is available in more than 25 languages.
