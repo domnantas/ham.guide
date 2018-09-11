@@ -17,6 +17,19 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 
 # Changelog
 
+## 0.0.2 - 2018-09-09
+
+### Added
+
+- Homepage improvements
+- **English** Contribution guide
+- **Lithuanian** Contribution guide
+
+### Changed
+
+- **Lithuanian** fixed links in _Ethics and operating procedures for the radio amateur_
+- Vuepress v0.14.2
+
 ## 0.0.1 - 2018-07-31
 
 ### Added
@@ -25,17 +38,6 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 - **Lithuanian** translation of _Ethics and operating procedures for the radio amateur_
 - **Lithuanian** markdown tips
 - Vuepress v0.13.0
-
-## 0.0.2 - 2018-09-09
-
-### Added
-
-- Homepage improvements
-
-### Changed
-
-- **Lithuanian** fixed links in _Ethics and operating procedures for the radio amateur_
-- Vuepress v0.14.2
 
 ---
 

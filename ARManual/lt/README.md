@@ -17,6 +17,19 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 
 # Atnaujinimai
 
+## 0.0.2 - 2018-09-09
+
+### Pridėta
+
+- Pagrindinio puslapio atnaujinimas
+- **Anglų** prisidėjimo gidas
+- **Lietuvių** prisidėjimo gidas
+
+### Pakeista
+
+- **Lietuvių** pataisytos _Ethics and operating procedures for the radio amateur_ nuorodos
+- Vuepress v0.14.2
+
 ## 0.0.1 - 2018-07-31
 
 ### Pridėta
@@ -25,17 +38,6 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 - **Lietuvių** _Ethics and operating procedures for the radio amateur_ vertimas
 - **Lietuvių** markdown paratimai
 - Vuepress v0.13.0
-
-## 0.0.2 - 2018-09-09
-
-### Pridėta
-
-- Pagrindinio puslapio atnaujinimas
-
-### Pakeista
-
-- **Lietuvių** pataisytos _Ethics and operating procedures for the radio amateur_ nuorodos
-- Vuepress v0.14.2
 
 ---
 
