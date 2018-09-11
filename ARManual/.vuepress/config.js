@@ -77,6 +77,8 @@ module.exports = {
               "/radio-operating-ethics/radio-amateurs-code"
             ]
           },
+          "/phonetic-alphabet/",
+          "/q-code/",
           {
             title: "Contribute",
             collapsable: true,
