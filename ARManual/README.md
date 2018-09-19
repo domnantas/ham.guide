@@ -44,3 +44,5 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 Project is supported by [Lithuanian Amateur Radio Society](http://lrmd.lt/)
 
 [![LRMD Logo](/lrmd.svg)](http://lrmd.lt)
+
+<BackgroundConfetti id="confetti" />
