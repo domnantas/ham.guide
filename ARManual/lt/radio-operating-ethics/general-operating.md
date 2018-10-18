@@ -6,7 +6,7 @@
 - Būdami radijo mėgėjais mes vienas į kitą visada kreipiamės vardu (ar slapyvardžiu), niekada nenaudojame _pone_ ar _panele_, nesikreipiame pavarde. Tarp _hamų_ tai taip pat yra priimtina ir bendraujant raštu.
 - Radijo mėgėjų etiketas teigia, kad mes atsisveikindami raštu naudojame `73` (bet ne `geriausių 73` ar `didžiausias 73`), taip pat nerašome formalių išsireiškimų, tokių kaip _pagarbiai_.
 - Jeigu anksčiau esate dirbęs CB radijo eteryje, nebenaudokite CB kalbos subtilybių ir vietoj jų išmokite mėgėjiško radijo kalbą. Iš Jūsų, kaip iš radijo mėgėjų bendruomenės nario, tikimasi, kad žinote dažnus mėgėjiško radijo posakius - jie Jums padės pritapti šioje bendruomenėje.
-- Vykstant radijo pokalbiui tinkamai naudokite **Q kodus** (Priedas nr. 2), tačiau stenkitės neperlenkti lazdos naudodami šiuos kodus. Visada galite vietoje jų naudoti visiems suprantamus posakius. Tačiau, kai kurie Q kodai ilgainiui tapo natūraliu reiškiniu netgi balso pokalbiuose, pvz.:
+- Vykstant radijo pokalbiui tinkamai naudokite [Q kodus](/lt/q-code/) tačiau stenkitės neperlenkti lazdos naudodami šiuos kodus. Visada galite vietoje jų naudoti visiems suprantamus posakius. Tačiau, kai kurie Q kodai ilgainiui tapo natūraliu reiškiniu netgi balso pokalbiuose, pvz.:
 
 |                   |                                            |
 | ----------------- | ------------------------------------------ |
