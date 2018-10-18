@@ -55,7 +55,7 @@ npm install # or yarn
 3. Run the dev server
 
 ```bash
-npm run dev
+npm run dev # or yarn dev
 ```
 
 After that, visit `localhost:8080` and you should see ARManual running locally.

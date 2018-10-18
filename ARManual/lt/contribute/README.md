@@ -55,7 +55,7 @@ npm install # arba yarn
 3. Paleiskite vietinį serverį
 
 ```bash
-npm run dev
+npm run dev # arba yarn dev
 ```
 
 Apsilankykite `localhost:8080` ir turėtumėte pamatyti ARManual veikiantį vietiniame tinkle.
