@@ -1,30 +1,30 @@
 # Tarptautinė fonetinė abėcėlė
 
-| Raidė | Žodis    | Tarimas             |
-| ----- | -------- | ------------------- |
-| **A** | Alpha    | **al** fah          |
-| **B** | Bravo    | **bra** vo          |
-| **C** | Charlie  | **tchar** li        |
-| **D** | Delta    | **del** tha         |
-| **E** | Echo     | **ek** o            |
-| **F** | Foxtrot  | **fox** trott       |
-| **G** | Golf     | golf                |
-| **H** | Hotel    | ho **tell**         |
-| **I** | India    | **in** di ah        |
-| **J** | Juliet   | **djou** li **ett** |
-| **K** | Kilo     | **ki** lo           |
-| **L** | Lima     | **li** mah          |
-| **M** | Mike     | **ma** ik           |
-| **N** | November | no **vemm** ber     |
-| **O** | Oscar    | **oss** kar         |
-| **P** | Papa     | pah **pah**         |
-| **Q** | Quebec   | kwe **bek**         |
-| **R** | Romeo    | **ro** me o         |
-| **S** | Sierra   | si **er** rah       |
-| **T** | Tango    | **tang** go         |
-| **U** | Uniform  | **you** ni form     |
-| **V** | Victor   | **vik** tor         |
-| **W** | Whiskey  | **ouiss** ki        |
-| **X** | X-ray    | **ekss** re         |
-| **Y** | Yankee   | **yang** ki         |
-| **Z** | Zulu     | **zou** lou         |
+| Raidė | Žodis    | Tarimas             | Lietuviškai |
+| ----- | -------- | ------------------- | ----------- |
+| **A** | Alpha    | **al** fah          | Antanas     |
+| **B** | Bravo    | **bra** vo          | Birutė      |
+| **C** | Charlie  | **tchar** li        | Centras     |
+| **D** | Delta    | **del** tha         | Danutė      |
+| **E** | Echo     | **ek** o            | Eglė        |
+| **F** | Foxtrot  | **fox** trott       | Feliksas    |
+| **G** | Golf     | golf                | Giedrius    |
+| **H** | Hotel    | ho **tell**         | Henrikas    |
+| **I** | India    | **in** di ah        | Irena       |
+| **J** | Juliet   | **djou** li **ett** | Jonas       |
+| **K** | Kilo     | **ki** lo           | Kęstutis    |
+| **L** | Lima     | **li** mah          | Leonas      |
+| **M** | Mike     | **ma** ik           | Marytė      |
+| **N** | November | no **vemm** ber     | Nijolė      |
+| **O** | Oscar    | **oss** kar         | Ona         |
+| **P** | Papa     | pah **pah**         | Petras      |
+| **Q** | Quebec   | kwe **bek**         | Kvebekas    |
+| **R** | Romeo    | **ro** me o         | Romas       |
+| **S** | Sierra   | si **er** rah       | Saulius     |
+| **T** | Tango    | **tang** go         | Tomas       |
+| **U** | Uniform  | **you** ni form     | Uršulė      |
+| **V** | Victor   | **vik** tor         | Vytautas    |
+| **W** | Whiskey  | **ouiss** ki        | Vašingtonas |
+| **X** | X-ray    | **ekss** re         | Iksas       |
+| **Y** | Yankee   | **yang** ki         | Ygrekas     |
+| **Z** | Zulu     | **zou** lou         | Zenonas     |

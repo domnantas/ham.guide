@@ -1,0 +1,17 @@
+$MQMedium = 719px
+
+medium()
+  @media (min-width: $MQMedium)
+    {block}
+
+.cover
+  h1
+    font-size 2rem
+    text-align center
+    text-transform uppercase
+
+    +medium()
+      font-size 3rem
+
+th:empty
+  visibility hidden

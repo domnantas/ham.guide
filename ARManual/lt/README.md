@@ -17,6 +17,18 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 
 # Atnaujinimai
 
+## 0.0.3 - 2019-03-26
+
+### Pridėta
+
+- **Anglų** _Ethics and operating procedures for the radio amateur_ vertimas
+- **Lithuanian** nedideli _Ethics and operating procedures for the radio amateur_ pataisymai
+- **Lithuanian** fonetinė abėcėlė
+
+### Pakeista
+
+- _Ethics and operating procedures for the radio amateur_ viršelio puslapio antraštės šrifto dydis sumažintas mažesniuose ekranuose
+
 ## 0.0.2 - 2018-09-09
 
 ### Pridėta

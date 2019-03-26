@@ -28,7 +28,7 @@
 - Prie paprastai naudojamų Q kodų, balso pokalbiuose pritapo ir kelios [trumpos frazės, kurios kilo iš CW](#populiariausios-cw-santrumpos), tokios kaip 73, 88, OM (draugas, šnek. k. senis, angl. _old man_), YL (mergina, moteris, angl. _young lady_).
 - Teisingai naudokite vieną ir vienintelę [tarptautinę fonetinę abėcėlę](/lt/phonetic-alphabet/). Griežtai venkite _išsigalvojimų_, kurie gali skambėti įdomiai ar juokingai Jūsų kalboje, tačiau tai nepadės korespondentui suprasti, ką norėjote pasakyti. Nenaudokite skirtingų fonetinių žodžių tame pačiame sakinyje.
 
-::: danger Pavyzdys
+:::danger Pavyzdys
 `CQ from ON9UN, oscar november nine uniform november, ocean nancy nine united nations...`
 :::
 
@@ -78,7 +78,7 @@
 - Kuris šaukinys Jūsų pokalbyje perduodamas pirmas? Teisingai skamba taip: `W1ZZZ from LY9ZZZ` (LY9ZZZ esi tu, o W1ZZZ yra pašnekovas kuriam adresuoji). Taigi, pirmiausia perduok šaukinį žmogaus, su kuriuo kalbi, o tik po to savo šaukinį.
 - Kaip dažnai turėtumėte prisistatyti?
 
-Daugumoje pasaulio valstybių egzistuoja tokia taisyklė: _siuntimo pradžioje, pabaigoje ir ne rečiau kaip kas 5 minutes ryšio arba radijo stoties bandymų eteryje metu._ Iš eilės einantys keli trumpi „klausau“ (over) laikomi kaip vienas perdavimas. Varžybų taisyklėse nėra griežto reikalavimo prisistatyti kiekvieno QSO metu. Ši 5 minučių taisyklė reikalinga tam, kad stotys, kontroliuojančios radijo eterį, galėtų lengviau atpažinti visus dirbančius. [Tačiau geriausia prisistatyti kiekvieno QSO metu](advanced-operating.md#teisine-atsakomybe)
+Daugumoje pasaulio valstybių egzistuoja tokia taisyklė: _siuntimo pradžioje, pabaigoje ir ne rečiau kaip kas 5 minutes ryšio arba radijo stoties bandymų eteryje metu._ Iš eilės einantys keli trumpi „klausau“ (_over_) laikomi kaip vienas perdavimas. Varžybų taisyklėse nėra griežto reikalavimo prisistatyti kiekvieno QSO metu. Ši 5 minučių taisyklė reikalinga tam, kad stotys, kontroliuojančios radijo eterį, galėtų lengviau atpažinti visus dirbančius. [Tačiau geriausia prisistatyti kiekvieno QSO metu](advanced-operating.md#teisine-atsakomybe)
 
 - _Pauzė_ arba _tarpas_: kai Jūsų korespondentas baigia perdavimą ir perduoda mikrofoną Jums, geras įprotis yra palaukti sekundėlę prieš pradedant savo perdavimą. Galbūt kas nors kitas norės įsijungti į pokalbį ar pasinaudoti dažniu.
 - Trumpas ar ilgas informacijos perdavimas?
@@ -118,15 +118,17 @@ Kartais, prieš transliavimą yra būtina suderinti siųstuvą (ar antenos tiune
   - Paklauskite dar kartą: `Ar dažnis yra naudojamas?`
 - Ir jeigu vis tiek niekas neatsakys?
 
-**Perduokite CQ:** `CQ from LY9ZZZ, LY9ZZZ calling CQ, lima yankee nine zulu zulu zulu calling CQ and listening`. Pačiame perdavimo gale galite sakyti: `... calling CQ and standing by`, vietoj `... and listening`. Taip pat galima sakyti: `... and standing by for any call`. Visada kalbėkite aiškiai ir raiškiai, visus žodžius tardami taisyklingai.
+**Perduokite CQ:** `CQ from LY9ZZZ, LY9ZZZ calling CQ, lima yankee nine zulu zulu zulu calling CQ and listening`. Pačiame perdavimo gale galite sakyti: `... calling CQ and standing by`, vietoj `... and listening`. Taip pat galima sakyti: `... and standing by for any call`.
 
+- Visada kalbėkite aiškiai ir raiškiai, visus žodžius tardami taisyklingai.
 - Perduodami CQ, savo šaukinį pasakykite nuo **2 iki 4 kartų**.
 - Naudokite tarptautinę fonetinę abėcėlę (savo šaukiniui pasakyti) vieną ar du kartus perduodami CQ.
 - Geriau iš eilės perduoti kelis trumpus CQ, negu vieną ilgą.
-- Neužbaikite CQ perdavimo žodžiu `over`, kaip pavyzdyje: `CQ CQ LY9ZZZ lima yankee one zulu zulu calling CQ and standing by. Over`. `Over` reiškia _perduodu Jums_ (`over to you`). Perduodamo CQ pabaigoje Jūs negalite sakyti _turn it over_ bet kam, nes kontakto dar nėra.
-- Niekada neužbaikite CQ sakydamas `QRZ`. `QRZ` reiškia kas mane kvietė?. Akivaizdu, kad niekas nekvietė Jūsų prieš Jums perduodant CQ. Visiškai neteisingas CQ perdavimo užbaigimas: `CQ 20 CQ 20 from LY9ZZZ lima yankee one zulu zulu calling CQ, LY9ZZZ calling CQ 20, QRZ` arba `... calling CQ 20 and standing by. QRZ`.
+- Neužbaikite CQ perdavimo žodžiu `over`, kaip pavyzdyje: `CQ CQ LY9ZZZ lima yankee one zulu zulu calling CQ and standing by. Over`. `Over` reiškia _perduodu Jums_ (`over to you`). Perduodamo CQ pabaigoje Jūs negalite perduoti mikrofono kitam, nes kontakto dar nėra.
+- Niekada neužbaikite CQ sakydamas `QRZ`. `QRZ` reiškia _kas mane kvietė?_. Akivaizdu, kad niekas nekvietė Jūsų prieš Jums perduodant CQ. Visiškai neteisingas CQ perdavimo užbaigimas: `CQ 20 CQ 20 from LY9ZZZ lima yankee one zulu zulu calling CQ, LY9ZZZ calling CQ 20, QRZ` arba `... calling CQ 20 and standing by. QRZ`.
 - Jeigu transliuojate CQ viename dažnyje, o priiminėti norite kitu dažniu, užbaikite **kiekvieną CQ** nurodydami savo klausymo dažnį, pvz.: `... listening 5 to 10 up` arba `... listening on 14295`. Pasakyti tiesiog `listening up` ar `up` nepakanka, nes nenurodote, kur klausysite. Toks QSO atlikimo metodas vadinamas _išskirtu dažniu_ (split frequency).
-- Jeigu planuojate dirbti _išskirtu dažniu_, visada patikrinkite ar abu dažniai, kuriuose norite klausyti ir perduoti CQ yra laisvi.
+- Jeigu planuojate dirbti išskirtu dažniu, visada patikrinkite ar abu dažniai, kuriuose norite klausyti ir perduoti CQ yra laisvi.
+<!-- TODO: Translate one point here -->
 
 ### Ką reiškia „CQ DX“?
 
@@ -210,7 +212,7 @@ Galite papildyti savo kreipinį žodeliu „out”, tai žymės Jūsų _siuntimo
 
 Jei esate įsitraukęs į pokalbį trumpais sakiniais, nebūtina skelbti savo šaukinio kiekvieno sakinio pabaigoje. Taisyklės reikalauja, jog identifikuoti savo stotį šaukiniu būtina ne rečiau negu kas 5 (ar kai kuriose šalyse - 10) minučių, taip pat QSO pradžioje ir pabaigoje.
 
-Galite perduoti mikrofoną korespondentui tiesiog sakydami „over”, tai reikštų jog perdavėte teisę į eterį jam. Taip pat normalu ir naudinga siuntimo pabaigoje padaryti 1 ar 2 sekundžių pauzę, kuri reikštų, jog baigėte siuntimą ir korespondentas pradės savo signalo siuntimą.
+Galite perduoti mikrofoną korespondentui tiesiog sakydami `over`, tai reikštų jog perdavėte teisę į eterį jam. Taip pat normalu ir naudinga siuntimo pabaigoje padaryti 1 ar 2 sekundžių pauzę, kuri reikštų, jog baigėte siuntimą ir korespondentas pradės savo signalo siuntimą.
 
 ### Kaip dirbti varžybose telefonu?
 
@@ -256,7 +258,7 @@ Galite perduoti mikrofoną korespondentui tiesiog sakydami „over”, tai reik�
 `thanks W1ZZ contest` (W1ZZ užbaigia ryšį, identifikuojasi ir kviečia toliau)
 :::
 
-- Kai kurių tarptautinių varžybų metu (CQWW, WPX, ARRL DX, CQ - 160m - visuose šiuose telefonu, o taip pat ir telegrafu), operatoriai dirbdami eteryje ne visuomet laikosi IARU dažnių plano. Tai dažniausiai nutinka 160 m ir 40 m ruožuose, kur dažnių ruožai siauresni negu įprasta. Aišku, tai džiugina, nes parodo, jog radijo mėgėjai vis dar aktyvūs ir tarptautinių susitarimų arenoje padeda išsaugoti mums skirtus dažnius vis dar radijo mėgėjiškose rankose, o ne paskirtus kitoms tarnyboms (use them or lose them). Tad tokie varžybų metu atsiradę laikini nepatogumai turėtų būti vertinami teigiamai bei pozityviai, ne tik radijo megėjų tarpe.
+- Kai kurių tarptautinių varžybų metu (CQWW, WPX, ARRL DX, CQ-160m - visuose šiuose telefonu, o taip pat ir telegrafu), operatoriai dirbdami eteryje ne visuomet laikosi IARU dažnių plano. Tai dažniausiai nutinka 160 m ir 40 m ruožuose, kur dažnių ruožai siauresni negu įprasta. Aišku, tai džiugina, nes parodo, jog radijo mėgėjai vis dar aktyvūs ir tarptautinių susitarimų arenoje padeda išsaugoti mums skirtus dažnius vis dar radijo mėgėjiškose rankose, o ne paskirtus kitoms tarnyboms (use them or lose them). Tad tokie varžybų metu atsiradę laikini nepatogumai turėtų būti vertinami teigiamai bei pozityviai, ne tik radijo megėjų tarpe.
 
 ### Taisyklingas QRZ santrumpos naudojimas
 
@@ -274,7 +276,7 @@ Tai **nereiškia**: _kas čia?_, _kas dažnyje?_, tuo labiau - _prašau mane kvi
 - Dar vienas gana juokingas, tačiau netikslus QRZ vartojimas - klausti ar dažnis laisvas. `QRZ the frequency` arba `QRZ is frequency in use?` - skamba tikrai nemokšiškai.
 - Dažnai QRZ nekorektiškai naudojamas ir kviečiant CQ: `CQ DX CQ DX this is UR5ZZZ QRZ DX`, kaip taisyklingai kviesti CQ, [jau rašėme](#kaip-kviesti-cq).
 - Rečiau išgirstamas šis netaisyklingas QRZ naudojimas: `Give me your QRZ`, kuris turėtų reikšti _prisistatykite_. Gerai bent tiek, jog dauguma netaisyklingų QRZ panaudojimų vienaip ar kitaip siejami su šaukimu ar šaukiniu. Tačiau, priminsime, kad QRZ viso labo reiškia - _kas mane kvietė?_, tai ir tik tai.
-- Eilių (pileups) metu dažnai girdime DX stotį sakant QRZ, ne dėl to, kad jos operatorius neišgirdo anksčiau kvietusias stotis, tačiau jis taip pasako eilei, kad vėl klauso eterio. Toks QRZ naudojimas, deja, taip pat nėra tinkamas.
+- Eilių (pileups)<!-- TODO: link --> metu dažnai girdime DX stotį sakant QRZ, ne dėl to, kad jos operatorius neišgirdo anksčiau kvietusias stotis, tačiau jis taip pasako eilei, kad vėl klauso eterio. Toks QRZ naudojimas, deja, taip pat nėra tinkamas.
 
 :::warning Pavyzdys
 **`CQ ZK1DX`** ZK1DX stotis kviečia CQ
@@ -303,12 +305,12 @@ Ar tinkamai sureguliavote siųstuvą? Ar mikrofono stiprinimas ne per didelis? A
 ## Darbo telegrafu menas (CW, Morzės kodas)
 
 - Morzės kodas - tai būdas tekstui perduoti. Kodą sudaro eilės trumpų ir ilgų garso signalų. Trumpi tonai paprastai vadinami TI (angl. _dit_), o ilgi - TA (angl. _dah_). TA tris kartus ilgesni negu TI. Šie signalai labai dažnai vadinami taškais ir brūkšniais, bet tai neteisinga terminologija jiems apibūdinti, nes imame šiuos garsus įsivaizduoti vizualiai.
-- Taigi, Morzės kodas **nėra** eilė rašytinių taškų ir brūkšnių, nors XIX a. jo ištakos ir buvo popieriuje, ant telegrafo aparato juostelės. Tačiau telegrafo operatoriai greitai suprato, kad paprasčiau girdėti telegrafo mašinos signalą ir klausant versti į įprastas raides, negu skaityti taškus ir brūkšnius ant juostelės. Tad, dauguma CW operatorių sutiks, jog raidė R nėra _trumpas ilgas trumpas_ ar _taškas brūkšnys taškas_, o paprasčiausiai **ti ta ti**.
+- Taigi, Morzės kodas **nėra** eilė rašytinių taškų ir brūkšnių, nors XIX a. jo ištakos ir buvo popieriuje, ant telegrafo aparato juostelės. Tačiau telegrafo operatoriai greitai suprato, kad paprasčiau girdėti telegrafo mašinos signalą ir klausant versti į įprastas raides, negu skaityti taškus ir brūkšnius ant juostelės. Tad, dauguma CW operatorių sutiks, jog raidė **R** nėra _trumpas ilgas trumpas_ ar _taškas brūkšnys taškas_, o paprasčiausiai **ti ta ti**.
 - Kartais raidė R būtų užrašoma tiesiog TI TA TI. Šioje knygelėje naudosime vienareikšmiškus sutrumpinimus, tad trumpą signalą žymėsime TI, o ilgą - TA.
-- Dirbant telegrafu dažnai naudojamas Q kodas, santrumpos ir procedūriniai ženklai (prosigns). Jų pagalba komunikacija vyksta greičiau ir efektyviau.
-- Radijo mėgėjai paprastai darbą telegrafu vadina CW. Ši sąvoka reiškia _continuous wave_ nors CW iš tikrųjų nėra tolydi banga, o greičiau banga, kuri nuolat pertraukiama telegrafo ritmu. Radijo mėgėjai sąvokas CW ir Morse naudoja greta - tai reiškia vieną ir tą patį.
+- Dirbant telegrafu dažnai naudojamas <!-- TODO: link --> [Q kodas](/lt/q-code/), santrumpos ir procedūriniai ženklai (_prosigns_). Jų pagalba komunikacija vyksta greičiau ir efektyviau.
+- Radijo mėgėjai paprastai darbą telegrafu vadina **CW**. Ši sąvoka reiškia _continuous wave_ nors CW iš tikrųjų nėra tolydi banga, o greičiau banga, kuri nuolat pertraukiama telegrafo ritmu. Radijo mėgėjai sąvokas _CW_ ir _Morse_ naudoja greta - tai reiškia vieną ir tą patį.
 - Gražaus CW -6dB signalo juostos plotis yra maždaug lygus siuntimo WPM (žodžių per minutę) greičiui, padaugintam iš keturių. Pavyzdžiui, CW siuntimas 25 WPM sunaudoja 100Hz (prie -6dB). Spektras, kurio reikia perduoti vieną SSB signalą, palyginimui, yra 2,7kHz - palyginkite, kiek CW signalų gali sutilpti tokiame spektre.
-- Siaurajuostė CW signalo prigimtis turi daug geresnį S/N (Signal-to-Noise) santykį negu tomis pačiomis sąlygomis dirbant plačiajuosčiais režimais, tokiais kaip SSB (platesnė dažnių juosta talpina daugiau triukšmo negu siaura). Štai kodėl DX ryšiai kraštutinėmis sąlygomis (pvz., dirbant su kitais žemynais 160m arba EME) dažnai atliekami CW.
+- Siaurajuostė CW signalo prigimtis turi daug geresnį S/N (_Signal-to-Noise_) santykį negu tomis pačiomis sąlygomis dirbant plačiajuosčiais režimais, tokiais kaip SSB (platesnė dažnių juosta talpina daugiau triukšmo negu siaura). Štai kodėl DX ryšiai kraštutinėmis sąlygomis (pvz., dirbant su kitais žemynais 160m arba EME) dažnai atliekami CW.
 - Koks yra mažiausias klausymo greitis, kurį reiktų įvaldyti prieš pradedant reguliariai daryti QSO Morzės kodu?
   - 5 žodžiai per minutę (WPM) - neblogai, tačiau daug ryšių nepadarysite, nebent bandysite specialiuose QRS dažniuose (QRS reiškia _sulėtink siuntimo greitį_). Šiuos dažnius galima rasti IARU dažnių plane.
   - 12 žodžių per minutę yra minimumas, tačiau patyrę CW operatoriai daro QSO apie 20 - 30 WPM ir netgi greičiau.
@@ -331,7 +333,7 @@ Ar tinkamai sureguliavote siųstuvą? Ar mikrofono stiprinimas ne per didelis? A
   - Kurį laiką pasiklausykite pasirinkto dažnio. Įsitikinkite, kad dažnis laisvas.
 - **Kas tada?**
   - Jei dažnis atrodys neužimtas, dėl viso pikto paklauskite, ar taip ir yra. Siųskite: `QRL?` bent porą kartų, su kelių sekundžių tarpu. Siųsti vien `?` nėra tinkamas būdas. Vien klaustukas reiškia _aš paklausiau_, tačiau juk Jūs nieko neklausėte.
-  - QRL? (su klaustuku) reiškia - _ar šis dažnis užimtas?_.
+  - `QRL?` (su klaustuku) reiškia - _ar šis dažnis užimtas?_.
   - Nesiųskite `QRL? K`, kaip kartais girdime. Toks paklausimas tolygus _ar šis dažnis užimtas? Mikrofonas atgal_. Kam atgal? Pakanka siųsti tiesiog `QRL?`.
   - Jei dažnis užimtas, kažkas Jums atsakys: `R` (roger), `Y` (yes) arba `R QSY`, arba `QRL`, arba `C` (confirm) ir pan.
   - QRL be klaustuko reiškia _šis dažnumas **yra** užimtas_. Tokiu atveju Jums teks pasiieškoti kito dažnio.
@@ -343,7 +345,7 @@ Ar tinkamai sureguliavote siųstuvą? Ar mikrofono stiprinimas ne per didelis? A
   - Kvietime pakartokite savo šaukinį nuo 2 iki 4 kartų, bet ne daugiau!
   - Nesiųskite daug kartų `CQ CQ CQ CQ CQ CQ ...` pridėdami savo šaukinį tik pabaigoje. Kviesdami ir kartodami daug kartų CQ tikrai nepadidinsite šansų sulaukti atsakymo, netgi priešingai. Klausanti stotis domisi Jūsų šaukiniu ir kartodami CQ begalę kartų galite korespondentą tiesiog nubaidyti, nes kam neatsibostų daug kartų kartojamas sakinys.
   - Daug efektyviau keletą kartų pakartoti trumpą CQ kvietimą, pvz.: `CQ CQ de LY9ZZZ LY9ZZZ AR`, negu `CQ CQ CQ ...(dar 15 kartų) ... CQ de LY9ZZZ AR`.
-  - Jei norite kviesti CQ ir dirbti dviem skirtingais dažniais (split), nurodykite savo klausymo dažnį kiekvieno CQ kvietimo pabaigoje.
+  - Jei norite kviesti CQ ir dirbti dviem skirtingais dažniais (_split_), nurodykite savo klausymo dažnį **kiekvieno** CQ kvietimo pabaigoje.
 
 :::tip Pavyzdys
 Užbaikite savo CQ kvietimą su `UP 5/10` arba `UP 5` arba `QSX 1822` (tai reiškia, kad klausysitės dažnyje 1.822 MHz). QSX reiškia _klausau dažnyje..._
@@ -351,7 +353,7 @@ Užbaikite savo CQ kvietimą su `UP 5/10` arba `UP 5` arba `QSX 1822` (tai reiš
 
 ### Procedūriniai ženklai
 
-Procedūriniai ženklai, santrumpos (angl. procedural signs, prosigns) yra simboliai suformuoti iš dviejų raidžių, kai tarp jų nėra siunčiamas tarpas
+Procedūriniai ženklai, santrumpos (angl. _procedural signs, prosigns_) yra simboliai suformuoti iš dviejų raidžių, kai tarp jų nėra siunčiamas tarpas
 
 - AR - naudojamas siuntimui užbaigti, taip pat yra procedūrinis ženklas.
 - Kiti plačiai vartojami procedūriniai ženklai:
@@ -381,9 +383,9 @@ Procedūriniai ženklai, santrumpos (angl. procedural signs, prosigns) yra simbo
 - Tarkime, kad norite atsakyti W1ZZZ stočiai, kuri Jus pakvietė. Galite tai daryti taip: `W1ZZZ DE LY9ZZZ GE (good evening)TKS (thanks) FER (for) UR (your) CALL UR RST 589 589 NAME JONAS JONAS QTH KLAIPEDA KLAIPEDA HW CPY (how copy) W1ZZZ DE LY9ZZZ K`. Štai čia yra tinkamas metas ryšio pabaigoje naudoti K, nes tai reiškia _mikrofonas Jums_, t.y. W1ZZZ.
 - Nėra prasmės baigti siuntimą AR K, toks derinys reikštų _žinutės pabaiga, mikrofonas Jums_. Savaime suprantama, kad mikrofonas perduodamas tik pabaigus žinutę, tad nereikia to kartoti. Užbaikite savo siuntimą su K ([arba KN, jei reikia](#santrumpos-kn-naudojimas)). Tiesą sakant eteryje dažnai galime išgirsti AR K, tačiau ši kombinacija netaisyklinga.
 - Pagrindinė priežastis, dėl ko eteryje netaisyklingai naudojama AR, K, KN, AR K arba AR KN ta, jog dauguma operatorių tiesiog išties nežino tikslios šių santrumpų reikšmės ir skirtumų tarp jų. Naudokime šiuos procedūrinius ženklus tinkamai!
-- Nėra būtina naudoti santrumpos PSE (prašau, _please_) mandagiam CQ kvietimui užbaigti. Taip pat nenaudokite šios santrumpos ir kiekvieno siuntimo pabaigoje. Taigi, nereikia siųsti PSE K arba PSE KN, verčiau trumpai ir aiškiai siųsti reikiamą procedūrinį ženklą.
+- Nėra būtina naudoti santrumpos PSE (_prašau, please_) mandagiam CQ kvietimui užbaigti. Taip pat nenaudokite šios santrumpos ir kiekvieno siuntimo pabaigoje. Taigi, nereikia siųsti PSE K arba PSE KN, verčiau trumpai ir aiškiai siųsti reikiamą procedūrinį ženklą.
 - UTB (ir aukštesniuose) ruožuose yra priimta pasikeisti QTH lokatoriumi (dar vadinamu Maidenhead lokatoriumi). QTH lokatorius yra kodas, kuris nurodo geografinę radijo stoties padėtį, pvz., KO24pq.
-- RST signalo įvertinimas. R ir S reiškia: suprantamumą (readability) skalėje nuo 1 iki 5 ir signalo stiprumą (strength) nuo 1 iki 9, kaip ir telefonijos ryšiuose. Raidė T (tonas) skalėje nuo 1 iki 9 nurodo CW signalo garso grynumą, kuris turi skambėti kaip graži garso bangos sinusoidė, neužteršta jokiais trikdžiais.
+- RST signalo įvertinimas. R ir S reiškia: suprantamumą (readability) skalėje nuo 1 iki 5 ir signalo stiprumą (strength) nuo 1 iki 9, kaip ir [telefonijos ryšiuose](#kaip-uzmegzti-qso-balsu). Raidė T (tonas) skalėje nuo 1 iki 9 nurodo CW signalo garso grynumą, kuris turi skambėti kaip graži garso bangos sinusoidė, neužteršta jokiais trikdžiais.
 - Šie tono įvertinimai kildinami iš ankstyvos radijo mėgėjiškos istorijos, kai gražūs CW signalai eteryje buvo vis dar labiau išimtis negu kasdienybė. Žemiau pateikiama lentelė, kuri aprašo šiek tiek modernesnius tonų įvertinimus.
 
 |        |                                                                       |
@@ -406,10 +408,10 @@ Procedūriniai ženklai, santrumpos (angl. procedural signs, prosigns) yra simbo
   - **T7 - T8**: vos girdimas arba beveik nepastebimas kintamos srovės signalas;
   - **T9**: tobulas CW signalas, ideali sinusoidė;
 - Dažniausiai girdimi CW signalo netobulumai vadinami čirškesiais (angl. _chirp_), o dar dažniau sutinkami [šoniniai rakto signalai](#ar-mano-signale-yra-soniniai-signalai-key-clicks) (angl. _key clicks_).
-- Seniau, čirškesiai ir šoniniai signalai buvo nuolatinės CW signalų problemos. Kiekvienas CW operatorius žinojo, kad 579C signalo įvertinimas reiškia, jog signalas čirškiantis, o 589K nurodo, jog girdimi šoniniai CW signalai. Šiais laikais labai nedaug radijo mėgėjų supranta, ką reiškia C ir K raidės signalo įvertinimo pabaigoje, tad geriausia siųsti pilnus CHIRP (BAD CHIRP) arba CLICKS (BAD CLICKS) žodžius, kurie papildytų signalo įvertinimą.
+- Seniau, čirškesiai ir šoniniai signalai buvo nuolatinės CW signalų problemos. Kiekvienas CW operatorius žinojo, kad 579C signalo įvertinimas reiškia, jog signalas čirškiantis, o 589K nurodo, jog girdimi šoniniai CW signalai. Šiais laikais labai nedaug radijo mėgėjų supranta, ką reiškia C ir K raidės signalo įvertinimo pabaigoje, tad geriausia siųsti pilnus `CHIRP` (`BAD CHIRP`) arba `CLICKS` (`BAD CLICKS`) žodžius, kurie papildytų signalo įvertinimą.
 - Paprastas būdas grakščiai užbaigti QSO: `TKS FER QSO 73 ES (and) CUL (see you later) W1ZZZ DE LY9ZZZ SK`. SK - procedūrinis ženklas, reiškiantis _kontakto pabaiga_.
 - `TI TI TI TA TI TA` yra būtent SK procedūrinis ženklas ir jis tikrai nereiškia VA, kaip kad teigiama kai kuriuose šaltiniuose (SK siunčiant be tarpo skamba taip pat kaip ir VA be tarpo).
-- Nesiųskite `... AR SK`. Tai neturi jokios prasmės. Sakote: `Siuntimo pabaiga + ryšio pabaiga`, kas ir taip jau suprantama išsiuntus tiesiog SK. AR SK kombinaciją dažnai išgirsite eteryje, tačiau stenkitės jos nevartoti.
+- Nesiųskite `... AR SK`. Tai neturi jokios prasmės. Sakote: _Siuntimo pabaiga + ryšio pabaiga_, kas ir taip jau suprantama išsiuntus tiesiog SK. AR SK kombinaciją dažnai išgirsite eteryje, tačiau stenkitės jos nevartoti.
 - Jei QSO pabaigoje norite išjungti radijo stotį ir baigti darbą eteryje, turėtumėte perspėti apie tai klausytojus siųsdami CL: `W1ZZZ DE LY9ZZZ SK CL` (CL yra procedūrinis ženklas, reiškiantis _closing_ arba _closing down_ ir pažymintis, jog stotis uždaroma).
 
 :::tip Pradedančiojo CW QSO
@@ -447,7 +449,7 @@ Procedūriniai ženklai, santrumpos (angl. procedural signs, prosigns) yra simbo
 
 ### Santrumpos BK naudojimas
 
-- BK (break) naudojamas greitam signalo pasikeitimui tarp stočių be identifikacijos šaukiniais po kiekvieno siuntimo. Telefoninis šios santrumpos atitikmuo yra _over_.
+- BK (_break_) naudojamas greitam signalo pasikeitimui tarp stočių be identifikacijos šaukiniais po kiekvieno siuntimo. Telefoninis šios santrumpos atitikmuo yra _over_.
 
 :::tip Pavyzdys
 W1ZZZ nori sužinoti koks yra LY9ZZZ operatoriaus vardas ir klausia: `UR NAME PSE BK`. LY9ZZZ iš karto atsako: `BK NAME JONAS JONAS BK`.
@@ -496,7 +498,7 @@ Jei QSO metu kažkas įsiterpia į pokalbį (siunčia savo šaukinį kol kita st
 
 - Dvi radijo stotys viduryje QSO, einančio į pabaigą:
   - Jei jos abi baigia ryšį perduodamos CL, (_closing down_), tai reiškia, jog dažnis tuoj bus laisvas ir abi stotys išjungiamos;
-  - Jei viena (ar abi) iš jų baigia ryšį perduodamos SK (ryšio pabaiga), gali būti taip, kad viena iš jų dar lieka dažnyje ir nori atlikti daugiau QSO (iš principo, tai dažniausiai būna ta stotis, kuri kvietė CQ).
+  - Jei viena (ar abi) iš jų baigia ryšį perduodamos SK (_ryšio pabaiga_), gali būti taip, kad viena iš jų dar lieka dažnyje ir nori atlikti daugiau QSO (iš principo, tai dažniausiai būna ta stotis, kuri kvietė CQ).
 - Šiuo minėtu atveju geriausiai yra palaukti, kol viena iš šių stočių vėl pradės kviesti CQ.
 - Pavyzdžiui, W1ZZZ užbaigė QSO su F1AA: `...73 CUL F1AA DE W1ZZZ SK`.
 - Jei nei viena iš šių stočių pabaigus QSO nekviečia CQ, galite kviesti bet kurią iš jų.
@@ -522,7 +524,7 @@ Jei QSO metu kažkas įsiterpia į pokalbį (siunčia savo šaukinį kol kita st
 - Naudodamiesi automatiniu raktu, nustatykite tinkamą CW „svorį“ - taško/tarpo santykį (angl. _DIT/space ratio_). Maloniausiai žmogaus ausiai skamba signalas, kai minėtas santykis yra kiek didesnis negu standartinis 1/1 santykis, t.y. kai taškas yra šiek tiek ilgesnis už tarpą.
 
 :::warning Pastaba
-„svoris” nėra taško ir brūkšnio trukmės santykis - tai fiksuota 1/3 reikšmė ir daugumoje elektroninių raktų nereguliuojama.
+„Svoris” nėra taško ir brūkšnio trukmės santykis - tai fiksuota 1/3 reikšmė ir daugumoje elektroninių raktų nereguliuojama.
 :::
 
 ![Rakto naudojimo įpročiai](./straight-key-types.jpg)
@@ -550,7 +552,7 @@ QRP stotis yra stotis, siunčianti ne didesnį negu 5 W CW signalą arba 10 W si
 - Prieš naudojantis iš pažiūros laisvu dažniu, reikia aktyviai pasiteirauti, ar šiame dažnyje jau niekas nedirba (galbūt negirdite korespondento dėl prasto bangų sklidimo).
 - Priimta paklausti: `QRL?` (CW) arba pasiteirauti: `Is this frequency in use?` mikrofonu.
 - Naudojantis CW, priimta paklausti: `?`, kadangi taip daug greičiau ir tiesiog `?` siuntimas sukelia mažiau trukdžių kitoms stotims, tuo metu galimai dirbančioms šiame dažnyje.
-- Tačiau `?` gali būti interpretuotas nevienareikšmiškai. Klaustukas reiškia klausiu klausimo, bet Jūs taip ir nepaklausėte klausimo. Todėl visada geriausia ir teisingiausia naudoti `QRL?`. Tuo tarpu išsiųstas klaustukas gali sukelti painiavą eteryje.
+- Tačiau `?` gali būti interpretuotas nevienareikšmiškai. Klaustukas reiškia _klausiu klausimo_, bet Jūs taip ir nepaklausėte klausimo. Todėl visada geriausia ir teisingiausia naudoti `QRL?`. Tuo tarpu išsiųstas klaustukas gali sukelti painiavą eteryje.
 
 ### Poros taškų („TI TI”) išsiuntimas QSO pabaigoje
 
@@ -612,7 +614,7 @@ QRP stotis yra stotis, siunčianti ne didesnį negu 5 W CW signalą arba 10 W si
 Pagrindinis ryšių telegrafu (CW QSO) privalumas - itin siaura dažnio juosta, kurios pakanka tokiam QSO atlikti (keli šimtai hercų). Tokie QSO sklandžiausiai vyksta tuomet, kai abi stotys transliuoja tuo pačiu dažniu.
 
 - Standartiniu atveju, abi stotys siunčia ir klauso viename ir tame pačiame dažnyje. Tai anglų k. vadinama „_zero beat_”, sąvoka, kurios tiksliausias lietuviškas atitikmuo būtų _suderintas dažnis_.
-- „Zero beat” atsiranda tuomet, kai dvi stotys siunčia signalą lygiai tokiame pačiame dažnyje, šių dviejų signalų dažnių skirtumas būtų 0 Hz, anglų kalba tai skamba: „These signals are said to be zero beat (each other)”.
+- „Zero beat” atsiranda tuomet, kai dvi stotys siunčia signalą lygiai tokiame pačiame dažnyje, šių dviejų signalų dažnių skirtumas būtų 0 Hz, anglų kalba tai skamba: „These signals are said to be zero beat”.
 - Realybėje tokios idealios sąlygos susidaro retai. Tą lemia dvi pagrindinės priežastys:
   - Viena iš stočių netaisyklingai naudoja transiverio RIT funkciją (Receiver Incremental Tuning). Dauguma modernių transiverių turi RIT funkciją, kuri leidžia klausytis signalų, esančių greta Jūsų stoties siuntimo dažnio.
   - Antra galima priežastis - operatorius netiksliai suderina savo dažnį su korespondento naudojamu dažniu. Moderniuose transiveriuose dažnio suderinimo procedūra atliekama įsitikinant, kad siųstuvo CW signalo (šoninis) tonas visiškai atitinka girdimos radijo stoties toną. Jei klausotės 600 Hz dažnio ir šoninis tonas yra 1000 Hz, greičiausiai siųsite savo signalą ne tiksliai, o 400 Hz į šoną nuo girdimos stoties signalo.
@@ -634,13 +636,11 @@ Pagrindinis ryšių telegrafu (CW QSO) privalumas - itin siaura dažnio juosta, 
 
 ### Ar mano signale yra šoniniai signalai (key clicks)?
 
-Siunčiant CW reikia atkreipti dėmesį ne vien į turinį ir pranešimų formatą. Svarbiausia,
-kad siunčiamų CW signalų kokybė būtų nepriekaištinga. Signalo kokybę gali gadinti šoniniai
-signalai.
+Siunčiant CW reikia atkreipti dėmesį ne vien į turinį ir pranešimų formatą. Svarbiausia, kad siunčiamų CW signalų kokybė būtų nepriekaištinga. Signalo kokybę gali gadinti šoniniai signalai.
 
 - Pašaliniai signalai (_key clicks_) perduodamo signalo bangos grafike visuomet matysis iš beveik tobulai kvadratinės bangos, neturinčios jokių apvalių kampų, su akivaizdžiu signalo sustiprėjimu (piku) pradžioje ir pabaigoje. Tokia situacija dažnai sukelia plačias šonines bangas, kurios klausytojui skamba kaip tarškesiai kairiau ir dešiniau CW signalo. Galima išskirti pagrindines tris technines šios problemos priežastis:
   - Pirmoji priežastis yra netinkamas signalo, turinčio daug harmonikų, suformavimas radijo siųstuve. Dažniausiai šį netinkamą signalą sukelia prasta radijo siųstuvo konstrukcija. Tačiau jei turite gamyklinį radijo siųstuvą, internete tikrai rasite daug informacijos, kaip sutvarkyti tokias problemas, atliekant tam tikrus konstrukcinius pakeitimus.
-  - Antroji priežastis: pernelyg didelė galia stiprintuve, kartu su netinkamu ALC nustatymu radijo siųstuve, todėl signalo pradžioje ir pabaigoje formuojasi pikai. Visuomet rekomenduojama rankiniu būdu sureguliuoti stiprintuvo galingumą ir nepasikliauti ALC nustatymais.
+  - Antroji priežastis: pernelyg didelė galia stiprintuve, kartu su netinkamu ALC (_automatic level control_) nustatymu radijo siųstuve, todėl signalo pradžioje ir pabaigoje formuojasi pikai. Visuomet rekomenduojama rankiniu būdu sureguliuoti stiprintuvo galingumą ir nepasikliauti ALC nustatymais.
   - Trečias atvejis - kai neteisingai sujungiamas sekvenceris ir relės atidaromos bei uždaromos netinkamu eiliškumu.
 - Kaip aptikti Jūsų stoties generuojamus (sukuriamus) šoninius signalus? Reikia, jog patyręs radijo mėgėjas, gyvenantis Jūsų kaimynystėje, atidžiai paklausytų ar Jūsų signale nėra šoninių signalų.
 - Aišku, daug patogiau stebėti savo siunčiamo signalo formą naudojant osciloskopą.
@@ -795,6 +795,12 @@ Radijo mėgėjai naudoja ir labai specifines darbo rūšis, tokias kaip faksas, 
 
 - Standartinis kodo perdavimo greitis - 45 Baud arba RTTY-45. Naudojant 170 Hz dažnių skirtumą, -6dB FSK kanalo juostos plotis yra maždaug 250 Hz.
 
+<!-- TODO: translate
+
+- As RTTY is simply the shifting of a (constant) carrier, the duty cycle of the transmitted signal is 100% (versus approximately 50% in CW and 30 to 60 % in SSB depending on the degree of speech processing). This means that we shall never push a 100 W transmitter (100 W in SSB or CW) over 50 W output in RTTY (for transmissions lasting longer than a few seconds).
+
+-->
+
 #### RTTY dažniai
 
 Iki 2005 metų, IARU dalindavo įvairius radijo mėgėjų dažnio diapazonus pagal darbo rūšis (telefonija, telegrafas, RTTY ir pan.). Nuo 2005 m. dažnių planas sudarytas atsižvelgiant į siunčiamo signalo plotį, bet ne režimą. Toks pakeitimas palengvino dažnių plano perpratimą ir naujokams, ir senbuviams.
@@ -819,8 +825,10 @@ Iki 2005 metų, IARU dalindavo įvairius radijo mėgėjų dažnio diapazonus pag
 
 - Visų pirma, RTTY taikomos visos standartinės darbo telefonu ir telegrafu procedūros.
 - RTTY ypač jautrus QRM (įvairiems trukdymams ir interferencijai). [RTTY ryšių eilės (angl. _pileups_) turėtų būti valdomos dirbant „_split_” režimu.](advanced-operating.md#eiles-pileups)
-- Q kodas pirmiausiai buvo sukurtas darbui telegrafu. Vėliau radijo mėgėjai pradėjo naudoti šį kodą ir dirbdami balso režimu, kur tai puikiai pritapo. Todėl neatrasime priežasčių Q kodo nenaudoti ir skaitmeninėse darbo rūšyse, tokiuose kaip RTTY ar PSK, juk naudoti jau esamą kodą daug paprasčiau, nei sukurti tokios pat paskirties naują.
+- Q kodas pirmiausiai buvo sukurtas darbui telegrafu. Vėliau radijo mėgėjai pradėjo naudoti šį kodą ir dirbdami balso režimu, kur tai puikiai pritapo. Todėl neatrasime priežasčių Q kodo nenaudoti ir skaitmeninėse darbo rūšyse, tokiuose kaip RTTY ar PSK<!-- TODO:link (See § II.10.2) -->, juk naudoti jau esamą kodą daug paprasčiau, nei sukurti tokios pat paskirties naują.
 - Dirbant skaitmeninėmis darbo rūšimis kompiuteriai padeda sukurti iš anksto paruoštus pranešimų šablonus, kuriuos galima naudoti atlikant QSO. Vienas tokių šablonų vadinamas „pagyrūno tirada”, kuris siunčia begalę informacijos apie Jūsų radijo stotį ir išrašo visus kompiuterio parametrus, net visų naminių gyvūnėlių vardus. Tad jei galite, nesiųskite tokios informacijos, nebent Jūsų korespondentas to klausia. Dažniausiai santūrus `TX 100W and a dipole` yra pakankamas kiekis informacijos. Perduokite tokią informaciją, kuria Jūsų korespondentas domisi. Užbaigiant QSO nereikia siųsti vietos laiko (kurį galima nustatyti pagal šaukinį - vert. past.) ar QSO eilės numerio, nes tai nereikalinga informacija. Ji neturi jokios vertės daugumai korespondentų, nes jie naudoja kompiuterį Jūsų (bei tuo pačiu ir savo) vietos laikui nustatyti bei greičiausiai jiems nerūpi, kiek ryšių jau užregistravote žurnale. Gerbkite savo korespondentus ir neverskite jų skaityti beverčio teksto.
+
+<!-- TODO: missing section? -->
 
 #### Nominalus RTTY siuntimo dažnis
 
@@ -969,7 +977,7 @@ Domitės SSTV, bet nežinote nuo ko pradėti? Skirkite daugiau laiko SSTV dažni
 - Visuomet pasiklauskite korespondento, ar jis yra pasiruošęs gauti Jūsų SSTV transliaciją.
 - DX stotys dažniausiai siunčia paveikslėlius pagal sąrašą, kurį anksčiau susidarė klausydamiesi dažnio.
 - Jei atsakote korespondentui, visuomet smagu ir etiška atvaizduoti jo ir Jūsų šaukinį perduodamame vaizde.
-- Stenkitės naudoti ryškius paveikslėlius, o jei juose yra teksto, naudokite didelį ir pastorintą (_bold_) šriftą.
+- Stenkitės naudoti ryškius paveikslėlius, o jei juose yra teksto, naudokite didelį ir pastorintą (**bold**) šriftą.
 
 ![SSTV pavyzdys](./sstv-example.jpg)
 

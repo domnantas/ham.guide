@@ -57,8 +57,20 @@ module.exports = {
     ["meta", { name: "msapplication-TileColor", content: "#647dee" }],
     ["meta", { name: "theme-color", content: "#647dee" }]
   ],
-  serviceWorker: {
-    updatePopup: true
+  plugins: {
+    "@vuepress/pwa": {
+      serviceWorker: true,
+      updatePopup: {
+        "/": {
+          message: "New content is available.",
+          buttonText: "Refresh"
+        },
+        "/lt/": {
+          message: "Puslapio turinys atnaujintas.",
+          buttonText: "Atnaujinti"
+        }
+      }
+    }
   },
   themeConfig: {
     repo: "LRMD/ARManual",
@@ -74,7 +86,11 @@ module.exports = {
             collapsable: true,
             children: [
               "/radio-operating-ethics/",
-              "/radio-operating-ethics/radio-amateurs-code"
+              "/radio-operating-ethics/radio-amateurs-code",
+              "/radio-operating-ethics/introduction",
+              "/radio-operating-ethics/general-operating",
+              "/radio-operating-ethics/advanced-operating",
+              "/radio-operating-ethics/authors"
             ]
           },
           "/phonetic-alphabet/",

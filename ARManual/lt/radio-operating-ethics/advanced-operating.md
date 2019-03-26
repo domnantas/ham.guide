@@ -64,10 +64,10 @@ Jei visus aukščiau išvardintus reikalavimus išpildysite, tuomet tikrai galė
 - Tokia pati tvarka galioja ir tada, kai DX stotis priima dalį Jūsų šaukinio neteisingai. Turite pakartoti savo šaukinį, pabrėždami vietas, kuriose buvo padaryta klaida, kaip aprašyta ankstesniame punkte.
 - Jei DX stotis atsako šaukiniu, kuris nepanašus į Jūsiškį, arba atsiliepia kitam korespondentui, nekvieskite ir klausykite. Jei kviesite pakartotinai:
   - DX stotis pastebės, kad nesivadovaujate jų nustatytomis taisyklėmis ir galimai įtrauks Jus į savo juodąjį sąrašą, tai reiškia, kad artimiausias kelias brangias minutes DX operatorius neatsilieps į Jūsų kvietimą vien tik dėl Jūsų netinkamo elgesio, net jei ir gerai girdės Jūsų šaukinį. Kitaip tariant, galbūt DX stotis ir norėtų atsakyti į Jūsų kvietimą, tačiau kitų operatorių akivaizdoje negali rodyti blogo pavyzdžio ir nesivadovauti nustatytomis taisyklėmis;
-  - Gali nutikti ir taip, kad DX stotis atsakys Jums su ryšio įvertinimu (RS) „00”, taip identifikuodama Jus kaip nesilaikantį taisyklių ir viešai tą pademonstruodama.
+  - Gali nutikti ir taip, kad DX stotis atsakys Jums su ryšio įvertinimu (RS) `00`, taip identifikuodama Jus kaip nesilaikantį taisyklių ir viešai tą pademonstruodama.
 - Jei kviečiate tuo metu, kol DX operatorius atlieka QSO su kitu korespondentu, apsunkinate darbą ne tik DX bet ir jo korespondentui. Be jokios abejonės, tuo pačiu apsunkinate darbą ir sau.
 - Jei DX operatorius kviečia: `1ABC only, you’re 59 over` (tik 1ABC), tai rodo, jog DX dažnyje dirba ir trukdo kitos, nedisciplinuotos ir taisyklių nesilaikančios stotys.
-- Atidžiai klausykite, ar DX stotis nekviečia ryšiui tik tam tikrų geografinių zonų. Jei išgirdote `Japan only` ir kviečiate (kaip lietuviška stotis), greičiausiai Jums nebus atsakyta, todėl nekvieskite ir laukite, nebent esate Japonijoje.
+- Atidžiai klausykite, ar DX stotis nekviečia ryšiui tik tam tikrų geografinių zonų. Jei išgirdote `Japan only` ir kviečiate (kaip lietuviška stotis), greičiausiai Jums nebus atsakyta, todėl **nekvieskite ir laukite**, nebent esate Japonijoje.
 - Kartais kuomet eilę suvaldyti tampa sunku, DX operatorius kviečia korespondentus pagal skaitmenis šaukinyje (galimai, regionus). `Listening for sixes only`, `only number six` ir panašūs kvietimai reiškia, jog ryšiui kviečiamos stotys, kurių šaukinyje regioną nusako skaičius 6. Kitos stotys nekviečia ir kantriai laukia.
 - Jei esate mažos galios stotis (QRP), nekvieskite: `LY9ZZZ stroke QRP`. DX operatoriui pakanka vargo išskiriant šaukinius iš susidariusios minios, todėl papildomai perduoti žodžiai tik apsunkina QSO procesą. Nepamirškite, jog daugumoje valstybių šaukinio sufiksas /QRP yra nelegalus.
 - Kai DX stotis, po visų sunkumų, galų gale Jums atsako patvirtinimu: `LY9ZZZ 59`, trumpai atsakykite: `Thanks 59 too` arba `59 thanks` (angl. _thanks_ - ačiū). Taupykite savo ir kitų laiką - QSO atliktas, užleiskite vietą kitiems.
@@ -75,10 +75,10 @@ Jei visus aukščiau išvardintus reikalavimus išpildysite, tuomet tikrai galė
 ### Vieno dažnio eilė dirbant CW DX
 
 - Ryšiams telegrafu, be išdėstytų žemiau, taip pat taikomos ir bendros taisyklės bei procedūros.
-- Niekuomet nekvieskite: `DE LY9ZZZ”` Žodelis DE yra perteklinis ir neneša jokios informacijos. Raidės DE taip pat gali būti vokiško šaukinio prefiksas, tad naudodami šią santrumpą galite sukelti nesusipratimų.
-- Eilėje niekuomet neužbaikite savo šaukinio pabaigoje pridėdami K raidę (kuri reiškia kvietimą perdavimui). Tai taip pat gali sukelti nesusipratimų. Jei perduosite raidę K iš karto po savo šaukinio darydami labai mažą pauzę, DX stotis gali palaikyti tai Jūsų šaukinio dalimi. Taigi, jokių K.
+- Niekuomet nekvieskite: `DE LY9ZZZ` Žodelis DE yra perteklinis ir neneša jokios informacijos. Raidės DE taip pat gali būti vokiško šaukinio prefiksas, tad naudodami šią santrumpą galite sukelti nesusipratimų.
+- Eilėje niekuomet neužbaikite savo šaukinio pabaigoje pridėdami `K` raidę (kuri reiškia kvietimą perdavimui). Tai taip pat gali sukelti nesusipratimų. Jei perduosite raidę `K` iš karto po savo šaukinio darydami labai mažą pauzę, DX stotis gali palaikyti tai Jūsų šaukinio dalimi. Taigi, jokių K.
 - Klausydamiesi eilės pabandykite nustatyti tinkamą CW siuntimo greitį. Ar DX stotis dažniau atsako lėčiau ar greičiau dirbantiems korespondentams? Nereikia bandyti padaryti įspūdžio kitiems, perduodant labai greitai. Jūsų QSO kiekis nepadidės, jei korespondentai dirbs lėčiau nei Jūs.
-- Dirbant CW, santrumpa KN siuntimo pabaigoje reiškia _grąžinu tik Jums_, (angl. - _over to you only_). Kai DX stotis perduoda: `... LY9ZZZ? KN` (arba `LY9ZZZ KN`), tai reiškia jog ji norėtų išgirsti tik tos stoties signalą, kurios šaukinyje yra raidės LY9ZZZ. Visos kitos stotys turėtų luktelėti.
+- Dirbant CW, santrumpa `KN` siuntimo pabaigoje reiškia _grąžinu tik Jums_, (angl. - _over to you only_). Kai DX stotis perduoda: `... LY9ZZZ? KN` (arba `LY9ZZZ KN`), tai reiškia jog ji norėtų išgirsti tik tos stoties signalą, kurios šaukinyje yra raidės LY9ZZZ. Visos kitos stotys turėtų luktelėti.
 - Jei DX stotis perduoda: `CQ NA` arba `QRZ NA`, tai reiškia jog ji tikisi kontaktų su stotimis iš Šiaurės Amerikos (NA = _North America_, SA = _South America_, AF = Afrika, AS = Azija, PAC = Okeanija/Ramusis vandenynas, EU = Europa, JA = Japonija, USA = Junginės Amerikos Valstijos). Sekite DX stoties nurodymais.
 
 ### Dvidažnė eilė dirbant telefonu
@@ -161,7 +161,7 @@ Nenutylančių ir nepavargstančių šauklių eteryje yra apstu. Jų įsivaizduo
   - Jei šios procedūros metu vėliau vedėjas pakvies prisistačiusias stotis tik dalimi šaukinio, tai **legalu**. Taisyklės nustato kaip identifikuotis pačiam, o ne kaip kviesti kitą stotį.
 
 :::tip Pavyzdys
-Vedančioji stotis sakys: `stations for ZK1DX, check in please.`
+Vedančioji stotis sakys: `Stations for ZK1DX, check in please.`
 LY9ZZZ pasakys šaukinį: `LY9ZZZ`.
 
 - Vėliau atlikdamas procedūrą ir kviesdamas LY9ZZZ vedantysis pasako tik tiek: `Station with ZZ at the end of the call, make your call`.
@@ -172,7 +172,7 @@ LY9ZZZ pasakys šaukinį: `LY9ZZZ`.
 
 - Deja, kai kurie operatoriai netaisyklingą dviejų raidžių praktiką taiko ne tik DX tinkluose bet ir dirbdami eilėse.
 - Be to, kad taip elgtis draudžia taisyklės, tai yra ir visiškai nenaudinga. Kodėl?
-- Paprasta matematika sako, jog laukdami didelėje eilėje ir perduodami tik du iš šešių savo šaukinio simbolius, apie tris (6/2) kartus padidinsite tikimybę, jog būsite supainiotas su kitu šaukiniu!
+  - Paprasta matematika sako, jog laukdami didelėje eilėje ir perduodami tik du iš šešių savo šaukinio simbolius, apie tris (6/2) kartus padidinsite tikimybę, jog būsite supainiotas su kitu šaukiniu!
   - Jūsų šaukinys yra unikalus, tuo tarpu dvi Jūsų šaukinio raidės toli gražu ne vienintelės. Galima daryti išvadą, jog painiava taip perduodant beveik neišvengiama (kai vienu metu kvies kelios stotys, kurių šaukinyje yra tos pačios dvi raidės).
   - Jei DX stotis išgirdo Jūsų perduotas dvi raides (lieka tikėtis, kad Jūs vienintelis kvietimui naudojate tas dvi raides), DX stotis bet kokiu atveju turės vėl paklausti likusios Jūsų šaukinio dalies. Ar tai ne laiko švaistymas?
   - Jei DX stotis išgirdo dvi raides, tikėtina, kad būtų išgirdusi ir visas šešias! Tokie gudravimai užima laiko, kelia nesusipratimus ir galiausiai, sukelia QRM.
@@ -256,7 +256,7 @@ Neskelbkite informacijos, kuri neturi jokios vertės. Neskelbkite kasdien girdim
 
 - Naudodami **TALK** funkciją galite perduoti asmeninius pranešimus kitam radijo mėgėjui, prisijungusiam prie vietinio DX klasterio. Kai kurie DX klasteriai turi panašią funkciją, kurios pagalba galite analogiškai susisiekti ir su kitų klasterių naudotojais, aišku, jei tie klasteriai yra sujungti tarpusavyje.
 - **Announce Full (To All)** funkcija jau yra visai kas kita. Bet koks pranešimas, perduotas šios funkcijos pagalba yra išplatinamas visiems šio klasterio (ir prie jo prijungtų klasterių) vartotojams, kurių vienu metu gali būti tūkstančiai. Būkite labai labai atsargūs, naudodami šią funkciją. Dauguma **To All** pranešimų skirti vienam konkrečiam asmeniui, tuo tarpu likę 9999 yra priversti perskaityti bevertę žinutę.
-- Deja, tokių ir panašių pavyzdžių tūkstančiai. Niekuomet nenaudokite _**Announce All**_ funkcijos pokalbiams. Taip pat niekuomet nenaudokite šios funkcijos suteikti daugiau svorio Jūsų argumentui ar įžeidimui. Pasaulis stebi Jus. Perduokite tik tokius pranešimus, kurie gali sudominti daugumą DX medžiotojų. Pavyzdžiui, galite perduoti pranešimą, kad DX stotis ką tik pakeitė darbo diapazoną ar dažnį, arba kad DX stotis tam tikru laiku bus tam tikrame dažnyje. Paprasta taisyklė: **To All** pranešimai turi būti įdomūs daugumai, tad jei pranešimas nėra skirtas daugumai, nesiųskite jo naudodami **To All** funkciją.
+- Niekuomet nenaudokite _**Announce All**_ funkcijos pokalbiams. Taip pat niekuomet nenaudokite šios funkcijos suteikti daugiau svorio Jūsų argumentui ar įžeidimui. Pasaulis stebi Jus. Perduokite tik tokius pranešimus, kurie gali sudominti daugumą DX medžiotojų. Pavyzdžiui, galite perduoti pranešimą, kad DX stotis ką tik pakeitė darbo diapazoną ar dažnį, arba kad DX stotis tam tikru laiku bus tam tikrame dažnyje. Paprasta taisyklė: **To All** pranešimai turi būti įdomūs daugumai, tad jei pranešimas nėra skirtas daugumai, nesiųskite jo naudodami **To All** funkciją.
 
 :::warning Pavyzdys
 ON7xx siunčia **TO ALL: ON4xx good morning Frans**
@@ -297,7 +297,7 @@ DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
 | **20m**    | 14 000 – 14 025 (CW) |
 
 - DX langai 80 metrų diapazone: vidurdienį šie dažniai gali būti naudojami vietiniams ryšiams, nes tokiu paros metu nėra tolimo bangų sklidimo sąlygų. Bet nevalia pamiršti, kad net ir po pietų bandant užmegzti ryšį šiame DX lange, galima sukelti bėdų stotims, kurios yra apie 1000 - 2000 km atstumu nuo Jūsų terminatoriaus (linijos, skiriančios dieną ir naktį) kryptimi. Pavyzdžiui, 13:00 UTC Lietuvoje vidury žiemos, iki saulėlydžio dar yra maždaug 3 valandos. Tokiu metu dirbti DX iš Lietuvos sąlygų nėra. Bet mūsų signalai gali būti labai gerai girdimi Skandinavijoje, apie 1000 - 2000 km atstumu, kur saulėlydis yra valanda - dviem anksčiau. Nors ir patys negirdime DX stočių, galime sukelti QRM tiems, kurie jau jas girdi būdami arčiau saulėlydžio. Išvada: niekada nenaudokite šių dažnių langų vietiniams ryšiams.
-- DX ekspedicijose dalyvaujančios stotys turi pirmumo teisę minėtame 20 m diapazono DX ruože. Visos kitos stotys tokiu atveju turėtų atsižvelgti į IARU džentelmenų susitarimus ir tučtuojau palikti šį langą. Šis 20 m langas DXpedicijoms buvo sukurtas 2005 metais, dėl vienos pagarsėjusios IT9 stoties nuolat keliamų problemų.
+- DX ekspedicijose dalyvaujančios stotys turi pirmumo teisę minėtame 20m diapazono DX ruože. Visos kitos stotys tokiu atveju turėtų atsižvelgti į IARU džentelmenų susitarimus ir tučtuojau palikti šį langą. Šis 20m langas DXpedicijoms buvo sukurtas 2005 metais, dėl vienos pagarsėjusios IT9 stoties nuolat keliamų problemų.
 - Be minėtų formalių DX ruožų, yra keletas _de facto_ DX langų:
 
 | Diapazonas | Dažnių ruožas (kHz)   |
@@ -306,16 +306,16 @@ DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
 | **160m**   | 1 845 (SSB)           |
 | **40m**    | 7 045 (SSB)           |
 | **20m**    | 14 020 – 14 030 (CW)  |
-| **20m**    | ± 14.080 (RTTY)       |
+| **20m**    | ± 14 080 (RTTY)       |
 | **20m**    | 14 190 – 14 200 (SSB) |
 | **17m**    | 18 075 (CW)           |
 | **17m**    | 18 145 (SSB)          |
 | **15m**    | 21 020 – 21 025 (CW)  |
-| **15m**    | ± 21.080 (RTTY)       |
+| **15m**    | ± 21 080 (RTTY)       |
 | **15m**    | 21 290 – 21 300 (SSB) |
 | **12m**    | 24 895 (CW)           |
 | **10m**    | 28 020 – 28 025 (CW)  |
-| **10m**    | ± 28.080 (RTTY)       |
+| **10m**    | ± 28 080 (RTTY)       |
 | **10m**    | 28 490 – 28 500 (SSB) |
 
 :::tip Patarimas
@@ -382,7 +382,7 @@ Nereaguokite, jei išgirstate eteryje tokius apsišaukėlius. Laikykitės atstum
 - Kai kurie radijo mėgėjai veši tarp savo išskirtinai prastų darbo eteryje įpročių. Čia labai tinka posakis _Perseverare diabolicum_ (užsispyrimas - velnio reikalas).
 - Atrodo, kad eteryje atsiranda vis daugiau ir daugiau „sugadintų” veikėjų, kuriems nėra didesnio malonumo negu apsunkinti gyvenimus gerai besielgiantiems radijo operatoriams. Tokie veikėjai trukdo DX stotims visomis savo turimomis priemonėmis. Kartais, tai radijo mėgėjai, kuriems dėl žinių ir išminties stokos, nesiseka megzti tolimų ryšių, todėl užuot nukreipę energiją žinių gilinimo kryptimi, jie išlieja pyktį ir apmaudą ant tų, kuriems sekasi geriau. Kartais eteryje galime išgirsti kaip šie veikėjai su savo vulgarumu ir piktavališkumu puola neįtikėtinai žemai.
 - Jų vienintelis tikslas - sukelti aplinkinių reakciją ir chaosą.
-- Jau minėjome anksčiau – niekuomet nereaguokite į tokių veikėjų veiksmus. Jei niekas nereaguos, toks pilietis, neradęs reikiamos auditorijos, eis jos ieškoti kitur (galbūt ne radijo eteryje). Jei esate tikras, kad identifikavote tokį asmenį, kuris nusižengia darbo eteryje taisyklėmis sukeldamas QRM, pasvarstykite ar nereikėtų parašyti oficialaus skundo licenciją išdavusiai įstaigai.
+- Jau minėjome anksčiau – niekuomet nereaguokite į tokių veikėjų veiksmus. Jei niekas nereaguos, toks pilietis, neradęs reikiamos auditorijos, eis jos ieškoti kitur (galbūt ne radijo eteryje). Jei esate tikras, kad identifikavote tokį asmenį, kuris nusižengia darbo eteryje taisyklėmis sukeldamas QRM, pasvarstykite ar nereikėtų parašyti oficialaus skundo licenciją išdavusiai įstaigai.<!-- TODO: link? § III.11 -->
 - Taip pat nereaguokite ir naudodami DX klasterį. Patikėkite, šie veikėjai taip pat stebi ir DX klasterius.
 
 #### Ar tikrai norite būti dar vienu eterio policininku?
@@ -412,7 +412,7 @@ Galbūt anksčiau ar vėliau tapsite operatoriumi kitoje DX eilės pusėje. Jei 
 - Dvidažnio darbo nuorodą perduokite sistemingai. Jei taip nedarysite, operatorių skaičius Jūsų klausymo dažnyje praretės, tačiau Jūsų siuntimo dažnyje įsivyraus tikras chaosas ir tuomet Jūsų dvidažnis darbo režimas eteryje užims neleistinai daug vietos. Nereguliarus klausymo dažnio perdavimas yra nepriimtinas.
 - Dirbant telegrafu dvidažniame režime klausykitės mažiausiai 2 kHz aukščiau arba žemiau nuo savo siuntimo dažnio ir venkite šoninių signal („clicks”) interferencijos. Dvidažnis režimas 1 kHz atstumu yra sutinkamas dažnai, tačiau to negana ir tai tikrai nėra tinkamas pavyzdys.
 - SSB režime šis skirtumas turi būti mažiausiai 5, rekomenduojama – 10 kHz. Kai kurių kviečiančių stočių signalas gali būti nepaprastai platus ir Jūsų siuntimo dažnyje, tai sukels daug trikdžių (angl. _splatter_).
-- Jei būdamas(-a) DX stotimi dirbsite dvidažniu režimu 80 m diapazono DX lange (pirmame IARU regione: 3.5 – 3.51 MHz CW arba 3.775 – 3.8 MHz SSB) nukreipkite eilę už DX lango ribų. Jei siunčiate 3.795 MHz, klausykite eilės žemiau 3.775 MHz (telegrafu – virš 3.51 MHz).
+- Jei būdamas(-a) DX stotimi dirbsite dvidažniu režimu 80m diapazono DX lange (pirmame IARU regione: 3.5 – 3.51 MHz CW arba 3.775 – 3.8 MHz SSB) nukreipkite eilę už DX lango ribų. Jei siunčiate 3.795 MHz, klausykite eilės žemiau 3.775 MHz (telegrafu – virš 3.51 MHz).
 - Norint nesukelti trukdymų kitiems dažnio naudotojams, savo klausymo langą stenkitės sumažinti iki minimumo.
 - Jei dirbdami SSB režimu išgirdote tik dalį kviečiančiojo šaukinio, perduokite atgal išgirstą šaukinio dalį ir signalo įvertinimą (pvz., `yankee oscar 57`). Nesakykite: `Yankee Oscar again please`. Garantuojame, jog toks kvietimas pritrauks daugiau Yankee Oscar negu yra. Jei prie atsakymo pridėsite RS signalo įvertinimą, tai reikš kad įpusėjote QSO ir reaguojančių į Jūsų signalą bus mažiau.
 - Telegrafu išgirdus dalį šaukinio (pvz., 3TA) taip pat nereikėtų perduoti klaustuko. Minia laukianti eilėje išgirdusi klaustuką pradės kviesti Jus išvien! Perduokite `3TA 599` ir jokiu būdu ne `?3TA 599`. Niekuomet nesiųskite klaustuko dirbdami su didele eile.
@@ -464,7 +464,7 @@ Pavyzdžiui, dirbate kaip ZK1DX:
 - Tenka išgirsti, kai kuriuos DX operatorius kviečiant iš eilės pagal šalį. Tokia darbo rūšis visiškai nepriimtina, nes laukti turi 99% eilės. Tai dar vienas puikius būdas supykdyti laukiančią eilę.
 - Būkite atsargus su savo draugais ar savo gimtosios šalies operatoriais. Jei norite suteikti jiems ryšio prioritetą, darykite tai taip, kad niekas nepastebėtų. O geriausia, to išvis nedarykite.
 - Aprašėme keletą situacijų, susijusių su darbo eteryje procedūromis, kurios akivaizdžiai palengvina ir suteikia daugiau pramogos tiek DX stočių medžiotojams, tiek jų operatoriams. Abi pusės liks patenkintos, jeigu nuolat mokysis ir tobulins savo įgūdžius, o DX pasaulis bus daug gražesnis.
-- Dauguma mūsų kartais susiduria su situacija, kai keli tyčiniai trukdytojai sukeldami QRM stengiasi sugadinti pramogą tūkstančiams DX medžiotojų. QRM sukeliami DX siuntimo dažnyje, trukdytojai neidentifikuoja savęs eteryje, arba identifikuojasi svetimais šaukiniais. Tai yra etikos, gėrio ir blogio, tačiau, jokiu būdu, ne procedūrinė problema.
+- Dauguma mūsų kartais susiduria su situacija, kai keli tyčiniai trukdytojai sukeldami QRM stengiasi sugadinti pramogą tūkstančiams DX medžiotojų. QRM sukeliami DX siuntimo dažnyje, trukdytojai neidentifikuoja savęs eteryje, arba identifikuojasi svetimais šaukiniais. Tai yra etikos, gėrio ir blogio, tačiau, jokiu būdu, ne procedūrinė problema.<!-- TODO:link -->
 - Didžiosios tokių QRM dalies vien švietimu ir praktikavimusi pašalinti nepavyks niekada. Tyčinius QRM (DQRM) sukelia labai nedidelė chuliganų grupelė, nesilaikanti jokių moralės standartų. Deja, reikia pripažinti, jog šiais laikais savanaudiškumas vis dažniau sutinkamas reiškinys.
 - Tokio DQRM atveju dirbdami CW vos vos pakeiskite darbo dažnį, pvz., perduodami savo šaukinį ir po jo daug taškų (`DIT DIT DIT ...`), lėtai pasukite rankenėlę 500 Hz, kuria nors kryptimi taip, kad klausytojai suprastų ką bandote padaryti. Telefonu, tiesiog perduokite QSY ir pakeiskite dažnį 5 kHz aukštyn arba žemyn. Savo veiksmų argumentuoti nereikia, tad priežasties niekada neminėkite. Niekada atvirai nepripažinkite, kad Jūsų darbui trukdo DQRM. Labiausiai tikėtina, jog tie keli DQRM sukeliantys veikėjai negavę dėmesio ir reakcijos iš auditorijos, liausis taip elgtis. Visada ignoruokite juos ir niekada nedarykite kitaip, t.y. niekada nekreipkite dėmesio į tokius asmenis.
 
