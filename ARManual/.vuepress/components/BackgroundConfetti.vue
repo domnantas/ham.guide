@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import 'confetti-js'
+import "confetti-js";
 export default {
   data() {
     return {
       confetti: null
-    }
+    };
   },
   props: {
     id: {
@@ -38,14 +38,14 @@ export default {
       colors: this.colors,
       width: this.width,
       height: this.height
-    }
-    this.confetti = new ConfettiGenerator(confettiSettings)
-    this.confetti.render()
+    };
+    this.confetti = new ConfettiGenerator(confettiSettings);
+    this.confetti.render();
   },
   beforeDestroy: function() {
-    this.confetti.clear()
+    this.confetti.clear();
   }
-}
+};
 </script>
 
 <style lang="stylus">
@@ -58,4 +58,5 @@ canvas
 body
   position relative
   overflow-x hidden
+  background-color transparent
 </style>
