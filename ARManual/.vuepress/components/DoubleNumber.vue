@@ -21,8 +21,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~@default-theme/styles/config.styl'
-
 .doubler
   text-align center
 

@@ -28,6 +28,7 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 ### Pakeista
 
 - _Ethics and operating procedures for the radio amateur_ viršelio puslapio antraštės šrifto dydis sumažintas mažesniuose ekranuose
+- Vuepress v1.0.0-alpha.44
 
 ## 0.0.2 - 2018-09-09
 

@@ -28,6 +28,7 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 ### Changed
 
 - _Ethics and operating procedures for the radio amateur_ cover page title font-size reduced on smaller screens
+- Vuepress v1.0.0-alpha.44
 
 ## 0.0.2 - 2018-09-09
 
