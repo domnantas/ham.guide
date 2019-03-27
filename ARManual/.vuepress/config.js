@@ -1,132 +1,134 @@
 module.exports = {
-  title: "ARManual",
-  description: "Introduction to amateur radio",
+  title: 'ARManual',
+  description: 'Introduction to amateur radio',
   locales: {
-    "/": {
-      lang: "en-US"
+    '/': {
+      lang: 'en-US'
     },
-    "/lt/": {
-      lang: "lt-LT",
-      description: "Įvadas į mėgėjišką radiją"
+    '/lt/': {
+      lang: 'lt-LT',
+      description: 'Įvadas į mėgėjišką radiją'
     }
   },
   head: [
     [
-      "link",
+      'link',
       {
-        rel: "apple-touch-icon",
-        sizes: "180x180",
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
         href: `/icons/apple-touch-icon.png`
       }
     ],
     [
-      "link",
+      'link',
       {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
         href: `/icons/favicon-32x32.png`
       }
     ],
     [
-      "link",
+      'link',
       {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
         href: `/icons/favicon-16x16.png`
       }
     ],
     [
-      "link",
+      'link',
       {
-        rel: "manifest",
+        rel: 'manifest',
         href: `/manifest.json`
       }
     ],
     [
-      "link",
+      'link',
       {
-        rel: "mask-icon",
+        rel: 'mask-icon',
         href: `/icons/safari-pinned-tab.svg`,
-        color: "#647dee"
+        color: '#647dee'
       }
     ],
-    ["meta", { name: "apple-mobile-web-app-title", content: "ARManual" }],
-    ["meta", { name: "application-name", content: "ARManual" }],
-    ["meta", { name: "msapplication-TileColor", content: "#647dee" }],
-    ["meta", { name: "theme-color", content: "#647dee" }]
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
+    ['meta', { name: 'application-name', content: 'ARManual' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
+    ['meta', { name: 'theme-color', content: '#647dee' }]
   ],
   plugins: {
-    "@vuepress/pwa": {
+    '@vuepress/pwa': {
       serviceWorker: true,
       updatePopup: {
-        "/": {
-          message: "New content is available.",
-          buttonText: "Refresh"
+        '/': {
+          message: 'New content is available.',
+          buttonText: 'Refresh'
         },
-        "/lt/": {
-          message: "Puslapio turinys atnaujintas.",
-          buttonText: "Atnaujinti"
+        '/lt/': {
+          message: 'Puslapio turinys atnaujintas.',
+          buttonText: 'Atnaujinti'
         }
       }
     }
   },
   themeConfig: {
-    repo: "LRMD/ARManual",
+    repo: 'LRMD/ARManual',
     editLinks: true,
-    docsDir: "ARManual",
+    docsDir: 'ARManual',
     locales: {
-      "/": {
-        label: "English",
-        selectText: "Languages",
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
         sidebar: [
           {
-            title: "Ethics and operating procedures for the radio amateur",
+            title: 'Ethics and operating procedures for the radio amateur',
             collapsable: true,
             children: [
-              "/radio-operating-ethics/",
-              "/radio-operating-ethics/radio-amateurs-code",
-              "/radio-operating-ethics/introduction",
-              "/radio-operating-ethics/general-operating",
-              "/radio-operating-ethics/advanced-operating",
-              "/radio-operating-ethics/authors"
+              '/radio-operating-ethics/',
+              '/radio-operating-ethics/radio-amateurs-code',
+              '/radio-operating-ethics/introduction',
+              '/radio-operating-ethics/general-operating',
+              '/radio-operating-ethics/advanced-operating',
+              '/radio-operating-ethics/authors'
             ]
           },
-          "/phonetic-alphabet/",
-          "/q-code/",
+          '/phonetic-alphabet/',
+          '/q-code/',
+          '/dxcc-prefixes/',
           {
-            title: "Contribute",
+            title: 'Contribute',
             collapsable: true,
-            children: ["/contribute/", "/contribute/markdown-tips"]
+            children: ['/contribute/', '/contribute/markdown-tips']
           }
         ]
       },
-      "/lt/": {
-        label: "Lietuvių",
-        selectText: "Kalba",
-        editLinkText: "Redaguoti šį puslapį",
-        lastUpdated: "Atnaujinta",
+      '/lt/': {
+        label: 'Lietuvių',
+        selectText: 'Kalba',
+        editLinkText: 'Redaguoti šį puslapį',
+        lastUpdated: 'Atnaujinta',
         sidebar: [
           {
-            title: "Radijo mėgėjo etikos ir darbo eteryje kodeksas",
+            title: 'Radijo mėgėjo etikos ir darbo eteryje kodeksas',
             collapsable: true,
             children: [
-              "/lt/radio-operating-ethics/",
-              "/lt/radio-operating-ethics/radio-amateurs-code",
-              "/lt/radio-operating-ethics/introduction",
-              "/lt/radio-operating-ethics/general-operating",
-              "/lt/radio-operating-ethics/advanced-operating",
-              "/lt/radio-operating-ethics/authors",
-              "/lt/radio-operating-ethics/translators-note"
+              '/lt/radio-operating-ethics/',
+              '/lt/radio-operating-ethics/radio-amateurs-code',
+              '/lt/radio-operating-ethics/introduction',
+              '/lt/radio-operating-ethics/general-operating',
+              '/lt/radio-operating-ethics/advanced-operating',
+              '/lt/radio-operating-ethics/authors',
+              '/lt/radio-operating-ethics/translators-note'
             ]
           },
-          "/lt/phonetic-alphabet/",
-          "/lt/q-code/",
+          '/lt/phonetic-alphabet/',
+          '/lt/q-code/',
+          '/lt/dxcc-prefixes/',
           {
-            title: "Prisidėkite",
+            title: 'Prisidėkite',
             collapsable: true,
-            children: ["/lt/contribute/", "/lt/contribute/markdown-tips"]
+            children: ['/lt/contribute/', '/lt/contribute/markdown-tips']
           }
         ]
       }

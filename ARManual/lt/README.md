@@ -24,6 +24,7 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 - **Anglų** _Ethics and operating procedures for the radio amateur_ vertimas
 - **Lithuanian** nedideli _Ethics and operating procedures for the radio amateur_ pataisymai
 - **Lithuanian** fonetinė abėcėlė
+- DXCC prefiksų sąrašas
 
 ### Pakeista
 

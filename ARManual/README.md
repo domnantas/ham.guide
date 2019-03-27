@@ -24,6 +24,7 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 - **English** translation of _Ethics and operating procedures for the radio amateur_
 - **Lithuanian** minor fixes in _Ethics and operating procedures for the radio amateur_
 - **Lithuanian** phonetic alphabet
+- DXCC prefix list
 
 ### Changed
 

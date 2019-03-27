@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - **English** translation of _Ethics and operating procedures for the radio amateur_
 - **Lithuanian** minor fixes in _Ethics and operating procedures for the radio amateur_
 - **Lithuanian** phonetic alphabet
+- DXCC prefix list
 
 ### Changed
 

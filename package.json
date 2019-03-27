@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev ARManual",
-    "build": "vuepress build ARManual"
+    "build": "vuepress build ARManual",
+    "scrape:dxcc": "node scrapeDxcc.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.0.0-alpha.44",
-    "vuepress": "^1.0.0-alpha.44"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "vuepress": "^1.0.0-alpha.44",
+    "cheerio": "^1.0.0-rc.2"
   },
   "dependencies": {
     "confetti-js": "https://github.com/FistMeNaruto/confetti-js"
