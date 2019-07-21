@@ -70,6 +70,9 @@ module.exports = {
           buttonText: 'Atnaujinti'
         }
       }
+    },
+    '@vuepress/google-analytics': {
+      ga: 'UA-144249418-1'
     }
   },
   themeConfig: {
@@ -125,6 +128,7 @@ module.exports = {
           '/lt/phonetic-alphabet/',
           '/lt/q-code/',
           '/lt/dxcc-prefixes/',
+          '/lt/exam/',
           {
             title: 'Prisidėkite',
             collapsable: true,

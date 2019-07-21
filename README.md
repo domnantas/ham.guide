@@ -1,5 +1,7 @@
 # ARManual
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5897ec89-b0f7-40bf-8418-accedeb64189/deploy-status)](https://app.netlify.com/sites/armanual/deploys)
+
 Contributions from the community are welcome! Don't worry if you have litte experience working with open source projects or git, here are some guidelines to get you started.
 
 ## How can I help?

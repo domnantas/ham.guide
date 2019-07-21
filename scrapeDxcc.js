@@ -11,7 +11,7 @@ const options = {
 
 rp(options)
   .then(function($) {
-    let test = $('#tablepress-DXCC tbody tr')
+    let data = $('#tablepress-DXCC tbody tr')
       .map((i, el) => ({
         prefix: $(el)
           .children('.column-1')
@@ -34,8 +34,7 @@ rp(options)
       }))
       .get();
 
-    fs.writeFileSync('ARManual/.vuepress/data/dxcc.json', JSON.stringify(test));
-    console.log(test);
+    fs.writeFileSync('ARManual/.vuepress/data/dxcc.json', JSON.stringify(data));
   })
   .catch(function(err) {
     console.log(err);
