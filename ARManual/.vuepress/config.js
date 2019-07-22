@@ -56,7 +56,13 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'ARManual' }],
     ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
     ['meta', { name: 'theme-color', content: '#647dee' }],
-    ['meta', { property: 'og:image', content: '/icons/og-image.jpg' }],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://armanual.org/icons/og-image.jpg'
+      }
+    ],
     ['meta', { property: 'og:title', content: 'ARManual' }],
     ['meta', { property: 'og:url', content: 'https://armanual.org' }],
     [
