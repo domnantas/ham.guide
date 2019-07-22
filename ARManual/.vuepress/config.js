@@ -55,7 +55,18 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
     ['meta', { name: 'application-name', content: 'ARManual' }],
     ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
-    ['meta', { name: 'theme-color', content: '#647dee' }]
+    ['meta', { name: 'theme-color', content: '#647dee' }],
+    ['meta', { property: 'og:image', content: '/icons/og-image.jpg' }],
+    ['meta', { property: 'og:title', content: 'ARManual' }],
+    ['meta', { property: 'og:url', content: 'https://armanual.org' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Introduction to amateur radio - Open source, multilingual and works offline!'
+      }
+    ]
   ],
   plugins: {
     '@vuepress/pwa': {
