@@ -108,9 +108,10 @@ button
   padding 1rem
   border none
   cursor pointer
+  margin-bottom 20px
 
-.select > button:not(:first-of-type)
-  margin-left 20px
+.select > button:not(:last-of-type)
+  margin-right 20px
 
 .question
   display flex

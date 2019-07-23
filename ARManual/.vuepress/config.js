@@ -96,6 +96,10 @@ module.exports = {
     repo: 'LRMD/ARManual',
     editLinks: true,
     docsDir: 'ARManual',
+    algolia: {
+      apiKey: '2f148ce036146414349f66708050eb31',
+      indexName: 'armanual'
+    },
     locales: {
       '/': {
         label: 'English',
