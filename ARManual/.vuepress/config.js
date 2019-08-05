@@ -52,6 +52,13 @@ module.exports = {
         color: '#647dee'
       }
     ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: `https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css`
+      }
+    ],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
     ['meta', { name: 'application-name', content: 'ARManual' }],
     ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
@@ -150,6 +157,7 @@ module.exports = {
           '/lt/q-code/',
           '/lt/dxcc-prefixes/',
           '/lt/exam/',
+          '/lt/lhfa/',
           {
             title: 'Prisidėkite',
             collapsable: true,

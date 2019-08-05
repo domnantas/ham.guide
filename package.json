@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vuepress dev ARManual",
     "build": "vuepress build ARManual",
-    "scrape:dxcc": "node scrapeDxcc.js"
+    "scrape:dxcc": "node scrapeDXCC.js",
+    "scrape:lhfa": "node scrapeLHFA.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -16,6 +17,8 @@
     "vuepress": "^1.0.0-alpha.44"
   },
   "dependencies": {
-    "confetti-js": "https://github.com/FistMeNaruto/confetti-js"
+    "confetti-js": "https://github.com/FistMeNaruto/confetti-js",
+    "mapbox-gl": "^1.2.0",
+    "vue-mapbox": "^0.4.1"
   }
 }

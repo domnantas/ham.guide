@@ -12,4 +12,4 @@ columnNames:
 
 > Šaltinis: [UT7UT Home Page](http://ut7ut.com/index.php/dxcc-countries-list/)
 
-<Dxcc />
+<DXCC />
