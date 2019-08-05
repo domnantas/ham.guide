@@ -3,4 +3,6 @@ pageClass: lhfa
 title: LHFA
 ---
 
-<LHFA />
+<ClientOnly>
+  <LHFA />
+</ClientOnly>
