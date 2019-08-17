@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import "confetti-js";
 export default {
   data() {
     return {
@@ -27,20 +26,22 @@ export default {
     width: Number,
     height: Number
   },
-  mounted: function() {
-    let confettiSettings = {
-      target: this.id,
-      max: this.max,
-      size: this.size,
-      animate: this.animate,
-      clock: this.clock,
-      props: this.props,
-      colors: this.colors,
-      width: this.width,
-      height: this.height
-    };
-    this.confetti = new ConfettiGenerator(confettiSettings);
-    this.confetti.render();
+  mounted() {
+    import('confetti-js').then(() => {
+      let confettiSettings = {
+        target: this.id,
+        max: this.max,
+        size: this.size,
+        animate: this.animate,
+        clock: this.clock,
+        props: this.props,
+        colors: this.colors,
+        width: this.width,
+        height: this.height
+      };
+      this.confetti = new ConfettiGenerator(confettiSettings);
+      this.confetti.render();
+    });
   },
   beforeDestroy: function() {
     this.confetti.clear();

@@ -49,25 +49,19 @@
 </template>
 
 <script>
-import Mapbox from 'mapbox-gl';
-import {
-  MglMap,
-  MglNavigationControl,
-  MglGeolocateControl,
-  MglFullscreenControl,
-  MglMarker,
-  MglPopup
-} from 'vue-mapbox';
 import lhfaData from '../data/lhfa.json';
 
 export default {
   components: {
-    MglMap,
-    MglNavigationControl,
-    MglGeolocateControl,
-    MglFullscreenControl,
-    MglMarker,
-    MglPopup
+    MglMap: () => import('vue-mapbox').then(mapbox => mapbox.MglMap),
+    MglNavigationControl: () =>
+      import('vue-mapbox').then(mapbox => mapbox.MglNavigationControl),
+    MglGeolocateControl: () =>
+      import('vue-mapbox').then(mapbox => mapbox.MglGeolocateControl),
+    MglFullscreenControl: () =>
+      import('vue-mapbox').then(mapbox => mapbox.MglFullscreenControl),
+    MglMarker: () => import('vue-mapbox').then(mapbox => mapbox.MglMarker),
+    MglPopup: () => import('vue-mapbox').then(mapbox => mapbox.MglPopup)
   },
   data() {
     return {
@@ -89,9 +83,11 @@ export default {
       }
     };
   },
-  created() {
+  mounted() {
     // We need to set mapbox-gl library here in order to use it in template
-    this.mapbox = Mapbox;
+    import('mapbox-gl').then(Mapbox => {
+      this.mapbox = Mapbox;
+    });
   }
 };
 </script>
