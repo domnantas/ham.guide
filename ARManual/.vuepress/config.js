@@ -158,7 +158,7 @@ module.exports = {
           '/lt/dxcc-prefixes/',
           '/lt/exam/',
           '/lt/lhfa/',
-          '/lt/locator/',
+          '/lt/wal/',
           {
             title: 'Prisidėkite',
             collapsable: true,

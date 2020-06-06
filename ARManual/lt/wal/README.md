@@ -1,8 +1,8 @@
 ---
 pageClass: fullscreen
-title: Lokatorius
+title: WAL
 ---
 
 <ClientOnly>
-  <Locator />
+  <WAL />
 </ClientOnly>
