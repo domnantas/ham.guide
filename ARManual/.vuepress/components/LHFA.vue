@@ -106,7 +106,7 @@ export default {
 </style>
 
 <style lang="stylus">
-.lhfa
+.fullscreen
   .theme-default-content
     padding 0
     max-width none

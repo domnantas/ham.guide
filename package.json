@@ -14,10 +14,12 @@
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.0.3",
+    "watchpack": "1.6.1"
   },
   "dependencies": {
-    "confetti-js": "https://github.com/FistMeNaruto/confetti-js",
+    "@turf/turf": "^5.1.6",
+    "confetti-js": "git+https://github.com/FistMeNaruto/confetti-js.git",
     "mapbox-gl": "^1.2.1",
     "vue-mapbox": "^0.4.1"
   }

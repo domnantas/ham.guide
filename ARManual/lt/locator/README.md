@@ -1,8 +1,8 @@
 ---
 pageClass: fullscreen
-title: LHFA
+title: Lokatorius
 ---
 
 <ClientOnly>
-  <LHFA />
+  <Locator />
 </ClientOnly>

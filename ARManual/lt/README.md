@@ -58,7 +58,3 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 Projektas remiamas [Lietuvos Radijo Mėgėjų Draugijos](http://lrmd.lt/)
 
 [![LRMD Logo](/lrmd.svg)](http://lrmd.lt)
-
-<ClientOnly>
-  <BackgroundConfetti id="confetti" />
-</ClientOnly>

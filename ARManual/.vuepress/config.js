@@ -56,7 +56,7 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: `https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css`
+        href: `https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css`
       }
     ],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
@@ -158,6 +158,7 @@ module.exports = {
           '/lt/dxcc-prefixes/',
           '/lt/exam/',
           '/lt/lhfa/',
+          '/lt/locator/',
           {
             title: 'Prisidėkite',
             collapsable: true,
