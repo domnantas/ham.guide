@@ -17,13 +17,42 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 
 # Atnaujinimai
 
+## 0.0.7 - 2020-06-06
+
+### Pridėta
+
+- **Lietuvių** Worked All Lithuania [WAL](http://www.qrz.lt/wal/) programos žemėlapis
+
+### Pašalinta
+
+- Konfeti pradiniame puslapyje
+
+## 0.0.6 - 2019-08-18
+
+### Pridėta
+
+- DXCC duomenų rinkiklis
+
+## 0.0.5 - 2019-08-05
+
+### Pridėta
+
+- **Lietuvių** Lietuvos Piliakalnių Apdovanojimo ([LHFA](http://www.qrz.lt/lhfa/)) žemėlapis
+
+## 0.0.4 - 2019-07-22
+
+### Pridėta
+
+- **Lietuvių** Amateur radio license practice test
+- SEO improvements
+
 ## 0.0.3 - 2019-03-26
 
 ### Pridėta
 
 - **Anglų** _Ethics and operating procedures for the radio amateur_ vertimas
-- **Lithuanian** nedideli _Ethics and operating procedures for the radio amateur_ pataisymai
-- **Lithuanian** fonetinė abėcėlė
+- **Lietuvių** nedideli _Ethics and operating procedures for the radio amateur_ pataisymai
+- **Lietuvių** fonetinė abėcėlė
 - DXCC prefiksų sąrašas
 
 ### Pakeista
