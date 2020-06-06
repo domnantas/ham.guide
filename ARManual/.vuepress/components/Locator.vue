@@ -601,4 +601,7 @@ export default {
 
   .page-edit, .page-nav
     display none
+
+  .page
+    padding-bottom: 0
 </style>

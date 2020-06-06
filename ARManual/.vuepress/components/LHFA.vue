@@ -116,4 +116,7 @@ export default {
 
   .mapboxgl-marker
     cursor pointer
+  
+  .page
+    padding-bottom: 0
 </style>
