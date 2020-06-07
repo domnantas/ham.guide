@@ -23,6 +23,10 @@ footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 
 - **Lietuvių** Worked All Lithuania [WAL](http://www.qrz.lt/wal/) programos žemėlapis
 
+### Pakeista
+
+- **Lietuvių** Pagerinta greitaveika kraunant Mapbox css tik puslapiuose, kuriuose yra žemėlapiai
+
 ### Pašalinta
 
 - Konfeti pradiniame puslapyje

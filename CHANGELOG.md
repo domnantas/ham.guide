@@ -11,9 +11,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - **Lithuanian** Worked All Lithuania [WAL](http://www.qrz.lt/wal/) locator map
 
+### Changed
+
+- **Lithuanian** Improve performance by loading Mapbox css only in pages containing maps
+
 ### Removed
 
 - Background confetti on homepage
+- Version numbers
 
 ## 2019-08-18
 

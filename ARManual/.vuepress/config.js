@@ -52,13 +52,6 @@ module.exports = {
         color: '#647dee'
       }
     ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: `https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css`
-      }
-    ],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
     ['meta', { name: 'application-name', content: 'ARManual' }],
     ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],

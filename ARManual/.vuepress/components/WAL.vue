@@ -594,6 +594,8 @@ export default {
 </style>
 
 <style lang="stylus">
+@import url("https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css");
+
 .fullscreen
   .theme-default-content
     padding 0

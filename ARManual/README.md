@@ -23,6 +23,10 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 
 - **Lithuanian** Worked All Lithuania [WAL](http://www.qrz.lt/wal/) locator map
 
+### Changed
+
+- **Lithuanian** Improve performance by loading Mapbox css only in pages containing maps
+
 ### Removed
 
 - Background confetti on homepage
