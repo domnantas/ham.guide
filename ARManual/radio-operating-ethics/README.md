@@ -17,7 +17,7 @@ pageClass: cover
 ---
 
 ::: tip PowerPoint version
-A PowerPoint presentation version of this document is also available. Both documents can be downloaded in various languages from: [ham-operating-ethics.org](http://ham-operating-ethics.org). The PDF document is available in more than 25 languages.
+A PowerPoint presentation version of this document is also available. Both documents can be downloaded in various languages from: [www.hamradio-operating-ethics.org](https://www.hamradio-operating-ethics.org). The PDF document is available in more than 25 languages.
 :::
 
 ::: warning Translations
