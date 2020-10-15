@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2020-10-15
+
+### Added
+
+- CONTRIBUTING.md
+
+### Changed
+
+- Updated scraper LHFA and DXCC function output formats
+- Updated README.md and Github descriptions
+- Updated dependencies
+
+### Removed
+
+- Changelogs from homepages to reduce maintenance cost
+- Completely removed confetti component
+- Removed unnecessary watchpack dependency
+
 ## 2020-06-06
 
 ### Added
