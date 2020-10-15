@@ -1,1 +1,2722 @@
-[{"prefix":"1A","name":"Sovereign Military Order of Malta","continent":"EU","ituZone":"28","cqZone":"15","note":"Unofficial prefix"},{"prefix":"1S","name":"Spratly Is.","continent":"AS","ituZone":"50","cqZone":"26","note":"Unofficial prefix. Other prefixes: DX0, 9M0, XV9"},{"prefix":"3A","name":"Monaco","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"3B6, 7","name":"Agalega & Saint Brandon Is.","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"3B8","name":"Mauritius","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"3B9","name":"Rodrigues Is.","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"3C","name":"Equatorial Guinea","continent":"AF","ituZone":"47","cqZone":"36","note":""},{"prefix":"3C0","name":"Annobon Is.","continent":"AF","ituZone":"52","cqZone":"36","note":""},{"prefix":"3D2","name":"Fiji","continent":"OC","ituZone":"56","cqZone":"32","note":""},{"prefix":"3D2/C","name":"Conway Reef","continent":"OC","ituZone":"56","cqZone":"32","note":""},{"prefix":"3D2/R","name":"Rotuma Is.","continent":"OC","ituZone":"56","cqZone":"32","note":""},{"prefix":"3DA","name":"Swaziland","continent":"AF","ituZone":"57","cqZone":"38","note":""},{"prefix":"3V","name":"Tunisia","continent":"AF","ituZone":"37","cqZone":"33","note":""},{"prefix":"3W, XV","name":"Viet Nam","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"3X","name":"Guinea","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"3Y/B","name":"Bouvet","continent":"AF","ituZone":"67","cqZone":"38","note":""},{"prefix":"3Y/P","name":"Peter 1 Is.","continent":"AN","ituZone":"72","cqZone":"12","note":""},{"prefix":"4J, 4K","name":"Azerbaijan","continent":"AS","ituZone":"29","cqZone":"21","note":""},{"prefix":"4L","name":"Georgia","continent":"AS","ituZone":"29","cqZone":"21","note":""},{"prefix":"4O","name":"Montenegro","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made June 28, 2006"},{"prefix":"4S","name":"Sri Lanka","continent":"AS","ituZone":"41","cqZone":"22","note":""},{"prefix":"4U1ITU","name":"ITU HQ","continent":"EU","ituZone":"28","cqZone":"14","note":""},{"prefix":"4U1UN","name":"United Nations HQ","continent":"NA","ituZone":"8","cqZone":"5","note":""},{"prefix":"4W","name":"Timor-Leste","continent":"OC","ituZone":"54","cqZone":"28","note":"Only contacts made March 1, 2000"},{"prefix":"4X, 4Z","name":"Israel","continent":"AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"5A","name":"Libya","continent":"AF","ituZone":"38","cqZone":"34","note":""},{"prefix":"5B, C4, P3","name":"Cyprus","continent":"AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"5H, 5I","name":"Tanzania","continent":"AF","ituZone":"53","cqZone":"37","note":""},{"prefix":"5N","name":"Nigeria","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"5R","name":"Madagascar","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"5T","name":"Mauritania","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made June 20, 1960"},{"prefix":"5U","name":"Niger","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made August 3, 1960"},{"prefix":"5V","name":"Togo","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"5W","name":"Samoa","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"5X","name":"Uganda","continent":"AF","ituZone":"48","cqZone":"37","note":""},{"prefix":"5Z, 5Y","name":"Kenya","continent":"AF","ituZone":"48","cqZone":"37","note":""},{"prefix":"6W, 6V","name":"Senegal","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made June 20, 1960"},{"prefix":"6Y","name":"Jamaica","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"7O","name":"Yemen","continent":"AS","ituZone":"39","cqZone":"21","note":"Only contacts made May 22, 1990"},{"prefix":"7P","name":"Lesotho","continent":"AF","ituZone":"57","cqZone":"38","note":""},{"prefix":"7Q","name":"Malawi","continent":"AF","ituZone":"53","cqZone":"37","note":""},{"prefix":"7X (7T-7Y)","name":"Algeria","continent":"AF","ituZone":"37","cqZone":"33","note":""},{"prefix":"8P","name":"Barbados","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"8Q","name":"Maldives","continent":"AS, AF","ituZone":"41","cqZone":"22","note":""},{"prefix":"8R","name":"Guyana","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"9A","name":"Croatia","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made June 26, 1991"},{"prefix":"9G","name":"Ghana","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made March 5, 1957"},{"prefix":"9H","name":"Malta","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"9J, 9I","name":"Zambia","continent":"AF","ituZone":"53","cqZone":"36","note":""},{"prefix":"9K","name":"Kuwait","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"9L","name":"Sierra Leone","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"9M2, 4","name":"West Malaysia","continent":"AS","ituZone":"54","cqZone":"28","note":"Only contacts made September 16, 1963"},{"prefix":"9M6, 8","name":"East Malaysia","continent":"OC","ituZone":"54","cqZone":"28","note":"Only contacts made September 16, 1963"},{"prefix":"9N","name":"Nepal","continent":"AS","ituZone":"42","cqZone":"22","note":""},{"prefix":"9Q-9T","name":"Democratic Republic of the Congo","continent":"AF","ituZone":"52","cqZone":"36","note":""},{"prefix":"9U","name":"Burundi","continent":"AF","ituZone":"52","cqZone":"36","note":"Only contacts made July 1, 1962"},{"prefix":"9V","name":"Singapore","continent":"AS","ituZone":"54","cqZone":"28","note":"Contacts made from September 16, 1963 to August 8, 1965, count for West Malaysia"},{"prefix":"9X","name":"Rwanda","continent":"AF","ituZone":"52","cqZone":"36","note":"Only contacts made July 1, 1962"},{"prefix":"9Y, 9Z","name":"Trinidad & Tobago","continent":"SA","ituZone":"11","cqZone":"9","note":""},{"prefix":"A2","name":"Botswana","continent":"AF","ituZone":"57","cqZone":"38","note":""},{"prefix":"A3","name":"Tonga","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"A4","name":"Oman","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"A5","name":"Bhutan","continent":"AS","ituZone":"41","cqZone":"22","note":""},{"prefix":"A6","name":"United Arab Emirates","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"A7","name":"Qatar","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"A9","name":"Bahrain","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"AP","name":"Pakistan","continent":"AS","ituZone":"41","cqZone":"21","note":""},{"prefix":"BS7","name":"Scarborough Reef","continent":"AS","ituZone":"50","cqZone":"27","note":"Only contacts made January 1, 1995"},{"prefix":"BU-BX","name":"Taiwan","continent":"AS","ituZone":"44","cqZone":"24","note":""},{"prefix":"BV9P","name":"Pratas Is.","continent":"AS","ituZone":"44","cqZone":"24","note":"Only contacts made January 1, 1994"},{"prefix":"BY","name":"China","continent":"AS","ituZone":"33, 42-44","cqZone":"23, 24","note":""},{"prefix":"C2","name":"Nauru","continent":"OC","ituZone":"65","cqZone":"31","note":""},{"prefix":"C3","name":"Andorra","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"C5","name":"The Gambia","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"C6","name":"Bahamas","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"C9, C8","name":"Mozambique","continent":"AF","ituZone":"53","cqZone":"37","note":""},{"prefix":"CE (CA-CE)","name":"Chile","continent":"SA","ituZone":"14, 16","cqZone":"12","note":""},{"prefix":"CE0X","name":"Easter Is.","continent":"SA","ituZone":"63","cqZone":"12","note":""},{"prefix":"CE0Y","name":"Juan Fernandez Is.","continent":"SA","ituZone":"14","cqZone":"12","note":""},{"prefix":"CE0Z","name":"San Felix & San Ambrosio","continent":"SA","ituZone":"14","cqZone":"12","note":""},{"prefix":"CE9","name":"Antarctica","continent":"AN","ituZone":"67, 69-74","cqZone":"12, 13, 29, 30, 32, 38, 39","note":"Also 3Y, 8J1, AT0, DP0, EM1, FT8Y, KC4, LU, OR4, VK0, RI1AN, VP8, ZL5, ZS1, ZX0, etc."},{"prefix":"CN","name":"Morocco","continent":"AF","ituZone":"37","cqZone":"33","note":""},{"prefix":"CO, CM","name":"Cuba","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"CP","name":"Bolivia","continent":"SA","ituZone":"12, 14","cqZone":"10","note":""},{"prefix":"CT","name":"Portugal","continent":"EU","ituZone":"37","cqZone":"14","note":""},{"prefix":"CT3","name":"Madeira Is.","continent":"AF","ituZone":"36","cqZone":"33","note":""},{"prefix":"CU","name":"Azores","continent":"EU","ituZone":"36","cqZone":"14","note":""},{"prefix":"CX, CW, CX","name":"Uruguay","continent":"SA","ituZone":"14","cqZone":"13","note":""},{"prefix":"CY0","name":"Sable Is.","continent":"NA","ituZone":"9","cqZone":"5","note":""},{"prefix":"CY9","name":"Saint Paul Is.","continent":"NA","ituZone":"9","cqZone":"5","note":""},{"prefix":"D2, D3","name":"Angola","continent":"AF","ituZone":"52","cqZone":"36","note":""},{"prefix":"D4","name":"Cape Verde","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"D6","name":"Comoros","continent":"AF","ituZone":"53","cqZone":"39","note":"Only contacts made July 6, 1975"},{"prefix":"DL (DA-DR)","name":"Federal Republic of Germany","continent":"EU","ituZone":"28","cqZone":"14","note":"Only contacts made with DA-DL stations September 17, 1973, and after, and contacts made with Y2-Y9 stations. October 3, 1990"},{"prefix":"DU-DZ, 4D-4I","name":"Philippines","continent":"OC","ituZone":"50","cqZone":"27","note":""},{"prefix":"E3","name":"Eritrea","continent":"AF","ituZone":"48","cqZone":"37","note":"Only contacts made November 14, 1962, and before, or May 24, 1991"},{"prefix":"E4","name":"Palestine","continent":"AS","ituZone":"39","cqZone":"20","note":"Only contacts made February 1, 1999"},{"prefix":"E5/N","name":"North Cook Is.","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"E5/S","name":"South Cook Is.","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"E6","name":"Niue","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"E7","name":"Bosnia-Herzegovina","continent":"EU","ituZone":"28","cqZone":"15","note":"New prefix effective November 17, 2007. Contacts are valid for this entity effective October 15, 1991"},{"prefix":"EA (EA-EH)","name":"Spain","continent":"EU","ituZone":"37","cqZone":"14","note":""},{"prefix":"EA6","name":"Balearic Is.","continent":"EU","ituZone":"37","cqZone":"14","note":""},{"prefix":"EA8","name":"Canary Is.","continent":"AF","ituZone":"36","cqZone":"33","note":""},{"prefix":"EA9","name":"Ceuta & Melilla","continent":"AF","ituZone":"37","cqZone":"33","note":""},{"prefix":"EI, EJ","name":"Ireland","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"EK","name":"Armenia","continent":"AS","ituZone":"29","cqZone":"21","note":""},{"prefix":"EL","name":"Liberia","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"EP, EQ","name":"Iran","continent":"AS","ituZone":"40","cqZone":"21","note":""},{"prefix":"ER","name":"Moldova","continent":"EU","ituZone":"29","cqZone":"16","note":""},{"prefix":"ES","name":"Estonia","continent":"EU","ituZone":"29","cqZone":"15","note":""},{"prefix":"ET","name":"Ethiopia","continent":"AF","ituZone":"48","cqZone":"37","note":""},{"prefix":"EU-EW","name":"Belarus","continent":"EU","ituZone":"29","cqZone":"16","note":""},{"prefix":"EX","name":"Kyrgyzstan","continent":"AS","ituZone":"30, 31","cqZone":"17","note":""},{"prefix":"EY","name":"Tajikistan","continent":"AS","ituZone":"30","cqZone":"17","note":""},{"prefix":"EZ","name":"Turkmenistan","continent":"AS","ituZone":"30","cqZone":"17","note":""},{"prefix":"F","name":"France","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"FG, TO","name":"Guadeloupe","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"FH, TO","name":"Mayotte","continent":"AF","ituZone":"53","cqZone":"39","note":"Only contacts made July 6, 1975"},{"prefix":"FJ, TO","name":"Saint Barthelemy","continent":"NA","ituZone":"11","cqZone":"8","note":"Only contacts made December 14, 2007"},{"prefix":"FK, TX","name":"New Caledonia","continent":"OC","ituZone":"56","cqZone":"32","note":""},{"prefix":"FK/C, TX","name":"Chesterfield Is.","continent":"OC","ituZone":"56","cqZone":"30","note":"Only contacts made March 23, 2000"},{"prefix":"FM, TO","name":"Martinique","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"FO, TX","name":"Clipperton Is.","continent":"NA","ituZone":"10","cqZone":"7","note":""},{"prefix":"FO/A, TO","name":"Austral Is.","continent":"OC","ituZone":"63","cqZone":"32","note":"Only contacts made April 1, 1998"},{"prefix":"FO/C, TX","name":"French Polynesia","continent":"OC","ituZone":"63","cqZone":"32","note":""},{"prefix":"FO/M, TX","name":"Marquesas Is.","continent":"OC","ituZone":"63","cqZone":"31","note":"Only contacts made April 1, 1998"},{"prefix":"FP","name":"Saint Pierre & Miquelon","continent":"NA","ituZone":"9","cqZone":"5","note":""},{"prefix":"FR, TO","name":"Reunion Is.","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"FS, TO","name":"Saint Martin","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"FT/G, TO","name":"Glorioso Is.","continent":"AF","ituZone":"53","cqZone":"39","note":"Only contacts made June 25, 1960"},{"prefix":"FT/J, FT/E, TO","name":"Juan de Nova, Europa","continent":"AF","ituZone":"53","cqZone":"39","note":"Only contacts made June 25, 1960"},{"prefix":"FT/T, TO","name":"Tromelin Is.","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"FT5/W","name":"Crozet Is.","continent":"AF","ituZone":"68","cqZone":"39","note":""},{"prefix":"FT5/X","name":"Kerguelen Is.","continent":"AF","ituZone":"68","cqZone":"39","note":""},{"prefix":"FT5Z","name":"Amsterdam & Saint Paul Is.","continent":"AF","ituZone":"68","cqZone":"39","note":""},{"prefix":"FW","name":"Wallis & Futuna Is.","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"FY","name":"French Guiana","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"G, GX, M","name":"England","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GD, GT","name":"Isle of Man","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GI, GN","name":"Northern Ireland","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GJ, GH","name":"Jersey","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GM, GS","name":"Scotland","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GU, GP","name":"Guernsey","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"GW, GC","name":"Wales","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"H4","name":"Solomon Is.","continent":"OC","ituZone":"51","cqZone":"28","note":""},{"prefix":"H40","name":"Temotu Province","continent":"OC","ituZone":"51","cqZone":"32","note":"Only contacts made April 1, 1998"},{"prefix":"HA, HG","name":"Hungary","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"HB","name":"Switzerland","continent":"EU","ituZone":"28","cqZone":"14","note":""},{"prefix":"HB0","name":"Liechtenstein","continent":"EU","ituZone":"28","cqZone":"14","note":""},{"prefix":"HC, HD","name":"Ecuador","continent":"SA","ituZone":"12","cqZone":"10","note":""},{"prefix":"HC8, HD8","name":"Galapagos Is.","continent":"SA","ituZone":"12","cqZone":"10","note":""},{"prefix":"HH","name":"Haiti","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"HI","name":"Dominican Republic","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"HK, HJ, 5J, 5K","name":"Colombia","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"HK0/M","name":"Malpelo Is.","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"HK0S","name":"San Andres & Providencia","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"HL, 6K-6N","name":"Republic of Korea","continent":"AS","ituZone":"44","cqZone":"25","note":""},{"prefix":"HP, HO","name":"Panama","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"HR, HQ","name":"Honduras","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"HS, E2","name":"Thailand","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"HV","name":"Vatican","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"HZ","name":"Saudi Arabia","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"I","name":"Italy","continent":"EU","ituZone":"28","cqZone":"15, 33","note":""},{"prefix":"IS0, IM0","name":"Sardinia","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"J2","name":"Djibouti","continent":"AF","ituZone":"48","cqZone":"37","note":""},{"prefix":"J3","name":"Grenada","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"J5","name":"Guinea-Bissau","continent":"AF","ituZone":"46","cqZone":"35","note":""},{"prefix":"J6","name":"Saint Lucia","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"J7","name":"Dominica","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"J8","name":"Saint Vincent","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"JA-JS, 7J-7N","name":"Japan","continent":"AS","ituZone":"45","cqZone":"25","note":""},{"prefix":"JD/M","name":"Minami Torishima","continent":"OC","ituZone":"90","cqZone":"27","note":"Formerly Marcus Is."},{"prefix":"JD/O","name":"Ogasawara","continent":"AS","ituZone":"45","cqZone":"27","note":"Formerly Bonin and Volcano Is."},{"prefix":"JT-JV","name":"Mongolia","continent":"AS","ituZone":"32, 33","cqZone":"23","note":""},{"prefix":"JW","name":"Svalbard","continent":"EU","ituZone":"18","cqZone":"40","note":""},{"prefix":"JX","name":"Jan Mayen","continent":"EU","ituZone":"18","cqZone":"40","note":""},{"prefix":"JY","name":"Jordan","continent":"AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"K, W, N, AA-AK","name":"United States of America","continent":"NA","ituZone":"06-08","cqZone":"03-05","note":""},{"prefix":"KG4","name":"Guantanamo Bay","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"KH0","name":"Mariana Is.","continent":"OC","ituZone":"64","cqZone":"27","note":""},{"prefix":"KH1","name":"Baker & Howland Is.","continent":"OC","ituZone":"61","cqZone":"31","note":""},{"prefix":"KH2","name":"Guam","continent":"OC","ituZone":"64","cqZone":"27","note":""},{"prefix":"KH3","name":"Johnston Is.","continent":"OC","ituZone":"61","cqZone":"31","note":""},{"prefix":"KH4","name":"Midway Is.","continent":"OC","ituZone":"61","cqZone":"31","note":""},{"prefix":"KH5","name":"Palmyra & Jarvis Is.","continent":"OC","ituZone":"61, 62","cqZone":"31","note":""},{"prefix":"KH6, 7","name":"Hawaii","continent":"OC","ituZone":"61","cqZone":"31","note":""},{"prefix":"KH7K","name":"Kure Is.","continent":"OC","ituZone":"61","cqZone":"31","note":""},{"prefix":"KH8","name":"American Samoa","continent":"OC","ituZone":"62","cqZone":"32","note":""},{"prefix":"KH8/S","name":"Swains Is.","continent":"OC","ituZone":"62","cqZone":"32","note":"Only contacts made July 22, 2006"},{"prefix":"KH9","name":"Wake Is.","continent":"OC","ituZone":"65","cqZone":"31","note":""},{"prefix":"KL, AL, NL, WL","name":"Alaska","continent":"NA","ituZone":"01, 02","cqZone":"1","note":""},{"prefix":"KP1","name":"Navassa Is.","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"KP2","name":"Virgin Is.","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"KP3, 4","name":"Puerto Rico","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"KP5","name":"Desecheo Is.","continent":"NA","ituZone":"11","cqZone":"8","note":"Only contacts made March 1, 1979"},{"prefix":"LA-LN","name":"Norway","continent":"EU","ituZone":"18","cqZone":"14","note":""},{"prefix":"LU (LO-LW)","name":"Argentina","continent":"SA","ituZone":"14, 16","cqZone":"13","note":""},{"prefix":"LX","name":"Luxembourg","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"LY","name":"Lithuania","continent":"EU","ituZone":"29","cqZone":"15","note":""},{"prefix":"LZ","name":"Bulgaria","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"OA-OC","name":"Peru","continent":"SA","ituZone":"12","cqZone":"10","note":""},{"prefix":"OD","name":"Lebanon","continent":"AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"OE","name":"Austria","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"OH (OF-OI)","name":"Finland","continent":"EU","ituZone":"18","cqZone":"15","note":""},{"prefix":"OH0","name":"Aland Is.","continent":"EU","ituZone":"18","cqZone":"15","note":""},{"prefix":"OJ0","name":"Market Reef","continent":"EU","ituZone":"18","cqZone":"15","note":""},{"prefix":"OK-OL","name":"Czech Republic","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made January 1, 1993"},{"prefix":"OM","name":"Slovak Republic","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made January 1, 1993"},{"prefix":"ON-OT","name":"Belgium","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"OX","name":"Greenland","continent":"NA","ituZone":"05, 75","cqZone":"40","note":""},{"prefix":"OY","name":"Faroe Is.","continent":"EU","ituZone":"18","cqZone":"14","note":""},{"prefix":"OZ, OU-OW","name":"Denmark","continent":"EU","ituZone":"18","cqZone":"14","note":""},{"prefix":"P2","name":"Papua New Guinea","continent":"OC","ituZone":"51","cqZone":"28","note":"Only contacts made September 16, 1975"},{"prefix":"P4","name":"Aruba","continent":"SA","ituZone":"11","cqZone":"9","note":"Only contacts made January 1, 1986"},{"prefix":"P5","name":"Democratic People's Republic of Korea","continent":"AS","ituZone":"44","cqZone":"25","note":"Only contacts made May 14, 1995"},{"prefix":"PA-PI","name":"Netherlands","continent":"EU","ituZone":"27","cqZone":"14","note":""},{"prefix":"PJ2","name":"Curacao","continent":"SA","ituZone":"11","cqZone":"9","note":"Only contacts made starting 04:00 UTC October 10, 2010"},{"prefix":"PJ4","name":"Bonaire","continent":"SA","ituZone":"11","cqZone":"9","note":"Only contacts made starting 04:00 UTC October 10, 2010"},{"prefix":"PJ5, 6","name":"Saba & Saint Eustatius","continent":"NA","ituZone":"11","cqZone":"8","note":"Only contacts made starting 04:00 UTC October 10, 2010"},{"prefix":"PJ7","name":"Sint Maarten","continent":"NA","ituZone":"11","cqZone":"8","note":"Only contacts made starting 04:00 UTC October 10, 2010"},{"prefix":"PY (PP-PY, ZV-ZZ)","name":"Brazil","continent":"SA","ituZone":"12, 13, 15","cqZone":"11","note":""},{"prefix":"PY0F","name":"Fernando de Noronha","continent":"SA","ituZone":"13","cqZone":"11","note":""},{"prefix":"PY0S","name":"Saint Peter & Saint Paul Rocks","continent":"SA","ituZone":"13","cqZone":"11","note":""},{"prefix":"PY0T","name":"Trindade & Martim Vaz Is.","continent":"SA","ituZone":"15","cqZone":"11","note":""},{"prefix":"PZ","name":"Suriname","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"R1F","name":"Franz Josef Land","continent":"EU","ituZone":"75","cqZone":"40","note":" (now RI1FJ)"},{"prefix":"S0","name":"Western Sahara","continent":"AF","ituZone":"46","cqZone":"33","note":"Contacts with Rio de Oro (Spanish Sahara), EA9, also count for this entity. Unofficial prefix"},{"prefix":"S2","name":"Bangladesh","continent":"AS","ituZone":"41","cqZone":"22","note":""},{"prefix":"S5","name":"Slovenia","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made June 26, 1991"},{"prefix":"S7","name":"Seychelles","continent":"AF","ituZone":"53","cqZone":"39","note":""},{"prefix":"S9","name":"Sao Tome & Principe","continent":"AF","ituZone":"47","cqZone":"36","note":""},{"prefix":"SM (SA-SM, 7S, 8S)","name":"Sweden","continent":"EU","ituZone":"18","cqZone":"14","note":""},{"prefix":"SP (SN-SR, 3Z)","name":"Poland","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"ST","name":"Sudan","continent":"AF","ituZone":"47, 48","cqZone":"34","note":""},{"prefix":"SU","name":"Egypt","continent":"AF","ituZone":"38","cqZone":"34","note":""},{"prefix":"SV (SV-SZ, J4)","name":"Greece","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"SV/A","name":"Mount Athos","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"SV5, J45","name":"Dodecanese","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"SV9, J49","name":"Crete","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"T2","name":"Tuvalu","continent":"OC","ituZone":"65","cqZone":"31","note":"Only contacts made January 1, 1976"},{"prefix":"T30","name":"Western Kiribati (Gilbert Is. )","continent":"OC","ituZone":"65","cqZone":"31","note":""},{"prefix":"T31","name":"Central Kiribati (British Phoenix Is.)","continent":"OC","ituZone":"62","cqZone":"31","note":""},{"prefix":"T32","name":"Eastern Kiribati (Line Is.)","continent":"OC","ituZone":"61, 63","cqZone":"31","note":""},{"prefix":"T33","name":"Banaba Is. (Ocean Is.)","continent":"OC","ituZone":"65","cqZone":"31","note":""},{"prefix":"T5, 6O","name":"Somalia","continent":"AF","ituZone":"48","cqZone":"37","note":""},{"prefix":"T7","name":"San Marino","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"T8","name":"Palau","continent":"OC","ituZone":"64","cqZone":"27","note":"Valid prefix January 1, 1994, or after (KC6 prior to this date)"},{"prefix":"TA-TC","name":"Turkey","continent":"EU, AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"TF","name":"Iceland","continent":"EU","ituZone":"17","cqZone":"40","note":""},{"prefix":"TG, TD","name":"Guatemala","continent":"NA","ituZone":"12","cqZone":"7","note":""},{"prefix":"TI, TE","name":"Costa Rica","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"TI9","name":"Cocos Is.","continent":"NA","ituZone":"12","cqZone":"7","note":""},{"prefix":"TJ","name":"Cameroon","continent":"AF","ituZone":"47","cqZone":"36","note":""},{"prefix":"TK","name":"Corsica","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"TL","name":"Central African Republic","continent":"AF","ituZone":"47","cqZone":"36","note":"Only contacts made August 13, 1960"},{"prefix":"TN","name":"Republic of the Congo","continent":"AF","ituZone":"52","cqZone":"36","note":"Only contacts made August 15, 1960"},{"prefix":"TR","name":"Gabon","continent":"AF","ituZone":"52","cqZone":"36","note":"Only contacts made August 17, 1960"},{"prefix":"TT","name":"Chad","continent":"AF","ituZone":"47","cqZone":"36","note":"Only contacts made August 11, 1960"},{"prefix":"TU","name":"Cote d'Ivoire","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made August 7, 1960"},{"prefix":"TY","name":"Benin","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made August 1, 1960"},{"prefix":"TZ","name":"Mali","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made June 20, 1960"},{"prefix":"UA (UA-UI, RA-RZ1-7)","name":"European Russia","continent":"EU","ituZone":"19, 20, 29, 30","cqZone":"16","note":""},{"prefix":"UA0 (UA-UI, RA-RZ8-0)","name":"Asiatic Russia","continent":"AS","ituZone":"20-26, 30-35, 75","cqZone":"16-19, 23","note":""},{"prefix":"UA2, RA2","name":"Kaliningrad","continent":"EU","ituZone":"29","cqZone":"15","note":""},{"prefix":"UJ-UM","name":"Uzbekistan","continent":"AS","ituZone":"30","cqZone":"17","note":""},{"prefix":"UN-UQ","name":"Kazakhstan","continent":"AS","ituZone":"29-31","cqZone":"17","note":""},{"prefix":"UR-UZ, EM-EO","name":"Ukraine","continent":"EU","ituZone":"29","cqZone":"16","note":""},{"prefix":"V2","name":"Antigua & Barbuda","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"V3","name":"Belize","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"V4","name":"Saint Kitts & Nevis","continent":"NA","ituZone":"11","cqZone":"8","note":"For DXCC credit for contacts made May 31, 1958, and before"},{"prefix":"V5","name":"Namibia","continent":"AF","ituZone":"57","cqZone":"38","note":""},{"prefix":"V6","name":"Micronesia","continent":"OC","ituZone":"65","cqZone":"27","note":"Includes Yap Is. January 1, 1981, and after"},{"prefix":"V7","name":"Marshall Is.","continent":"OC","ituZone":"65","cqZone":"31","note":""},{"prefix":"V8","name":"Brunei Darussalam","continent":"OC","ituZone":"54","cqZone":"28","note":""},{"prefix":"VE (VA-VG, VO, VY)","name":"Canada","continent":"NA","ituZone":"2-4, 9, 75","cqZone":"01-05","note":""},{"prefix":"VK, AX","name":"Australia","continent":"OC","ituZone":"55, 58, 59","cqZone":"29, 30","note":""},{"prefix":"VK0H","name":"Heard Is.","continent":"AF","ituZone":"68","cqZone":"39","note":""},{"prefix":"VK0M","name":"Macquarie Is.","continent":"OC","ituZone":"60","cqZone":"30","note":""},{"prefix":"VK9C","name":"Cocos (Keeling) Is.","continent":"OC","ituZone":"54","cqZone":"29","note":""},{"prefix":"VK9L","name":"Lord Howe Is.","continent":"OC","ituZone":"60","cqZone":"30","note":""},{"prefix":"VK9M","name":"Mellish Reef","continent":"OC","ituZone":"56","cqZone":"30","note":""},{"prefix":"VK9N","name":"Norfolk Is.","continent":"OC","ituZone":"60","cqZone":"32","note":""},{"prefix":"VK9W","name":"Willis Is.","continent":"OC","ituZone":"55","cqZone":"30","note":""},{"prefix":"VK9X","name":"Christmas Is.","continent":"OC","ituZone":"54","cqZone":"29","note":""},{"prefix":"VP2E","name":"Anguilla","continent":"NA","ituZone":"11","cqZone":"8","note":"For DXCC credit for contacts made May 31, 1958, and before"},{"prefix":"VP2M","name":"Montserrat","continent":"NA","ituZone":"11","cqZone":"8","note":"For DXCC credit for contacts made May 31, 1958, and before"},{"prefix":"VP2V","name":"British Virgin Is.","continent":"NA","ituZone":"11","cqZone":"8","note":"For DXCC credit for contacts made May 31, 1958, and before"},{"prefix":"VP5","name":"Turks & Caicos Is.","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"VP6","name":"Pitcairn Is.","continent":"OC","ituZone":"63","cqZone":"32","note":""},{"prefix":"VP6/D","name":"Ducie Is.","continent":"OC","ituZone":"63","cqZone":"32","note":"Only contacts made November 16, 2001"},{"prefix":"VP8","name":"Falkland Is.","continent":"SA","ituZone":"16","cqZone":"13","note":""},{"prefix":"VP8G","name":"South Georgia Is.","continent":"SA","ituZone":"73","cqZone":"13","note":""},{"prefix":"VP8H","name":"South Shetland Is.","continent":"SA","ituZone":"73","cqZone":"13","note":""},{"prefix":"VP8O","name":"South Orkney Is.","continent":"SA","ituZone":"73","cqZone":"13","note":""},{"prefix":"VP8S","name":"South Sandwich Is.","continent":"SA","ituZone":"73","cqZone":"13","note":""},{"prefix":"VP9","name":"Bermuda","continent":"NA","ituZone":"11","cqZone":"5","note":""},{"prefix":"VQ9","name":"Chagos Is.","continent":"AF","ituZone":"41","cqZone":"39","note":""},{"prefix":"VR","name":"Hong Kong","continent":"AS","ituZone":"44","cqZone":"24","note":""},{"prefix":"VU","name":"India","continent":"AS","ituZone":"41","cqZone":"22","note":""},{"prefix":"VU4","name":"Andaman & Nicobar Is.","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"VU7","name":"Lakshadweep Is.","continent":"AS","ituZone":"41","cqZone":"22","note":""},{"prefix":"XE (XA-XI)","name":"Mexico","continent":"NA","ituZone":"10","cqZone":"6","note":""},{"prefix":"XF4 (XA4-XI4)","name":"Revillagigedo","continent":"NA","ituZone":"10","cqZone":"6","note":""},{"prefix":"XT","name":"Burkina Faso","continent":"AF","ituZone":"46","cqZone":"35","note":"Only contacts made August 16, 1960"},{"prefix":"XU","name":"Cambodia","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"XW","name":"Laos","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"XX9","name":"Macao","continent":"AS","ituZone":"44","cqZone":"24","note":""},{"prefix":"XZ, XY","name":"Myanmar","continent":"AS","ituZone":"49","cqZone":"26","note":""},{"prefix":"YA, T6","name":"Afghanistan","continent":"AS","ituZone":"40","cqZone":"21","note":""},{"prefix":"YB-YH","name":"Indonesia","continent":"OC","ituZone":"51, 54","cqZone":"28","note":"Only contacts made May 1, 1963"},{"prefix":"YI","name":"Iraq","continent":"AS","ituZone":"39","cqZone":"21","note":""},{"prefix":"YJ","name":"Vanuatu","continent":"OC","ituZone":"56","cqZone":"32","note":""},{"prefix":"YK","name":"Syria","continent":"AS","ituZone":"39","cqZone":"20","note":""},{"prefix":"YL","name":"Latvia","continent":"EU","ituZone":"29","cqZone":"15","note":""},{"prefix":"YN, H6-7, HT","name":"Nicaragua","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"YO-YR","name":"Romania","continent":"EU","ituZone":"28","cqZone":"20","note":""},{"prefix":"YS, HU","name":"El Salvador","continent":"NA","ituZone":"11","cqZone":"7","note":""},{"prefix":"YT, YU","name":"Serbia","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"YV (YV-YY, 4M)","name":"Venezuela","continent":"SA","ituZone":"12","cqZone":"9","note":""},{"prefix":"YV0","name":"Aves Is.","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"Z2","name":"Zimbabwe","continent":"AF","ituZone":"53","cqZone":"38","note":""},{"prefix":"Z3","name":"Macedonia","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made September 8, 1991"},{"prefix":"Z6","name":"Republic of Kosovo","continent":"EU","ituZone":"28","cqZone":"15","note":"Only contacts made January 21, 2018"},{"prefix":"Z8","name":"South Sudan (Republic of)","continent":"AF","ituZone":"48","cqZone":"34","note":"Only contacts made July 14, 2011"},{"prefix":"ZA","name":"Albania","continent":"EU","ituZone":"28","cqZone":"15","note":""},{"prefix":"ZB2","name":"Gibraltar","continent":"EU","ituZone":"37","cqZone":"14","note":""},{"prefix":"ZC4","name":"UK Sovereign Base Areas on Cyprus","continent":"AS","ituZone":"39","cqZone":"20","note":"Only contacts made August 16, 1960"},{"prefix":"ZD7","name":"Saint Helena","continent":"AF","ituZone":"66","cqZone":"36","note":""},{"prefix":"ZD8","name":"Ascension Is.","continent":"AF","ituZone":"66","cqZone":"36","note":""},{"prefix":"ZD9","name":"Tristan da Cunha & Gough Is.","continent":"AF","ituZone":"66","cqZone":"38","note":""},{"prefix":"ZF","name":"Cayman Is.","continent":"NA","ituZone":"11","cqZone":"8","note":""},{"prefix":"ZK3","name":"Tokelau Is.","continent":"OC","ituZone":"62","cqZone":"31","note":""},{"prefix":"ZL, ZM","name":"New Zealand","continent":"OC","ituZone":"60","cqZone":"32","note":""},{"prefix":"ZL7","name":"Chatham Is.","continent":"OC","ituZone":"60","cqZone":"32","note":""},{"prefix":"ZL8","name":"Kermadec Is.","continent":"OC","ituZone":"60","cqZone":"32","note":""},{"prefix":"ZL9","name":"New Zealand Subantarctic Is.","continent":"OC","ituZone":"60","cqZone":"32","note":""},{"prefix":"ZP","name":"Paraguay","continent":"SA","ituZone":"14","cqZone":"11","note":""},{"prefix":"ZS (ZR-ZU)","name":"South Africa","continent":"AF","ituZone":"57","cqZone":"38","note":""},{"prefix":"ZS8","name":"Prince Edward & Marion Is.","continent":"AF","ituZone":"57","cqZone":"38","note":""}]
+[
+	{
+		"prefix": "1A",
+		"name": "Sovereign Military Order of Malta",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Unofficial prefix"
+	},
+	{
+		"prefix": "1S",
+		"name": "Spratly Is.",
+		"continent": "AS",
+		"ituZone": "50",
+		"cqZone": "26",
+		"note": "Unofficial prefix. Other prefixes: DX0, 9M0, XV9"
+	},
+	{
+		"prefix": "3A",
+		"name": "Monaco",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "3B6, 7",
+		"name": "Agalega & Saint Brandon Is.",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "3B8",
+		"name": "Mauritius",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "3B9",
+		"name": "Rodrigues Is.",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "3C",
+		"name": "Equatorial Guinea",
+		"continent": "AF",
+		"ituZone": "47",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "3C0",
+		"name": "Annobon Is.",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "3D2",
+		"name": "Fiji",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "3D2/C",
+		"name": "Conway Reef",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "3D2/R",
+		"name": "Rotuma Is.",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "3DA",
+		"name": "Swaziland",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "3V",
+		"name": "Tunisia",
+		"continent": "AF",
+		"ituZone": "37",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "3W, XV",
+		"name": "Viet Nam",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "3X",
+		"name": "Guinea",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "3Y/B",
+		"name": "Bouvet",
+		"continent": "AF",
+		"ituZone": "67",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "3Y/P",
+		"name": "Peter 1 Is.",
+		"continent": "AN",
+		"ituZone": "72",
+		"cqZone": "12",
+		"note": ""
+	},
+	{
+		"prefix": "4J, 4K",
+		"name": "Azerbaijan",
+		"continent": "AS",
+		"ituZone": "29",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "4L",
+		"name": "Georgia",
+		"continent": "AS",
+		"ituZone": "29",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "4O",
+		"name": "Montenegro",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made June 28, 2006"
+	},
+	{
+		"prefix": "4S",
+		"name": "Sri Lanka",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "4U1ITU",
+		"name": "ITU HQ",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "4U1UN",
+		"name": "United Nations HQ",
+		"continent": "NA",
+		"ituZone": "8",
+		"cqZone": "5",
+		"note": ""
+	},
+	{
+		"prefix": "4W",
+		"name": "Timor-Leste",
+		"continent": "OC",
+		"ituZone": "54",
+		"cqZone": "28",
+		"note": "Only contacts made March 1, 2000"
+	},
+	{
+		"prefix": "4X, 4Z",
+		"name": "Israel",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "5A",
+		"name": "Libya",
+		"continent": "AF",
+		"ituZone": "38",
+		"cqZone": "34",
+		"note": ""
+	},
+	{
+		"prefix": "5B, C4, P3",
+		"name": "Cyprus",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "5H, 5I",
+		"name": "Tanzania",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "5N",
+		"name": "Nigeria",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "5R",
+		"name": "Madagascar",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "5T",
+		"name": "Mauritania",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made June 20, 1960"
+	},
+	{
+		"prefix": "5U",
+		"name": "Niger",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made August 3, 1960"
+	},
+	{
+		"prefix": "5V",
+		"name": "Togo",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "5W",
+		"name": "Samoa",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "5X",
+		"name": "Uganda",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "5Z, 5Y",
+		"name": "Kenya",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "6W, 6V",
+		"name": "Senegal",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made June 20, 1960"
+	},
+	{
+		"prefix": "6Y",
+		"name": "Jamaica",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "7O",
+		"name": "Yemen",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": "Only contacts made May 22, 1990"
+	},
+	{
+		"prefix": "7P",
+		"name": "Lesotho",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "7Q",
+		"name": "Malawi",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "7X (7T-7Y)",
+		"name": "Algeria",
+		"continent": "AF",
+		"ituZone": "37",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "8P",
+		"name": "Barbados",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "8Q",
+		"name": "Maldives",
+		"continent": "AS, AF",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "8R",
+		"name": "Guyana",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "9A",
+		"name": "Croatia",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made June 26, 1991"
+	},
+	{
+		"prefix": "9G",
+		"name": "Ghana",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made March 5, 1957"
+	},
+	{
+		"prefix": "9H",
+		"name": "Malta",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "9J, 9I",
+		"name": "Zambia",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "9K",
+		"name": "Kuwait",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "9L",
+		"name": "Sierra Leone",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "9M2, 4",
+		"name": "West Malaysia",
+		"continent": "AS",
+		"ituZone": "54",
+		"cqZone": "28",
+		"note": "Only contacts made September 16, 1963"
+	},
+	{
+		"prefix": "9M6, 8",
+		"name": "East Malaysia",
+		"continent": "OC",
+		"ituZone": "54",
+		"cqZone": "28",
+		"note": "Only contacts made September 16, 1963"
+	},
+	{
+		"prefix": "9N",
+		"name": "Nepal",
+		"continent": "AS",
+		"ituZone": "42",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "9Q-9T",
+		"name": "Democratic Republic of the Congo",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "9U",
+		"name": "Burundi",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": "Only contacts made July 1, 1962"
+	},
+	{
+		"prefix": "9V",
+		"name": "Singapore",
+		"continent": "AS",
+		"ituZone": "54",
+		"cqZone": "28",
+		"note": "Contacts made from September 16, 1963 to August 8, 1965, count for West Malaysia"
+	},
+	{
+		"prefix": "9X",
+		"name": "Rwanda",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": "Only contacts made July 1, 1962"
+	},
+	{
+		"prefix": "9Y, 9Z",
+		"name": "Trinidad & Tobago",
+		"continent": "SA",
+		"ituZone": "11",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "A2",
+		"name": "Botswana",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "A3",
+		"name": "Tonga",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "A4",
+		"name": "Oman",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "A5",
+		"name": "Bhutan",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "A6",
+		"name": "United Arab Emirates",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "A7",
+		"name": "Qatar",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "A9",
+		"name": "Bahrain",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "AP",
+		"name": "Pakistan",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "BS7",
+		"name": "Scarborough Reef",
+		"continent": "AS",
+		"ituZone": "50",
+		"cqZone": "27",
+		"note": "Only contacts made January 1, 1995"
+	},
+	{
+		"prefix": "BU-BX",
+		"name": "Taiwan",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "24",
+		"note": ""
+	},
+	{
+		"prefix": "BV9P",
+		"name": "Pratas Is.",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "24",
+		"note": "Only contacts made January 1, 1994"
+	},
+	{
+		"prefix": "BY",
+		"name": "China",
+		"continent": "AS",
+		"ituZone": "33, 42-44",
+		"cqZone": "23, 24",
+		"note": ""
+	},
+	{
+		"prefix": "C2",
+		"name": "Nauru",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "C3",
+		"name": "Andorra",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "C5",
+		"name": "The Gambia",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "C6",
+		"name": "Bahamas",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "C9, C8",
+		"name": "Mozambique",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "CE (CA-CE)",
+		"name": "Chile",
+		"continent": "SA",
+		"ituZone": "14, 16",
+		"cqZone": "12",
+		"note": ""
+	},
+	{
+		"prefix": "CE0X",
+		"name": "Easter Is.",
+		"continent": "SA",
+		"ituZone": "63",
+		"cqZone": "12",
+		"note": ""
+	},
+	{
+		"prefix": "CE0Y",
+		"name": "Juan Fernandez Is.",
+		"continent": "SA",
+		"ituZone": "14",
+		"cqZone": "12",
+		"note": ""
+	},
+	{
+		"prefix": "CE0Z",
+		"name": "San Felix & San Ambrosio",
+		"continent": "SA",
+		"ituZone": "14",
+		"cqZone": "12",
+		"note": ""
+	},
+	{
+		"prefix": "CE9",
+		"name": "Antarctica",
+		"continent": "AN",
+		"ituZone": "67, 69-74",
+		"cqZone": "12, 13, 29, 30, 32, 38, 39",
+		"note": "Also 3Y, 8J1, AT0, DP0, EM1, FT8Y, KC4, LU, OR4, VK0, RI1AN, VP8, ZL5, ZS1, ZX0, etc."
+	},
+	{
+		"prefix": "CN",
+		"name": "Morocco",
+		"continent": "AF",
+		"ituZone": "37",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "CO, CM",
+		"name": "Cuba",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "CP",
+		"name": "Bolivia",
+		"continent": "SA",
+		"ituZone": "12, 14",
+		"cqZone": "10",
+		"note": ""
+	},
+	{
+		"prefix": "CT",
+		"name": "Portugal",
+		"continent": "EU",
+		"ituZone": "37",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "CT3",
+		"name": "Madeira Is.",
+		"continent": "AF",
+		"ituZone": "36",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "CU",
+		"name": "Azores",
+		"continent": "EU",
+		"ituZone": "36",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "CX, CW, CX",
+		"name": "Uruguay",
+		"continent": "SA",
+		"ituZone": "14",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "CY0",
+		"name": "Sable Is.",
+		"continent": "NA",
+		"ituZone": "9",
+		"cqZone": "5",
+		"note": ""
+	},
+	{
+		"prefix": "CY9",
+		"name": "Saint Paul Is.",
+		"continent": "NA",
+		"ituZone": "9",
+		"cqZone": "5",
+		"note": ""
+	},
+	{
+		"prefix": "D2, D3",
+		"name": "Angola",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "D4",
+		"name": "Cape Verde",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "D6",
+		"name": "Comoros",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": "Only contacts made July 6, 1975"
+	},
+	{
+		"prefix": "DL (DA-DR)",
+		"name": "Federal Republic of Germany",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "14",
+		"note": "Only contacts made with DA-DL stations September 17, 1973, and after, and contacts made with Y2-Y9 stations. October 3, 1990"
+	},
+	{
+		"prefix": "DU-DZ, 4D-4I",
+		"name": "Philippines",
+		"continent": "OC",
+		"ituZone": "50",
+		"cqZone": "27",
+		"note": ""
+	},
+	{
+		"prefix": "E3",
+		"name": "Eritrea",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": "Only contacts made November 14, 1962, and before, or May 24, 1991"
+	},
+	{
+		"prefix": "E4",
+		"name": "Palestine",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": "Only contacts made February 1, 1999"
+	},
+	{
+		"prefix": "E5/N",
+		"name": "North Cook Is.",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "E5/S",
+		"name": "South Cook Is.",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "E6",
+		"name": "Niue",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "E7",
+		"name": "Bosnia-Herzegovina",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "New prefix effective November 17, 2007. Contacts are valid for this entity effective October 15, 1991"
+	},
+	{
+		"prefix": "EA (EA-EH)",
+		"name": "Spain",
+		"continent": "EU",
+		"ituZone": "37",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "EA6",
+		"name": "Balearic Is.",
+		"continent": "EU",
+		"ituZone": "37",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "EA8",
+		"name": "Canary Is.",
+		"continent": "AF",
+		"ituZone": "36",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "EA9",
+		"name": "Ceuta & Melilla",
+		"continent": "AF",
+		"ituZone": "37",
+		"cqZone": "33",
+		"note": ""
+	},
+	{
+		"prefix": "EI, EJ",
+		"name": "Ireland",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "EK",
+		"name": "Armenia",
+		"continent": "AS",
+		"ituZone": "29",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "EL",
+		"name": "Liberia",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "EP, EQ",
+		"name": "Iran",
+		"continent": "AS",
+		"ituZone": "40",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "ER",
+		"name": "Moldova",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "16",
+		"note": ""
+	},
+	{
+		"prefix": "ES",
+		"name": "Estonia",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "ET",
+		"name": "Ethiopia",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "EU-EW",
+		"name": "Belarus",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "16",
+		"note": ""
+	},
+	{
+		"prefix": "EX",
+		"name": "Kyrgyzstan",
+		"continent": "AS",
+		"ituZone": "30, 31",
+		"cqZone": "17",
+		"note": ""
+	},
+	{
+		"prefix": "EY",
+		"name": "Tajikistan",
+		"continent": "AS",
+		"ituZone": "30",
+		"cqZone": "17",
+		"note": ""
+	},
+	{
+		"prefix": "EZ",
+		"name": "Turkmenistan",
+		"continent": "AS",
+		"ituZone": "30",
+		"cqZone": "17",
+		"note": ""
+	},
+	{
+		"prefix": "F",
+		"name": "France",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "FG, TO",
+		"name": "Guadeloupe",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "FH, TO",
+		"name": "Mayotte",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": "Only contacts made July 6, 1975"
+	},
+	{
+		"prefix": "FJ, TO",
+		"name": "Saint Barthelemy",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "Only contacts made December 14, 2007"
+	},
+	{
+		"prefix": "FK, TX",
+		"name": "New Caledonia",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "FK/C, TX",
+		"name": "Chesterfield Is.",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "30",
+		"note": "Only contacts made March 23, 2000"
+	},
+	{
+		"prefix": "FM, TO",
+		"name": "Martinique",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "FO, TX",
+		"name": "Clipperton Is.",
+		"continent": "NA",
+		"ituZone": "10",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "FO/A, TO",
+		"name": "Austral Is.",
+		"continent": "OC",
+		"ituZone": "63",
+		"cqZone": "32",
+		"note": "Only contacts made April 1, 1998"
+	},
+	{
+		"prefix": "FO/C, TX",
+		"name": "French Polynesia",
+		"continent": "OC",
+		"ituZone": "63",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "FO/M, TX",
+		"name": "Marquesas Is.",
+		"continent": "OC",
+		"ituZone": "63",
+		"cqZone": "31",
+		"note": "Only contacts made April 1, 1998"
+	},
+	{
+		"prefix": "FP",
+		"name": "Saint Pierre & Miquelon",
+		"continent": "NA",
+		"ituZone": "9",
+		"cqZone": "5",
+		"note": ""
+	},
+	{
+		"prefix": "FR, TO",
+		"name": "Reunion Is.",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "FS, TO",
+		"name": "Saint Martin",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "FT/G, TO",
+		"name": "Glorioso Is.",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": "Only contacts made June 25, 1960"
+	},
+	{
+		"prefix": "FT/J, FT/E, TO",
+		"name": "Juan de Nova, Europa",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": "Only contacts made June 25, 1960"
+	},
+	{
+		"prefix": "FT/T, TO",
+		"name": "Tromelin Is.",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "FT5/W",
+		"name": "Crozet Is.",
+		"continent": "AF",
+		"ituZone": "68",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "FT5/X",
+		"name": "Kerguelen Is.",
+		"continent": "AF",
+		"ituZone": "68",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "FT5Z",
+		"name": "Amsterdam & Saint Paul Is.",
+		"continent": "AF",
+		"ituZone": "68",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "FW",
+		"name": "Wallis & Futuna Is.",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "FY",
+		"name": "French Guiana",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "G, GX, M",
+		"name": "England",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GD, GT",
+		"name": "Isle of Man",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GI, GN",
+		"name": "Northern Ireland",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GJ, GH",
+		"name": "Jersey",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GM, GS",
+		"name": "Scotland",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GU, GP",
+		"name": "Guernsey",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "GW, GC",
+		"name": "Wales",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "H4",
+		"name": "Solomon Is.",
+		"continent": "OC",
+		"ituZone": "51",
+		"cqZone": "28",
+		"note": ""
+	},
+	{
+		"prefix": "H40",
+		"name": "Temotu Province",
+		"continent": "OC",
+		"ituZone": "51",
+		"cqZone": "32",
+		"note": "Only contacts made April 1, 1998"
+	},
+	{
+		"prefix": "HA, HG",
+		"name": "Hungary",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "HB",
+		"name": "Switzerland",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "HB0",
+		"name": "Liechtenstein",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "HC, HD",
+		"name": "Ecuador",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "10",
+		"note": ""
+	},
+	{
+		"prefix": "HC8, HD8",
+		"name": "Galapagos Is.",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "10",
+		"note": ""
+	},
+	{
+		"prefix": "HH",
+		"name": "Haiti",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "HI",
+		"name": "Dominican Republic",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "HK, HJ, 5J, 5K",
+		"name": "Colombia",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "HK0/M",
+		"name": "Malpelo Is.",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "HK0S",
+		"name": "San Andres & Providencia",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "HL, 6K-6N",
+		"name": "Republic of Korea",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "25",
+		"note": ""
+	},
+	{
+		"prefix": "HP, HO",
+		"name": "Panama",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "HR, HQ",
+		"name": "Honduras",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "HS, E2",
+		"name": "Thailand",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "HV",
+		"name": "Vatican",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "HZ",
+		"name": "Saudi Arabia",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "I",
+		"name": "Italy",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15, 33",
+		"note": ""
+	},
+	{
+		"prefix": "IS0, IM0",
+		"name": "Sardinia",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "J2",
+		"name": "Djibouti",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "J3",
+		"name": "Grenada",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "J5",
+		"name": "Guinea-Bissau",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": ""
+	},
+	{
+		"prefix": "J6",
+		"name": "Saint Lucia",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "J7",
+		"name": "Dominica",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "J8",
+		"name": "Saint Vincent",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "JA-JS, 7J-7N",
+		"name": "Japan",
+		"continent": "AS",
+		"ituZone": "45",
+		"cqZone": "25",
+		"note": ""
+	},
+	{
+		"prefix": "JD/M",
+		"name": "Minami Torishima",
+		"continent": "OC",
+		"ituZone": "90",
+		"cqZone": "27",
+		"note": "Formerly Marcus Is."
+	},
+	{
+		"prefix": "JD/O",
+		"name": "Ogasawara",
+		"continent": "AS",
+		"ituZone": "45",
+		"cqZone": "27",
+		"note": "Formerly Bonin and Volcano Is."
+	},
+	{
+		"prefix": "JT-JV",
+		"name": "Mongolia",
+		"continent": "AS",
+		"ituZone": "32, 33",
+		"cqZone": "23",
+		"note": ""
+	},
+	{
+		"prefix": "JW",
+		"name": "Svalbard",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "40",
+		"note": ""
+	},
+	{
+		"prefix": "JX",
+		"name": "Jan Mayen",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "40",
+		"note": ""
+	},
+	{
+		"prefix": "JY",
+		"name": "Jordan",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "K, W, N, AA-AK",
+		"name": "United States of America",
+		"continent": "NA",
+		"ituZone": "06-08",
+		"cqZone": "03-05",
+		"note": ""
+	},
+	{
+		"prefix": "KG4",
+		"name": "Guantanamo Bay",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "KH0",
+		"name": "Mariana Is.",
+		"continent": "OC",
+		"ituZone": "64",
+		"cqZone": "27",
+		"note": ""
+	},
+	{
+		"prefix": "KH1",
+		"name": "Baker & Howland Is.",
+		"continent": "OC",
+		"ituZone": "61",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH2",
+		"name": "Guam",
+		"continent": "OC",
+		"ituZone": "64",
+		"cqZone": "27",
+		"note": ""
+	},
+	{
+		"prefix": "KH3",
+		"name": "Johnston Is.",
+		"continent": "OC",
+		"ituZone": "61",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH4",
+		"name": "Midway Is.",
+		"continent": "OC",
+		"ituZone": "61",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH5",
+		"name": "Palmyra & Jarvis Is.",
+		"continent": "OC",
+		"ituZone": "61, 62",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH6, 7",
+		"name": "Hawaii",
+		"continent": "OC",
+		"ituZone": "61",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH7K",
+		"name": "Kure Is.",
+		"continent": "OC",
+		"ituZone": "61",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KH8",
+		"name": "American Samoa",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "KH8/S",
+		"name": "Swains Is.",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "32",
+		"note": "Only contacts made July 22, 2006"
+	},
+	{
+		"prefix": "KH9",
+		"name": "Wake Is.",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "KL, AL, NL, WL",
+		"name": "Alaska",
+		"continent": "NA",
+		"ituZone": "01, 02",
+		"cqZone": "1",
+		"note": ""
+	},
+	{
+		"prefix": "KP1",
+		"name": "Navassa Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "KP2",
+		"name": "Virgin Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "KP3, 4",
+		"name": "Puerto Rico",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "KP5",
+		"name": "Desecheo Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "Only contacts made March 1, 1979"
+	},
+	{
+		"prefix": "LA-LN",
+		"name": "Norway",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "LU (LO-LW)",
+		"name": "Argentina",
+		"continent": "SA",
+		"ituZone": "14, 16",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "LX",
+		"name": "Luxembourg",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "LY",
+		"name": "Lithuania",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "LZ",
+		"name": "Bulgaria",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "OA-OC",
+		"name": "Peru",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "10",
+		"note": ""
+	},
+	{
+		"prefix": "OD",
+		"name": "Lebanon",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "OE",
+		"name": "Austria",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "OH (OF-OI)",
+		"name": "Finland",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "OH0",
+		"name": "Aland Is.",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "OJ0",
+		"name": "Market Reef",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "OK-OL",
+		"name": "Czech Republic",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made January 1, 1993"
+	},
+	{
+		"prefix": "OM",
+		"name": "Slovak Republic",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made January 1, 1993"
+	},
+	{
+		"prefix": "ON-OT",
+		"name": "Belgium",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "OX",
+		"name": "Greenland",
+		"continent": "NA",
+		"ituZone": "05, 75",
+		"cqZone": "40",
+		"note": ""
+	},
+	{
+		"prefix": "OY",
+		"name": "Faroe Is.",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "OZ, OU-OW",
+		"name": "Denmark",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "P2",
+		"name": "Papua New Guinea",
+		"continent": "OC",
+		"ituZone": "51",
+		"cqZone": "28",
+		"note": "Only contacts made September 16, 1975"
+	},
+	{
+		"prefix": "P4",
+		"name": "Aruba",
+		"continent": "SA",
+		"ituZone": "11",
+		"cqZone": "9",
+		"note": "Only contacts made January 1, 1986"
+	},
+	{
+		"prefix": "P5",
+		"name": "Democratic People's Republic of Korea",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "25",
+		"note": "Only contacts made May 14, 1995"
+	},
+	{
+		"prefix": "PA-PI",
+		"name": "Netherlands",
+		"continent": "EU",
+		"ituZone": "27",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "PJ2",
+		"name": "Curacao",
+		"continent": "SA",
+		"ituZone": "11",
+		"cqZone": "9",
+		"note": "Only contacts made starting 04:00 UTC October 10, 2010"
+	},
+	{
+		"prefix": "PJ4",
+		"name": "Bonaire",
+		"continent": "SA",
+		"ituZone": "11",
+		"cqZone": "9",
+		"note": "Only contacts made starting 04:00 UTC October 10, 2010"
+	},
+	{
+		"prefix": "PJ5, 6",
+		"name": "Saba & Saint Eustatius",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "Only contacts made starting 04:00 UTC October 10, 2010"
+	},
+	{
+		"prefix": "PJ7",
+		"name": "Sint Maarten",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "Only contacts made starting 04:00 UTC October 10, 2010"
+	},
+	{
+		"prefix": "PY (PP-PY, ZV-ZZ)",
+		"name": "Brazil",
+		"continent": "SA",
+		"ituZone": "12, 13, 15",
+		"cqZone": "11",
+		"note": ""
+	},
+	{
+		"prefix": "PY0F",
+		"name": "Fernando de Noronha",
+		"continent": "SA",
+		"ituZone": "13",
+		"cqZone": "11",
+		"note": ""
+	},
+	{
+		"prefix": "PY0S",
+		"name": "Saint Peter & Saint Paul Rocks",
+		"continent": "SA",
+		"ituZone": "13",
+		"cqZone": "11",
+		"note": ""
+	},
+	{
+		"prefix": "PY0T",
+		"name": "Trindade & Martim Vaz Is.",
+		"continent": "SA",
+		"ituZone": "15",
+		"cqZone": "11",
+		"note": ""
+	},
+	{
+		"prefix": "PZ",
+		"name": "Suriname",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "R1F",
+		"name": "Franz Josef Land",
+		"continent": "EU",
+		"ituZone": "75",
+		"cqZone": "40",
+		"note": " (now RI1FJ)"
+	},
+	{
+		"prefix": "S0",
+		"name": "Western Sahara",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "33",
+		"note": "Contacts with Rio de Oro (Spanish Sahara), EA9, also count for this entity. Unofficial prefix"
+	},
+	{
+		"prefix": "S2",
+		"name": "Bangladesh",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "S5",
+		"name": "Slovenia",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made June 26, 1991"
+	},
+	{
+		"prefix": "S7",
+		"name": "Seychelles",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "S9",
+		"name": "Sao Tome & Principe",
+		"continent": "AF",
+		"ituZone": "47",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "SM (SA-SM, 7S, 8S)",
+		"name": "Sweden",
+		"continent": "EU",
+		"ituZone": "18",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "SP (SN-SR, 3Z)",
+		"name": "Poland",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "ST",
+		"name": "Sudan",
+		"continent": "AF",
+		"ituZone": "47, 48",
+		"cqZone": "34",
+		"note": ""
+	},
+	{
+		"prefix": "SU",
+		"name": "Egypt",
+		"continent": "AF",
+		"ituZone": "38",
+		"cqZone": "34",
+		"note": ""
+	},
+	{
+		"prefix": "SV (SV-SZ, J4)",
+		"name": "Greece",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "SV/A",
+		"name": "Mount Athos",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "SV5, J45",
+		"name": "Dodecanese",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "SV9, J49",
+		"name": "Crete",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "T2",
+		"name": "Tuvalu",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": "Only contacts made January 1, 1976"
+	},
+	{
+		"prefix": "T30",
+		"name": "Western Kiribati (Gilbert Is. )",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "T31",
+		"name": "Central Kiribati (British Phoenix Is.)",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "T32",
+		"name": "Eastern Kiribati (Line Is.)",
+		"continent": "OC",
+		"ituZone": "61, 63",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "T33",
+		"name": "Banaba Is. (Ocean Is.)",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "T5, 6O",
+		"name": "Somalia",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "37",
+		"note": ""
+	},
+	{
+		"prefix": "T7",
+		"name": "San Marino",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "T8",
+		"name": "Palau",
+		"continent": "OC",
+		"ituZone": "64",
+		"cqZone": "27",
+		"note": "Valid prefix January 1, 1994, or after (KC6 prior to this date)"
+	},
+	{
+		"prefix": "TA-TC",
+		"name": "Turkey",
+		"continent": "EU, AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "TF",
+		"name": "Iceland",
+		"continent": "EU",
+		"ituZone": "17",
+		"cqZone": "40",
+		"note": ""
+	},
+	{
+		"prefix": "TG, TD",
+		"name": "Guatemala",
+		"continent": "NA",
+		"ituZone": "12",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "TI, TE",
+		"name": "Costa Rica",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "TI9",
+		"name": "Cocos Is.",
+		"continent": "NA",
+		"ituZone": "12",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "TJ",
+		"name": "Cameroon",
+		"continent": "AF",
+		"ituZone": "47",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "TK",
+		"name": "Corsica",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "TL",
+		"name": "Central African Republic",
+		"continent": "AF",
+		"ituZone": "47",
+		"cqZone": "36",
+		"note": "Only contacts made August 13, 1960"
+	},
+	{
+		"prefix": "TN",
+		"name": "Republic of the Congo",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": "Only contacts made August 15, 1960"
+	},
+	{
+		"prefix": "TR",
+		"name": "Gabon",
+		"continent": "AF",
+		"ituZone": "52",
+		"cqZone": "36",
+		"note": "Only contacts made August 17, 1960"
+	},
+	{
+		"prefix": "TT",
+		"name": "Chad",
+		"continent": "AF",
+		"ituZone": "47",
+		"cqZone": "36",
+		"note": "Only contacts made August 11, 1960"
+	},
+	{
+		"prefix": "TU",
+		"name": "Cote d'Ivoire",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made August 7, 1960"
+	},
+	{
+		"prefix": "TY",
+		"name": "Benin",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made August 1, 1960"
+	},
+	{
+		"prefix": "TZ",
+		"name": "Mali",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made June 20, 1960"
+	},
+	{
+		"prefix": "UA (UA-UI, RA-RZ1-7)",
+		"name": "European Russia",
+		"continent": "EU",
+		"ituZone": "19, 20, 29, 30",
+		"cqZone": "16",
+		"note": ""
+	},
+	{
+		"prefix": "UA0 (UA-UI, RA-RZ8-0)",
+		"name": "Asiatic Russia",
+		"continent": "AS",
+		"ituZone": "20-26, 30-35, 75",
+		"cqZone": "16-19, 23",
+		"note": ""
+	},
+	{
+		"prefix": "UA2, RA2",
+		"name": "Kaliningrad",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "UJ-UM",
+		"name": "Uzbekistan",
+		"continent": "AS",
+		"ituZone": "30",
+		"cqZone": "17",
+		"note": ""
+	},
+	{
+		"prefix": "UN-UQ",
+		"name": "Kazakhstan",
+		"continent": "AS",
+		"ituZone": "29-31",
+		"cqZone": "17",
+		"note": ""
+	},
+	{
+		"prefix": "UR-UZ, EM-EO",
+		"name": "Ukraine",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "16",
+		"note": ""
+	},
+	{
+		"prefix": "V2",
+		"name": "Antigua & Barbuda",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "V3",
+		"name": "Belize",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "V4",
+		"name": "Saint Kitts & Nevis",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "For DXCC credit for contacts made May 31, 1958, and before"
+	},
+	{
+		"prefix": "V5",
+		"name": "Namibia",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "V6",
+		"name": "Micronesia",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "27",
+		"note": "Includes Yap Is. January 1, 1981, and after"
+	},
+	{
+		"prefix": "V7",
+		"name": "Marshall Is.",
+		"continent": "OC",
+		"ituZone": "65",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "V8",
+		"name": "Brunei Darussalam",
+		"continent": "OC",
+		"ituZone": "54",
+		"cqZone": "28",
+		"note": ""
+	},
+	{
+		"prefix": "VE (VA-VG, VO, VY)",
+		"name": "Canada",
+		"continent": "NA",
+		"ituZone": "2-4, 9, 75",
+		"cqZone": "01-05",
+		"note": ""
+	},
+	{
+		"prefix": "VK, AX",
+		"name": "Australia",
+		"continent": "OC",
+		"ituZone": "55, 58, 59",
+		"cqZone": "29, 30",
+		"note": ""
+	},
+	{
+		"prefix": "VK0H",
+		"name": "Heard Is.",
+		"continent": "AF",
+		"ituZone": "68",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "VK0M",
+		"name": "Macquarie Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "30",
+		"note": ""
+	},
+	{
+		"prefix": "VK9C",
+		"name": "Cocos (Keeling) Is.",
+		"continent": "OC",
+		"ituZone": "54",
+		"cqZone": "29",
+		"note": ""
+	},
+	{
+		"prefix": "VK9L",
+		"name": "Lord Howe Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "30",
+		"note": ""
+	},
+	{
+		"prefix": "VK9M",
+		"name": "Mellish Reef",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "30",
+		"note": ""
+	},
+	{
+		"prefix": "VK9N",
+		"name": "Norfolk Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "VK9W",
+		"name": "Willis Is.",
+		"continent": "OC",
+		"ituZone": "55",
+		"cqZone": "30",
+		"note": ""
+	},
+	{
+		"prefix": "VK9X",
+		"name": "Christmas Is.",
+		"continent": "OC",
+		"ituZone": "54",
+		"cqZone": "29",
+		"note": ""
+	},
+	{
+		"prefix": "VP2E",
+		"name": "Anguilla",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "For DXCC credit for contacts made May 31, 1958, and before"
+	},
+	{
+		"prefix": "VP2M",
+		"name": "Montserrat",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "For DXCC credit for contacts made May 31, 1958, and before"
+	},
+	{
+		"prefix": "VP2V",
+		"name": "British Virgin Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": "For DXCC credit for contacts made May 31, 1958, and before"
+	},
+	{
+		"prefix": "VP5",
+		"name": "Turks & Caicos Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "VP6",
+		"name": "Pitcairn Is.",
+		"continent": "OC",
+		"ituZone": "63",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "VP6/D",
+		"name": "Ducie Is.",
+		"continent": "OC",
+		"ituZone": "63",
+		"cqZone": "32",
+		"note": "Only contacts made November 16, 2001"
+	},
+	{
+		"prefix": "VP8",
+		"name": "Falkland Is.",
+		"continent": "SA",
+		"ituZone": "16",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "VP8G",
+		"name": "South Georgia Is.",
+		"continent": "SA",
+		"ituZone": "73",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "VP8H",
+		"name": "South Shetland Is.",
+		"continent": "SA",
+		"ituZone": "73",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "VP8O",
+		"name": "South Orkney Is.",
+		"continent": "SA",
+		"ituZone": "73",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "VP8S",
+		"name": "South Sandwich Is.",
+		"continent": "SA",
+		"ituZone": "73",
+		"cqZone": "13",
+		"note": ""
+	},
+	{
+		"prefix": "VP9",
+		"name": "Bermuda",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "5",
+		"note": ""
+	},
+	{
+		"prefix": "VQ9",
+		"name": "Chagos Is.",
+		"continent": "AF",
+		"ituZone": "41",
+		"cqZone": "39",
+		"note": ""
+	},
+	{
+		"prefix": "VR",
+		"name": "Hong Kong",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "24",
+		"note": ""
+	},
+	{
+		"prefix": "VU",
+		"name": "India",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "VU4",
+		"name": "Andaman & Nicobar Is.",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "VU7",
+		"name": "Lakshadweep Is.",
+		"continent": "AS",
+		"ituZone": "41",
+		"cqZone": "22",
+		"note": ""
+	},
+	{
+		"prefix": "XE (XA-XI)",
+		"name": "Mexico",
+		"continent": "NA",
+		"ituZone": "10",
+		"cqZone": "6",
+		"note": ""
+	},
+	{
+		"prefix": "XF4 (XA4-XI4)",
+		"name": "Revillagigedo",
+		"continent": "NA",
+		"ituZone": "10",
+		"cqZone": "6",
+		"note": ""
+	},
+	{
+		"prefix": "XT",
+		"name": "Burkina Faso",
+		"continent": "AF",
+		"ituZone": "46",
+		"cqZone": "35",
+		"note": "Only contacts made August 16, 1960"
+	},
+	{
+		"prefix": "XU",
+		"name": "Cambodia",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "XW",
+		"name": "Laos",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "XX9",
+		"name": "Macao",
+		"continent": "AS",
+		"ituZone": "44",
+		"cqZone": "24",
+		"note": ""
+	},
+	{
+		"prefix": "XZ, XY",
+		"name": "Myanmar",
+		"continent": "AS",
+		"ituZone": "49",
+		"cqZone": "26",
+		"note": ""
+	},
+	{
+		"prefix": "YA, T6",
+		"name": "Afghanistan",
+		"continent": "AS",
+		"ituZone": "40",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "YB-YH",
+		"name": "Indonesia",
+		"continent": "OC",
+		"ituZone": "51, 54",
+		"cqZone": "28",
+		"note": "Only contacts made May 1, 1963"
+	},
+	{
+		"prefix": "YI",
+		"name": "Iraq",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "21",
+		"note": ""
+	},
+	{
+		"prefix": "YJ",
+		"name": "Vanuatu",
+		"continent": "OC",
+		"ituZone": "56",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "YK",
+		"name": "Syria",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "YL",
+		"name": "Latvia",
+		"continent": "EU",
+		"ituZone": "29",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "YN, H6-7, HT",
+		"name": "Nicaragua",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "YO-YR",
+		"name": "Romania",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "20",
+		"note": ""
+	},
+	{
+		"prefix": "YS, HU",
+		"name": "El Salvador",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "7",
+		"note": ""
+	},
+	{
+		"prefix": "YT, YU",
+		"name": "Serbia",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "YV (YV-YY, 4M)",
+		"name": "Venezuela",
+		"continent": "SA",
+		"ituZone": "12",
+		"cqZone": "9",
+		"note": ""
+	},
+	{
+		"prefix": "YV0",
+		"name": "Aves Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "Z2",
+		"name": "Zimbabwe",
+		"continent": "AF",
+		"ituZone": "53",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "Z3",
+		"name": "Macedonia",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made September 8, 1991"
+	},
+	{
+		"prefix": "Z6",
+		"name": "Republic of Kosovo",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": "Only contacts made January 21, 2018"
+	},
+	{
+		"prefix": "Z8",
+		"name": "South Sudan (Republic of)",
+		"continent": "AF",
+		"ituZone": "48",
+		"cqZone": "34",
+		"note": "Only contacts made July 14, 2011"
+	},
+	{
+		"prefix": "ZA",
+		"name": "Albania",
+		"continent": "EU",
+		"ituZone": "28",
+		"cqZone": "15",
+		"note": ""
+	},
+	{
+		"prefix": "ZB2",
+		"name": "Gibraltar",
+		"continent": "EU",
+		"ituZone": "37",
+		"cqZone": "14",
+		"note": ""
+	},
+	{
+		"prefix": "ZC4",
+		"name": "UK Sovereign Base Areas on Cyprus",
+		"continent": "AS",
+		"ituZone": "39",
+		"cqZone": "20",
+		"note": "Only contacts made August 16, 1960"
+	},
+	{
+		"prefix": "ZD7",
+		"name": "Saint Helena",
+		"continent": "AF",
+		"ituZone": "66",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "ZD8",
+		"name": "Ascension Is.",
+		"continent": "AF",
+		"ituZone": "66",
+		"cqZone": "36",
+		"note": ""
+	},
+	{
+		"prefix": "ZD9",
+		"name": "Tristan da Cunha & Gough Is.",
+		"continent": "AF",
+		"ituZone": "66",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "ZF",
+		"name": "Cayman Is.",
+		"continent": "NA",
+		"ituZone": "11",
+		"cqZone": "8",
+		"note": ""
+	},
+	{
+		"prefix": "ZK3",
+		"name": "Tokelau Is.",
+		"continent": "OC",
+		"ituZone": "62",
+		"cqZone": "31",
+		"note": ""
+	},
+	{
+		"prefix": "ZL, ZM",
+		"name": "New Zealand",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "ZL7",
+		"name": "Chatham Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "ZL8",
+		"name": "Kermadec Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "ZL9",
+		"name": "New Zealand Subantarctic Is.",
+		"continent": "OC",
+		"ituZone": "60",
+		"cqZone": "32",
+		"note": ""
+	},
+	{
+		"prefix": "ZP",
+		"name": "Paraguay",
+		"continent": "SA",
+		"ituZone": "14",
+		"cqZone": "11",
+		"note": ""
+	},
+	{
+		"prefix": "ZS (ZR-ZU)",
+		"name": "South Africa",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	},
+	{
+		"prefix": "ZS8",
+		"name": "Prince Edward & Marion Is.",
+		"continent": "AF",
+		"ituZone": "57",
+		"cqZone": "38",
+		"note": ""
+	}
+]

@@ -58,7 +58,8 @@ rp(options)
       })
       .get();
 
-    fs.writeFileSync('ARManual/.vuepress/data/lhfa.json', JSON.stringify(data));
+    fs.writeFileSync('ARManual/.vuepress/data/lhfa.json', JSON.stringify(data, null, 2));
+    console.log("Scraped DXCC successfuly");
   })
   .catch(function(err) {
     console.log(err);
