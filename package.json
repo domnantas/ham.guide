@@ -9,18 +9,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.3",
-    "@vuepress/plugin-pwa": "^1.0.3",
+    "@vuepress/plugin-google-analytics": "^1.7.0",
+    "@vuepress/plugin-pwa": "^1.7.0",
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4",
-    "vuepress": "^1.0.3",
-    "watchpack": "1.6.1"
+    "request-promise": "^4.2.6",
+    "vuepress": "^1.7.0"
   },
   "dependencies": {
     "@turf/turf": "^5.1.6",
-    "confetti-js": "git+https://github.com/FistMeNaruto/confetti-js.git",
-    "mapbox-gl": "^1.2.1",
+    "mapbox-gl": "^1.12.0",
     "vue-mapbox": "^0.4.1"
   }
 }
