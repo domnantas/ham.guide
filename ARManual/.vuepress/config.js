@@ -8,6 +8,10 @@ module.exports = {
     '/lt/': {
       lang: 'lt-LT',
       description: 'Įvadas į mėgėjišką radiją'
+    },
+    '/es/': {
+      lang: 'es-ES',
+      description: 'Introduction a la radioafición'
     }
   },
   head: [
@@ -85,6 +89,10 @@ module.exports = {
         '/lt/': {
           message: 'Puslapio turinys atnaujintas.',
           buttonText: 'Atnaujinti'
+        },
+        '/es/': {
+          message: 'Nuevo contenido disponible.',
+          buttonText: 'Actualizar'
         }
       }
     },
@@ -156,6 +164,34 @@ module.exports = {
             title: 'Prisidėkite',
             collapsable: true,
             children: ['/lt/contribute/', '/lt/contribute/markdown-tips']
+          }
+        ]
+      },
+      '/es/': {
+        label: 'Español',
+        selectText: 'Idiomas',
+        editLinkText: 'Editar',
+        lastUpdated: 'Actualizado',
+        sidebar: [
+          {
+            title: 'Ética y procedimientos de operación para radioaficionados',
+            collapsable: true,
+            children: [
+              '/radio-operating-ethics/',
+              '/radio-operating-ethics/radio-amateurs-code',
+              '/radio-operating-ethics/introduction',
+              '/radio-operating-ethics/general-operating',
+              '/radio-operating-ethics/advanced-operating',
+              '/radio-operating-ethics/authors'
+            ]
+          },
+          '/phonetic-alphabet/',
+          '/q-code/',
+          '/dxcc-prefixes/',
+          {
+            title: 'Contribuye',
+            collapsable: true,
+            children: ['/contribute/', '/contribute/markdown-tips']
           }
         ]
       }
