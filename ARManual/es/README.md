@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: Read →
+actionText: Leer →
 actionLink: /radio-operating-ethics/
 features:
   - title: Mantenido por la comunidad
