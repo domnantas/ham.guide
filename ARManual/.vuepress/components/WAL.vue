@@ -32,7 +32,6 @@ import {
 } from '@turf/turf';
 
 export default {
-  components: {},
   data() {
     return {
       latitude: null,
@@ -90,6 +89,9 @@ export default {
   },
   methods: {
     addControls() {
+      this.map.addControl(
+        new mapboxgl.NavigationControl({ visualizePitch: true })
+      );
       const geolocate = new mapboxgl.GeolocateControl({
         positionOptions: {
           enableHighAccuracy: true
@@ -594,7 +596,7 @@ export default {
 </style>
 
 <style lang="stylus">
-@import url("https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css");
+@import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
 
 .fullscreen
   .theme-default-content

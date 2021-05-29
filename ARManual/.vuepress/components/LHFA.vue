@@ -1,10 +1,16 @@
 <template>
-  <MglMap
+  <div class="wrapper">
+    <div id="map" ref="map"></div>
+  </div>
+  <!-- <MglMap
     :accessToken="accessToken"
     :mapStyle="mapStyle"
     :minZoom="7"
     :center="[23.8813, 55.1694]"
-    :maxBounds="[[20.970833, 53.896667], [26.835556, 56.450278]]"
+    :maxBounds="[
+      [20.970833, 53.896667],
+      [26.835556, 56.450278]
+    ]"
   >
     <MglNavigationControl :showCompass="false" />
     <MglGeolocateControl />
@@ -45,30 +51,34 @@
         </div>
       </MglPopup>
     </MglMarker>
-  </MglMap>
+  </MglMap> -->
 </template>
 
 <script>
 import lhfaData from '../data/lhfa.json';
+import mapboxgl from 'mapbox-gl';
+import {
+  MglMap,
+  MglNavigationControl,
+  MglGeolocateControl,
+  MglFullscreenControl,
+  MglMarker,
+  MglPopup
+} from 'vue-mapbox';
+import { point, featureCollection } from '@turf/turf';
 
 export default {
   components: {
-    MglMap: () => import('vue-mapbox').then(mapbox => mapbox.MglMap),
-    MglNavigationControl: () =>
-      import('vue-mapbox').then(mapbox => mapbox.MglNavigationControl),
-    MglGeolocateControl: () =>
-      import('vue-mapbox').then(mapbox => mapbox.MglGeolocateControl),
-    MglFullscreenControl: () =>
-      import('vue-mapbox').then(mapbox => mapbox.MglFullscreenControl),
-    MglMarker: () => import('vue-mapbox').then(mapbox => mapbox.MglMarker),
-    MglPopup: () => import('vue-mapbox').then(mapbox => mapbox.MglPopup)
+    MglMap,
+    MglNavigationControl,
+    MglGeolocateControl,
+    MglFullscreenControl,
+    MglMarker,
+    MglPopup
   },
   data() {
     return {
-      accessToken:
-        'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
-      mapStyle: 'mapbox://styles/mapbox/outdoors-v11',
-      lhfaData,
+      map: null,
       colorMap: {
         AL: '#BA68C8',
         KA: '#F06292',
@@ -84,29 +94,65 @@ export default {
     };
   },
   mounted() {
-    // We need to set mapbox-gl library here in order to use it in template
-    import('mapbox-gl').then(Mapbox => {
-      this.mapbox = Mapbox;
+    this.map = new mapboxgl.Map({
+      accessToken:
+        'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
+      container: this.$refs.map,
+      style: 'mapbox://styles/mapbox/outdoors-v11',
+      center: [23.8813, 55.1694],
+      zoom: 7,
+      maxBounds: [
+        [20.970833, 53.896667],
+        [26.835556, 56.450278]
+      ]
     });
+
+    this.addControls();
+
+    this.map.on('load', () => {
+      this.markHills();
+    });
+  },
+  methods: {
+    addControls() {
+      this.map.addControl(
+        new mapboxgl.NavigationControl({ visualizePitch: true })
+      );
+      const geolocate = new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true
+        },
+        fitBoundsOptions: {
+          maxZoom: 7
+        },
+        trackUserLocation: true
+      });
+
+      this.map.addControl(geolocate);
+    },
+    markHills() {
+      const pointTest = point([-75.343, 39.984]);
+      const allPoints = featureCollection([pointTest]);
+      this.map.addSource('test', {
+        type: 'geojson',
+        data: allPoints
+      });
+    }
   }
 };
 </script>
 
 <style lang="stylus" scoped>
-.mgl-map-wrapper
+.wrapper
   height calc(100vh - 3.6rem)
+  position relative
 
-.hill-info-row
-  display grid
-  grid-template-columns repeat(2, 1fr)
-  grid-gap 10px
-
-.hill-info-header
-  font-weight bold
+#map
+  height 100%
 </style>
 
 <style lang="stylus">
-@import url("https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css");
+@import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
 
 .fullscreen
   .theme-default-content
@@ -118,7 +164,7 @@ export default {
 
   .mapboxgl-marker
     cursor pointer
-  
+
   .page
     padding-bottom: 0
 </style>
