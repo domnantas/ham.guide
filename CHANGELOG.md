@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2021-05-30
+
+## Changed
+
+- Improved LHFA map performance by using circle layer instead of markers
+- Updated dependencies
+
+## 2020-10-27
+
+### Added
+
+- **Spanish** Homepage
+
 ## 2020-10-15
 
 ### Added
