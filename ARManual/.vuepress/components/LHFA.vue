@@ -79,7 +79,7 @@ export default {
   data() {
     return {
       map: null,
-      colorMap: {
+      categories: {
         AL: '#BA68C8',
         KA: '#F06292',
         KL: '#64B5F6',
@@ -131,11 +131,35 @@ export default {
       this.map.addControl(geolocate);
     },
     markHills() {
-      const pointTest = point([-75.343, 39.984]);
-      const allPoints = featureCollection([pointTest]);
-      this.map.addSource('test', {
-        type: 'geojson',
-        data: allPoints
+      Object.entries(this.categories).forEach(([category, color]) => {
+        const categoryPoints = lhfaData.filter(
+          lhfaPoint => lhfaPoint.category === category
+        );
+
+        const categoryFeatures = categoryPoints.map(lhfaPoint =>
+          point([
+            lhfaPoint.coordinates.longitude,
+            lhfaPoint.coordinates.latitude
+          ])
+        );
+
+        this.map.addSource(category, {
+          type: 'geojson',
+          data: featureCollection(categoryFeatures)
+        });
+
+        this.map.addLayer({
+          id: category,
+          type: 'circle',
+          source: category,
+          layout: {},
+          paint: {
+            'circle-color': color,
+            'circle-radius': 12,
+            'circle-opacity': 0.8,
+            'circle-pitch-alignment': 'map'
+          }
+        });
       });
     }
   }
