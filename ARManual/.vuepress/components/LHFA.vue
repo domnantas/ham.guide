@@ -2,56 +2,6 @@
   <div class="wrapper">
     <div id="map" ref="map"></div>
   </div>
-  <!-- <MglMap
-    :accessToken="accessToken"
-    :mapStyle="mapStyle"
-    :minZoom="7"
-    :center="[23.8813, 55.1694]"
-    :maxBounds="[
-      [20.970833, 53.896667],
-      [26.835556, 56.450278]
-    ]"
-  >
-    <MglNavigationControl :showCompass="false" />
-    <MglGeolocateControl />
-    <MglFullscreenControl position="bottom-right" />
-    <MglMarker
-      v-for="hill in lhfaData"
-      :key="`${hill.category}-${hill.id}`"
-      :ref="`${hill.category}-${hill.id}`"
-      :coordinates="[hill.coordinates.longitude, hill.coordinates.latitude]"
-      :color="colorMap[hill.category]"
-    >
-      <MglPopup>
-        <div class="hill-info">
-          <div class="hill-info-row">
-            <div class="hill-info-header">LHFA</div>
-            <div class="hill-info-data">{{ hill.category }}-{{ hill.id }}</div>
-          </div>
-          <div class="hill-info-row">
-            <div class="hill-info-header">Miestas</div>
-            <div class="hill-info-data">{{ hill.city }}</div>
-          </div>
-          <div class="hill-info-row">
-            <div class="hill-info-header">Savivaldybė</div>
-            <div class="hill-info-data">{{ hill.municipality }}</div>
-          </div>
-          <div class="hill-info-row">
-            <div class="hill-info-header">QTH</div>
-            <div class="hill-info-data">{{ hill.qth }}</div>
-          </div>
-          <div class="hill-info-row">
-            <div class="hill-info-header">WAL</div>
-            <div class="hill-info-data">{{ hill.wal }}</div>
-          </div>
-          <div class="hill-info-row" v-if="hill.lyff">
-            <div class="hill-info-header">LYFF</div>
-            <div class="hill-info-data">{{ hill.lyff }}</div>
-          </div>
-        </div>
-      </MglPopup>
-    </MglMarker>
-  </MglMap> -->
 </template>
 
 <script>
@@ -140,7 +90,7 @@ export default {
           return categoryPoints.map(lhfaPoint =>
             point(
               [lhfaPoint.coordinates.longitude, lhfaPoint.coordinates.latitude],
-              { color }
+              { color, ...lhfaPoint }
             )
           );
         }
@@ -166,9 +116,48 @@ export default {
       this.map.on('click', 'lhfa', event => {
         const clickedFeature = event.features[0];
 
+        console.log(clickedFeature);
+
+        const {
+          category,
+          id,
+          city,
+          municipality,
+          qth,
+          wal,
+          lyff
+        } = clickedFeature.properties;
+
+        const popupHTML = `<div class="hill-info">
+          <div class="hill-info-row">
+            <div class="hill-info-header">LHFA</div>
+            <div class="hill-info-data">${category}-${id}</div>
+          </div>
+          <div class="hill-info-row">
+            <div class="hill-info-header">Miestas</div>
+            <div class="hill-info-data">${city}</div>
+          </div>
+           <div class="hill-info-row">
+            <div class="hill-info-header">Savivaldybė</div>
+            <div class="hill-info-data">${municipality}</div>
+          </div>
+          <div class="hill-info-row">
+            <div class="hill-info-header">QTH</div>
+            <div class="hill-info-data">${qth}</div>
+          </div>
+          <div class="hill-info-row">
+            <div class="hill-info-header">WAL</div>
+            <div class="hill-info-data">${wal}</div>
+          </div>
+          <div class="hill-info-row" v-if="hill.lyff">
+            <div class="hill-info-header">LYFF</div>
+            <div class="hill-info-data">${lyff}</div>
+          </div>
+        </div>`;
+
         new mapboxgl.Popup()
           .setLngLat(clickedFeature.geometry.coordinates)
-          .setHTML()
+          .setHTML(popupHTML)
           .addTo(this.map);
       });
 
@@ -195,6 +184,13 @@ export default {
 
 <style lang="stylus">
 @import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
+
+.hill-info-row
+  display grid
+  grid-template-columns repeat(2, 1fr)
+  grid-gap 10px
+.hill-info-header
+  font-weight bold
 
 .fullscreen
   .theme-default-content
