@@ -546,7 +546,6 @@ export default {
         id: 'WAL-lines',
         type: 'line',
         source: 'WALbboxes',
-        layout: {},
         paint: {
           'line-color': '#647DEE',
           'line-width': 1

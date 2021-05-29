@@ -131,35 +131,53 @@ export default {
       this.map.addControl(geolocate);
     },
     markHills() {
-      Object.entries(this.categories).forEach(([category, color]) => {
-        const categoryPoints = lhfaData.filter(
-          lhfaPoint => lhfaPoint.category === category
-        );
+      const lhfaFeatures = Object.entries(this.categories).flatMap(
+        ([category, color]) => {
+          const categoryPoints = lhfaData.filter(
+            lhfaPoint => lhfaPoint.category === category
+          );
 
-        const categoryFeatures = categoryPoints.map(lhfaPoint =>
-          point([
-            lhfaPoint.coordinates.longitude,
-            lhfaPoint.coordinates.latitude
-          ])
-        );
+          return categoryPoints.map(lhfaPoint =>
+            point(
+              [lhfaPoint.coordinates.longitude, lhfaPoint.coordinates.latitude],
+              { color }
+            )
+          );
+        }
+      );
 
-        this.map.addSource(category, {
-          type: 'geojson',
-          data: featureCollection(categoryFeatures)
-        });
+      this.map.addSource('lhfa', {
+        type: 'geojson',
+        data: featureCollection(lhfaFeatures)
+      });
 
-        this.map.addLayer({
-          id: category,
-          type: 'circle',
-          source: category,
-          layout: {},
-          paint: {
-            'circle-color': color,
-            'circle-radius': 12,
-            'circle-opacity': 0.8,
-            'circle-pitch-alignment': 'map'
-          }
-        });
+      this.map.addLayer({
+        id: 'lhfa',
+        type: 'circle',
+        source: 'lhfa',
+        paint: {
+          'circle-color': ['get', 'color'],
+          'circle-radius': 12,
+          'circle-opacity': 0.8,
+          'circle-pitch-alignment': 'map'
+        }
+      });
+
+      this.map.on('click', 'lhfa', event => {
+        const clickedFeature = event.features[0];
+
+        new mapboxgl.Popup()
+          .setLngLat(clickedFeature.geometry.coordinates)
+          .setHTML()
+          .addTo(this.map);
+      });
+
+      this.map.on('mouseenter', 'lhfa', () => {
+        this.map.getCanvas().style.cursor = 'pointer';
+      });
+
+      this.map.on('mouseleave', 'lhfa', () => {
+        this.map.getCanvas().style.cursor = '';
       });
     }
   }
