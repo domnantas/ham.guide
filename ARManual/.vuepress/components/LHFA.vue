@@ -13,7 +13,7 @@ import {
   MglGeolocateControl,
   MglFullscreenControl,
   MglMarker,
-  MglPopup
+  MglPopup,
 } from 'vue-mapbox';
 import { point, featureCollection } from '@turf/turf';
 
@@ -24,7 +24,7 @@ export default {
     MglGeolocateControl,
     MglFullscreenControl,
     MglMarker,
-    MglPopup
+    MglPopup,
   },
   data() {
     return {
@@ -39,8 +39,8 @@ export default {
         TA: '#4DB6AC',
         TE: '#FFD54F',
         UT: '#FF8A65',
-        VI: '#7986CB'
-      }
+        VI: '#7986CB',
+      },
     };
   },
   mounted() {
@@ -52,9 +52,9 @@ export default {
       center: [23.8813, 55.1694],
       zoom: 7,
       maxBounds: [
-        [20.970833, 53.896667],
-        [26.835556, 56.450278]
-      ]
+        [19.970833, 52.896667],
+        [27.835556, 57.450278],
+      ],
     });
 
     this.addControls();
@@ -70,12 +70,12 @@ export default {
       );
       const geolocate = new mapboxgl.GeolocateControl({
         positionOptions: {
-          enableHighAccuracy: true
+          enableHighAccuracy: true,
         },
         fitBoundsOptions: {
-          maxZoom: 7
+          maxZoom: 7,
         },
-        trackUserLocation: true
+        trackUserLocation: true,
       });
 
       this.map.addControl(geolocate);
@@ -84,10 +84,10 @@ export default {
       const lhfaFeatures = Object.entries(this.categories).flatMap(
         ([category, color]) => {
           const categoryPoints = lhfaData.filter(
-            lhfaPoint => lhfaPoint.category === category
+            (lhfaPoint) => lhfaPoint.category === category
           );
 
-          return categoryPoints.map(lhfaPoint =>
+          return categoryPoints.map((lhfaPoint) =>
             point(
               [lhfaPoint.coordinates.longitude, lhfaPoint.coordinates.latitude],
               { color, ...lhfaPoint }
@@ -98,7 +98,7 @@ export default {
 
       this.map.addSource('lhfa', {
         type: 'geojson',
-        data: featureCollection(lhfaFeatures)
+        data: featureCollection(lhfaFeatures),
       });
 
       this.map.addLayer({
@@ -109,24 +109,17 @@ export default {
           'circle-color': ['get', 'color'],
           'circle-radius': 12,
           'circle-opacity': 0.8,
-          'circle-pitch-alignment': 'map'
-        }
+          'circle-pitch-alignment': 'map',
+        },
       });
 
-      this.map.on('click', 'lhfa', event => {
+      this.map.on('click', 'lhfa', (event) => {
         const clickedFeature = event.features[0];
 
         console.log(clickedFeature);
 
-        const {
-          category,
-          id,
-          city,
-          municipality,
-          qth,
-          wal,
-          lyff
-        } = clickedFeature.properties;
+        const { category, id, city, municipality, qth, wal, lyff } =
+          clickedFeature.properties;
 
         const popupHTML = `<div class="hill-info">
           <div class="hill-info-row">
@@ -168,8 +161,8 @@ export default {
       this.map.on('mouseleave', 'lhfa', () => {
         this.map.getCanvas().style.cursor = '';
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
