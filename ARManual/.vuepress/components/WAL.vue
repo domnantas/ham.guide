@@ -16,7 +16,6 @@
           {{ currentWAL }}
         </span>
       </div>
-      <div v-else>Spauskite ikoną viršutiniame dešiniame kampe</div>
     </div>
   </div>
 </template>
