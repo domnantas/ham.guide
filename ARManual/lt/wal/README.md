@@ -1,5 +1,6 @@
 ---
 pageClass: fullscreen
+layout: NoSwipeLayout
 title: WAL
 ---
 
