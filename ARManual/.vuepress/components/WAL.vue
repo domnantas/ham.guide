@@ -86,6 +86,22 @@ export default {
     this.map.on('load', () => {
       this.drawGrid();
     });
+
+    this.map.on('click', event => {
+      const latitude = event.lngLat.lat.toFixed(3);
+      const longitude = event.lngLat.lng.toFixed(3);
+      const popupHTML = `<div class="map-info">
+          <div class="map-info-row" v-if="map.lyff">
+            <div class="map-info-header">Koordinatės</div>
+            <div class="map-info-data"><a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}">${latitude}, ${longitude}</a></div>
+          </div>
+        </div>`;
+
+      new mapboxgl.Popup()
+        .setLngLat(event.lngLat)
+        .setHTML(popupHTML)
+        .addTo(this.map);
+    });
   },
   methods: {
     addControls() {
@@ -596,6 +612,14 @@ export default {
 
 <style lang="stylus">
 @import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
+
+.map-info-row
+  display grid
+  grid-template-columns repeat(2, 1fr)
+  grid-gap 10px
+.map-info-header
+  font-weight bold
+
 
 .fullscreen
   .theme-default-content

@@ -150,11 +150,11 @@ export default {
             <div class="hill-info-header">WAL</div>
             <div class="hill-info-data">${wal}</div>
           </div>
-          <div class="hill-info-row" v-if="hill.lyff">
+          <div class="hill-info-row">
             <div class="hill-info-header">LYFF</div>
             <div class="hill-info-data">${lyff}</div>
           </div>
-          <div class="hill-info-row" v-if="hill.lyff">
+          <div class="hill-info-row">
             <div class="hill-info-header">Koordinatės</div>
             <div class="hill-info-data"><a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}">${latitude}, ${longitude}</a></div>
           </div>
