@@ -188,8 +188,6 @@ export default {
 </style>
 
 <style lang="stylus">
-@import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
-
 .hill-info-row
   display grid
   grid-template-columns repeat(2, 1fr)

@@ -1,15 +1,15 @@
 <template>
   <div class="wrapper">
     <div id="map" ref="map"></div>
-    <div class="box">
-      <div class="data" v-if="this.latitude && this.longitude">
+    <div class="box" v-if="this.latitude && this.longitude">
+      <div class="data">
         <span>
           <b>Koordinatės:</b>
-          {{ longitude.toFixed(4) }}, {{ latitude.toFixed(4) }}
+          {{ latitude.toFixed(4) }}, {{ longitude.toFixed(4) }}
         </span>
         <span>
           <b>QTH:</b>
-          {{ maidenhead }}
+          {{ currentMaidenhead }}
         </span>
         <span>
           <b>WAL:</b>
@@ -39,28 +39,8 @@ export default {
     };
   },
   computed: {
-    maidenhead() {
-      const numberToLetter = number => String.fromCharCode(97 + number);
-      let lat = (this.latitude + 90.0) / 10 + 0.0000001;
-      let lon = (this.longitude + 180.0) / 20 + 0.0000001;
-      let locator =
-        numberToLetter(Math.floor(lon)).toUpperCase() +
-        numberToLetter(Math.floor(lat)).toUpperCase();
-
-      for (let counter = 0; counter < 2; counter++) {
-        const divisor = counter % 2 === 0 ? 10 : 24;
-
-        lat = (lat - Math.floor(lat)) * divisor;
-        lon = (lon - Math.floor(lon)) * divisor;
-
-        if (counter % 2 == 0) {
-          locator += Math.floor(lon).toString() + Math.floor(lat).toString();
-        } else {
-          locator +=
-            numberToLetter(Math.floor(lon)) + numberToLetter(Math.floor(lat));
-        }
-      }
-      return locator;
+    currentMaidenhead() {
+      return this.calculateMaidenhead(this.latitude, this.longitude);
     },
     currentWAL() {
       return this.calculateWAL(this.latitude, this.longitude);
@@ -87,12 +67,17 @@ export default {
     });
 
     this.map.on('click', event => {
-      const latitude = event.lngLat.lat.toFixed(3);
-      const longitude = event.lngLat.lng.toFixed(3);
+      const latitude = parseFloat(event.lngLat.lat.toFixed(3));
+      const longitude = parseFloat(event.lngLat.lng.toFixed(3));
       const popupHTML = `<div class="map-info">
           <div class="map-info-row" v-if="map.lyff">
             <div class="map-info-header">Koordinatės</div>
             <div class="map-info-data"><a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}">${latitude}, ${longitude}</a></div>
+            <div class="map-info-header">QTH</div>
+            <div class="map-info-data">${this.calculateMaidenhead(
+              latitude,
+              longitude
+            )}</div>
           </div>
         </div>`;
 
@@ -132,6 +117,29 @@ export default {
       );
       const number = Math.floor((longitude - (20 + 50 / 60)) / (10 / 60));
       return `${letter}${number.toString().padStart(2, '0')}`;
+    },
+    calculateMaidenhead(latitude, longitude) {
+      const numberToLetter = number => String.fromCharCode(97 + number);
+      let lat = (latitude + 90.0) / 10 + 0.0000001;
+      let lon = (longitude + 180.0) / 20 + 0.0000001;
+      let locator =
+        numberToLetter(Math.floor(lon)).toUpperCase() +
+        numberToLetter(Math.floor(lat)).toUpperCase();
+
+      for (let counter = 0; counter < 2; counter++) {
+        const divisor = counter % 2 === 0 ? 10 : 24;
+
+        lat = (lat - Math.floor(lat)) * divisor;
+        lon = (lon - Math.floor(lon)) * divisor;
+
+        if (counter % 2 == 0) {
+          locator += Math.floor(lon).toString() + Math.floor(lat).toString();
+        } else {
+          locator +=
+            numberToLetter(Math.floor(lon)) + numberToLetter(Math.floor(lat));
+        }
+      }
+      return locator;
     },
     drawGrid() {
       let features = [];
@@ -610,8 +618,6 @@ export default {
 </style>
 
 <style lang="stylus">
-@import url("https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css");
-
 .map-info-row
   display grid
   grid-template-columns repeat(2, 1fr)

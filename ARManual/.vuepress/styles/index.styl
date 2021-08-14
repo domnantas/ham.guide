@@ -1,4 +1,5 @@
 $MQMedium = 719px
+// @import url('https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css');
 
 medium()
   @media (min-width: $MQMedium)
@@ -15,3 +16,10 @@ medium()
 
 th:empty
   visibility hidden
+
+#map .mapboxgl-popup-content
+  padding 25px 15px 20px
+  font-size 14px
+  border-radius 10px
+#map .mapboxgl-popup-close-button
+  font-size 18px

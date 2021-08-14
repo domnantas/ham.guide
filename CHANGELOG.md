@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Changed
 
 - Mapbox updated to latest version
+- Updated mapbox styles for better readability
 
 ## 2021-06-02
 
