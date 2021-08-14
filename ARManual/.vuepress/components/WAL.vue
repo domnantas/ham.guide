@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper">
     <div id="map" ref="map"></div>
-    <div class="box" v-if="this.latitude && this.longitude">
+    <div class="box" v-if="this.currentLatitude && this.currentLongitude">
       <div class="data">
         <span>
           <b>Koordinatės:</b>
-          {{ latitude.toFixed(4) }}, {{ longitude.toFixed(4) }}
+          {{ currentLatitude.toFixed(4) }}, {{ currentLongitude.toFixed(4) }}
         </span>
         <span>
           <b>QTH:</b>
@@ -33,17 +33,20 @@ import {
 export default {
   data() {
     return {
-      latitude: null,
-      longitude: null,
+      currentLatitude: null,
+      currentLongitude: null,
       map: null
     };
   },
   computed: {
     currentMaidenhead() {
-      return this.calculateMaidenhead(this.latitude, this.longitude);
+      return this.calculateMaidenhead(
+        this.currentLatitude,
+        this.currentLongitude
+      );
     },
     currentWAL() {
-      return this.calculateWAL(this.latitude, this.longitude);
+      return this.calculateWAL(this.currentLatitude, this.currentLongitude);
     }
   },
   mounted() {
@@ -78,6 +81,11 @@ export default {
               latitude,
               longitude
             )}</div>
+            <div class="map-info-header">WAL</div>
+            <div class="map-info-data">${this.calculateWAL(
+              latitude,
+              longitude
+            )}</div>
           </div>
         </div>`;
 
@@ -107,8 +115,8 @@ export default {
       geolocate.on('geolocate', this.onGeolocate);
     },
     onGeolocate(e) {
-      this.latitude = e.coords.latitude;
-      this.longitude = e.coords.longitude;
+      this.currentLatitude = e.coords.latitude;
+      this.currentLongitude = e.coords.longitude;
     },
     calculateWAL(latitude, longitude) {
       const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
