@@ -160,6 +160,7 @@ module.exports = {
           '/lt/exam/',
           '/lt/lhfa/',
           '/lt/wal/',
+          '/lt/qth/',
           {
             title: 'Prisidėkite',
             collapsable: true,
