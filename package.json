@@ -17,8 +17,8 @@
     "vuepress": "^1.7.0"
   },
   "dependencies": {
-    "@turf/turf": "^5.1.6",
-    "mapbox-gl": "^1.12.0",
+    "@turf/turf": "^6.5.0",
+    "mapbox-gl": "^2.4.0",
     "vue-mapbox": "^0.4.1"
   }
 }
