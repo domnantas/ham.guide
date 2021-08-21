@@ -29,7 +29,7 @@ Basic principles that should govern our code of conduct on the ham bands are:
 
 Only one playing field, the ether: all hams want to play their game or want to exercise their sport, but it all has to be done on a single playing field: our amateur bands. Hundreds of thousands of players on a single playing field will sometimes lead to conflicts.
 
-:::tip Example
+::: tip Example
 All of a sudden you hear someone calling CQ or talking to someone else on your frequency (the frequency you’ve been using for a while). How is that possible? You were here for more than half an hour on a perfectly clear frequency! Yes, it IS possible; maybe that other station thinks as well that you have intruded on HIS frequency. Maybe the skip or propagation has changed.
 :::
 
@@ -48,7 +48,7 @@ All of a sudden you hear someone calling CQ or talking to someone else on your f
 
 - **What do we mean by code of conduct?** The code of conduct is a set of rules based on principles of ethics, as well as operational considerations.
 - **Ethics:** determine our attitude, our general behaviour as radio amateurs. Ethics have to do with morals. Ethics are the principles of morals.
-  :::tip Example
+  ::: tip Example
   Ethics tell us never willingly to interfere with transmissions from other stations. This is a moral rule. Not living by it is immoral, as is cheating in contests.
   :::
 - **Practical rules:** to manage all aspects of our behaviour there is more than just ethics, there are also a number of rules based on operational considerations and on radio amateur practice and habits. To avoid conflicts we also need practical rules to guide our behaviour on the amateur bands, as making contacts on the bands is one of our principal activities. We are talking very practical rules and guidelines, governing aspects that are not related to ethics. Most operating procedures (how to make a QSO, how to call, where to operate, what QRZ means, how to use the Q code etc.) form part of it. Respect for the procedures guarantees optimal performance and effectiveness in our QSOs and will be a key in avoiding conflicts. These procedures came about as a result of daily practice over many years and as a result of ongoing technological developments.

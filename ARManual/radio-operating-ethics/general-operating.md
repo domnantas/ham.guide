@@ -28,7 +28,7 @@
 - As well as the small number of Q codes which are commonly used on phone, there are some other [short expressions that stem from CW]() <!-- TODO: link --> and that have become commonplace on phone, such as 73, 88, OM (_old man_), YL (_young lady_), etc.
 - Use the one and only [international spelling alphabet](/phonetic-alphabet/) correctly. Avoid _fantasies_ which may sound funny or amusing in your own language, but which won’t make your correspondent understand what you are saying... Do not use different spelling words in one and the same sentence.
 
-:::danger Example
+::: danger Example
 `CQ from ON9UN, oscar november nine uniform november, ocean nancy nine united nations...`
 :::
 
@@ -186,7 +186,7 @@ To wrap up a QSO: `...W1ZZZ, this is G3ZZZ signing with you and listening for an
 
 You may add the word ‘out’ at the end of your last transmission, indicating you are closing down, but it is seldom done. Do NOT say ‘over and out’, because ‘over’ means you switch over to your correspondent, and in this case there is no longer a correspondent!
 
-:::tip Typical SSB QSO for the beginner
+::: tip Typical SSB QSO for the beginner
 `Is this frequency in use? This is W1ZZZ`
 
 `Is this frequency in use? This is W1ZZZ`
@@ -241,7 +241,7 @@ You can also turn it over to your correspondent by simply saying `over`, meaning
 - Apart from calling CQ in a contest to make QSOs you could search the bands looking for so-called _multipliers_ or stations you have not worked yet. This is called _search and pounce_. How do you go about this? Make sure you are exactly zero beat with the station you want to work (watch the RIT!). Just give your call **once**. Don’t call as follows: `DL1ZZZ from G3ZZZ`; DL1ZZZ certainly knows his call, and knows you are calling **him** because you call on **his** frequency!
 - So, give your call one time. If he does not return to you within 1 second, call again (1 time) etc.
 
-:::tip Example of a contest QSO on phone
+::: tip Example of a contest QSO on phone
 `whiskey one zulu zulu zulu contest` (CQ contest by W1ZZZ)
 
 **`oscar november six zulu zulu zulu`** (ON6ZZZ answers)
@@ -260,7 +260,7 @@ You can also turn it over to your correspondent by simply saying `over`, meaning
 - QRZ means _who called me?_, nothing more, nothing less.
 - The most classical use of QRZ is after a CQ, when you were unable to copy the call(s) of the station(s) that called you. In a way it means _I am sorry, I heard you calling me, but could not get your call. Please call again_.
 
-:::warning
+::: warning
 It **does not mean** _who’s there?_ neither does it mean _who’s on the frequency?_ and even less _please call me_.
 :::
 
@@ -273,7 +273,7 @@ It **does not mean** _who’s there?_ neither does it mean _who’s on the frequ
 - Another incorrect use of QRZ: `give me your QRZ` which is supposed to mean `give me your call`. It is remarkable that in most of the above erroneous uses of QRZ there is a link to the idea of _callsign_. But please, do use QRZ in the one and only meaning it has: _who called me?_
 - During pileups (see § III.1)<!-- TODO: link--> we will often hear the DX station saying QRZ, not because in the first place he previously missed a call but to tell the pileup he is listening again. This use of QRZ is not quite correct.
 
-:::warning Example
+::: warning Example
 **`CQ ZK1DX`** ZK1DX calls CQ
 
 `ON4YYY you’re 59` ON4YYY calls ZK1DX who replies with a report
@@ -281,11 +281,11 @@ It **does not mean** _who’s there?_ neither does it mean _who’s on the frequ
 **`QSL QRZ ZK1DX`** ZK1DX confirms the report (QSL) and adds QRZ, which in this case means _I am listening again for the stations calling me_ rather than _who called me?_ which is the real meaning of QRZ. Although you could argue that he heard other stations before and hence can call QRZ, the use of `QRZ` followed by `ZK1DX` is certainly not the most efficient procedure.
 :::
 
-:::danger What we hear even more and which is completely wrong
+::: danger What we hear even more and which is completely wrong
 **`QSL QRZ`** in this case ZK1DX does not identify at all. The pileup wants to know who the DX station is.
 :::
 
-:::tip The correct and most efficient procedure is as follows
+::: tip The correct and most efficient procedure is as follows
 **`QSL ZK1DX`** ZK1DX confirms the report he received by saying QSL. This is followed by his call, which is the sign for the pileup to call him.
 :::
 
@@ -343,7 +343,7 @@ It **does not mean** _who’s there?_ neither does it mean _who’s on the frequ
   - It’s much better to send a number of short CQs (`CQ CQ de F9ZZZ F9ZZZ AR`) than one long spun CQ (‘`Q CQ CQ ... -15 times- de F9ZZZ CQ CQ CQ ... -15 more times- de F9ZZZ AR`).
   - If you call CQ and want to work _split_ (listening on another frequency than you transmit on), specify your listening frequency **at each CQ**.
 
-:::tip Example
+::: tip Example
 End your CQ with `UP 5/10...` or `UP 5...` or `QSX 1822...` (which means that you will listen on 1.822 kHz ). QSX means _I listen on ..._.
 :::
 
@@ -411,7 +411,7 @@ characters into one without the inter-character space.
 - Do not send `...AR SK`. It does not make sense. You are saying _end of transmission + end of contact_. It is quite obvious the end of your contact is at the end of your transmission. You will quite often hear `...AR SK`, but the AR is redundant, so avoid using it.
 - If at the end of the QSO you also intend to close down your station, you should send: `...W1ZZZ DE G3ZZZ SK CL` (CL is a prosign meaning _closing_ or `closing down`).
 
-:::tip Typical CW QSO for the beginner
+::: tip Typical CW QSO for the beginner
 `QRL?`
 
 `QRL?`
@@ -448,7 +448,7 @@ characters into one without the inter-character space.
 
 - BK (_break_) is used for switching quickly back and forth between stations without exchanging callsigns at the end of the transmission. In a way it is the CW equivalent of _over_ in phone.
 
-:::tip Example
+::: tip Example
 W1ZZZ wants to know the name of G3ZZZ he’s in contact with and sends: `...UR NAME PSE BK`. G3ZZZ answers immediately: `BK NAME JOHN JOHN BK`.
 :::
 
@@ -507,7 +507,7 @@ Assume W1ZZZ has called CQ and you want to make a QSO with him. How do you go ab
 - As _filler_ it is used to prevent your correspondent from starting to transmit, because you haven’t finished your sentence yet, or you have not finished sending what you want to send. It is clearly the equivalent of _euh_ or _eh_.
 - Some CW operators seem to use DAH DIT DIT DIT DAH spread all over their QSOs as a text separator, to make the text more readable.
 
-:::tip Example
+::: tip Example
 `W1ZZZ DE G4YYY = GM = TU FER CL = NAME CHRIS QTH SOUTHAMPTON = RST 599 = HW CPI? W1ZZZ DE G4YYY KN`. The use of this separation mark seems less common nowadays, and is considered by many as a waste of time. `W1ZZZ DE G4YYY GM TU FER CL NAME CHRIS QTH SOUTHAMPTON RST 599 HW CPI? W1ZZZ DE G4YYY KN` is as readable as the version of the text with the separators.
 :::
 
@@ -518,7 +518,7 @@ Assume W1ZZZ has called CQ and you want to make a QSO with him. How do you go ab
 - Experienced CW operators don’t listen for letters but for words. This can of course only be done successfully if the right spacing exists between words. Once you start hearing words instead of a stream of letters, you are getting there! In normal face to face conversation we also listen for words, not for letters, don’t we?
 - On an automatic keyer, adjust the DIT/space ratio (weight) correctly. It will sound nicest (most pleasing) if the ratio is a little bit on the high side (DIT a little longer than a space), compared to the standard 1/1 ratio.
 
-:::warning Remark
+::: warning Remark
 Weight is not the same as DIT/DAH ratio! The DIT/DAH ratio is usually fixed at a 1/3 ratio on most keyers (not adjustable).
 :::
 
@@ -579,7 +579,7 @@ A QRP station is a station transmitting with a power of maximum 5 W (CW) or 10 W
 - If you want to look for _multipliers_ or stations you have not yet worked, you will need to scan the band looking for such stations. When you find one, call as follows: `GM3ZZZ`. Do not send his callsign, it’s a waste of time. You can be sure the operator knows his own call. And he also knows you are calling him, because of the timing and of the fact that you give your call on the frequency where he is operating! Also, do not send `DE GM3ZZZ`, the word DE contains no additional information.
 - If he does not come back within a second, give your call again, etc.
 
-:::tip Example of a CW contest QSO
+::: tip Example of a CW contest QSO
 `DL0ZZZ TEST` (CQ call from DL0ZZZ)
 
 **`G6XXX (G6XXX`** calls DL0ZZZ)
@@ -602,7 +602,7 @@ A QRP station is a station transmitting with a power of maximum 5 W (CW) or 10 W
   - 9 = N (DAH DIT instead of DAH DAH DAH DAH DIT);
   - 0 = T (DAH instead of DAH DAH DAH DAH DAH);
 
-:::tip Example
+::: tip Example
 Instead of sending `599009` one could send `ENNTTN`. Most frequently you will hear `5NNTTN`. As we expect numbers, and although letters are received, we write down numbers. The better computer contest programs allow you to type in letters (in the exchange field); the program will automatically convert these letters to numbers.
 :::
 
@@ -663,7 +663,7 @@ Is the CW speed you master not high enough to be able to make many QSOs?
 - [Increase your speed using RUFZ](http://rufzxp.net)
 - etc.
 
-:::warning A few important hints
+::: warning A few important hints
 
 - Never learn CW by counting DITs and DAHs...
 - Never learn CW by grouping together similar characters (e.g. e, i, s, h, 5): this will make you count DITs and DAHs forever!
@@ -750,7 +750,7 @@ Is the CW speed you master not high enough to be able to make many QSOs?
 | **73**   | best regards                                          |
 | **88**   | love and kisses                                       |
 
-:::warning
+::: warning
 73 is also commonly used in phone: never **say** or **write** _73s_, _best 73_ or _best 73s_; all of these are corruptions. Say **seventy three** and NOT _seventy threes_.
 :::
 
@@ -832,7 +832,7 @@ Very little RTTY on 160m. Stay with the entire signal in this window. USA: 1800 
 - **Why is it so important to know the correct nominal frequency?** Assuming you’d like to spot an RTTY station on a DX Cluster, it is better to give the correct frequency and not something that may be a couple of kHz off.
 - Another reason is the need to stay within the frequency ranges of the IARU Band Plan for RTTY.
 
-:::tip Example
+::: tip Example
 According to the Band Plan 14.099 - 14.101 is reserved for beacons (e.g. the NCDXF beacon network). This means that if you use AFSK with 2.125 (space) and 2.295 Hz (mark) as modulating tones in USB, you should never transmit with a dial reading on your transmitter higher than 14.099,000 – 2.295 = 14,096.705 kHz. Taking into account the effect of the sidebands, it is safe to round off this figure to 14,096.5 kHz.
 :::
 
@@ -939,16 +939,16 @@ As SSTV is the transmission of a continuous tone of varying frequency and consta
 
 The table below does not replace the IARU Band Plan, but gives an overview of the various band segments as they are actually being used in SSTV:
 
-| Band | Frequency (kHz)                    |
-| ---------- | -------------------------------------- |
-| **80m**    | 3 730 – 3 740 (LSB)                    |
-| **40m**    | 7 035 – 7 050 (LSB)                    |
-| **30m**    | Labai nedaug SSTV (Siauras diapazonas) |
-| **20m**    | 14 220 – 14 235 (USB)                  |
-| **17m**    | Labai nedaug SSTV                      |
-| **15m**    | 21 330 – 21 346 (USB)                  |
-| **12m**    | Labai nedaug SSTV                      |
-| **10m**    | 28 670 – 28 690 (USB)                  |
+| Band    | Frequency (kHz)                        |
+| ------- | -------------------------------------- |
+| **80m** | 3 730 – 3 740 (LSB)                    |
+| **40m** | 7 035 – 7 050 (LSB)                    |
+| **30m** | Labai nedaug SSTV (Siauras diapazonas) |
+| **20m** | 14 220 – 14 235 (USB)                  |
+| **17m** | Labai nedaug SSTV                      |
+| **15m** | 21 330 – 21 346 (USB)                  |
+| **12m** | Labai nedaug SSTV                      |
+| **10m** | 28 670 – 28 690 (USB)                  |
 
 #### Operating SSTV
 
@@ -971,12 +971,13 @@ If you are interested in SSTV, start by spending a lot of time monitoring the SS
 #### The RSV report used in SSTV
 
 -In SSTV we do not exchange an RS report (phone) nor an RST report (CW), but an RSV-report where V stands for _Video_ and reports the Image Quality.
+
 - R stands for _Readability_ (1 to 5) and S for _Strength_ (1 to 9), as used on phone and on CW.
 
-|        |                                                                        |
-| ------ | ---------------------------------------------------------------------- |
+|        |                                                               |
+| ------ | ------------------------------------------------------------- |
 | **V1** | Heavy QRM and image deformation, parts of image indiscernible |
-| **V2** | Heavily distorted image, callsign barely readable            |
-| **V3** | Average quality image                                              |
-| **V4** | Good image, little deformation, little interference    |
-| **V5** | Perfect image                                  |
+| **V2** | Heavily distorted image, callsign barely readable             |
+| **V3** | Average quality image                                         |
+| **V4** | Good image, little deformation, little interference           |
+| **V5** | Perfect image                                                 |

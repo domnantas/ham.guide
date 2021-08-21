@@ -65,7 +65,7 @@ export default {
       selectedExam: null,
       submitted: false,
       chosen: [],
-      finished: false
+      finished: false,
     };
   },
   computed: {
@@ -79,7 +79,7 @@ export default {
         if (current.answer === this.chosen[index]) accumulator++;
         return accumulator;
       }, 0);
-    }
+    },
   },
   methods: {
     checkResults() {
@@ -95,50 +95,54 @@ export default {
       this.submitted = false;
       this.chosen = [];
       this.finished = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-button
-  color #fff
-  font-size 1.2rem
-  background-color $accentColor
-  padding 1rem
-  border none
-  cursor pointer
-  margin-bottom 20px
+<style scoped>
+button {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: var(--c-brand);
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
 
-.select > button:not(:last-of-type)
-  margin-right 20px
+.select > button:not(:last-of-type) {
+  margin-right: 20px;
+}
 
-.question
-  display flex
-  flex-direction column
-  margin 20px 0
-  line-height 1.5
+.question {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  line-height: 1.5;
+}
 
-.question-image
-  display block
-
-.question-text
-  margin-bottom 10px
-  display inline-block
-
-.choice
-  margin-bottom 10px
-
-.results
-  display flex
-  flex-direction column
-  align-items flex-start
-
-.result
-  font-size 1.5rem
-  margin-bottom 20px
-  color green
-
-.error
-  color red
+.question-image {
+  display: block;
+}
+.question-text {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.choice {
+  margin-bottom: 10px;
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.result {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: green;
+}
+.error {
+  color: red;
+}
 </style>

@@ -27,7 +27,7 @@ import {
   featureCollection,
   center,
   getCoord,
-  flip
+  flip,
 } from '@turf/turf';
 
 export default {
@@ -35,7 +35,7 @@ export default {
     return {
       currentLatitude: null,
       currentLongitude: null,
-      map: null
+      map: null,
     };
   },
   computed: {
@@ -47,7 +47,7 @@ export default {
     },
     currentWAL() {
       return this.calculateWAL(this.currentLatitude, this.currentLongitude);
-    }
+    },
   },
   mounted() {
     this.map = new mapboxgl.Map({
@@ -59,8 +59,8 @@ export default {
       zoom: 7,
       maxBounds: [
         [19.970833, 52.896667],
-        [27.835556, 57.450278]
-      ]
+        [27.835556, 57.450278],
+      ],
     });
 
     this.addControls();
@@ -69,7 +69,7 @@ export default {
       this.drawGrid();
     });
 
-    this.map.on('click', event => {
+    this.map.on('click', (event) => {
       const latitude = parseFloat(event.lngLat.lat.toFixed(3));
       const longitude = parseFloat(event.lngLat.lng.toFixed(3));
       const popupHTML = `<div class="map-info">
@@ -102,12 +102,12 @@ export default {
       );
       const geolocate = new mapboxgl.GeolocateControl({
         positionOptions: {
-          enableHighAccuracy: true
+          enableHighAccuracy: true,
         },
         fitBoundsOptions: {
-          maxZoom: 7
+          maxZoom: 7,
         },
-        trackUserLocation: true
+        trackUserLocation: true,
       });
 
       this.map.addControl(geolocate);
@@ -127,7 +127,7 @@ export default {
       return `${letter}${number.toString().padStart(2, '0')}`;
     },
     calculateMaidenhead(latitude, longitude) {
-      const numberToLetter = number => String.fromCharCode(97 + number);
+      const numberToLetter = (number) => String.fromCharCode(97 + number);
       let lat = (latitude + 90.0) / 10 + 0.0000001;
       let lon = (longitude + 180.0) / 20 + 0.0000001;
       let locator =
@@ -545,7 +545,7 @@ export default {
         'P20',
         'P21',
         'P22',
-        'P23'
+        'P23',
       ];
 
       for (let longitude = 20 + 50 / 60; longitude < 27; longitude += 10 / 60) {
@@ -558,7 +558,7 @@ export default {
             longitude,
             latitude,
             longitude + 10 / 60,
-            latitude + 10 / 60
+            latitude + 10 / 60,
           ]);
           const WAL = this.calculateWAL(...getCoord(flip(center(box))));
           if (validWAL.includes(WAL)) {
@@ -570,7 +570,7 @@ export default {
       const WALbboxes = featureCollection(features);
       this.map.addSource('WALbboxes', {
         type: 'geojson',
-        data: WALbboxes
+        data: WALbboxes,
       });
 
       this.map.addLayer({
@@ -579,8 +579,8 @@ export default {
         source: 'WALbboxes',
         paint: {
           'line-color': '#647DEE',
-          'line-width': 1
-        }
+          'line-width': 1,
+        },
       });
 
       this.map.addLayer({
@@ -590,58 +590,52 @@ export default {
         layout: {
           'text-field': ['get', 'WAL'],
           'text-allow-overlap': true,
-          'text-size': 15
+          'text-size': 15,
         },
         paint: {
-          'text-color': '#647DEE'
-        }
+          'text-color': '#647DEE',
+        },
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-.wrapper
-  height calc(100vh - 3.6rem)
-  position relative
+<style scoped>
+.wrapper {
+  height: calc(100vh - 3.6rem);
+  position: relative;
+}
 
-#map
-  height 100%
+#map {
+  height: 100%;
+}
 
-.box
-  position absolute
-  top 0
-  left 0
-  background-color white
-  margin 10px
-  padding 10px
-  border-radius 10px
-  font-size 14px
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  background: var(--c-bg);
+}
 
-
-.data
-  display flex
-  flex-direction column
+.data {
+  display: flex;
+  flex-direction: column;
+}
 </style>
 
-<style lang="stylus">
-.map-info-row
-  display grid
-  grid-template-columns repeat(2, 1fr)
-  grid-gap 10px
-.map-info-header
-  font-weight bold
-
-
-.fullscreen
-  .theme-default-content
-    padding 0
-    max-width none
-
-  .page-edit, .page-nav
-    display none
-
-  .page
-    padding-bottom: 0
+<style>
+.map-info-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.map-info-header {
+  font-weight: bold;
+}
 </style>

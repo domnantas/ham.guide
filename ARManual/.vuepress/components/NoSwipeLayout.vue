@@ -1,22 +1,17 @@
 <template>
-  <div
-    class="theme-container"
-    :class="pageClasses"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
+  <div class="theme-container" :class="containerClass">
+    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar">
+      <template #before>
+        <slot name="navbar-before" />
+      </template>
+      <template #after>
+        <slot name="navbar-after" />
+      </template>
+    </Navbar>
 
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    />
+    <div class="sidebar-mask" @click="toggleSidebar(false)" />
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
+    <Sidebar>
       <template #top>
         <slot name="sidebar-top" />
       </template>
@@ -25,105 +20,84 @@
       </template>
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
+    <slot name="page">
+      <Home v-if="frontmatter.home" />
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
+      <Transition
+        v-else
+        name="fade-slide-y"
+        mode="out-in"
+        @before-enter="onBeforeEnter"
+        @before-leave="onBeforeLeave"
+      >
+        <Page :key="page.path">
+          <template #top>
+            <slot name="page-top" />
+          </template>
+          <template #bottom>
+            <slot name="page-bottom" />
+          </template>
+        </Page>
+      </Transition>
+    </slot>
   </div>
 </template>
 
-<script>
-import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
-import Page from '@theme/components/Page.vue'
-import Sidebar from '@theme/components/Sidebar.vue'
-import { resolveSidebarItems } from '@vuepress/theme-default/util'
+<script setup lang="ts">
+import { usePageData, usePageFrontmatter } from '@vuepress/client';
+import { computed, onMounted, onUnmounted, ref, Transition } from 'vue';
+import { useRouter } from 'vue-router';
+import type { DefaultThemePageFrontmatter } from '@vuepress/theme-default/lib/shared';
+import Home from '@vuepress/theme-default/lib/client/components/Home.vue';
+import Navbar from '@vuepress/theme-default/lib/client/components/Navbar.vue';
+import Page from '@vuepress/theme-default/lib/client/components/Page.vue';
+import Sidebar from '@vuepress/theme-default/lib/client/components/Sidebar.vue';
+import {
+  useScrollPromise,
+  useSidebarItems,
+  useThemeLocaleData,
+} from '@vuepress/theme-default/lib/client/composables';
 
-export default {
-  name: 'Layout',
+const page = usePageData();
+const frontmatter = usePageFrontmatter<DefaultThemePageFrontmatter>();
+const themeLocale = useThemeLocaleData();
 
-  components: {
-    Home,
-    Page,
-    Sidebar,
-    Navbar
+// navbar
+const shouldShowNavbar = computed(
+  () => frontmatter.value.navbar !== false && themeLocale.value.navbar !== false
+);
+
+// sidebar
+const sidebarItems = useSidebarItems();
+const isSidebarOpen = ref(false);
+const toggleSidebar = (to?: boolean): void => {
+  isSidebarOpen.value = typeof to === 'boolean' ? to : !isSidebarOpen.value;
+};
+
+// classes
+const containerClass = computed(() => [
+  {
+    'no-navbar': !shouldShowNavbar.value,
+    'no-sidebar': !sidebarItems.value.length,
+    'sidebar-open': isSidebarOpen.value,
   },
+  frontmatter.value.pageClass,
+]);
 
-  data () {
-    return {
-      isSidebarOpen: false
-    }
-  },
+// close sidebar after navigation
+let unregisterRouterHook;
+onMounted(() => {
+  const router = useRouter();
+  unregisterRouterHook = router.afterEach(() => {
+    toggleSidebar(false);
+  });
+});
+onUnmounted(() => {
+  unregisterRouterHook();
+});
 
-  computed: {
-    shouldShowNavbar () {
-      const { themeConfig } = this.$site
-      const { frontmatter } = this.$page
-      if (
-        frontmatter.navbar === false
-        || themeConfig.navbar === false) {
-        return false
-      }
-      return (
-        this.$title
-        || themeConfig.logo
-        || themeConfig.repo
-        || themeConfig.nav
-        || this.$themeLocaleConfig.nav
-      )
-    },
-
-    shouldShowSidebar () {
-      const { frontmatter } = this.$page
-      return (
-        !frontmatter.home
-        && frontmatter.sidebar !== false
-        && this.sidebarItems.length
-      )
-    },
-
-    sidebarItems () {
-      return resolveSidebarItems(
-        this.$page,
-        this.$page.regularPath,
-        this.$site,
-        this.$localePath
-      )
-    },
-
-    pageClasses () {
-      const userPageClass = this.$page.frontmatter.pageClass
-      return [
-        {
-          'no-navbar': !this.shouldShowNavbar,
-          'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': !this.shouldShowSidebar
-        },
-        userPageClass
-      ]
-    }
-  },
-
-  mounted () {
-    this.$router.afterEach(() => {
-      this.isSidebarOpen = false
-    })
-  },
-
-  methods: {
-    toggleSidebar (to) {
-      this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
-      this.$emit('toggle-sidebar', this.isSidebarOpen)
-    },
-  }
-}
+// handle scrollBehavior with transition
+const scrollPromise = useScrollPromise();
+const onBeforeEnter = scrollPromise.resolve;
+const onBeforeLeave = scrollPromise.pending;
 </script>

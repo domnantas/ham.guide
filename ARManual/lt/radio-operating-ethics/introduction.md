@@ -29,7 +29,7 @@ Esminiai principai, kuriais nusakomas mūsų elgesio kodeksas eteryje yra šie:
 
 Radijo eteryje visi žaidžiame viename stadione - mėgėjiškuose radijo bangų ruožuose. Šimtai tūkstančių žaidėjų dažnai nesutelpa viename nedideliame stadione ir tai dažnai veda prie konfliktų.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 Staiga dirbdami eteryje savo dažnyje (kuriame dirbate jau pusvalandį) išgirstate kitą stotį, kviečiančią CQ arba užsiimančią pašnekesiais su dar viena stotimi. Kas per netvarka? Dirbote čia šitiek laiko visiškai švariame dažnyje! Tačiau, tai įmanoma. Galbūt kitas operatorius taip pat mano, kad įsibrovėte į jo dažnį. Tai dažna situacija - tiesiog staiga pasikeitė bangų sklidimo sąlygos ir pradėjote girdėti tolimesnę stotį, kurios anksčiau negirdėjote.
 :::
 

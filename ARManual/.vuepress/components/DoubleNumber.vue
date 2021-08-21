@@ -9,25 +9,27 @@
 export default {
   data() {
     return {
-      number: 1
+      number: 1,
     };
   },
   methods: {
     double() {
       this.number = this.number * 2;
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-.doubler
-  text-align center
+<style scoped>
+.doubler {
+  text-align: center;
+}
 
-button
-  color #fff
-  font-size 1.2rem
-  background-color $accentColor
-  padding 1.5rem
-  border none
+button {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: var(--c-brand);
+  padding: 1.5rem;
+  border: none;
+}
 </style>

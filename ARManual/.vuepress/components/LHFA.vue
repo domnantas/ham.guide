@@ -7,25 +7,9 @@
 <script>
 import lhfaData from '../data/lhfa.json';
 import mapboxgl from 'mapbox-gl';
-import {
-  MglMap,
-  MglNavigationControl,
-  MglGeolocateControl,
-  MglFullscreenControl,
-  MglMarker,
-  MglPopup
-} from 'vue-mapbox';
 import { point, featureCollection } from '@turf/turf';
 
 export default {
-  components: {
-    MglMap,
-    MglNavigationControl,
-    MglGeolocateControl,
-    MglFullscreenControl,
-    MglMarker,
-    MglPopup
-  },
   data() {
     return {
       map: null,
@@ -39,8 +23,8 @@ export default {
         TA: '#4DB6AC',
         TE: '#FFD54F',
         UT: '#FF8A65',
-        VI: '#7986CB'
-      }
+        VI: '#7986CB',
+      },
     };
   },
   mounted() {
@@ -53,8 +37,8 @@ export default {
       zoom: 7,
       maxBounds: [
         [19.970833, 52.896667],
-        [27.835556, 57.450278]
-      ]
+        [27.835556, 57.450278],
+      ],
     });
 
     this.addControls();
@@ -70,12 +54,12 @@ export default {
       );
       const geolocate = new mapboxgl.GeolocateControl({
         positionOptions: {
-          enableHighAccuracy: true
+          enableHighAccuracy: true,
         },
         fitBoundsOptions: {
-          maxZoom: 7
+          maxZoom: 7,
         },
-        trackUserLocation: true
+        trackUserLocation: true,
       });
 
       this.map.addControl(geolocate);
@@ -84,10 +68,10 @@ export default {
       const lhfaFeatures = Object.entries(this.categories).flatMap(
         ([category, color]) => {
           const categoryPoints = lhfaData.filter(
-            lhfaPoint => lhfaPoint.category === category
+            (lhfaPoint) => lhfaPoint.category === category
           );
 
-          return categoryPoints.map(lhfaPoint =>
+          return categoryPoints.map((lhfaPoint) =>
             point(
               [lhfaPoint.coordinates.longitude, lhfaPoint.coordinates.latitude],
               { color, ...lhfaPoint }
@@ -98,7 +82,7 @@ export default {
 
       this.map.addSource('lhfa', {
         type: 'geojson',
-        data: featureCollection(lhfaFeatures)
+        data: featureCollection(lhfaFeatures),
       });
 
       this.map.addLayer({
@@ -109,22 +93,15 @@ export default {
           'circle-color': ['get', 'color'],
           'circle-radius': 12,
           'circle-opacity': 0.8,
-          'circle-pitch-alignment': 'map'
-        }
+          'circle-pitch-alignment': 'map',
+        },
       });
 
-      this.map.on('click', 'lhfa', event => {
+      this.map.on('click', 'lhfa', (event) => {
         const clickedFeature = event.features[0];
 
-        const {
-          category,
-          id,
-          city,
-          municipality,
-          qth,
-          wal,
-          lyff
-        } = clickedFeature.properties;
+        const { category, id, city, municipality, qth, wal, lyff } =
+          clickedFeature.properties;
 
         const latitude = clickedFeature.geometry.coordinates[1].toFixed(3);
         const longitude = clickedFeature.geometry.coordinates[0].toFixed(3);
@@ -173,39 +150,34 @@ export default {
       this.map.on('mouseleave', 'lhfa', () => {
         this.map.getCanvas().style.cursor = '';
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-.wrapper
-  height calc(100vh - 3.6rem)
-  position relative
+<style scoped>
+.wrapper {
+  height: calc(100vh - 3.6rem);
+  position: relative;
+}
 
-#map
-  height 100%
+#map {
+  height: 100%;
+}
 </style>
 
-<style lang="stylus">
-.hill-info-row
-  display grid
-  grid-template-columns repeat(2, 1fr)
-  grid-gap 10px
-.hill-info-header
-  font-weight bold
+<style>
+.hill-info-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
 
-.fullscreen
-  .theme-default-content
-    padding 0
-    max-width none
+.hill-info-header {
+  font-weight: bold;
+}
 
-  .page-edit, .page-nav
-    display none
-
-  .mapboxgl-marker
-    cursor pointer
-
-  .page
-    padding-bottom: 0
+.mapboxgl-marker {
+  cursor: pointer;
+}
 </style>

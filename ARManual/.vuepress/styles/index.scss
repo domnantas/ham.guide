@@ -1,0 +1,36 @@
+@import url('https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css');
+
+:root,
+html.dark {
+  --c-brand: #647dee;
+  --c-brand-light: #647dee;
+}
+
+.fullscreen {
+  .theme-default-content {
+    padding: 0;
+    max-width: none;
+  }
+
+  .page-edit,
+  .page-nav {
+    display: none;
+  }
+  .page {
+    padding-bottom: 0;
+  }
+}
+
+th:empty {
+  display: none;
+}
+
+#map .mapboxgl-popup-content {
+  padding: 25px 15px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  background: var(--c-bg);
+}
+#map .mapboxgl-popup-close-button {
+  font-size: 18px;
+}

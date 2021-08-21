@@ -53,7 +53,7 @@ Jei visus aukščiau išvardintus reikalavimus išpildysite, tuomet tikrai galė
   - Radijo eteryje tarptautinė fonetinė abėcėlė (nuo Alpha iki Zulu), sudaryta ITU, tarnauja vienam tikslui - siekiama sumažinti priėmimo/perdavimo klaidų skaičių tarp korespondentų apsikeičiant informacija. Tokia abėcėlė yra vienintelė ir unikali, todėl sėkmingai tarnauja šiam tikslui (jei kalbate lietuviškai ir dirbate su lietuviška DX stotimi, galima naudoti [lietuvišką fonetinę abėcėlę](/lt/phonetic-alphabet/)).
   - DX stotis klauso tik šių unikalių fonetinės abėcėlės žodžių visame kvietimų orkestre. Papildomų žodžių naudojimas tik apsunkina DX stoties darbą. Taigi, jei naudojame žodžius, kurių DX stotis nesitiki išgirsti eteryje, QSO atlikimo procedūra tampa **neefektyvi**.
   - Dažnai dirbant eilėse galima pastebėti, kad DX operatorius praleidžia būtent tas raides, kurios buvo perduotos nestandartine fonetine abėcėle ir paprašo pakartoti trūkstamas kviečiančios stoties šaukinio dalis.
-    :::warning Pavyzdys
+    ::: warning
     Naudojant fonetinės abėcėlės žodžius _Lima Yankee_ triukšme nesunkiai suprantama, kad perduodama LY, tuo tarpu kviesdami _London Yankee_ sukeliate sumaištį, ypač tada jeigu Jūsų signalas silpnas ir vos girdimas. Taigi, daugiau šansų, kad DX operatorius supras _Lima_, o ne _London_, nes jis nusiteikęs išgirsti šaukinį sakoma standartine fonetine abėcėle ir neturi laiko šifruoti prasimanymų.
     :::
   - DX operatorius ne tik klauso tinkamų žodžių, tačiau kartu ir tikisi juose tam tikrų sąskambių/garsų, reikiamų skiemenų skaičiaus, kurie jam leistų triukšme išskirti perduodamą informaciją. Jei siunčiant nesugebame tinkamai perduoti vienos ar kitos priebalsės dėl QRM ar QRN, tikėtina, kad standartinės fonetinės abėcėlės naudojimas leis DX operatoriui lengviau iššifruoti perduodamus žodžius.
@@ -120,7 +120,7 @@ Jei per daug stočių atsako į kvietimą DX stoties dažnyje, DX stotis anksči
 - Dažniausiai tai ne tik _lipimas ant kulnų_, bet greičiau net ant galvos.
 - Ši darbo eteryje praktika yra nemandagi ir išskirtinai agresyvi. Išvada - **niekada taip nesielkite**.
 
-:::warning Nepavargstantys šaukliai
+::: warning Nepavargstantys šaukliai
 Nenutylančių ir nepavargstančių šauklių eteryje yra apstu. Jų įsivaizduojamas vienintelis ir absoliutus tikslas yra užmegzti ryšį su reta DX stotimi, nesvarbu kokiomis priemonėmis. Jie neturi nei menkiausio supratimo, kad šalia jų eteryje egzistuoja kitos radijo stotys. Šie operatoriai tiesiog nepertraukiamai perduoda savo šaukinį eteryje ir beveik niekuomet nesiklauso kitų. Klausantis eterio nesunku įsitikinti, kad jie nesiklauso net tada, kai DX stotis atsiliepia į jų kvietimą vieną ar kelis kartus, tačiau veltui. Šie šaukliai negirdi DX stoties dėl jau minėtos ir labai paprastos priežasties - jie beveik niekuomet neklauso ir dažnai, bet nebūtinai, šių operatorių įranga atitinka tipiško eterio krokodilo - galingos ir kurčios stoties kriterijus. Nors jie siekia užmegzti ryšį su DX stotimi, stebint iš šalies atrodo, kad jų galutinis tikslas yra be paliovos kviesti būtent tą stotį ir reikia pripažinti, jog jiems tai puikiai sekasi. Visa ši praktika gal ir nebūtų labai žalinga, jei ne jų sukeliamas nuolatinis QRM. O tai yra viso labo paprasčiausias eterio teršimas (angl. _jamming_). Taip besielgiantieji labai akivaizdžiai parodo savo egoistiškus ketinimus ir jiems turėtų būti labai gėda.
 :::
 
@@ -160,7 +160,7 @@ Nenutylančių ir nepavargstančių šauklių eteryje yra apstu. Jų įsivaizduo
   - Vedantysis gali paprašyti korespondentų prisistatyti taisyklingai, t.y. naudojant pilną savo radijo mėgėjo šaukinį. Labai gerai, jei DX stotis tuo metu jau girdi pilną korespondento šaukinį.
   - Jei šios procedūros metu vėliau vedėjas pakvies prisistačiusias stotis tik dalimi šaukinio, tai **legalu**. Taisyklės nustato kaip identifikuotis pačiam, o ne kaip kviesti kitą stotį.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 Vedančioji stotis sakys: `Stations for ZK1DX, check in please.`
 LY9ZZZ pasakys šaukinį: `LY9ZZZ`.
 
@@ -258,7 +258,7 @@ Neskelbkite informacijos, kuri neturi jokios vertės. Neskelbkite kasdien girdim
 - **Announce Full (To All)** funkcija jau yra visai kas kita. Bet koks pranešimas, perduotas šios funkcijos pagalba yra išplatinamas visiems šio klasterio (ir prie jo prijungtų klasterių) vartotojams, kurių vienu metu gali būti tūkstančiai. Būkite labai labai atsargūs, naudodami šią funkciją. Dauguma **To All** pranešimų skirti vienam konkrečiam asmeniui, tuo tarpu likę 9999 yra priversti perskaityti bevertę žinutę.
 - Niekuomet nenaudokite _**Announce All**_ funkcijos pokalbiams. Taip pat niekuomet nenaudokite šios funkcijos suteikti daugiau svorio Jūsų argumentui ar įžeidimui. Pasaulis stebi Jus. Perduokite tik tokius pranešimus, kurie gali sudominti daugumą DX medžiotojų. Pavyzdžiui, galite perduoti pranešimą, kad DX stotis ką tik pakeitė darbo diapazoną ar dažnį, arba kad DX stotis tam tikru laiku bus tam tikrame dažnyje. Paprasta taisyklė: **To All** pranešimai turi būti įdomūs daugumai, tad jei pranešimas nėra skirtas daugumai, nesiųskite jo naudodami **To All** funkciją.
 
-:::warning Pavyzdys
+::: warning Pavyzdys
 ON7xx siunčia **TO ALL: ON4xx good morning Frans**
 
 DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
@@ -318,7 +318,7 @@ DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
 | **10m**    | ± 28 080 (RTTY)       |
 | **10m**    | 28 490 – 28 500 (SSB) |
 
-:::tip Patarimas
+::: tip
 Pirmi kiekvieno diapazono 5 kHz taip pat neoficialiai naudojami CW DX ryšiui.
 :::
 
@@ -418,7 +418,7 @@ Galbūt anksčiau ar vėliau tapsite operatoriumi kitoje DX eilės pusėje. Jei 
 - Telegrafu išgirdus dalį šaukinio (pvz., 3TA) taip pat nereikėtų perduoti klaustuko. Minia laukianti eilėje išgirdusi klaustuką pradės kviesti Jus išvien! Perduokite `3TA 599` ir jokiu būdu ne `?3TA 599`. Niekuomet nesiųskite klaustuko dirbdami su didele eile.
 - Ši pastaba galioja visiems darbo režimams: jei iš pradžių išgirdote tik dalį šaukinio, visada pakartokite pilną šaukinį tuomet, kai jau jį išgirstate, tokiu būdu kita stotis įsitikins, kad išgirdote visą ir teisingą jo šaukinį bei gali nesibaimindama įrašyti Jūsų šaukinį į savo ryšių žurnalą.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 Įsivaizduokite, kad išgirdote tik dalį šaukinio: „3TA”. Perduokite: `3TA 599` (telefonu sakykite: `3TA 59`). Korespondentas patvirtins: `TU DE OH OH3TA 599` (telefonu: `Oscar hotel, oscar hotel three tango alpha you’re 59 QSL?`). Jei patvirtinsite su `QSL TU` (telefonu: `QSL thank you`), OH3TA nebus tikras, kad Jūs išgirdote būtent jo šaukinį. Todėl patvirtinkite taip: `OH3TA TU` (telefonu: `OH3TA thanks`).
 :::
 
@@ -427,7 +427,7 @@ Galbūt anksčiau ar vėliau tapsite operatoriumi kitoje DX eilės pusėje. Jei 
 - Jei atsiliepėte daliai šaukinio ir šis prapuolė neužbaigęs QSO, nepulkite atsakinėti tam, kuris garsiausiai trukdė Jums užmegzti ryšį su prapuolusia stotimi. Pakvieskite CQ ir klausykite keliais kHz aukščiau ar žemiau. Niekada nesudarykite įspūdžio, kad pasidavėte garsiai ir nemandagiai dirbančios stoties kvietimui. Parodykite jiems, kad nedisciplinuotas kvietimas yra nieko vertas.
 - Užmezgėte ryšį su viena iš stočių eilėje (pvz., JA1ZZZ) ir įvedėte ryšį į žurnalą. Tačiau girdite, kaip ši stotis Jus kviečia toliau, nes ji negirdėjo savo signalo įvertinimo. Klaida būtų informuoti: `JA1ZZZ you are in the log` (telefonu), `JA1ZZZ QSL` (telegrafu). Tiesiog pakvieskite korespondentą vėl ir pakartotinai perduokite signalo įvertinimą. Viskas, ką šis korespondentas nori išgirsti, greičiausiai yra RS signalo įvertinimas.
 
-:::tip Dirbdami naudokite nekintantį pranešimų šabloną
+::: tip Dirbdami naudokite nekintantį pranešimų šabloną
 Pavyzdžiui, dirbate kaip ZK1DX:
 
 `ZK1DX 5 to 10 up` (išgirstate LY1ZZZ kviečiant)

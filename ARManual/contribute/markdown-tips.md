@@ -75,18 +75,18 @@ _Italic text_
 ### Unordered
 
 ```md
-* Lists
-  * can be
-    * indented
-  * second level
+- Lists
+  - can be
+    - indented
+  - second level
 ```
 
 #### Example
 
-* Lists
-  * can be
-    * indented
-  * second level
+- Lists
+  - can be
+    - indented
+  - second level
 
 ### Ordered
 
@@ -151,7 +151,7 @@ Danger, do not proceed
 ```md
 [External link](https://google.com)
 
-[Link with title](https://google.com "Title")
+[Link with title](https://google.com 'Title')
 
 [Relative link](/lt/)
 
@@ -166,7 +166,7 @@ Danger, do not proceed
 
 [External link](https://google.com)
 
-[Link with title](https://google.com "Title")
+[Link with title](https://google.com 'Title')
 
 [Relative link](/lt/)
 
@@ -183,12 +183,12 @@ Don't forget to close off relative links with a ´/´, otherwise you will get a 
 ## Images
 
 ```md
-![Alt text](/icons/android-chrome-192x192.png "Title")
+![Alt text](/icons/android-chrome-192x192.png 'Title')
 ```
 
 #### Example
 
-![Alt text](/icons/android-chrome-192x192.png "Title")
+![Alt text](/icons/android-chrome-192x192.png 'Title')
 
 ## Code
 
@@ -206,7 +206,7 @@ Inline `code` on the same line
 
 ````md
 ```js
-var foo = function(bar) {
+var foo = function (bar) {
   return bar++;
 };
 ```
@@ -215,7 +215,7 @@ var foo = function(bar) {
 #### Example
 
 ```js
-var foo = function(bar) {
+var foo = function (bar) {
   return bar++;
 };
 ```
@@ -258,7 +258,7 @@ In this project it is possible to use [Vue](https://vuejs.org/) components insid
 <!-- .vuepress/components/DoubleNumber.vue -->
 <template>
   <div class="doubler">
-    <pre>{{ number }}</pre>
+    <h3>{{ number }}</h3>
     <button @click="double">Double</button>
   </div>
 </template>
@@ -267,29 +267,29 @@ In this project it is possible to use [Vue](https://vuejs.org/) components insid
 export default {
   data() {
     return {
-      number: 1
+      number: 1,
     };
   },
   methods: {
     double() {
       this.number = this.number * 2;
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-@require '~@default-theme/styles/config.styl'
+<style scoped>
+.doubler {
+  text-align: center;
+}
 
-.doubler
-  text-align center
-
-button
-  color #fff
-  font-size 1.2rem
-  background-color $accentColor
-  padding 1.5rem
-  border none
+button {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: var(--c-brand);
+  padding: 1.5rem;
+  border: none;
+}
 </style>
 ```
 

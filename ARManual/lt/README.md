@@ -1,8 +1,9 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: Skaityti →
-actionLink: /lt/radio-operating-ethics/
+actions:
+  - text: Skaityti →
+    link: /lt/radio-operating-ethics/
 features:
   - title: Kuriamas Bendruomenės
     details: Šio žinyno turinys yra paremtas atviru kodu ir išlaikomas bendruomenės. Bet kas gali prisidėti prie projekto vystymo. Ne veltui projekto pavadinimas skamba kaip Our Manual!

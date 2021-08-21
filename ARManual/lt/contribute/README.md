@@ -104,7 +104,7 @@ Tai yra supaprastinta projekto struktūros diagrama.
 
 Aplankai `ARManua/contribute/` ar `ARManual/q-code/` yra **puslapių** arba **puslapių grupių** aplankai. **Puslapis** yra aplankas talpinantis vieną `README.md` failą. **Puslapių grupė** yra aplankas turintis `README.md` ir kitus `.md` failus papildomiems puslapiams.
 
-:::warning Perspėjimas
+::: warning Perspėjimas
 Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuoti `ARManual/.vuepress/config.js` failo `themeConfig.locales.sidebar` nustatymą, tam kad jūsų puslapis būtų rodomas navigacijoje. Bandykite tai padaryti pats, naudodami jau aprašytą kodą kaip pavyzdį, tačiau nebijokite prašyti pagalbos mūsų Github puslapyje, jeigu užstrigsite!
 :::
 

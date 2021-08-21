@@ -28,7 +28,7 @@
 - Prie paprastai naudojamų Q kodų, balso pokalbiuose pritapo ir kelios [trumpos frazės, kurios kilo iš CW](#populiariausios-cw-santrumpos), tokios kaip 73, 88, OM (draugas, šnek. k. senis, angl. _old man_), YL (mergina, moteris, angl. _young lady_).
 - Teisingai naudokite vieną ir vienintelę [tarptautinę fonetinę abėcėlę](/lt/phonetic-alphabet/). Griežtai venkite _išsigalvojimų_, kurie gali skambėti įdomiai ar juokingai Jūsų kalboje, tačiau tai nepadės korespondentui suprasti, ką norėjote pasakyti. Nenaudokite skirtingų fonetinių žodžių tame pačiame sakinyje.
 
-:::danger Pavyzdys
+::: danger Pavyzdys
 `CQ from ON9UN, oscar november nine uniform november, ocean nancy nine united nations...`
 :::
 
@@ -188,7 +188,7 @@ Užbaigdami QSO su viena stotimi sakykite: `G3ZZZ, this is LY9ZZZ signing with y
 
 Galite papildyti savo kreipinį žodeliu „out”, tai žymės Jūsų _siuntimo_ pabaigą, tačiau tai daroma gana retai. Nesakykite „over and out”, kadangi „over” reiškia, jog perduodate mikrofoną korespondentui, o šiuo atveju korespondento jau nėra!
 
-:::tip SSB QSO pradedančiajam
+::: tip SSB QSO pradedančiajam
 `Is this frequency in use? This is LY9ZZZ`
 
 `Is this frequency in use? This is LY9ZZZ`
@@ -246,7 +246,7 @@ Galite perduoti mikrofoną korespondentui tiesiog sakydami `over`, tai reikštų
 - Be to, jog varžybų metu kviečiate CQ, taip pat galite paieškoti kitų korespondentų sukinėdami dažnio rankenėlę. Galbūt su šiais korespondentais dar neturėjote ryšio, arba atrasite tokį korespondentą su kuriuo padarytas ryšys padės Jums „užsidirbti” daugiau taškų. Varžybose ryšiai reikalingi, tam, kad gautumėte taškų daugiklį. Tai vadinama _search and pounce_ (arba S&P). Įsitikinkite, kad esate korespondento dažnyje ir vieną kartą perduokite savo šaukinį. Nekvieskite korespondento šaukiniu, jis puikiai žino savo šaukinį bei tai, kad Jūs kviečiate būtent jį, nes Jūs kviečiate **jo dažnyje**!
 - Tiesiog perduokite savo šaukinį vieną kartą. Jei korespondentas neatsiliepia ilgiau negu 1 sekundę, kvieskite dar kartą (_vieną kartą_) ir t.t.
 
-:::tip Varžybų QSO telefonu pavyzdys
+::: tip Varžybų QSO telefonu pavyzdys
 `whiskey one zulu zulu contest` (CQ kviečia W1ZZ)
 
 **`oscar november six zulu zulu`** (atsako ON6ZZ)
@@ -265,7 +265,7 @@ Galite perduoti mikrofoną korespondentui tiesiog sakydami `over`, tai reikštų
 - QRZ reiškia _kas mane kvietė?_ Nei daugiau, nei mažiau.
 - Paprastai QRZ santrumpa naudojama po CQ kvietimo, kai visiškai neišgirstate stoties, kuri bandė Jums atsakyti. Mandagiausia prasme QRZ reiškia: „Atsiprašau, aš girdėjau, kad mane kvietėte, tačiau neišgirdau Jūsų šaukinio, prašau kvieskite dar!”.
 
-:::warning DĖMESIO
+::: warning DĖMESIO
 Tai **nereiškia**: _kas čia?_, _kas dažnyje?_, tuo labiau - _prašau mane kviesti_.
 :::
 
@@ -278,7 +278,7 @@ Tai **nereiškia**: _kas čia?_, _kas dažnyje?_, tuo labiau - _prašau mane kvi
 - Rečiau išgirstamas šis netaisyklingas QRZ naudojimas: `Give me your QRZ`, kuris turėtų reikšti _prisistatykite_. Gerai bent tiek, jog dauguma netaisyklingų QRZ panaudojimų vienaip ar kitaip siejami su šaukimu ar šaukiniu. Tačiau, priminsime, kad QRZ viso labo reiškia - _kas mane kvietė?_, tai ir tik tai.
 - Eilių (pileups)<!-- TODO: link --> metu dažnai girdime DX stotį sakant QRZ, ne dėl to, kad jos operatorius neišgirdo anksčiau kvietusias stotis, tačiau jis taip pasako eilei, kad vėl klauso eterio. Toks QRZ naudojimas, deja, taip pat nėra tinkamas.
 
-:::warning Pavyzdys
+::: warning Pavyzdys
 **`CQ ZK1DX`** ZK1DX stotis kviečia CQ
 
 `ON4YYY you’re 59` ON4YYY kviečia ZK1DX, ši atsako signalo įvertinimu
@@ -286,11 +286,11 @@ Tai **nereiškia**: _kas čia?_, _kas dažnyje?_, tuo labiau - _prašau mane kvi
 **`QSL QRZ ZK1DX`** ZK1DX stotis patvirtina ryšį (QSL) ir prideda QRZ, tai šiuo atveju reiškia aš vėl klausau kitų stočių, tačiau nereiškia kas mane kvietė?, nors deja turėtų reikšti būtent tai.
 :::
 
-:::danger Dažniau girdime dar blogesnį atvejį
+::: danger Dažniau girdime dar blogesnį atvejį
 **`QSL QRZ`** Šiuo atveju stotis neidentifikuoja savęs. Eilės naujokai nebežino, kas dirba eteryje.
 :::
 
-:::tip Teisinga ir efektyviausia procedūra tokioje situacijoje
+::: tip Teisinga ir efektyviausia procedūra tokioje situacijoje
 **`QSL ZK1DX`** DX stotis patvirtina ryšį ir identifikuoja save kitiems eilėje.
 :::
 
@@ -347,7 +347,7 @@ Ar tinkamai sureguliavote siųstuvą? Ar mikrofono stiprinimas ne per didelis? A
   - Daug efektyviau keletą kartų pakartoti trumpą CQ kvietimą, pvz.: `CQ CQ de LY9ZZZ LY9ZZZ AR`, negu `CQ CQ CQ ...(dar 15 kartų) ... CQ de LY9ZZZ AR`.
   - Jei norite kviesti CQ ir dirbti dviem skirtingais dažniais (_split_), nurodykite savo klausymo dažnį **kiekvieno** CQ kvietimo pabaigoje.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 Užbaikite savo CQ kvietimą su `UP 5/10` arba `UP 5` arba `QSX 1822` (tai reiškia, kad klausysitės dažnyje 1.822 MHz). QSX reiškia _klausau dažnyje..._
 :::
 
@@ -414,7 +414,7 @@ Procedūriniai ženklai, santrumpos (angl. _procedural signs, prosigns_) yra sim
 - Nesiųskite `... AR SK`. Tai neturi jokios prasmės. Sakote: _Siuntimo pabaiga + ryšio pabaiga_, kas ir taip jau suprantama išsiuntus tiesiog SK. AR SK kombinaciją dažnai išgirsite eteryje, tačiau stenkitės jos nevartoti.
 - Jei QSO pabaigoje norite išjungti radijo stotį ir baigti darbą eteryje, turėtumėte perspėti apie tai klausytojus siųsdami CL: `W1ZZZ DE LY9ZZZ SK CL` (CL yra procedūrinis ženklas, reiškiantis _closing_ arba _closing down_ ir pažymintis, jog stotis uždaroma).
 
-:::tip Pradedančiojo CW QSO
+::: tip Pradedančiojo CW QSO
 `QRL?`
 
 `QRL?`
@@ -451,7 +451,7 @@ Procedūriniai ženklai, santrumpos (angl. _procedural signs, prosigns_) yra sim
 
 - BK (_break_) naudojamas greitam signalo pasikeitimui tarp stočių be identifikacijos šaukiniais po kiekvieno siuntimo. Telefoninis šios santrumpos atitikmuo yra _over_.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 W1ZZZ nori sužinoti koks yra LY9ZZZ operatoriaus vardas ir klausia: `UR NAME PSE BK`. LY9ZZZ iš karto atsako: `BK NAME JONAS JONAS BK`.
 :::
 
@@ -471,7 +471,7 @@ Jei QSO metu kažkas įsiterpia į pokalbį (siunčia savo šaukinį kol kita st
 - KN reiškia, jog norite girdėti TIK tą korespondentą, į kurį ką tik kreipėtės šaukiniu (tai reikštų _kalbėkite, o kitos stotys palaukite, klausau Jūsų_), kitaip tariant, nepageidaujate, kad kas nors trukdytų jau pradėtą pokalbį.
 - KN paprastai naudojamas tose situacijose, kai Jūsų dažnyje jaučiasi tam tikra netvarka. Dažnas scenarijus, kad dauguma stočių atsiliepia į Jūsų CQ kvietimą. Girdite tik dalį šaukinio ir kviečiate: `ON4AB? DE LY9ZZZ PSE UR CALL AGN K`. Stotis ON4AB? atsako Jums, tačiau tuo pat metu Jus kviečia ir kitos stotys, kadangi Jūs formaliai joms leidote kištis. Tinkamas elgesys šioje situacijoje - užbaigti kvietimą KN, taip parodant, jog pageidaujate girdėti tik tą stotį, kurią kviečiate.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 `ON4AB? DE LY9ZZZ KN` arba `ONLY ON4AB? DE LY9ZZZ KN`. Jei vis dar nesuvaldote eterio auditorijos, galite pabandyti pabrėžti N simbolį: `ON4AB? DE LY9ZZZ KN N N N`. Galite net daryti ilgesnes pauzes tarp N raidžių. Na, o jei tai nepadės - labai susierzinsite...
 :::
 
@@ -512,7 +512,7 @@ Jei QSO metu kažkas įsiterpia į pokalbį (siunčia savo šaukinį kol kita st
 - Kaip užpildas, šis procedūrinis ženklas naudojamas tam, kad sulaikytų korespondentą nuo siuntimo kol Jūs ieškote būdų, kaip grakščiai užbaigti mintį ar sakinį. Lygybės ženklas taip pat naudojamas, kaip žodelio _hmmm_ ekvivalentas.
 - Kai kurie CW operatoriai karštligiškai užpildo šiuo simboliu visus tarpus tarp žodžių savo QSO, tikėdamiesi, jog perduotas tekstas bus aiškesnis.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 `W1ZZZ DE LY9ZZZ = GM = TU FER CL = NAME CHRIS QTH SOUTHAMPTON = RST 599 = HW CPI? W1ZZZ DE LY9ZZZ KN`. Šio skirtuko naudojimas šiais laikais nėra toks populiarus ir daugelio radijo mėgėjų laikomas eterio laiko švaistymu. `W1ZZZ DE LY9ZZZ GM TU FER CL NAME CHRIS QTH SOUTHAMPTON RST 599 HW CPI? W1ZZZ DE LY9ZZZ KN` - lengvai skaitomas ir be minėtų skirtukų.
 :::
 
@@ -523,7 +523,7 @@ Jei QSO metu kažkas įsiterpia į pokalbį (siunčia savo šaukinį kol kita st
 - Patyrę CW operatoriai paprastai neklauso ir nešifruoja pavienių raidžių, o girdi žodžius. Jei siunčiami tarpai tarp raidžių ir žodžių yra tinkamo ilgio, nesunku išgirsti pasikartojančius raidžių sąskambius - žodžius. Ar Jūs siunčiate būtent taip? Tada Jūs jau patyręs CW operatorius! Juk dalyvaudami pokalbyje, girdite bei sakote ne pavienes raides, bet žodžius ir sakinius, taip?
 - Naudodamiesi automatiniu raktu, nustatykite tinkamą CW „svorį“ - taško/tarpo santykį (angl. _DIT/space ratio_). Maloniausiai žmogaus ausiai skamba signalas, kai minėtas santykis yra kiek didesnis negu standartinis 1/1 santykis, t.y. kai taškas yra šiek tiek ilgesnis už tarpą.
 
-:::warning Pastaba
+::: warning Pastaba
 „Svoris” nėra taško ir brūkšnio trukmės santykis - tai fiksuota 1/3 reikšmė ir daugumoje elektroninių raktų nereguliuojama.
 :::
 
@@ -584,7 +584,7 @@ QRP stotis yra stotis, siunčianti ne didesnį negu 5 W CW signalą arba 10 W si
 - Jei norite ieškoti daugiklių arba stočių su kuriomis dar nesate užmezgęs ryšio, turėsite ieškoti jų sukdami transiverio rankenėlę. Jei tokią stotį suradote, kviesdami tiesiog praneškite savo šaukinį: `LY9ZZZ`. Nesiųskite jos šaukinio, nes tai vėl būtų tik laiko gaišimas. Užtikriname, jog operatorius dirbantis varžybose tikrai žinos savo šaukinį bei supras, kad kviečiate būtent jį, atsižvelgiant į laiką ir faktą, kad kviečiate jį dažnyje, kuriame jis dirba. Nesiųskite `DE LY9ZZZ`, kadangi žodelis DE šiuo atveju nesuteikia jokios papildomos informacijos.
 - Jei vieną sekundę niekas neatsiliepia, pakartokite savo šaukinį.
 
-:::tip Varžybų metu atlikto QSO pavyzdys
+::: tip Varžybų metu atlikto QSO pavyzdys
 `DL0ZZZ TEST` (DL0ZZZ kviečia CQ)
 
 **`G6XXX`** (G6XXX kviečia DL0ZZZ)
@@ -664,7 +664,7 @@ Ar Jūsų siunčiamo CW greitis nėra pakankamas padaryti tiek QSO, kiek norite?
 - [Padidinkite savo CW greitį su RUFZ](http://rufzxp.net)
 - Ir kitos programos, tokios kaip QRQ ir pan.
 
-:::warning Keletas svarbių pastabų
+::: warning Keletas svarbių pastabų
 
 - Niekuomet nesimokykite CW skaičiuodami TI ir TA
 - Niekada nesimokykite CW grupuodami kartu panašias raides, pvz., e, i, s, h, 5 - tai nepadės Jums atsikratyti įpročio skaičiuoti TI ir TA!
@@ -752,7 +752,7 @@ Ar Jūsų siunčiamo CW greitis nėra pakankamas padaryti tiek QSO, kiek norite?
 | **73**   | geriausi linkėjimai                                                          |
 | **88**   | myliu ir bučiuoju                                                            |
 
-:::warning DĖMESIO
+::: warning DĖMESIO
 73 taip pat naudojamas ir balso ryšiuose. **Nesakykite** ir
 **nerašykite** _Linkiu 73_ arba _Gerų Jums 73_. Bet koks kitas vartojimas išskyrus
 tiesiog **septyni trys** netinkamas. 88 vartojimo taisyklės tokios pat kaip ir 73 atveju.
@@ -844,7 +844,7 @@ Iki 2005 metų, IARU dalindavo įvairius radijo mėgėjų dažnio diapazonus pag
 - **Kodėl taip svarbu žinoti tikslų nominalų RTTY dažnį?** Jei norite įdėti vadinamąją DX klasterio žymą (spot), geriau nurodyti tikslų dažnį, o ne dažnį su kelių kHz paklaida.
 - Dar viena priežastis - privalu išsitekti IARU dažnių plano RTTY ribose.
 
-:::tip Pavyzdys
+::: tip Pavyzdys
 Pagal dažnių planą 14 099 - 14 101 kHz yra rezervuoti švyturiams (pvz., NCDXF švyturių tinklui). Tai reiškia, kad naudojant AFSK moduliaciją su 2125 Hz tarpo ir 2295 Hz žymos tonais (USB), niekuomet neturėtumėte siųsti dažniu, didesniu negu 14 099 - 2,295 = 14 096,705 kHz. Atkreipiant dėmesį ir į SSB moduliacijos ypatumus, saugiausia būtų šią reikšmę suapvalinti iki 14 096,5 kHz.
 :::
 

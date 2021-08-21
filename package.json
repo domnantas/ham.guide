@@ -9,16 +9,18 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.7.0",
-    "@vuepress/plugin-pwa": "^1.7.0",
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.6",
-    "vuepress": "^1.7.0"
+    "request-promise": "^4.2.6"
   },
   "dependencies": {
     "@turf/turf": "^6.5.0",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.24",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.24",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.24",
+    "@vuepress/utils": "^2.0.0-alpha.1",
     "mapbox-gl": "^2.4.0",
-    "vue-mapbox": "^0.4.1"
+    "vuepress-vite": "^2.0.0-beta.24"
   }
 }

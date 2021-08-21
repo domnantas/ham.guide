@@ -100,7 +100,7 @@ This is a simplified diagram of directory structure.
 
 Directories like `ARManua/contribute/` or `ARManual/q-code/` are **page** or **page group** folders. **Page** is a directory with a single `README.md` file. **Page group** is a directory containing a `README.md` and other `.md` files for additional pages.
 
-:::warning
+::: warning
 If you want to create a **new** page or page group, you need to modify `ARManual/.vuepress/config.js` file `themeConfig.locales.sidebar` property in order to see your page in the navigation menu. Try doing this yourself following already existing code as an example, but don't be afraid to ask for help on Github if you get stuck!
 :::
 

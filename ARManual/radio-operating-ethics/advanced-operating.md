@@ -54,7 +54,7 @@ Only if all these requirements are met, can you call the DX station!
   - In radio traffic the phonetic alphabet (Alpha through Zulu), prescribed by the ITU, serves to avoid mistakes during exchanges of letters and words. To achieve this goal a unique phonetic word has been attributed to each letter of the alphabet. Note there is only one such series of words, and not one for each language!
   - A DX station listens for these unique words in the pileup cacophony. His ears are tortured by the chaotic presence of all these words (and figures) and fatigue increases. If we use other words than the standard words of the spelling alphabet, the procedure may become very inefficient because we’re using words that the DX station does not expect to hear.
   - Far too often in pileups one can notice that the DX station missed just that letter that deviated from the standard alphabet, and consequently he has to ask for a repeat.
-    :::warning Example
+    ::: warning Example
     The spelling word `Lima` cuts like a razor blade. Often we hear `London` as an alternative. If your signal is very weak or interfered with, the DX station will probably understand `Lima` but not `London`!
     :::
   - Not only is the DX station listening for the exact words, he is also expecting certain consonants/sounds in these words and a defined number of syllables. If a syllable gets lost due to static (QRN) or QRM, he can often reconstruct the word by completing the missing consonants and/or number of syllables.
@@ -63,7 +63,7 @@ Only if all these requirements are met, can you call the DX station!
 - In your reply you should now emphasize the missing part of your call: `This is`**`golf`** **`three`**`,`**`golf`** **`three`**`zulu zulu zulu, 59 QSL?`.
 - Normally the DX station should answer `G3ZZZ thanks` whereby he confirms your call and ends the QSO. If he did not confirm the correction of your callsign, call again and ask: `please confirm my call, G3ZZZ over`. Keep insisting for a confirmation, to avoid being incorrectly logged. If he does not confirm your call, there is no reason not to call him again, until you have heard the DX station say your call correctly.
 - If the DX station returns with an error in your callsign, repeat a few times the part of your call where the error occurred.
-  :::tip Example
+  ::: tip Example
   He says `G3ZZW 59`. Go back to him with: `this is G3ZZZ zulu zulu zulu G3ZZZ 59 over`. Normally he will then answer `G3ZZZ thanks` or something similar. Make sure you have a confirmation of the correction as explained above.
   :::
 - If the DX station returns with a partial call which does not resemble your call, or if he comes back to another station, then keep quiet and listen. If you keep calling it’s likely that one of the following scenarios will happen:
@@ -123,7 +123,7 @@ If too many stations are calling on the DX station’s frequency, the DX station
 - In many cases it’s not only the tail they step on, but more or less the entire beast.
 - This operating procedure is not very polite but rather aggressive. The consensus is: don’t do it.
 
-:::warning The endless callers
+::: warning The endless callers
 Yes they exist, and there are many, many of them. They just want to work the new rare one, whatever means it takes. They do not have the slightest consideration for other stations. They transmit their call just as a continuous broadcast transmission, and hardly listen at all. Often one can hear the DX station coming back to them, two or three times, but to no avail. They don’t hear the DX station because they (almost) never listen, and maybe because they have a typical ‘alligator’ station. Calling the DX station seems to be their hobby, not working the DX.
 
 All of this would not be so bad and sad if, by this shameful practice, they did not cause a lot of QRM to other stations. What they do is pure and simple jamming.
@@ -168,7 +168,7 @@ This endless calling is an ultimate proof of egoistic behavior; shame on those w
   - The MC can ask the calling stations to check in correctly, which means by their full callsign. If the DX station at that time already copies the station checking in, the better for him.
   - If later in the procedure the MC calls the stations that have checked in, he can call them by the last 2 letters of their call, which is quite **legal**. The rules say how you have to identify yourself, not how you call another station.
 
-:::tip Example
+::: tip Example
 The MC says: `Stations for ZK1DX, check in please`
 OH9ZZZ gives his (full) call: `OH9ZZZ`
 
@@ -263,7 +263,7 @@ Do not send spots that have no added value. Do not spot common stations, e.g. al
 - The **Announce Full (To All)** function is a totally different story. Any message sent using this function will be sent to the users of all world wide linked clusters, and that may be many thousands at any given time. Be very careful when using this function. Most **To All** announcements are actually intended for one particular person, where 9,999 others are forced to read a message which is of no value to them.
 - Do not ever use the **Announce Full** function as a chat channel. Also, never use this function to settle an argument or to insult someone. The world is watching you! Only send messages that are of interest to a vast majority of the DXers. Example: you could announce that the DXpedition has just moved band, or frequency, or that they will be on such and such a frequency at such and such a time. Etc. The general rule is: **To All** messages should indeed be of interest to all. If a message is not of interest to all (or a vast majority of them), don’t send it via the **To All** function.
 
-:::warning Example
+::: warning Example
 A **To All** message from ON7xxx reads like `ON4xx, good morning Frans`. Another example, `To All de DF0xx: wir warten auf K3714.` Whatever that means. And there are, unfortunately, thousands more similar examples.
 :::
 
@@ -321,7 +321,7 @@ A **To All** message from ON7xxx reads like `ON4xx, good morning Frans`. Another
 | **10m**  | ± 28 080 (RTTY)       |
 | **10m**  | 28 490 – 28 500 (SSB) |
 
-:::tip
+::: tip
 First 5 kHz of each band are also unofficially used for CW DX contacts.
 :::
 
@@ -423,7 +423,7 @@ Maybe sooner or later you will be operating at the other side of a pileup. Maybe
 - In CW, in a similar case, never send a question mark if you copied a partial call (e.g. 3TA). A question mark will trigger half of the pileup to start calling you. Send `3TA 599`, and not: `?3TA 599`. Never send question marks in a pileup situation.
 - The following applies to all modes: if at first you copied only a partial call, always repeat the full call once you have it, so the station that called you is sure he worked you and can put you in his log.
 
-:::tip Example
+::: tip Example
 Assume you first copied a partial: ‘3TA’. Send `3TA 599` (in phone say `3TA 59`). He confirms: `TU DE OH OH3TA 599` (in phone: `oscar hotel, oscar hotel three tango alpha you’re 59 QSL?`). If you now confirm with `QSL TU` (in phone: `QSL thank you`), there is no way OH3TA can tell you worked him. Therefore, confirm with: `OH3TA TU` (in phone: `OH3TA thanks`).
 :::
 
@@ -432,7 +432,7 @@ Assume you first copied a partial: ‘3TA’. Send `3TA 599` (in phone say `3TA 
 - If the partial call you originally came back to disappeared, do not just pick up the call of one of the strong undisciplined callers who’s been giving you a hard time the last several minutes. Just call a CQ again and listen a few kHz higher or lower. Never give the impression you are now calling one of the undisciplined callers. Show them that their undisciplined calling was useless.
 - You have returned for a particular station in the pileup (e.g. JA1ZZZ) and you have put him in the log. However he keeps calling you again, obviously because he did not hear you give him his report. Do not go back to him with `JA1ZZ you are in the log` (on phone) or `JA1ZZZ QSL` (CW) but call him again and give his report again. He obviously wants to hear his report!
 
-:::tip Always follow a standard pattern in your transmissions
+::: tip Always follow a standard pattern in your transmissions
 For example, you are ZK1DX:
 
 `ZK1DX 5 to 10 up` (you hear ON4XYZ calling)

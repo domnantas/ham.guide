@@ -1,7 +1,3 @@
----
-pageClass: cover
----
-
 # Radijo mėgėjo etikos ir darbo eteryje kodeksas
 
 ### Trečiasis leidimas (2010 06)

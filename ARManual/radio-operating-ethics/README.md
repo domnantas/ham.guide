@@ -1,7 +1,3 @@
----
-pageClass: cover
----
-
 # Ethics and operating procedures for the radio amateur
 
 ### Third edition (2010 06)

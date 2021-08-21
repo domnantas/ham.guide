@@ -23,7 +23,7 @@ import {
   featureCollection,
   center,
   getCoord,
-  flip
+  flip,
 } from '@turf/turf';
 
 export default {
@@ -33,7 +33,7 @@ export default {
       currentLongitude: null,
       map: null,
       maidenheadFieldFeatures: null,
-      maidenheadSquareFeatures: null
+      maidenheadSquareFeatures: null,
     };
   },
   computed: {
@@ -42,14 +42,14 @@ export default {
         this.currentLatitude,
         this.currentLongitude
       );
-    }
+    },
   },
   mounted() {
     this.map = new mapboxgl.Map({
       accessToken:
         'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
       container: this.$refs.map,
-      style: 'mapbox://styles/mapbox/outdoors-v11'
+      style: 'mapbox://styles/mapbox/outdoors-v11',
     });
 
     this.addControls();
@@ -59,7 +59,7 @@ export default {
       this.drawMaidenheadSquare();
     });
 
-    this.map.on('click', event => {
+    this.map.on('click', (event) => {
       const latitude = parseFloat(event.lngLat.lat.toFixed(3));
       const longitude = parseFloat(event.lngLat.lng.toFixed(3));
       const popupHTML = `<div class="map-info">
@@ -87,12 +87,12 @@ export default {
       );
       const geolocate = new mapboxgl.GeolocateControl({
         positionOptions: {
-          enableHighAccuracy: true
+          enableHighAccuracy: true,
         },
         fitBoundsOptions: {
-          maxZoom: 7
+          maxZoom: 7,
         },
-        trackUserLocation: true
+        trackUserLocation: true,
       });
 
       this.map.addControl(geolocate);
@@ -104,7 +104,7 @@ export default {
       this.currentLongitude = e.coords.longitude;
     },
     calculateMaidenhead(latitude, longitude) {
-      const numberToLetter = number => String.fromCharCode(97 + number);
+      const numberToLetter = (number) => String.fromCharCode(97 + number);
       let lat = (latitude + 90.0) / 10 + 0.0000001;
       let lon = (longitude + 180.0) / 20 + 0.0000001;
       let locator =
@@ -143,7 +143,7 @@ export default {
                 longitude,
                 latitude,
                 longitude + 20,
-                latitude + 10
+                latitude + 10,
               ]);
 
               const maidenheadField = this.calculateMaidenhead(
@@ -161,7 +161,7 @@ export default {
 
       this.map.addSource('maidenheadFieldBBoxes', {
         type: 'geojson',
-        data: maidenheadFieldBBoxes
+        data: maidenheadFieldBBoxes,
       });
 
       this.map.addLayer({
@@ -171,8 +171,8 @@ export default {
         maxzoom: 5,
         paint: {
           'line-color': '#647DEE',
-          'line-width': 1
-        }
+          'line-width': 1,
+        },
       });
 
       this.map.addLayer({
@@ -183,17 +183,17 @@ export default {
         layout: {
           'text-field': ['get', 'maidenheadField'],
           'text-allow-overlap': true,
-          'text-size': 18
+          'text-size': 18,
         },
         paint: {
-          'text-color': '#647DEE'
-        }
+          'text-color': '#647DEE',
+        },
       });
     },
     drawMaidenheadSquare() {
       const maidenheadSquareDivisions = 10;
       this.maidenheadSquareFeatures = this.maidenheadFieldFeatures.flatMap(
-        maidenheadFieldBox => {
+        (maidenheadFieldBox) => {
           const [longitudeStart, latitudeStart] = maidenheadFieldBox.bbox;
           return Array(maidenheadSquareDivisions)
             .fill()
@@ -208,7 +208,7 @@ export default {
                     longitude,
                     latitude,
                     longitude + 2,
-                    latitude + 1
+                    latitude + 1,
                   ]);
 
                   const maidenheadSquare = this.calculateMaidenhead(
@@ -229,7 +229,7 @@ export default {
 
       this.map.addSource('maidenheadSquareBBoxes', {
         type: 'geojson',
-        data: maidenheadSquareBBoxes
+        data: maidenheadSquareBBoxes,
       });
 
       this.map.addLayer({
@@ -239,8 +239,8 @@ export default {
         minzoom: 5,
         paint: {
           'line-color': '#647DEE',
-          'line-width': 1
-        }
+          'line-width': 1,
+        },
       });
 
       this.map.addLayer({
@@ -251,58 +251,53 @@ export default {
         layout: {
           'text-field': ['get', 'maidenheadSquare'],
           'text-allow-overlap': true,
-          'text-size': 18
+          'text-size': 18,
         },
         paint: {
-          'text-color': '#647DEE'
-        }
+          'text-color': '#647DEE',
+        },
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-.wrapper
-  height calc(100vh - 3.6rem)
-  position relative
+<style scoped>
+.wrapper {
+  height: calc(100vh - 3.6rem);
+  position: relative;
+}
 
-#map
-  height 100%
+#map {
+  height: 100%;
+}
 
-.box
-  position absolute
-  top 0
-  left 0
-  background-color white
-  margin 10px
-  padding 10px
-  border-radius 10px
-  font-size 14px
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  background: var(--c-bg);
+}
 
-
-.data
-  display flex
-  flex-direction column
+.data {
+  display: flex;
+  flex-direction: column;
+}
 </style>
 
-<style lang="stylus">
-.map-info-row
-  display grid
-  grid-template-columns repeat(2, 1fr)
-  grid-gap 10px
-.map-info-header
-  font-weight bold
+<style>
+.map-info-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
 
-
-.fullscreen
-  .theme-default-content
-    padding 0
-    max-width none
-
-  .page-edit, .page-nav
-    display none
-
-  .page
-    padding-bottom: 0
+.map-info-header {
+  font-weight: bold;
+}
 </style>

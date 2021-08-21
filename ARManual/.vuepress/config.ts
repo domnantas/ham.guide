@@ -1,4 +1,7 @@
-module.exports = {
+
+import { path } from '@vuepress/utils'
+
+export default {
   title: 'ARManual',
   description: 'Introduction to amateur radio',
   locales: {
@@ -45,7 +48,7 @@ module.exports = {
       'link',
       {
         rel: 'manifest',
-        href: `/manifest.json`
+        href: `/manifest.webmanifest`
       }
     ],
     [
@@ -78,44 +81,19 @@ module.exports = {
       }
     ]
   ],
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        '/': {
-          message: 'New content is available.',
-          buttonText: 'Refresh'
-        },
-        '/lt/': {
-          message: 'Puslapio turinys atnaujintas.',
-          buttonText: 'Atnaujinti'
-        },
-        '/es/': {
-          message: 'Nuevo contenido disponible.',
-          buttonText: 'Actualizar'
-        }
-      }
-    },
-    '@vuepress/google-analytics': {
-      ga: 'UA-144249418-1'
-    }
-  },
   themeConfig: {
     repo: 'LRMD/ARManual',
     editLinks: true,
     docsDir: 'ARManual',
-    algolia: {
-      apiKey: '2f148ce036146414349f66708050eb31',
-      indexName: 'armanual'
-    },
+    logo: '/logo.svg',
+    sidebarDepth: 1,
     locales: {
       '/': {
-        label: 'English',
-        selectText: 'Languages',
+        selectLanguageName: 'English',
+        selectLanguageText: 'Languages',
         sidebar: [
           {
-            title: 'Ethics and operating procedures for the radio amateur',
-            collapsable: true,
+            text: 'Ethics and operating procedures for the radio amateur',
             children: [
               '/radio-operating-ethics/',
               '/radio-operating-ethics/radio-amateurs-code',
@@ -129,21 +107,23 @@ module.exports = {
           '/q-code/',
           '/dxcc-prefixes/',
           {
-            title: 'Contribute',
-            collapsable: true,
+            text: 'Contribute',
             children: ['/contribute/', '/contribute/markdown-tips']
           }
         ]
       },
       '/lt/': {
-        label: 'Lietuvių',
-        selectText: 'Kalba',
+        selectLanguageName: 'Lietuvių',
+        selectLanguageText: 'Kalba',
         editLinkText: 'Redaguoti šį puslapį',
-        lastUpdated: 'Atnaujinta',
+        lastUpdatedText: 'Atnaujinta',
+        contributorsText: 'Autoriai',
+        tip: 'PATARIMAS',
+        warning: 'ĮSPĖJIMAS',
+        danger: 'PAVOJUS',
         sidebar: [
           {
-            title: 'Radijo mėgėjo etikos ir darbo eteryje kodeksas',
-            collapsable: true,
+            text: 'Radijo mėgėjo etikos ir darbo eteryje kodeksas',
             children: [
               '/lt/radio-operating-ethics/',
               '/lt/radio-operating-ethics/radio-amateurs-code',
@@ -162,21 +142,23 @@ module.exports = {
           '/lt/wal/',
           '/lt/qth/',
           {
-            title: 'Prisidėkite',
-            collapsable: true,
+            text: 'Prisidėkite',
             children: ['/lt/contribute/', '/lt/contribute/markdown-tips']
           }
         ]
       },
       '/es/': {
-        label: 'Español',
-        selectText: 'Idiomas',
+        selectLanguageName: 'Español',
+        selectLanguageText: 'Idiomas',
         editLinkText: 'Editar',
-        lastUpdated: 'Actualizado',
+        lastUpdatedText: 'Actualizado',
+        contributorsText: 'Colaboradores',
+        tip: 'SUGERENCIA',
+        warning: 'ADVERTENCIA',
+        danger: 'PELIGRO',
         sidebar: [
           {
-            title: 'Ética y procedimientos de operación para radioaficionados',
-            collapsable: true,
+            text: 'Ética y procedimientos de operación para radioaficionados',
             children: [
               '/radio-operating-ethics/',
               '/radio-operating-ethics/radio-amateurs-code',
@@ -190,12 +172,49 @@ module.exports = {
           '/q-code/',
           '/dxcc-prefixes/',
           {
-            title: 'Contribuye',
-            collapsable: true,
+            text: 'Contribuye',
             children: ['/contribute/', '/contribute/markdown-tips']
           }
         ]
       }
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: path.resolve(__dirname, './components'),
+      },
+    ],
+    [
+      '@vuepress/docsearch',
+      {
+        apiKey: '2f148ce036146414349f66708050eb31',
+        indexName: 'armanual',
+        locales: {
+          '/': {
+            placeholder: 'Search',
+          },
+          '/lt/': {
+            placeholder: 'Paieška',
+          },
+          '/es/': {
+            placeholder: 'Buscar',
+          },
+        },
+      },
+    ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'UA-144249418-1',
+      },
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        skipWaiting: true,
+      },
+    ],
+  ],
 };

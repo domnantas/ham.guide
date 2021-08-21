@@ -75,18 +75,18 @@ _Pasviręs tekstas_
 ### Nenumeruoti
 
 ```md
-* Sąrašai
-  * gali būti
-    * kelių lygių
-  * antras lygis
+- Sąrašai
+  - gali būti
+    - kelių lygių
+  - antras lygis
 ```
 
 #### Pavyzdys
 
-* Sąrašai
-  * gali būti
-    * kelių lygių
-  * antras lygis
+- Sąrašai
+  - gali būti
+    - kelių lygių
+  - antras lygis
 
 ### Numeruoti
 
@@ -151,7 +151,7 @@ Pavojus, toliau neikite
 ```md
 [Išorinė nuoroda](https://google.com)
 
-[Nuoroda su pavadinimu](https://google.com "Pavadinimas")
+[Nuoroda su pavadinimu](https://google.com 'Pavadinimas')
 
 [Vidinė nuoroda](/lt/)
 
@@ -166,7 +166,7 @@ Pavojus, toliau neikite
 
 [Išorinė nuoroda](https://google.com)
 
-[Nuoroda su pavadinimu](https://google.com "Pavadinimas")
+[Nuoroda su pavadinimu](https://google.com 'Pavadinimas')
 
 [Vidinė nuoroda](/lt/)
 
@@ -176,19 +176,19 @@ Pavojus, toliau neikite
 
 [Vidinė nuoroda į sekciją](/lt/contribute/markdown-tips.md#pranesimu-konteineriai)
 
-::: warning ĮSPĖJIMAS
+::: warning
 Neužmirškite vidinių nuorodų užbaigti su `/`, kitaip atsidursite 404 puslapyje.
 :::
 
 ## Paveiksliukai
 
 ```md
-![Alt tekstas](/icons/android-chrome-192x192.png "Pavadinimas")
+![Alt tekstas](/icons/android-chrome-192x192.png 'Pavadinimas')
 ```
 
 #### Pavyzdys
 
-![Alt tekstas](/icons/android-chrome-192x192.png "Pavadinimas")
+![Alt tekstas](/icons/android-chrome-192x192.png 'Pavadinimas')
 
 ## Kodas
 
@@ -206,7 +206,7 @@ Kodas `toje pačioje` eilutėje
 
 ````md
 ```js
-var foo = function(bar) {
+var foo = function (bar) {
   return bar++;
 };
 ```
@@ -215,7 +215,7 @@ var foo = function(bar) {
 #### Pavyzdys
 
 ```js
-var foo = function(bar) {
+var foo = function (bar) {
   return bar++;
 };
 ```
@@ -258,7 +258,7 @@ const foo = bar => {
 <!-- .vuepress/components/DoubleNumber.vue -->
 <template>
   <div class="doubler">
-    <pre>{{ number }}</pre>
+    <h3>{{ number }}</h3>
     <button @click="double">Double</button>
   </div>
 </template>
@@ -267,29 +267,29 @@ const foo = bar => {
 export default {
   data() {
     return {
-      number: 1
+      number: 1,
     };
   },
   methods: {
     double() {
       this.number = this.number * 2;
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="stylus" scoped>
-@require '~@default-theme/styles/config.styl'
+<style scoped>
+.doubler {
+  text-align: center;
+}
 
-.doubler
-  text-align center
-
-button
-  color #fff
-  font-size 1.2rem
-  background-color $accentColor
-  padding 1.5rem
-  border none
+button {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: var(--c-brand);
+  padding: 1.5rem;
+  border: none;
+}
 </style>
 ```
 

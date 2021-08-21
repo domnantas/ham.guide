@@ -1,8 +1,9 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: Read →
-actionLink: /radio-operating-ethics/
+actions:
+  - text: Read →
+    link: /radio-operating-ethics/
 features:
   - title: Community Driven
     details: Content of this manual is open-sourced and maintained by the community. Anyone can contribute towards development of this project. The title sounds like Our Manual for a reason!

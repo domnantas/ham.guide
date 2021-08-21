@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 2021-08-14
 
+## Changed
+
+- Upgraded to Vuepress v2
+- Added dark theme
+- Stylus replaced with css/scss
+
+## 2021-08-14
+
 ## Added
 
 - **Lithuanian** Added QTH locator map
