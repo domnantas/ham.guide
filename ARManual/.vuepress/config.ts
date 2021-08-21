@@ -207,7 +207,7 @@ export default {
     [
       '@vuepress/plugin-google-analytics',
       {
-        id: 'UA-144249418-1',
+        id: 'G-9BCS1N7E1G',
       },
     ],
     [
