@@ -79,13 +79,6 @@ export default {
         content:
           'Introduction to amateur radio - Open source, multilingual and works offline!'
       }
-    ],
-    [
-      'meta',
-      {
-        property: 'viewport',
-        content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
-      }
     ]
   ],
   themeConfig: {
