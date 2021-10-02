@@ -15,7 +15,11 @@ export default {
     '/es/': {
       lang: 'es-ES',
       description: 'Introduction a la radioafición'
-    }
+    },
+    '/ru/': {
+      lang: 'ru-RU',
+      description: 'Введение в любительскую радиосвязь'
+    },
   },
   head: [
     [
@@ -176,7 +180,37 @@ export default {
             children: ['/contribute/', '/contribute/markdown-tips']
           }
         ]
-      }
+      },
+      '/ru/': {
+        selectLanguageName: 'Русский',
+        selectLanguageText: 'Язык',
+        editLinkText: 'Изменить',
+        lastUpdatedText: 'Обновлено',
+        contributorsText: 'Соавторы',
+        tip: 'ПОДСКАЗКА',
+        warning: 'ПРЕДУПРЕЖДЕНИЕ',
+        danger: 'ОПАСНОСТЬ',
+        sidebar: [
+          {
+            text: 'Этика и правила работы радиолюбителя',
+            children: [
+              '/radio-operating-ethics/',
+              '/radio-operating-ethics/radio-amateurs-code',
+              '/radio-operating-ethics/introduction',
+              '/radio-operating-ethics/general-operating',
+              '/radio-operating-ethics/advanced-operating',
+              '/radio-operating-ethics/authors'
+            ]
+          },
+          '/phonetic-alphabet/',
+          '/q-code/',
+          '/dxcc-prefixes/',
+          {
+            text: 'Участие в проекте',
+            children: ['/contribute/', '/contribute/markdown-tips']
+          }
+        ]
+      },
     }
   },
   plugins: [
@@ -200,6 +234,9 @@ export default {
           },
           '/es/': {
             placeholder: 'Buscar',
+          },
+          '/ru/': {
+            placeholder: 'Поиск',
           },
         },
       },
