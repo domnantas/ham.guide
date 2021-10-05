@@ -203,7 +203,7 @@ export default {
             ]
           },
           '/phonetic-alphabet/',
-          '/q-code/',
+          '/ru/q-code/',
           '/dxcc-prefixes/',
           {
             text: 'Участие в проекте',
