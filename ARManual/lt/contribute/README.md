@@ -44,18 +44,22 @@ Naudodami savo distribucijos paketų tvarkyklę, įsidiekite programas Git ir No
 
 ---
 
+Taip pat reikės [įdiegti Yarn](https://yarnpkg.com/getting-started/install)
+
+---
+
 1. Kai įdiegsite Git ir Node, [klonuokite ARManual repozitoriją ir sukurkite naują šaką](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 1. Įrašykite būtinus modulius
 
 ```bash
-npm install # arba yarn
+yarn
 ```
 
 3. Paleiskite vietinį serverį
 
 ```bash
-npm run dev # arba yarn dev
+yarn dev
 ```
 
 Apsilankykite `localhost:8080` ir turėtumėte pamatyti ARManual veikiantį vietiniame tinkle.

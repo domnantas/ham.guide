@@ -40,18 +40,22 @@ Install Git and Node using your distro package manager.
 
 ---
 
+You will need to [install Yarn](https://yarnpkg.com/getting-started/install) to manage dependencies
+
+---
+
 1. After you have the prerequisites installed, [fork and clone ARManual repository and create a new branch](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 2. Install dependencies
 
 ```bash
-npm install # or yarn
+yarn
 ```
 
 3. Run the dev server
 
 ```bash
-npm run dev # or yarn dev
+yarn dev
 ```
 
 After that, visit `localhost:8080` and you should see ARManual running locally.
