@@ -171,7 +171,7 @@ export default {
               '/radio-operating-ethics/authors'
             ]
           },
-          '/phonetic-alphabet/',
+          '/es/phonetic-alphabet/',
           '/q-code/',
           '/dxcc-prefixes/',
           {
