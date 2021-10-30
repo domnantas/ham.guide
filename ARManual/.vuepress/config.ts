@@ -1,4 +1,3 @@
-
 import { path } from '@vuepress/utils'
 
 export default {

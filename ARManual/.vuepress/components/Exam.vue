@@ -125,23 +125,32 @@ button {
 .question-image {
   display: block;
 }
+
+.dark .question-image {
+  filter: invert(1);
+}
+
 .question-text {
   margin-bottom: 10px;
   display: inline-block;
 }
+
 .choice {
   margin-bottom: 10px;
 }
+
 .results {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .result {
   font-size: 1.5rem;
   margin-bottom: 20px;
   color: green;
 }
+
 .error {
   color: red;
 }
