@@ -4,7 +4,7 @@
 
 ### Added
 
-- **Russian** Homepage @korstan
+- **Russian** Homepage korstan@66ab721e9d4c9c42924ebbfcfe9906906121b0fa
 - **Spanish** Phonetic alphabet @alanverdugo
 - **Russian** Phonetic alphabet @korstan
 - **Russian** Q code @SvA1
