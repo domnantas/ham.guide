@@ -13,5 +13,3 @@ features:
     details: ARManual works without internet access - it is saved on your device and updated once new content is published. You can even install this webpage as an app if you're on a mobile browser!
 footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 ---
-
-@[code md:no-line-numbers](../CHANGELOG.md)

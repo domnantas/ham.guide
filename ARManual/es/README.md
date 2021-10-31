@@ -13,5 +13,3 @@ features:
     details: ARManual no necesita de una conexión a internet para funcionar, se almacena en tu dispositivo y se actualiza cuando se publique algún contenido nuevo. Incluso puedes instalar esta página web como una aplicación en tu dispositivo móvil!
 footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 ---
-
-@[code md:no-line-numbers](../../CHANGELOG.md)

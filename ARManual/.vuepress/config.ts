@@ -94,6 +94,12 @@ export default {
       '/': {
         selectLanguageName: 'English',
         selectLanguageText: 'Languages',
+        navbar: [
+          {
+            text: 'Changelog',
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+          },
+        ],
         sidebar: [
           {
             text: 'Ethics and operating procedures for the radio amateur',
@@ -124,6 +130,12 @@ export default {
         tip: 'PATARIMAS',
         warning: 'ĮSPĖJIMAS',
         danger: 'PAVOJUS',
+        navbar: [
+          {
+            text: 'Pakeitimai',
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
+          }
+        ],
         sidebar: [
           {
             text: 'Radijo mėgėjo etikos ir darbo eteryje kodeksas',
@@ -159,6 +171,12 @@ export default {
         tip: 'SUGERENCIA',
         warning: 'ADVERTENCIA',
         danger: 'PELIGRO',
+        navbar: [
+          {
+            text: 'Cambios',
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
+          }
+        ],
         sidebar: [
           {
             text: 'Ética y procedimientos de operación para radioaficionados',
@@ -189,6 +207,12 @@ export default {
         tip: 'ПОДСКАЗКА',
         warning: 'ПРЕДУПРЕЖДЕНИЕ',
         danger: 'ОПАСНОСТЬ',
+        navbar: [
+          {
+            text: 'Изменения',
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
+          }
+        ],
         sidebar: [
           {
             text: 'Этика и правила работы радиолюбителя',

@@ -13,5 +13,3 @@ features:
     details: ARManual veikia be interneto prieigos - jis išsaugomas įrenginyje ir atsinaujina atsiradus naujam turiniui. Jeigu apsilankysite šiame puslapyje per mobiliojo įrenginio naršyklę, galėsite net įsirašyti ARManual kaip programėlę!
 footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
 ---
-
-@[code md:no-line-numbers](../../CHANGELOG.md)
