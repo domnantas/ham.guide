@@ -4,10 +4,10 @@
 
 ### Added
 
-- **Russian** Homepage korstan@66ab721e9d4c9c42924ebbfcfe9906906121b0fa
-- **Spanish** Phonetic alphabet @alanverdugo
-- **Russian** Phonetic alphabet @korstan
-- **Russian** Q code @SvA1
+- **Russian** Homepage [@korstan](https://github.com/korstan)
+- **Spanish** Phonetic alphabet [@alanverdugo](https://github.com/alanverdugo)
+- **Russian** Phonetic alphabet [@korstan](https://github.com/korstan)
+- **Russian** Q code [@SvA1](https://github.com/SvA1)
 - Changelog link in navbar
 
 ### Changed
