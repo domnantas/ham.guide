@@ -4,11 +4,11 @@ Bendruomenės pagalba yra labai laukiama! Nesijaudinkite jeigu turite mažai pat
 
 ## Kaip galiu padėti?
 
-Pirmiausa - ačiū kad norite padėti šiam projektui augti. Yra daugelis būdų kaip galite prisidėti — papasakokite draugams apie ARManual, pataisykite gramatines klaidas kurias randate, patikslinkite pasenusią informaciją, išverskite puslapius į kitą kalbą, ar net pridėkite daugiau turinio. Mūsų [Github Issue puslapyje](https://github.com/LRMD/ARManual/issues) ieškokite pranešimų pažymėtų _help wanted_ ir bandykite prisidėti prie jų sprendimo.
+Pirmiausa - ačiū kad norite padėti šiam projektui augti. Yra daugelis būdų kaip galite prisidėti — papasakokite draugams apie ARManual, pataisykite gramatines klaidas kurias randate, patikslinkite pasenusią informaciją, išverskite puslapius į kitą kalbą, ar net pridėkite daugiau turinio. Mūsų [Github Issue puslapyje](https://github.com/domnantas/ARManual/issues) ieškokite pranešimų pažymėtų _help wanted_ ir bandykite prisidėti prie jų sprendimo.
 
 ## _Issues_
 
-Jeigu turite pasiūlymų, klausimų ar radote klaidų, parašykite pranešimą mūsų [Github Issue puslapyje](https://github.com/LRMD/ARManual/issues).
+Jeigu turite pasiūlymų, klausimų ar radote klaidų, parašykite pranešimą mūsų [Github Issue puslapyje](https://github.com/domnantas/ARManual/issues).
 
 ## Redagavimas pradedantiesiams
 
@@ -20,7 +20,7 @@ Jeigu radote gramatinę klaidą, neteisingą informaciją, ar norėtumėte patik
 - Spauskite **Propose file change** mygtuką ir **Create pull request** kitame puslapyje.
 - Įsitikinkite kad jūsų _pull request_ turi atitinkamą antraštę ir aprašymą ir spauskite **Create pull request**
 
-Dėkojame, kad tobulinate ARManual! Mes peržiūrėsime jūsų pakeitimus ir atnaujintą puslapį matysite, kai pakeitimus patvirtinsime. Kartas nuo karto patikrinkite savo [_pull request_](https://github.com/LRMD/ARManual/pulls) — ten galite rasti komentarus ir klausimus susijusius su jūsų pakeitimais.
+Dėkojame, kad tobulinate ARManual! Mes peržiūrėsime jūsų pakeitimus ir atnaujintą puslapį matysite, kai pakeitimus patvirtinsime. Kartas nuo karto patikrinkite savo [_pull request_](https://github.com/domnantas/ARManual/pulls) — ten galite rasti komentarus ir klausimus susijusius su jūsų pakeitimais.
 
 ## Redagavimas pažengusiems
 

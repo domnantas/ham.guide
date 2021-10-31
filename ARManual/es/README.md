@@ -15,9 +15,3 @@ footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
 ---
 
 @[code md:no-line-numbers](../../CHANGELOG.md)
-
----
-
-Proyecto mantenido por la [sociedad lituana de radioaficionados](http://lrmd.lt/)
-
-[![LRMD Logo](/lrmd.svg)](http://lrmd.lt)

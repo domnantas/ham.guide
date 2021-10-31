@@ -1,5 +1,5 @@
 {
-  "name": "lrmd-docs",
+  "name": "armanual",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev ARManual",

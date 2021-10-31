@@ -85,7 +85,7 @@ export default {
     ]
   ],
   themeConfig: {
-    repo: 'LRMD/ARManual',
+    repo: 'domnantas/ARManual',
     editLinks: true,
     docsDir: 'ARManual',
     logo: '/logo.svg',

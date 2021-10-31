@@ -4,11 +4,11 @@ Contributions from the community are welcome! Don't worry if you have litte expe
 
 ## How can I help?
 
-First off — thank you for taking interest in helping this project grow. There are many ways you can contribute — tell your friends about ARManual, fix typos you find, correct outdated information, translate it to a language you know or even write new content. Anything helps! Furthermore, go to our [Github Issue page](https://github.com/LRMD/ARManual/issues), check out the issues with a label _help wanted_ and see if you could fix that issue.
+First off — thank you for taking interest in helping this project grow. There are many ways you can contribute — tell your friends about ARManual, fix typos you find, correct outdated information, translate it to a language you know or even write new content. Anything helps! Furthermore, go to our [Github Issue page](https://github.com/domnantas/ARManual/issues), check out the issues with a label _help wanted_ and see if you could fix that issue.
 
 ## Issues
 
-If you have any suggestions, questions or found a bug, please go to our [Github Issue page](https://github.com/LRMD/ARManual/issues) and submit a new issue.
+If you have any suggestions, questions or found a bug, please go to our [Github Issue page](https://github.com/domnantas/ARManual/issues) and submit a new issue.
 
 ## Simple editing
 
@@ -20,7 +20,7 @@ If you found a typo, incorrect information or would like to clarify something, f
 - Click **Propose file change** button and **Create pull request** in the next page.
 - Make sure your pull request has an appropriate title and description and click **Create pull request**
 
-Thank you for improving ARManual! We will review your changes and you should see them on the webpage after we approve them. Check back on your [pull request](https://github.com/LRMD/ARManual/pulls) every once in a while — you might find some comments and questions there.
+Thank you for improving ARManual! We will review your changes and you should see them on the webpage after we approve them. Check back on your [pull request](https://github.com/domnantas/ARManual/pulls) every once in a while — you might find some comments and questions there.
 
 ## Advanced editing
 
