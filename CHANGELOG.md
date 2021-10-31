@@ -1,8 +1,28 @@
 # Changelog
 
+## 2021-10-31
+
+### Added
+
+- **Russian** Homepage @korstan
+- **Spanish** Phonetic alphabet @alanverdugo
+- **Russian** Phonetic alphabet @korstan
+- **Russian** Q code @SvA1
+- Changelog link in navbar
+
+### Changed
+
+- **Lithuanian** Fixed exam images on dark mode
+- Migrated to Yarn
+
+### Removed
+
+- All references to LRMD
+- Changelog in homepage
+
 ## 2021-08-21
 
-## Changed
+### Changed
 
 - Upgraded to Vuepress v2
 - Added dark theme
@@ -10,25 +30,25 @@
 
 ## 2021-08-14
 
-## Added
+### Added
 
 - **Lithuanian** Added QTH locator map
 
-## Changed
+### Changed
 
 - Mapbox updated to latest version
 - Updated mapbox styles for better readability
 
 ## 2021-06-02
 
-## Changed
+### Changed
 
 - Swiping no longer opens sidebar on WAL and LHFA maps
 - When WAL map is clicked, location coordinates are shown
 
 ## 2021-05-30
 
-## Changed
+### Changed
 
 - Improved LHFA map performance by using circle layer instead of markers
 - Show coordinates when LHFA point is clicked
