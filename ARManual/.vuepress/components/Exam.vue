@@ -26,6 +26,7 @@
         </label>
       </div>
       <button @click="checkResults" v-if="!finished">Tikrinti</button>
+      <div v-if="submitted && !areAllQuestionsAnswered" class="error">Yra nepažymėtų atsakymų</div>
       <div class="results" v-if="finished">
         <strong class="result" :class="{ error: correctNumber < 25 }">
           {{ correctNumber }}/30 --
@@ -62,13 +63,14 @@ export default {
         return accumulator;
       }, 0);
     },
+    areAllQuestionsAnswered() {
+      return this.chosen.filter(() => true).length === this.randomQuestions.length;
+    }
   },
   methods: {
     checkResults() {
       this.submitted = true;
-      if (
-        this.chosen.length === this.randomQuestions.length
-      ) {
+      if (this.areAllQuestionsAnswered) {
         this.finished = true;
       }
     },
