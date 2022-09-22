@@ -1,4 +1,9 @@
 import { path } from '@vuepress/utils'
+import { defaultTheme } from 'vuepress-vite'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
 
 export default {
   title: 'ARManual',
@@ -84,9 +89,8 @@ export default {
       }
     ]
   ],
-  themeConfig: {
+  theme: defaultTheme({
     repo: 'domnantas/ARManual',
-    editLinks: true,
     docsDir: 'ARManual',
     logo: '/logo.svg',
     sidebarDepth: 1,
@@ -235,18 +239,15 @@ export default {
         ]
       },
     }
-  },
+  }),
   plugins: [
-    [
-      '@vuepress/register-components',
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+    docsearchPlugin(
       {
-        componentsDir: path.resolve(__dirname, './components'),
-      },
-    ],
-    [
-      '@vuepress/docsearch',
-      {
-        apiKey: '2f148ce036146414349f66708050eb31',
+        appId: "KAI83AR9ZR",
+        apiKey: 'b8c5ede9eaca26bdbbdc2c0b6eb866a4',
         indexName: 'armanual',
         locales: {
           '/': {
@@ -263,18 +264,13 @@ export default {
           },
         },
       },
-    ],
-    [
-      '@vuepress/plugin-google-analytics',
-      {
-        id: 'G-9BCS1N7E1G',
-      },
-    ],
-    [
-      '@vuepress/pwa',
-      {
-        skipWaiting: true,
-      },
-    ],
+    ),
+    googleAnalyticsPlugin({
+      id: 'G-9BCS1N7E1G',
+    }),
+    pwaPlugin({
+      skipWaiting: true,
+    },
+    ),
   ],
 };
