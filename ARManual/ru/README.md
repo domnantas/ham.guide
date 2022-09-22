@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.svg
 actions:
   - text: Читать →
-    link: /radio-operating-ethics/
+    link: /ru/phonetic-alphabet/
 features:
   - title: Общее дело
     details: Исходный код ресурса находится в открытом доступе и поддерживается сообществом. Любой желающий может внести свой вклад в проект. Название проекта созвучно "Our Manual" ("наше руководство") не просто так!

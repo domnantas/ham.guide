@@ -178,20 +178,20 @@ export default {
           }
         ],
         sidebar: [
-          {
-            text: 'Ética y procedimientos de operación para radioaficionados',
-            children: [
-              '/radio-operating-ethics/',
-              '/radio-operating-ethics/radio-amateurs-code',
-              '/radio-operating-ethics/introduction',
-              '/radio-operating-ethics/general-operating',
-              '/radio-operating-ethics/advanced-operating',
-              '/radio-operating-ethics/authors'
-            ]
-          },
+          // {
+          //   text: 'Ética y procedimientos de operación para radioaficionados',
+          //   children: [
+          //     '/radio-operating-ethics/',
+          //     '/radio-operating-ethics/radio-amateurs-code',
+          //     '/radio-operating-ethics/introduction',
+          //     '/radio-operating-ethics/general-operating',
+          //     '/radio-operating-ethics/advanced-operating',
+          //     '/radio-operating-ethics/authors'
+          //   ]
+          // },
           '/es/phonetic-alphabet/',
-          '/q-code/',
-          '/dxcc-prefixes/',
+          // '/q-code/',
+          // '/dxcc-prefixes/',
           {
             text: 'Contribuye',
             children: ['/contribute/', '/contribute/markdown-tips']
@@ -214,20 +214,20 @@ export default {
           }
         ],
         sidebar: [
-          {
-            text: 'Этика и правила работы радиолюбителя',
-            children: [
-              '/radio-operating-ethics/',
-              '/radio-operating-ethics/radio-amateurs-code',
-              '/radio-operating-ethics/introduction',
-              '/radio-operating-ethics/general-operating',
-              '/radio-operating-ethics/advanced-operating',
-              '/radio-operating-ethics/authors'
-            ]
-          },
+          // {
+          //   text: 'Этика и правила работы радиолюбителя',
+          //   children: [
+          //     '/radio-operating-ethics/',
+          //     '/radio-operating-ethics/radio-amateurs-code',
+          //     '/radio-operating-ethics/introduction',
+          //     '/radio-operating-ethics/general-operating',
+          //     '/radio-operating-ethics/advanced-operating',
+          //     '/radio-operating-ethics/authors'
+          //   ]
+          // },
           '/ru/phonetic-alphabet/',
           '/ru/q-code/',
-          '/dxcc-prefixes/',
+          // '/dxcc-prefixes/',
           {
             text: 'Участие в проекте',
             children: ['/contribute/', '/contribute/markdown-tips']

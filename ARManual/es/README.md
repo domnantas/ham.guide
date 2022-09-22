@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.svg
 actions:
   - text: Leer →
-    link: /radio-operating-ethics/
+    link: /es/phonetic-alphabet/
 features:
   - title: Mantenido por la comunidad
     details: El contenido de este manual es de código abierto y mantenido por la comunidad. Cualquiera puede contribuir a través del desarrollo de este proyecto. ¡El sonido del título es parecido a la pronunciación de "nuestro manual" (en ingles) por una razón!
