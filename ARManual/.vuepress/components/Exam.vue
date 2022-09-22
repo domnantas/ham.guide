@@ -7,39 +7,21 @@
     </div>
     <div class="questions" v-if="selectedExam">
       <h2>{{ selectedExam.title }}</h2>
-      <div
-        class="question"
-        v-for="(question, questionIndex) in randomQuestions"
-        role="radiogroup"
-      >
+      <div class="question" v-for="(question, questionIndex) in randomQuestions" role="radiogroup">
         <div>
-          <img
-            class="question-image"
-            v-if="question.image"
-            :src="question.image"
-          />
+          <img class="question-image" v-if="question.image" :src="question.image" />
           <strong class="question-text">{{ question.text }}</strong>
-          <span
-            class="error"
-            v-if="chosen[questionIndex] === undefined && submitted"
-          >
+          <span class="error" v-if="chosen[questionIndex] === undefined && submitted">
             Pažymėkite atsakymą
           </span>
-          <span
-            class="error"
-            v-if="chosen[questionIndex] !== question.answer && finished"
-          >
-            Neteisinga
+          <span class="error" v-if="chosen[questionIndex] !== question.answer && finished">
+            Neteisingas atsakymas
           </span>
         </div>
-        <label v-for="(choice, choiceIndex) in question.choices" class="choice">
-          <input
-            type="radio"
-            :value="choiceIndex"
-            :name="`question${questionIndex}`"
-            v-model="chosen[questionIndex]"
-            :disabled="finished"
-          />
+        <label v-for="(choice, choiceIndex) in question.choices" class="choice"
+          :class="{ correct: finished && question.answer === choiceIndex}">
+          <input type="radio" :value="choiceIndex" :name="`question${questionIndex}`" v-model="chosen[questionIndex]"
+            :disabled="finished" />
           {{ choice }}
         </label>
       </div>
@@ -49,7 +31,7 @@
           {{ correctNumber }}/30 --
           {{ Math.round((correctNumber * 100) / 30) }}%
         </strong>
-        <button @click="reset">Išvalyti</button>
+        <button @click="reset">Naujas testas</button>
       </div>
     </div>
   </div>
@@ -85,7 +67,7 @@ export default {
     checkResults() {
       this.submitted = true;
       if (
-        this.chosen.filter(() => true).length === this.randomQuestions.length
+        this.chosen.length === this.randomQuestions.length
       ) {
         this.finished = true;
       }
@@ -111,7 +93,7 @@ button {
   margin-bottom: 20px;
 }
 
-.select > button:not(:last-of-type) {
+.select>button:not(:last-of-type) {
   margin-right: 20px;
 }
 
@@ -153,5 +135,9 @@ button {
 
 .error {
   color: red;
+}
+
+.correct {
+  color: green;
 }
 </style>
