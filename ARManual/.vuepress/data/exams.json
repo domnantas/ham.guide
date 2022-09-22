@@ -68,17 +68,29 @@
       },
       {
         "text": "Kokios Lietuvoje yra leidimų radijo mėgėjų veiklai klasės?",
-        "choices": ["A ir B", "A, B ir C", "A, B ir CEPT"],
+        "choices": [
+          "A ir B",
+          "A, B ir C",
+          "A, B ir CEPT"
+        ],
         "answer": 0
       },
       {
         "text": "Kurios klasės leidimas radijo mėgėjų veiklai suteikia daugiau teisių jo turėtojui?",
-        "choices": ["A", "B", "CEPT"],
+        "choices": [
+          "A",
+          "B",
+          "CEPT"
+        ],
         "answer": 0
       },
       {
         "text": "Nuo kokio amžiaus asmenims išduodami B klasės leidimai radijo mėgėjų veiklai?",
-        "choices": ["Nuo 14 metų", "Nuo 16 metų", "Amžius neribojamas"],
+        "choices": [
+          "Nuo 14 metų",
+          "Nuo 16 metų",
+          "Amžius neribojamas"
+        ],
         "answer": 2
       },
       {
@@ -389,7 +401,11 @@
       },
       {
         "text": "Kuris prefiksas skirtas Lietuvos Respublikai?",
-        "choices": ["LT", "LIT", "LY"],
+        "choices": [
+          "LT",
+          "LIT",
+          "LY"
+        ],
         "answer": 2
       },
       {
@@ -439,32 +455,56 @@
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, kai radijo stotis naudojama oro laive?",
-        "choices": ["/am", "/m", "/mm"],
+        "choices": [
+          "/am",
+          "/m",
+          "/mm"
+        ],
         "answer": 0
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, kai radijo stotis naudojama valstybės vidaus vandenyse esančiame laive?",
-        "choices": ["/m", "/mm", "/am"],
+        "choices": [
+          "/m",
+          "/mm",
+          "/am"
+        ],
         "answer": 0
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, kai naudojama judri radijo stotis?",
-        "choices": ["/p", "/mm", "/m"],
+        "choices": [
+          "/p",
+          "/mm",
+          "/m"
+        ],
         "answer": 2
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, kai radijo stotis veikia tarptautiniuose vandenyse esančiame laive?",
-        "choices": ["/m", "/mm", "/p"],
+        "choices": [
+          "/m",
+          "/mm",
+          "/p"
+        ],
         "answer": 1
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, kai naudojama nešiojama radijo stotis?",
-        "choices": ["/m", "/mm", "/p"],
+        "choices": [
+          "/m",
+          "/mm",
+          "/p"
+        ],
         "answer": 2
       },
       {
         "text": "Kuris radijo šaukinio papildymo būdas yra teisingas, kai  naudojama nešiojama radijo stotis?",
-        "choices": ["/p LY1AAA", "LY1AAA /p", "Abu teisingi"],
+        "choices": [
+          "/p LY1AAA",
+          "LY1AAA /p",
+          "Abu teisingi"
+        ],
         "answer": 1
       },
       {
@@ -640,17 +680,29 @@
       },
       {
         "text": "Kviečiant ryšiui bet kurią kitą radijo stotį, paprastai perduodama santrumpa:",
-        "choices": ["CQ", "CQ DX", "CQ ALL"],
+        "choices": [
+          "CQ",
+          "CQ DX",
+          "CQ ALL"
+        ],
         "answer": 0
       },
       {
         "text": "Kviečiant ryšiui radijo stotį, esančią kitame kontinente, turėtų būti perduodama santrumpa:",
-        "choices": ["CQ", "CQ DX", "CQ KONT"],
+        "choices": [
+          "CQ",
+          "CQ DX",
+          "CQ KONT"
+        ],
         "answer": 1
       },
       {
         "text": "Radijo mėgėjai dažnai perduoda frazę „73“ Kokia jos reikšmė?",
-        "choices": ["Viską supratau", "Iki pasimatymo", "Geriausi linkėjimai"],
+        "choices": [
+          "Viską supratau",
+          "Iki pasimatymo",
+          "Geriausi linkėjimai"
+        ],
         "answer": 2
       },
       {
@@ -664,17 +716,29 @@
       },
       {
         "text": "Santrumpa „CFM“ reiškia:",
-        "choices": ["Klausau", "Patvirtinu", "Visiems"],
+        "choices": [
+          "Klausau",
+          "Patvirtinu",
+          "Visiems"
+        ],
         "answer": 1
       },
       {
         "text": "Santrumpa „DE“ reiškia:",
-        "choices": ["Nuo", "Iki", "Tarp"],
+        "choices": [
+          "Nuo",
+          "Iki",
+          "Tarp"
+        ],
         "answer": 0
       },
       {
         "text": "Ką reikėtų perduoti po frazės „CQ DX DE“?",
-        "choices": ["Radijo šaukinį", "Tikslų laiką", "Miesto pavadinimą"],
+        "choices": [
+          "Radijo šaukinį",
+          "Tikslų laiką",
+          "Miesto pavadinimą"
+        ],
         "answer": 0
       },
       {
@@ -697,62 +761,110 @@
       },
       {
         "text": "Žodžius „radijo imtuvas“ radijo mėgėjai dažnai pakeičia santrumpa:",
-        "choices": ["TNX", "TX", "RX"],
+        "choices": [
+          "TNX",
+          "TX",
+          "RX"
+        ],
         "answer": 2
       },
       {
         "text": "Žodžius „radijo siųstuvas“ mėgėjai dažnai pakeičia santrumpa:",
-        "choices": ["DX", "TX", "RX"],
+        "choices": [
+          "DX",
+          "TX",
+          "RX"
+        ],
         "answer": 1
       },
       {
         "text": "Kuri santrumpa reiškia Morzės kodo telegrafiją?",
-        "choices": ["SSB", "CW", "FSK"],
+        "choices": [
+          "SSB",
+          "CW",
+          "FSK"
+        ],
         "answer": 1
       },
       {
         "text": "Kuri santrumpa reiškia vienos šalinės juostos moduliavimą?",
-        "choices": ["FSK", "CW", "SSB"],
+        "choices": [
+          "FSK",
+          "CW",
+          "SSB"
+        ],
         "answer": 2
       },
       {
         "text": "Kuri santrumpa reiškia dažnio moduliavimą?",
-        "choices": ["DM", "FM", "ΦM"],
+        "choices": [
+          "DM",
+          "FM",
+          "ΦM"
+        ],
         "answer": 1
       },
       {
         "text": "Signalų kokybę eteryje radijo mėgėjai dažniausiai įvertina pagal:",
-        "choices": ["SINPO skalę", "SINFEMO skalę", "RST arba RS skalę"],
+        "choices": [
+          "SINPO skalę",
+          "SINFEMO skalę",
+          "RST arba RS skalę"
+        ],
         "answer": 2
       },
       {
         "text": "Tarp eterio triukšmų neišgirdote korespondento radijo šaukinio Kurią santrumpą vartosite?",
-        "choices": ["QRA?", "QRZ?", "QRT?"],
+        "choices": [
+          "QRA?",
+          "QRZ?",
+          "QRT?"
+        ],
         "answer": 1
       },
       {
         "text": "Ryšio metu girdite, kad jūsų radijo stotį kviečia dar vienas korespondentas Prašote jo palaukti, kol baigsite ryšį Kurią santrumpą vartosite?",
-        "choices": ["QRA", "QRZ", "QRX"],
+        "choices": [
+          "QRA",
+          "QRZ",
+          "QRX"
+        ],
         "answer": 2
       },
       {
         "text": "Savo korespondentui norite pranešti, kad jums trukdo kitos radijo stotys Kurią santrumpą vartosite?",
-        "choices": ["QRS", "QRN", "QRM"],
+        "choices": [
+          "QRS",
+          "QRN",
+          "QRM"
+        ],
         "answer": 2
       },
       {
         "text": "Savo korespondentui norite pranešti, kad jūsų siųstuvo išėjimo galia labai maža Kurią santrumpą vartosite?",
-        "choices": ["QRP", "QRT", "QSB"],
+        "choices": [
+          "QRP",
+          "QRT",
+          "QSB"
+        ],
         "answer": 0
       },
       {
         "text": "Ryšio metu perduodate korespondentui savo miesto pavadinimą Kurią santrumpą vartosite?",
-        "choices": ["QTH", "QTR", "QTE"],
+        "choices": [
+          "QTH",
+          "QTR",
+          "QTE"
+        ],
         "answer": 0
       },
       {
         "text": "Radijo ryšiui trukdo perkūnija Kurią santrumpą vartosite norėdami apie tai pranešti savo korespondentui?",
-        "choices": ["QRN", "QRS", "QRM"],
+        "choices": [
+          "QRN",
+          "QRS",
+          "QRM"
+        ],
         "answer": 0
       },
       {
@@ -802,7 +914,11 @@
       },
       {
         "text": "Kokios yra B klasės radijo mėgėjams skirtų dažnių ribos 80 m diapazone?",
-        "choices": ["3 500–3 750 kHz", "3 500–3 800 kHz", "3 600–3 900 kHz"],
+        "choices": [
+          "3 500–3 750 kHz",
+          "3 500–3 800 kHz",
+          "3 600–3 900 kHz"
+        ],
         "answer": 1
       },
       {
@@ -825,102 +941,182 @@
       },
       {
         "text": "Kokios yra B klasės radijo mėgėjams skirtų dažnių ribos 2 m diapazone?",
-        "choices": ["144–146 MHz", "144–148 MHz", "146–148 MHz"],
+        "choices": [
+          "144–146 MHz",
+          "144–148 MHz",
+          "146–148 MHz"
+        ],
         "answer": 0
       },
       {
         "text": "Kokios yra B klasės radijo mėgėjams skirtų dažnių ribos 70 cm diapazone?",
-        "choices": ["440–450 MHz", "430–440 MHz", "420–440 MHz"],
+        "choices": [
+          "440–450 MHz",
+          "430–440 MHz",
+          "420–440 MHz"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia maksimali leidžiama siųstuvo išėjimo galia B klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams 80 m diapazone?",
-        "choices": ["1 000 W", "500 W", "100 W"],
+        "choices": [
+          "1 000 W",
+          "500 W",
+          "100 W"
+        ],
         "answer": 2
       },
       {
         "text": "Kokia maksimali leidžiama siųstuvo išėjimo galia B klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams 15 m diapazone?",
-        "choices": ["1 000 W", "100 W", "50 W"],
+        "choices": [
+          "1 000 W",
+          "100 W",
+          "50 W"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia maksimali leidžiama siųstuvo išėjimo galia B klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams 10 m diapazone?",
-        "choices": ["50 W", "100 W", "1 000 W"],
+        "choices": [
+          "50 W",
+          "100 W",
+          "1 000 W"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia maksimali leidžiama siųstuvo išėjimo galia B klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams 2 m diapazone?",
-        "choices": ["1 000 W", "100 W", "50 W"],
+        "choices": [
+          "1 000 W",
+          "100 W",
+          "50 W"
+        ],
         "answer": 2
       },
       {
         "text": "Kokia maksimali leidžiama siųstuvo išėjimo galia B klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams 70 cm diapazone?",
-        "choices": ["50 W", "100 W", "1 000 W"],
+        "choices": [
+          "50 W",
+          "100 W",
+          "1 000 W"
+        ],
         "answer": 0
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 200 Hz, galima naudoti šią moduliavimo rūšį:",
-        "choices": ["FM", "CW", "SSB"],
+        "choices": [
+          "FM",
+          "CW",
+          "SSB"
+        ],
         "answer": 1
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 500 Hz, galima naudoti šią moduliavimo rūšį:",
-        "choices": ["SSB", "RTTY", "FM"],
+        "choices": [
+          "SSB",
+          "RTTY",
+          "FM"
+        ],
         "answer": 1
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 2,7 kHz, galima naudoti šią moduliavimo rūšį:",
-        "choices": ["SSB", "FM", "AM"],
+        "choices": [
+          "SSB",
+          "FM",
+          "AM"
+        ],
         "answer": 0
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 6 kHz, galima naudoti šią moduliavimo rūšį:",
-        "choices": ["FM", "AM", "Abi čia nurodytas"],
+        "choices": [
+          "FM",
+          "AM",
+          "Abi čia nurodytas"
+        ],
         "answer": 2
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 25 kHz, negalima naudoti šią moduliavimo rūšį:",
-        "choices": ["ATV", "FM", "AM"],
+        "choices": [
+          "ATV",
+          "FM",
+          "AM"
+        ],
         "answer": 0
       },
       {
         "text": "Gerai suderinto siųstuvo SSB signalo juostos plotis neturėtų būti didesnis kaip:",
-        "choices": ["0,5 kHz", "2,7 kHz", "5,0 kHz"],
+        "choices": [
+          "0,5 kHz",
+          "2,7 kHz",
+          "5,0 kHz"
+        ],
         "answer": 1
       },
       {
         "text": "144 MHz diapazone nešiojamos FM radijo stoties spinduliuojamo signalo juostos plotis neturėtų viršyti:",
-        "choices": ["2,7 kHz", "12 kHz", "25 kHz"],
+        "choices": [
+          "2,7 kHz",
+          "12 kHz",
+          "25 kHz"
+        ],
         "answer": 1
       },
       {
         "text": "Gerai suderinto siųstuvo AM signalo juostos plotis neturėtų būti didesnis kaip:",
-        "choices": ["3 kHz", "6 kHz", "12 kHz"],
+        "choices": [
+          "3 kHz",
+          "6 kHz",
+          "12 kHz"
+        ],
         "answer": 1
       },
       {
         "text": "Gerai suderinto siųstuvo SSTV signalo juostos plotis neturėtų būti didesnis kaip:",
-        "choices": ["1,3 kHz", "2,0 kHz", "2,7 kHz"],
+        "choices": [
+          "1,3 kHz",
+          "2,0 kHz",
+          "2,7 kHz"
+        ],
         "answer": 2
       },
       {
         "text": "Kuriame radijo mėgėjams skirtame diapazone leista veikti siaurajuostės FM siųstuvams?",
-        "choices": ["10 m", "15 m", "80 m"],
+        "choices": [
+          "10 m",
+          "15 m",
+          "80 m"
+        ],
         "answer": 0
       },
       {
         "text": "Kuriame radijo mėgėjams skirtame TB diapazone leista naudoti CW siųstuvus?",
-        "choices": ["Tik 10 m ir 15 m", "Tik 15 m", "Visuose"],
+        "choices": [
+          "Tik 10 m ir 15 m",
+          "Tik 15 m",
+          "Visuose"
+        ],
         "answer": 2
       },
       {
         "text": "Kuriame radijo mėgėjams skirtame diapazone leista naudoti AM siųstuvus?",
-        "choices": ["80 m", "15 m", "10 m"],
+        "choices": [
+          "80 m",
+          "15 m",
+          "10 m"
+        ],
         "answer": 2
       },
       {
         "text": "Kuriame radijo mėgėjams skirtame UTB diapazone leista naudoti CW siųstuvus?",
-        "choices": ["Tik 2 m ir 70 cm", "Tik 2 m", "Visuose"],
+        "choices": [
+          "Tik 2 m ir 70 cm",
+          "Tik 2 m",
+          "Visuose"
+        ],
         "answer": 2
       },
       {
@@ -935,25 +1131,41 @@
       {
         "text": "Kas pavaizduota B1a paveiksle?",
         "image": "/examImg/b1.png",
-        "choices": ["Induktyvumo ritė", "Rezistorius", "Kondensatorius"],
+        "choices": [
+          "Induktyvumo ritė",
+          "Rezistorius",
+          "Kondensatorius"
+        ],
         "answer": 1
       },
       {
         "text": "Kas pavaizduota B1b paveiksle?",
         "image": "/examImg/b1.png",
-        "choices": ["Galvaninė baterija", "Rezistorius", "Kondensatorius"],
+        "choices": [
+          "Galvaninė baterija",
+          "Rezistorius",
+          "Kondensatorius"
+        ],
         "answer": 2
       },
       {
         "text": "Kas pavaizduota B1c paveiksle?",
         "image": "/examImg/b1.png",
-        "choices": ["Galvaninė baterija", "Induktyvumo ritė", "Kondensatorius"],
+        "choices": [
+          "Galvaninė baterija",
+          "Induktyvumo ritė",
+          "Kondensatorius"
+        ],
         "answer": 0
       },
       {
         "text": "Kas pavaizduota B1d paveiksle?",
         "image": "/examImg/b1.png",
-        "choices": ["Galvaninė baterija", "Induktyvumo ritė", "Rezistorius"],
+        "choices": [
+          "Galvaninė baterija",
+          "Induktyvumo ritė",
+          "Rezistorius"
+        ],
         "answer": 1
       },
       {
@@ -979,95 +1191,163 @@
       {
         "text": "Koks pagrindinis radijo elemento, atvaizduoto B1d paveiksle, parametras?",
         "image": "/examImg/b1.png",
-        "choices": ["Varža", "Induktyvumas", "Talpa"],
+        "choices": [
+          "Varža",
+          "Induktyvumas",
+          "Talpa"
+        ],
         "answer": 1
       },
       {
         "text": "Didesnę varžą gausime rezistorius jungdami:",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Mišriai"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Mišriai"
+        ],
         "answer": 0
       },
       {
         "text": "Mažesnę varžą gausime rezistorius jungdami:",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Mišriai"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Mišriai"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia yra atstojamoji varža rezistorių, sujungtų pagal B2 pav, kai R1 = R2 = 50 Ω, R3 = 1 000 MΩ?",
         "image": "/examImg/b2.png",
-        "choices": ["25 Ω", "100 Ω", "100 MΩ"],
+        "choices": [
+          "25 Ω",
+          "100 Ω",
+          "100 MΩ"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia yra atstojamoji varža rezistorių, sujungtų pagal B2 pav, kai R1 = 200 Ω, R2 = 400 Ω, R3 = 600 Ω?",
         "image": "/examImg/b2.png",
-        "choices": ["300 Ω", "600 Ω", "1 200 Ω"],
+        "choices": [
+          "300 Ω",
+          "600 Ω",
+          "1 200 Ω"
+        ],
         "answer": 0
       },
       {
         "text": "Kokia yra atstojamoji varža rezistorių, sujungtų pagal B2 pav, kai R1 = 80 kΩ, R2 = 40 kΩ, R3 = 60 kΩ?",
         "image": "/examImg/b2.png",
-        "choices": ["40 kΩ", "120 kΩ", "180 kΩ"],
+        "choices": [
+          "40 kΩ",
+          "120 kΩ",
+          "180 kΩ"
+        ],
         "answer": 0
       },
       {
         "text": "Kokia yra atstojamoji varža rezistorių, sujungtų pagal B2 pav, kai R1 = 20 kΩ, R2 = 0 kΩ, R3 = 20 kΩ?",
         "image": "/examImg/b2.png",
-        "choices": ["40 kΩ", "20 kΩ", "10 kΩ"],
+        "choices": [
+          "40 kΩ",
+          "20 kΩ",
+          "10 kΩ"
+        ],
         "answer": 2
       },
       {
         "text": "Didesnę talpą gausime jungdami kondensatorius:",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Mišriai"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Mišriai"
+        ],
         "answer": 1
       },
       {
         "text": "Mažesnę talpą gausime jungdami kondensatorius:",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Mišriai"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Mišriai"
+        ],
         "answer": 0
       },
       {
         "text": "Atstumas tarp plokščiojo kondensatoriaus plokštelių padidėjo 2 kartus Kondensatoriaus talpa:",
-        "choices": ["Sumažėjo 2 kartus", "Padidėjo 2 kartus", "Nepasikeitė"],
+        "choices": [
+          "Sumažėjo 2 kartus",
+          "Padidėjo 2 kartus",
+          "Nepasikeitė"
+        ],
         "answer": 0
       },
       {
         "text": "Oro tarpas tarp plokščiojo kondensatoriaus plokštelių sumažėjo 2 kartus Kondensatoriaus talpa:",
-        "choices": ["Sumažėjo 2 kartus", "Padidėjo 2 kartus", "Nepasikeitė"],
+        "choices": [
+          "Sumažėjo 2 kartus",
+          "Padidėjo 2 kartus",
+          "Nepasikeitė"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia yra atstojamoji talpa kondensatorių, sujungtų pagal B3 pav, kai C1 = C2 = 200 pF, C3 = 100 pF?",
         "image": "/examImg/b3.png",
-        "choices": ["50 pF", "100 pF", "200 pF"],
+        "choices": [
+          "50 pF",
+          "100 pF",
+          "200 pF"
+        ],
         "answer": 2
       },
       {
         "text": "Kokia yra atstojamoji talpa kondensatorių, sujungtų pagal B3 pav, kai C1 = 300 pF, C2 = 700 pF, C3 = 390 pF?",
         "image": "/examImg/b3.png",
-        "choices": ["220 pF", "450 pF", "600 pF"],
+        "choices": [
+          "220 pF",
+          "450 pF",
+          "600 pF"
+        ],
         "answer": 2
       },
       {
         "text": "Kokia yra atstojamoji talpa kondensatorių, sujungtų pagal B3 pav, kai C1=10 nF, C2=90 nF, C3=0 nF?",
         "image": "/examImg/b3.png",
-        "choices": ["9 nF", "80 nF", "100 nF"],
+        "choices": [
+          "9 nF",
+          "80 nF",
+          "100 nF"
+        ],
         "answer": 0
       },
       {
         "text": "Kokia yra atstojamoji talpa kondensatorių, sujungtų pagal B3 pav, kai C1 = 3,3 μF, C2 = 5 μF, C3 = 10 μF?",
         "image": "/examImg/b3.png",
-        "choices": ["4,5 μF", "12 μF", "18,3 μF"],
+        "choices": [
+          "4,5 μF",
+          "12 μF",
+          "18,3 μF"
+        ],
         "answer": 1
       },
       {
         "text": "Padidinus ritės vijų skaičių, jos induktyvumas:",
-        "choices": ["Nepasikeis", "Padidės", "Sumažės"],
+        "choices": [
+          "Nepasikeis",
+          "Padidės",
+          "Sumažės"
+        ],
         "answer": 1
       },
       {
         "text": "Sumažinus ritės vijų skaičių, jos induktyvumas:",
-        "choices": ["Sumažės", "Padidės", "Nepasikeis"],
+        "choices": [
+          "Sumažės",
+          "Padidės",
+          "Nepasikeis"
+        ],
         "answer": 0
       },
       {
@@ -1121,7 +1401,11 @@
       },
       {
         "text": "Kurio elektroninio prietaiso veikimas pagrįstas elektronų rekombinacija?",
-        "choices": ["Rezistoriaus", "Varistoriaus", "Puslaidininkinio diodo"],
+        "choices": [
+          "Rezistoriaus",
+          "Varistoriaus",
+          "Puslaidininkinio diodo"
+        ],
         "answer": 2
       },
       {
@@ -1135,60 +1419,100 @@
       },
       {
         "text": "Kuris elektroninis prietaisas gali stiprinti elektrinius signalus?",
-        "choices": ["Elektroninė lempa", "Induktyvumo ritė", "Lauko diodas"],
+        "choices": [
+          "Elektroninė lempa",
+          "Induktyvumo ritė",
+          "Lauko diodas"
+        ],
         "answer": 0
       },
       {
         "text": "Kaip vadinamas B4a paveiksle skaičiumi „1“ pažymėtas puslaidininkinio prietaiso elektrodas?",
         "image": "/examImg/b4.png",
-        "choices": ["Tetrodas", "Anodas", "Katodas"],
+        "choices": [
+          "Tetrodas",
+          "Anodas",
+          "Katodas"
+        ],
         "answer": 1
       },
       {
         "text": "Kaip vadinamas B4a paveiksle skaičiumi „2“ pažymėtas puslaidininkinio prietaiso elektrodas?",
         "image": "/examImg/b4.png",
-        "choices": ["Triodas", "Anodas", "Katodas"],
+        "choices": [
+          "Triodas",
+          "Anodas",
+          "Katodas"
+        ],
         "answer": 2
       },
       {
         "text": "B4b paveiksle pavaizduoto puslaidininkinio prietaiso 1 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Bazė", "Emiteris", "Kolektorius"],
+        "choices": [
+          "Bazė",
+          "Emiteris",
+          "Kolektorius"
+        ],
         "answer": 2
       },
       {
         "text": "B4b paveiksle pavaizduoto puslaidininkinio prietaiso 2 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Bazė", "Emiteris", "Kolektorius"],
+        "choices": [
+          "Bazė",
+          "Emiteris",
+          "Kolektorius"
+        ],
         "answer": 1
       },
       {
         "text": "B4b paveiksle pavaizduoto puslaidininkinio prietaiso 3 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Bazė", "Emiteris", "Kolektorius"],
+        "choices": [
+          "Bazė",
+          "Emiteris",
+          "Kolektorius"
+        ],
         "answer": 0
       },
       {
         "text": "B4c paveiksle pavaizduoto puslaidininkinio prietaiso 1 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Ištaka", "Užtūra", "Santaka"],
+        "choices": [
+          "Ištaka",
+          "Užtūra",
+          "Santaka"
+        ],
         "answer": 1
       },
       {
         "text": "B4c paveiksle pavaizduoto puslaidininkinio prietaiso 2 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Ištaka", "Užtūra", "Santaka"],
+        "choices": [
+          "Ištaka",
+          "Užtūra",
+          "Santaka"
+        ],
         "answer": 2
       },
       {
         "text": "B4c paveiksle pavaizduoto puslaidininkinio prietaiso 3 elektrodas yra:",
         "image": "/examImg/b4.png",
-        "choices": ["Santaka", "Ištaka", "Užtūra"],
+        "choices": [
+          "Santaka",
+          "Ištaka",
+          "Užtūra"
+        ],
         "answer": 1
       },
       {
         "text": "Kryptingas elektronų judėjimas laidininku vadinamas:",
-        "choices": ["Elektros krūviu", "Elektros srove", "Elektrine talpa"],
+        "choices": [
+          "Elektros krūviu",
+          "Elektros srove",
+          "Elektrine talpa"
+        ],
         "answer": 1
       },
       {
@@ -1229,7 +1553,11 @@
       },
       {
         "text": "Kuri medžiaga yra geras elektros srovės laidininkas?",
-        "choices": ["Varis", "Stiklas", "Nichromas"],
+        "choices": [
+          "Varis",
+          "Stiklas",
+          "Nichromas"
+        ],
         "answer": 0
       },
       {
@@ -1243,7 +1571,11 @@
       },
       {
         "text": "Kuri medžiaga yra geras elektros srovės izoliatorius?",
-        "choices": ["Alavas", "Cinkas", "Žėrutis"],
+        "choices": [
+          "Alavas",
+          "Cinkas",
+          "Žėrutis"
+        ],
         "answer": 2
       },
       {
@@ -1266,125 +1598,221 @@
       },
       {
         "text": "Prie 2 V įtampos šaltinio prijungtas 100 Ω rezistorius Koks srovės, tekančios rezistoriumi, stipris?",
-        "choices": ["0,02 A", "0,2 A", "0,50 A"],
+        "choices": [
+          "0,02 A",
+          "0,2 A",
+          "0,50 A"
+        ],
         "answer": 0
       },
       {
         "text": "Prie 5 V įtampos šaltinio prijungtas 500 Ω rezistorius Koks srovės, tekančios rezistoriumi, stipris?",
-        "choices": ["10 mA", "25 mA", "100 mA"],
+        "choices": [
+          "10 mA",
+          "25 mA",
+          "100 mA"
+        ],
         "answer": 0
       },
       {
         "text": "10 kΩ rezistoriumi teka 40 mA srovė Kokia įtampa tarp rezistoriaus gnybtų?",
-        "choices": ["0,25 V", "250 V", "400 V"],
+        "choices": [
+          "0,25 V",
+          "250 V",
+          "400 V"
+        ],
         "answer": 2
       },
       {
         "text": "50 Ω rezistoriumi teka 2 A srovė Kokia įtampa tarp rezistoriaus gnybtų?",
-        "choices": ["25 V", "50 V", "100 V"],
+        "choices": [
+          "25 V",
+          "50 V",
+          "100 V"
+        ],
         "answer": 2
       },
       {
         "text": "Rezistoriumi, prijungtu prie 20 V įtampos šaltinio, teka 100 mA srovė Kokia rezistoriaus varža?",
-        "choices": ["2,0 kΩ", "200 Ω", "0,5 kΩ"],
+        "choices": [
+          "2,0 kΩ",
+          "200 Ω",
+          "0,5 kΩ"
+        ],
         "answer": 1
       },
       {
         "text": "Rezistoriumi, prijungtu prie 90 V įtampos šaltinio, teka 3 amperų srovė Kokia rezistoriaus varža?",
-        "choices": ["30 Ω", "90 Ω", "3 Ω"],
+        "choices": [
+          "30 Ω",
+          "90 Ω",
+          "3 Ω"
+        ],
         "answer": 0
       },
       {
         "text": "SI sistemoje pagrindinis varžos matavimo vienetas yra:",
-        "choices": ["Amperas", "Voltas", "Omas"],
+        "choices": [
+          "Amperas",
+          "Voltas",
+          "Omas"
+        ],
         "answer": 2
       },
       {
         "text": "SI sistemoje pagrindinis įtampos matavimo vienetas yra:",
-        "choices": ["Vatas", "Voltas", "Amperas"],
+        "choices": [
+          "Vatas",
+          "Voltas",
+          "Amperas"
+        ],
         "answer": 1
       },
       {
         "text": "SI sistemoje pagrindinis elektros srovės matavimo vienetas yra:",
-        "choices": ["Faradas", "Voltas", "Amperas"],
+        "choices": [
+          "Faradas",
+          "Voltas",
+          "Amperas"
+        ],
         "answer": 2
       },
       {
         "text": "SI sistemoje pagrindinis talpos matavimo vienetas yra:",
-        "choices": ["Henris", "Faradas", "Mikroamperas"],
+        "choices": [
+          "Henris",
+          "Faradas",
+          "Mikroamperas"
+        ],
         "answer": 1
       },
       {
         "text": "SI sistemoje pagrindinis elektrinės galios matavimo vienetas yra:",
-        "choices": ["Vatas", "Vatvalandė", "Voltas"],
+        "choices": [
+          "Vatas",
+          "Vatvalandė",
+          "Voltas"
+        ],
         "answer": 0
       },
       {
         "text": "SI sistemoje pagrindinis dažnio matavimo vienetas yra:",
-        "choices": ["Laipsnis", "Ciklas", "Hercas"],
+        "choices": [
+          "Laipsnis",
+          "Ciklas",
+          "Hercas"
+        ],
         "answer": 2
       },
       {
         "text": "Kuriuo prietaisu matuojama įtampa?",
-        "choices": ["Ampermetru", "Voltmetru", "Įtampos indikatoriumi"],
+        "choices": [
+          "Ampermetru",
+          "Voltmetru",
+          "Įtampos indikatoriumi"
+        ],
         "answer": 1
       },
       {
         "text": "Kuriuo prietaisu matuojama srovė?",
-        "choices": ["Ampermetru", "Srovimetru", "Srovės indikatoriumi"],
+        "choices": [
+          "Ampermetru",
+          "Srovimetru",
+          "Srovės indikatoriumi"
+        ],
         "answer": 0
       },
       {
         "text": "Kuriuo prietaisu matuojama galia?",
-        "choices": ["Galvanometru", "Voltmetru", "Vatmetru"],
+        "choices": [
+          "Galvanometru",
+          "Voltmetru",
+          "Vatmetru"
+        ],
         "answer": 2
       },
       {
         "text": "Kaip į elektros grandinę turėtų būti jungiamas voltmetras?",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Neturi reikšmės"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Neturi reikšmės"
+        ],
         "answer": 1
       },
       {
         "text": "Kokia turėtų būti idealaus voltmetro vidinė varža?",
-        "choices": ["Labai maža", "10 kΩ", "Labai didelė"],
+        "choices": [
+          "Labai maža",
+          "10 kΩ",
+          "Labai didelė"
+        ],
         "answer": 2
       },
       {
         "text": "Buityje dažniausiai naudojamo kintamosios elektros srovės tinklo įtampa yra:",
-        "choices": ["127 V", "230 V", "380 V"],
+        "choices": [
+          "127 V",
+          "230 V",
+          "380 V"
+        ],
         "answer": 1
       },
       {
         "text": "Kaip į elektros grandinę turėtų būti jungiamas ampermetras?",
-        "choices": ["Nuosekliai", "Lygiagrečiai", "Neturi reikšmės"],
+        "choices": [
+          "Nuosekliai",
+          "Lygiagrečiai",
+          "Neturi reikšmės"
+        ],
         "answer": 0
       },
       {
         "text": "Kokia turėtų būti idealaus ampermetro vidinė varža?",
-        "choices": ["Labai maža", "1 kΩ", "Labai didelė"],
+        "choices": [
+          "Labai maža",
+          "1 kΩ",
+          "Labai didelė"
+        ],
         "answer": 0
       },
       {
         "text": "Kuri schema vaizduoja varžos matavimą?",
         "image": "/examImg/b5.png",
-        "choices": ["B5a", "B5b", "B5c"],
+        "choices": [
+          "B5a",
+          "B5b",
+          "B5c"
+        ],
         "answer": 1
       },
       {
         "text": "Kuri schema vaizduoja įtampos matavimą?",
         "image": "/examImg/b5.png",
-        "choices": ["B5a", "B5b", "B5c"],
+        "choices": [
+          "B5a",
+          "B5b",
+          "B5c"
+        ],
         "answer": 0
       },
       {
         "text": "Kuri schema vaizduoja srovės matavimą?",
         "image": "/examImg/b5.png",
-        "choices": ["B5a", "B5b", "B5c"],
+        "choices": [
+          "B5a",
+          "B5b",
+          "B5c"
+        ],
         "answer": 2
       },
       {
         "text": "Koks yra buityje dažniausiai naudojamo kintamosios elektros srovės tinklo dažnis?",
-        "choices": ["400 Hz", "60 Hz", "50 Hz"],
+        "choices": [
+          "400 Hz",
+          "60 Hz",
+          "50 Hz"
+        ],
         "answer": 2
       },
       {
@@ -1398,92 +1826,164 @@
       },
       {
         "text": "Voltmetru, kurio skalė pažymėta voltais, matuojama 7 100 milivoltų įtampa Ką rodo prietaisas?",
-        "choices": ["0,071 V", "0,71 V", "7,1 V"],
+        "choices": [
+          "0,071 V",
+          "0,71 V",
+          "7,1 V"
+        ],
         "answer": 2
       },
       {
         "text": "Voltmetru, kurio skalė pažymėta kilovoltais, matuojama 1 300 voltų įtampa Ką rodo prietaisas?",
-        "choices": ["0,13 kV", "1,3 kV", "13 kV"],
+        "choices": [
+          "0,13 kV",
+          "1,3 kV",
+          "13 kV"
+        ],
         "answer": 1
       },
       {
         "text": "Ampermetru, kurio skalė pažymėta mikroamperais, matuojama 0,1 mA srovė Ką rodo prietaisas?",
-        "choices": ["0,01 μA", "1,0 μA", "100 μA"],
+        "choices": [
+          "0,01 μA",
+          "1,0 μA",
+          "100 μA"
+        ],
         "answer": 2
       },
       {
         "text": "Ampermetru, kurio skalė pažymėta amperais, matuojama 250 mA srovė Ką rodo prietaisas?",
-        "choices": ["0,25 A", "2,5 A", "25 A"],
+        "choices": [
+          "0,25 A",
+          "2,5 A",
+          "25 A"
+        ],
         "answer": 0
       },
       {
         "text": "Imtuvas iš elektros tinklo sunaudoja 0,8 kW galią Kiek tai yra vatų?",
-        "choices": ["8 W", "80 W", "800 W"],
+        "choices": [
+          "8 W",
+          "80 W",
+          "800 W"
+        ],
         "answer": 2
       },
       {
         "text": "Siųstuvo išėjimo galia 100 vatų Kiek tai yra kilovatų?",
-        "choices": ["0,01 kW", "0,1 kW", "1 kW"],
+        "choices": [
+          "0,01 kW",
+          "0,1 kW",
+          "1 kW"
+        ],
         "answer": 1
       },
       {
         "text": "Siųstuvas veikia 200 kHz dažniu Kiek tai yra megahercų?",
-        "choices": ["0,2 MHz", "2 MHz", "20 MHz"],
+        "choices": [
+          "0,2 MHz",
+          "2 MHz",
+          "20 MHz"
+        ],
         "answer": 0
       },
       {
         "text": "Siųstuvas nustatytas 2,4 GHz dažniu Kiek tai yra megahercų?",
-        "choices": ["0,24 MHz", "240 MHz", "2 400 MHz"],
+        "choices": [
+          "0,24 MHz",
+          "240 MHz",
+          "2 400 MHz"
+        ],
         "answer": 2
       },
       {
         "text": "Dažniui didėjant, radijo bangos ilgis:",
-        "choices": ["Nekinta", "Didėja", "Mažėja"],
+        "choices": [
+          "Nekinta",
+          "Didėja",
+          "Mažėja"
+        ],
         "answer": 2
       },
       {
         "text": "Bangos ilgiui mažėjant, dažnis:",
-        "choices": ["Nekinta", "Didėja", "Mažėja"],
+        "choices": [
+          "Nekinta",
+          "Didėja",
+          "Mažėja"
+        ],
         "answer": 1
       },
       {
         "text": "Kurį radijo dažnį atitinka 60 m radijo bangos ilgis?",
-        "choices": ["0,2 MHz", "0,5 MHz", "5,0 MHz"],
+        "choices": [
+          "0,2 MHz",
+          "0,5 MHz",
+          "5,0 MHz"
+        ],
         "answer": 2
       },
       {
         "text": "Kurį radijo dažnį atitinka 150 m radijo bangos ilgis?",
-        "choices": ["2 MHz", "300 MHz", "75 MHz"],
+        "choices": [
+          "2 MHz",
+          "300 MHz",
+          "75 MHz"
+        ],
         "answer": 0
       },
       {
         "text": "Kurį radijo dažnį atitinka 900 m radijo bangos ilgis?",
-        "choices": ["222 kHz", "333 kHz", "125 kHz"],
+        "choices": [
+          "222 kHz",
+          "333 kHz",
+          "125 kHz"
+        ],
         "answer": 1
       },
       {
         "text": "Kurį radijo dažnį atitinka 1 m radijo bangos ilgis?",
-        "choices": ["300 MHz", "150 MHz", "100 MHz"],
+        "choices": [
+          "300 MHz",
+          "150 MHz",
+          "100 MHz"
+        ],
         "answer": 0
       },
       {
         "text": "Kurį radijo bangos ilgį atitinka 150 kHz dažnis?",
-        "choices": ["4 000 m", "2 000 m", "300 m"],
+        "choices": [
+          "4 000 m",
+          "2 000 m",
+          "300 m"
+        ],
         "answer": 1
       },
       {
         "text": "Kurį radijo bangos ilgį atitinka 400 kHz dažnis?",
-        "choices": ["750 m", "552 m", "240 m"],
+        "choices": [
+          "750 m",
+          "552 m",
+          "240 m"
+        ],
         "answer": 0
       },
       {
         "text": "Kurį radijo bangos ilgį atitinka 50 MHz dažnis?",
-        "choices": ["12 m", "8 m", "6 m"],
+        "choices": [
+          "12 m",
+          "8 m",
+          "6 m"
+        ],
         "answer": 2
       },
       {
         "text": "Kurį radijo bangos ilgį atitinka 1 200 MHz dažnis?",
-        "choices": ["0,15 m", "0,25 m", "1,50 m"],
+        "choices": [
+          "0,15 m",
+          "0,25 m",
+          "1,50 m"
+        ],
         "answer": 1
       },
       {
@@ -1497,12 +1997,20 @@
       },
       {
         "text": "Oscilografo vertikalioji ašis vaizduoja:",
-        "choices": ["Amplitudę", "Trukmę", "Dažnį"],
+        "choices": [
+          "Amplitudę",
+          "Trukmę",
+          "Dažnį"
+        ],
         "answer": 0
       },
       {
         "text": "Oscilografo horizontalioji ašis vaizduoja:",
-        "choices": ["Amplitudę", "Trukmę", "Moduliavimą"],
+        "choices": [
+          "Amplitudę",
+          "Trukmę",
+          "Moduliavimą"
+        ],
         "answer": 1
       },
       {
@@ -1528,7 +2036,11 @@
       {
         "text": "B6 paveiksle atvaizduota superheterodininio imtuvo blokinė schema 3 blokas yra:",
         "image": "/examImg/b6.png",
-        "choices": ["Filtras", "Heterodinas", "Detektorius"],
+        "choices": [
+          "Filtras",
+          "Heterodinas",
+          "Detektorius"
+        ],
         "answer": 1
       },
       {
@@ -1617,7 +2129,11 @@
       },
       {
         "text": "Kuris blokas gali būti trukdančių signalų šaltinis superheterodininiame imtuve?",
-        "choices": ["Aukštadažnis filtras", "S-metras", "Heterodinas"],
+        "choices": [
+          "Aukštadažnis filtras",
+          "S-metras",
+          "Heterodinas"
+        ],
         "answer": 2
       },
       {
@@ -1649,7 +2165,11 @@
       },
       {
         "text": "Koks paprastai būna dažnių skirtumas tarp 2 m radijo mėgėjų retransliatoriaus įėjimo ir išėjimo kanalų?",
-        "choices": ["12,5 kHz", "600 kHz", "1 200 kHz"],
+        "choices": [
+          "12,5 kHz",
+          "600 kHz",
+          "1 200 kHz"
+        ],
         "answer": 1
       },
       {
@@ -1672,7 +2192,11 @@
       },
       {
         "text": "Skaitmeninių signalų retransliatoriaus įėjimo ir išėjimo dažniai:",
-        "choices": ["Sutampa", "Skiriasi 500 kHz", "Skiriasi 600 kHz"],
+        "choices": [
+          "Sutampa",
+          "Skiriasi 500 kHz",
+          "Skiriasi 600 kHz"
+        ],
         "answer": 0
       },
       {
@@ -1705,13 +2229,21 @@
       {
         "text": "Kuri iš B7 paveiksle parodytų schemų geriausiai tinka siunčiamo signalo harmoninio spinduliavimo slopinimui?",
         "image": "/examImg/b7.png",
-        "choices": ["a", "b", "c"],
+        "choices": [
+          "a",
+          "b",
+          "c"
+        ],
         "answer": 0
       },
       {
         "text": "Kurį filtrą geriausia įjungti trumpųjų bangų siųstuvo išėjime tam, kad sumažėtų siųstuvo signalų įtaka televizoriaus priimamiems signalams?",
         "image": "/examImg/b7.png",
-        "choices": ["B7a", "B7b", "B7c"],
+        "choices": [
+          "B7a",
+          "B7b",
+          "B7c"
+        ],
         "answer": 0
       },
       {
@@ -1743,7 +2275,11 @@
       },
       {
         "text": "Kokiais vienetais matuojamas antenos stiprinimo koeficientas?",
-        "choices": ["W", "dB", "Log"],
+        "choices": [
+          "W",
+          "dB",
+          "Log"
+        ],
         "answer": 1
       },
       {
@@ -1766,32 +2302,56 @@
       },
       {
         "text": "Kokia stovinčios bangos koeficiento reikšmė yra pakankamai gera?",
-        "choices": ["Mažesnė už 1", "Nuo 1 iki 3", "Nuo 10 iki 100"],
+        "choices": [
+          "Mažesnė už 1",
+          "Nuo 1 iki 3",
+          "Nuo 10 iki 100"
+        ],
         "answer": 1
       },
       {
         "text": "Esant geram suderinimui, stovinčios bangos koeficientas signalo perdavimo linijoje turėtų būti:",
-        "choices": ["Artimas vienetui", "Ne mažesnis kaip 10", "Lygus nuliui"],
+        "choices": [
+          "Artimas vienetui",
+          "Ne mažesnis kaip 10",
+          "Lygus nuliui"
+        ],
         "answer": 0
       },
       {
         "text": "Kurio dažnio to paties tipo antenos geometriniai matmenys mažiausi?",
-        "choices": ["3 MHz", "30 MHz", "300 MHz"],
+        "choices": [
+          "3 MHz",
+          "30 MHz",
+          "300 MHz"
+        ],
         "answer": 2
       },
       {
         "text": "Kurio dažnio to paties tipo antenos geometriniai matmenys didžiausi?",
-        "choices": ["137 kHz", "3 755 kHz", "10 150 kHz"],
+        "choices": [
+          "137 kHz",
+          "3 755 kHz",
+          "10 150 kHz"
+        ],
         "answer": 0
       },
       {
         "text": "Antenos elementui pailgėjus, jo rezonansinis dažnis:",
-        "choices": ["Sumažės", "Padidės", "Išnyks"],
+        "choices": [
+          "Sumažės",
+          "Padidės",
+          "Išnyks"
+        ],
         "answer": 0
       },
       {
         "text": "Antenos elementui sutrumpėjus, jo rezonansinis dažnis:",
-        "choices": ["Sumažės", "Padidės", "Nepasikeis"],
+        "choices": [
+          "Sumažės",
+          "Padidės",
+          "Nepasikeis"
+        ],
         "answer": 1
       },
       {
@@ -1807,13 +2367,21 @@
       {
         "text": "Kuris B8 paveiksle parodytos antenos elementas turėtų būti nukreipiamas į korespondentą?",
         "image": "/examImg/b8.png",
-        "choices": ["1 elementas", "2 elementas", "3 elementas"],
+        "choices": [
+          "1 elementas",
+          "2 elementas",
+          "3 elementas"
+        ],
         "answer": 2
       },
       {
         "text": "Kuris B8 paveiksle parodytos antenos elementas turėtų būti nukreipiamas į signalo šaltinį, kad imtuvo įėjime būtų maksimalus signalo lygis?",
         "image": "/examImg/b8.png",
-        "choices": ["1 elementas", "2 elementas", "3 elementas"],
+        "choices": [
+          "1 elementas",
+          "2 elementas",
+          "3 elementas"
+        ],
         "answer": 2
       },
       {
@@ -1854,7 +2422,11 @@
       },
       {
         "text": "Kas priskiriama elektromagnetiniam spinduliavimui?",
-        "choices": ["Radijo bangos", "Šviesa", "Abu čia išvardyti variantai"],
+        "choices": [
+          "Radijo bangos",
+          "Šviesa",
+          "Abu čia išvardyti variantai"
+        ],
         "answer": 2
       },
       {
@@ -1868,7 +2440,11 @@
       },
       {
         "text": "Koks apytikslis radijo bangų greitis?",
-        "choices": ["30 000 km/s", "300 000 km/s", "3 000 000 km/s"],
+        "choices": [
+          "30 000 km/s",
+          "300 000 km/s",
+          "3 000 000 km/s"
+        ],
         "answer": 1
       },
       {
@@ -1891,17 +2467,29 @@
       },
       {
         "text": "Kokių radijo bangų nebūna?",
-        "choices": ["Kilometrinių", "Vidutiniųjų", "FM"],
+        "choices": [
+          "Kilometrinių",
+          "Vidutiniųjų",
+          "FM"
+        ],
         "answer": 2
       },
       {
         "text": "Kuri iš čia išvardytų medžiagų geriausiai atspindi radijo bangas?",
-        "choices": ["Plastmasė", "Medis", "Aliuminis"],
+        "choices": [
+          "Plastmasė",
+          "Medis",
+          "Aliuminis"
+        ],
         "answer": 2
       },
       {
         "text": "Kaip vadinami virš Žemės paviršiaus esantys jonizuoti sluoksniai?",
-        "choices": ["Jonosfera", "Troposfera", "Magnetosfera"],
+        "choices": [
+          "Jonosfera",
+          "Troposfera",
+          "Magnetosfera"
+        ],
         "answer": 0
       },
       {
@@ -1915,7 +2503,11 @@
       },
       {
         "text": "Kuri Saulės spinduliuojamo spektro dalis labiausiai jonizuoja jonosferą?",
-        "choices": ["Ultravioletinė", "Infraraudonoji", "Geltonoji šviesa"],
+        "choices": [
+          "Ultravioletinė",
+          "Infraraudonoji",
+          "Geltonoji šviesa"
+        ],
         "answer": 0
       },
       {
@@ -1929,12 +2521,20 @@
       },
       {
         "text": "Geriausia aplinka metrinių radijo bangų sklidimui yra:",
-        "choices": ["Miškas", "Kalnai", "Sūraus vandens paviršius"],
+        "choices": [
+          "Miškas",
+          "Kalnai",
+          "Sūraus vandens paviršius"
+        ],
         "answer": 2
       },
       {
         "text": "Kurioms radijo bangoms aukšti gelžbetoniniai pastatai gali tapti neįveikiama kliūtimi?",
-        "choices": ["Ilgosioms", "Trumposioms", "Ultratrumposioms"],
+        "choices": [
+          "Ilgosioms",
+          "Trumposioms",
+          "Ultratrumposioms"
+        ],
         "answer": 2
       },
       {
@@ -2029,7 +2629,11 @@
       },
       {
         "text": "Kuri elektros srovė pavojingesnė žmogui?",
-        "choices": ["Pastovioji", "Kintamoji", "Abi vienodai pavojingos"],
+        "choices": [
+          "Pastovioji",
+          "Kintamoji",
+          "Abi vienodai pavojingos"
+        ],
         "answer": 2
       },
       {
@@ -2112,12 +2716,20 @@
       },
       {
         "text": "Nuo kelerių metų asmenims išduodami A klasės leidimai radijo mėgėjų veiklai?",
-        "choices": ["Nuo 16 metų.", "Nuo 18 metų.", "Amžius neribojamas."],
+        "choices": [
+          "Nuo 16 metų.",
+          "Nuo 18 metų.",
+          "Amžius neribojamas."
+        ],
         "answer": 2
       },
       {
         "text": "Koks Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo radijo mėgėjų veiklai galiojimo laikas?",
-        "choices": ["5 metai.", "3 metai.", "1 metai."],
+        "choices": [
+          "5 metai.",
+          "3 metai.",
+          "1 metai."
+        ],
         "answer": 0
       },
       {
@@ -2185,7 +2797,11 @@
       },
       {
         "text": "Koks Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo naudoti radijo šaukinį galiojimo laikas, kai skiriamas proginis radijo šaukinys?",
-        "choices": ["Iki 60 dienų.", "Iki 90 dienų.", "Iki 30 dienų."],
+        "choices": [
+          "Iki 60 dienų.",
+          "Iki 90 dienų.",
+          "Iki 30 dienų."
+        ],
         "answer": 0
       },
       {
@@ -2253,7 +2869,11 @@
       },
       {
         "text": "Radijo šaukinį perduoti privaloma ne rečiau, kaip kartą per:",
-        "choices": ["3 min.", "5 min.", "10 min."],
+        "choices": [
+          "3 min.",
+          "5 min.",
+          "10 min."
+        ],
         "answer": 1
       },
       {
@@ -2285,17 +2905,29 @@
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį oro laive?",
-        "choices": ["/am.", "/m.", "/mm."],
+        "choices": [
+          "/am.",
+          "/m.",
+          "/mm."
+        ],
         "answer": 0
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį valstybės vidaus vandenyse esančiame laive?",
-        "choices": ["/m.", "/mm.", "/am."],
+        "choices": [
+          "/m.",
+          "/mm.",
+          "/am."
+        ],
         "answer": 0
       },
       {
         "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį tarptautiniuose vandenyse esančiame laive?",
-        "choices": ["/m.", "/mm.", "/p."],
+        "choices": [
+          "/m.",
+          "/mm.",
+          "/p."
+        ],
         "answer": 1
       },
       {
@@ -2363,7 +2995,11 @@
       },
       {
         "text": "Kuriame ITU rajone yra Lietuvos Respublika?",
-        "choices": ["Pirmame.", "Antrame.", "Trečiame."],
+        "choices": [
+          "Pirmame.",
+          "Antrame.",
+          "Trečiame."
+        ],
         "answer": 0
       },
       {
@@ -2629,7 +3265,11 @@
       },
       {
         "text": "Kuris iš čia pateiktų radijo šaukinių gali būti naudojamas skaitmeninės stoties identifikavimui?",
-        "choices": ["LY1AAA/A.", "LY1AAA-4.", "LY1AAA/4."],
+        "choices": [
+          "LY1AAA/A.",
+          "LY1AAA-4.",
+          "LY1AAA/4."
+        ],
         "answer": 1
       },
       {
@@ -2760,67 +3400,119 @@
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["1800–2000 kHz.", "1810–2000 kHz.", "1750–1900 kHz."],
+        "choices": [
+          "1800–2000 kHz.",
+          "1810–2000 kHz.",
+          "1750–1900 kHz."
+        ],
         "answer": 1
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["3500–3800 kHz.", "3400–3700 kHz.", "3600–3900 kHz."],
+        "choices": [
+          "3500–3800 kHz.",
+          "3400–3700 kHz.",
+          "3600–3900 kHz."
+        ],
         "answer": 0
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["7000–7200 kHz.", "7000–7100 kHz.", "7000–7300 kHz."],
+        "choices": [
+          "7000–7200 kHz.",
+          "7000–7100 kHz.",
+          "7000–7300 kHz."
+        ],
         "answer": 0
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["14100–14300 kHz.", "14000–14450 kHz.", "14000–14350 kHz."],
+        "choices": [
+          "14100–14300 kHz.",
+          "14000–14450 kHz.",
+          "14000–14350 kHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["21150–21500 kHz.", "21000–21450 kHz.", "21000–21350 kHz."],
+        "choices": [
+          "21150–21500 kHz.",
+          "21000–21450 kHz.",
+          "21000–21350 kHz."
+        ],
         "answer": 1
       },
       {
         "text": "Kokios yra  radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["28000–29700 kHz.", "28000–28700 kHz.", "27045–29600 kHz."],
+        "choices": [
+          "28000–29700 kHz.",
+          "28000–28700 kHz.",
+          "27045–29600 kHz."
+        ],
         "answer": 0
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["50–52 MHz.", "52–54 MHz.", "50–54 MHz."],
+        "choices": [
+          "50–52 MHz.",
+          "52–54 MHz.",
+          "50–54 MHz."
+        ],
         "answer": 0
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["144–148 MHz.", "146–148 MHz.", "144–146 MHz."],
+        "choices": [
+          "144–148 MHz.",
+          "146–148 MHz.",
+          "144–146 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["420–430 MHz.", "430–450 MHz.", "430–440 MHz."],
+        "choices": [
+          "420–430 MHz.",
+          "430–450 MHz.",
+          "430–440 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choices": ["1230–1330 MHz.", "1240–1300 MHz.", "1260–1300 MHz."],
+        "choices": [
+          "1230–1330 MHz.",
+          "1240–1300 MHz.",
+          "1260–1300 MHz."
+        ],
         "answer": 1
       },
       {
         "text": "Kuriuo darbo režimu galima naudoti siųstuvą, kai leistinas maksimalus signalo juostos plotis yra 200 Hz?",
-        "choices": ["SSB.", "CW.", "FM."],
+        "choices": [
+          "SSB.",
+          "CW.",
+          "FM."
+        ],
         "answer": 1
       },
       {
         "text": "Kuriuo darbo režimu galima naudoti siųstuvą, kai leistinas maksimalus signalo juostos plotis yra 500 Hz?",
-        "choices": ["RTTY.", "FM.", "LSB."],
+        "choices": [
+          "RTTY.",
+          "FM.",
+          "LSB."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriuo darbo režimu galima naudoti siųstuvą, kai leistinas maksimalus signalo juostos plotis yra 2700 Hz?",
-        "choices": ["FM.", "USB.", "Abu čia išvardytus."],
+        "choices": [
+          "FM.",
+          "USB.",
+          "Abu čia išvardytus."
+        ],
         "answer": 1
       },
       {
@@ -2987,7 +3679,11 @@
       },
       {
         "text": "Radijo ryšio metu jums trukdo kitos radijo stotys. Kurią Q kodo santrumpą vartosite, norėdami apie tai pranešti savo korespondentui?",
-        "choices": ["QTR.", "QSY.", "QRM."],
+        "choices": [
+          "QTR.",
+          "QSY.",
+          "QRM."
+        ],
         "answer": 2
       },
       {
@@ -3001,12 +3697,20 @@
       },
       {
         "text": "Nutraukiate darbą siuntimo režimu. Kurią Q kodo santrumpą perduosite?",
-        "choices": ["QRL.", "QRT.", "QST."],
+        "choices": [
+          "QRL.",
+          "QRT.",
+          "QST."
+        ],
         "answer": 1
       },
       {
         "text": "Negalėdamas susisiekti su tolima radijo stotimi, jūs perduodate artimos radijo stoties operatoriui:",
-        "choices": ["QST.", "QTC.", "QRW."],
+        "choices": [
+          "QST.",
+          "QTC.",
+          "QRW."
+        ],
         "answer": 2
       },
       {
@@ -3029,42 +3733,74 @@
       },
       {
         "text": "Kviečiant ryšiui kitame žemyne esančią radijo stotį, turėtų būti perduodama:",
-        "choices": ["CQ.", "CQ DX.", "CQ KONT."],
+        "choices": [
+          "CQ.",
+          "CQ DX.",
+          "CQ KONT."
+        ],
         "answer": 1
       },
       {
         "text": "Radijo mėgėjai žodį „Patvirtinu“ dažnai pakeičia  santrumpa:",
-        "choices": ["CFM.", "HPE.", "MSG."],
+        "choices": [
+          "CFM.",
+          "HPE.",
+          "MSG."
+        ],
         "answer": 0
       },
       {
         "text": "Radijo mėgėjai žodį „Pranešimas“ dažnai pakeičia santrumpa:",
-        "choices": ["GN.", "CFM.", "MSG."],
+        "choices": [
+          "GN.",
+          "CFM.",
+          "MSG."
+        ],
         "answer": 2
       },
       {
         "text": "Radijo mėgėjai frazę „Iki susitikimo“ dažnai pakeičia santrumpa:",
-        "choices": ["CUL.", "CU.", "CW."],
+        "choices": [
+          "CUL.",
+          "CU.",
+          "CW."
+        ],
         "answer": 1
       },
       {
         "text": "Radijo mėgėjai frazę „Labas rytas“ dažnai pakeičia santrumpa:",
-        "choices": ["GM.", "GA.", "GD."],
+        "choices": [
+          "GM.",
+          "GA.",
+          "GD."
+        ],
         "answer": 0
       },
       {
         "text": "Radijo mėgėjai frazę „Laba diena“ dažnai pakeičia santrumpa:",
-        "choices": ["GD.", "GM.", "GN."],
+        "choices": [
+          "GD.",
+          "GM.",
+          "GN."
+        ],
         "answer": 0
       },
       {
         "text": "Radijo mėgėjai, užmegzdami ryšius telegrafu, žodį „Ačiū“ paprastai pakeičia santrumpa:",
-        "choices": ["TX.", "TNX.", "RX."],
+        "choices": [
+          "TX.",
+          "TNX.",
+          "RX."
+        ],
         "answer": 1
       },
       {
         "text": "Ką reiškia radijo mėgėjų vartojama santrumpa „LOG“?",
-        "choices": ["Ilgas ryšys.", "Sėkmė.", "Ryšių registravimo žurnalas."],
+        "choices": [
+          "Ilgas ryšys.",
+          "Sėkmė.",
+          "Ryšių registravimo žurnalas."
+        ],
         "answer": 2
       },
       {
@@ -3087,12 +3823,20 @@
       },
       {
         "text": "Santrumpa „PSE“ atitinka žodį:",
-        "choices": ["Priimta.", "Prašau.", "Viskas gerai."],
+        "choices": [
+          "Priimta.",
+          "Prašau.",
+          "Viskas gerai."
+        ],
         "answer": 1
       },
       {
         "text": "Santrumpa „RX“atitinka žodį:",
-        "choices": ["Imtuvas.", "Priimta.", "Siųstuvas."],
+        "choices": [
+          "Imtuvas.",
+          "Priimta.",
+          "Siųstuvas."
+        ],
         "answer": 0
       },
       {
@@ -3106,12 +3850,20 @@
       },
       {
         "text": "Santrumpa „TX“ reiškia:",
-        "choices": ["Transponderis.", "Siųstuvas.", "Imtuvas."],
+        "choices": [
+          "Transponderis.",
+          "Siųstuvas.",
+          "Imtuvas."
+        ],
         "answer": 1
       },
       {
         "text": "Kuri santrumpa reiškia „radijo teletaipas“?",
-        "choices": ["FSK.", "RSM.", "RTTY."],
+        "choices": [
+          "FSK.",
+          "RSM.",
+          "RTTY."
+        ],
         "answer": 2
       },
       {
@@ -3126,67 +3878,115 @@
       {
         "text": "Kokia rezistorių, sujungtų pagal A1 pav., atstojamoji varža, kai R1 = 2,5 kΩ, R2 = R3 = 5 kΩ?",
         "image": "/examImg/a1.png",
-        "choices": ["2,5 kΩ.", "5,0 kΩ.", "7,5 kΩ."],
+        "choices": [
+          "2,5 kΩ.",
+          "5,0 kΩ.",
+          "7,5 kΩ."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia rezistorių, sujungtų pagal A1 pav., atstojamoji varža, kai R1 = 40 Ω, R2 = 60 Ω, R3 = 120 Ω?",
         "image": "/examImg/a1.png",
-        "choices": ["80 Ω.", "100 Ω.", "120 Ω."],
+        "choices": [
+          "80 Ω.",
+          "100 Ω.",
+          "120 Ω."
+        ],
         "answer": 0
       },
       {
         "text": "Kokia rezistorių, sujungtų pagal A1 pav., atstojamoji varža, kai R1 = 0,1 MΩ, R2 = 240 kΩ, R3 = 0,12 MΩ?",
         "image": "/examImg/a1.png",
-        "choices": ["180 kΩ.", "360 kΩ.", "0,2 MΩ."],
+        "choices": [
+          "180 kΩ.",
+          "360 kΩ.",
+          "0,2 MΩ."
+        ],
         "answer": 0
       },
       {
         "text": "Kokia kondensatorių, sujungtų pagal A2 pav., atstojamoji talpa, kai C1 = 150 pF, C2 = C3 = 75 pF  ?",
         "image": "/examImg/a2.png",
-        "choices": ["225 pF.", "75 pF.", "350 pF."],
+        "choices": [
+          "225 pF.",
+          "75 pF.",
+          "350 pF."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia kondensatorių, sujungtų pagal A2 pav., atstojamoji talpa, kai C1 = 100 nF, C2 = 200 nF, C3 = 600 nF?",
         "image": "/examImg/a2.png",
-        "choices": ["16,4 nF.", "44,8 nF.", "88,9 nF."],
+        "choices": [
+          "16,4 nF.",
+          "44,8 nF.",
+          "88,9 nF."
+        ],
         "answer": 2
       },
       {
         "text": "Kokia kondensatorių, sujungtų pagal A2 pav., atstojamoji talpa, kai C1 = 12 μF, C2 = 8 μF, C3 = 6 μF?",
         "image": "/examImg/a2.png",
-        "choices": ["6,5 μF.", "4,9 μF.", "1,7 μF."],
+        "choices": [
+          "6,5 μF.",
+          "4,9 μF.",
+          "1,7 μF."
+        ],
         "answer": 0
       },
       {
         "text": "Įtampos kritimas rezistoriuje lygus 2 V, juo tekanti srovė lygi 0,5 A. Kokia galia išsisklaidys rezistoriuje?",
-        "choices": ["0,5 W.", "1 W.", "2 W."],
+        "choices": [
+          "0,5 W.",
+          "1 W.",
+          "2 W."
+        ],
         "answer": 1
       },
       {
         "text": "Įtampos kritimas rezistoriuje lygus 50 V, juo tekanti srovė lygi 1 A. Kokia galia išsisklaidys rezistoriuje?",
-        "choices": ["150 W.", "75 W.", "50 W."],
+        "choices": [
+          "150 W.",
+          "75 W.",
+          "50 W."
+        ],
         "answer": 2
       },
       {
         "text": "16 Ω rezistoriumi teka 12 A srovė. Kokia galia išsisklaidys rezistoriuje?",
-        "choices": ["192 W.", "3200 W.", "2304 W."],
+        "choices": [
+          "192 W.",
+          "3200 W.",
+          "2304 W."
+        ],
         "answer": 2
       },
       {
         "text": "1 MΩ rezistoriumi teka 2 mA srovė. Kokia galia išsisklaidys rezistoriuje?",
-        "choices": ["2 W.", "4 W.", "40 W."],
+        "choices": [
+          "2 W.",
+          "4 W.",
+          "40 W."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia galia išsisklaidys 125 Ω rezistoriuje, prie kurio prijungta 45 V įtampa?",
-        "choices": ["2,8 W.", "12,1 W.", "16,2 W."],
+        "choices": [
+          "2,8 W.",
+          "12,1 W.",
+          "16,2 W."
+        ],
         "answer": 2
       },
       {
         "text": "Kokia galia išsisklaidys 1 kΩ rezistoriuje, prie kurio prijungta 5 V įtampa?",
-        "choices": ["0,025 W.", "0,1 W.", "0,5 W."],
+        "choices": [
+          "0,025 W.",
+          "0,1 W.",
+          "0,5 W."
+        ],
         "answer": 0
       },
       {
@@ -3218,94 +4018,162 @@
       },
       {
         "text": "Kokia grandinės, susidedančios iš lygiagrečiai sujungtų 220 μF kondensatoriaus ir 1 MΩ rezistoriaus, laiko konstanta?",
-        "choices": ["220 s.", "22 s.", "2,2 s."],
+        "choices": [
+          "220 s.",
+          "22 s.",
+          "2,2 s."
+        ],
         "answer": 0
       },
       {
         "text": "Kokia grandinės, susidedančios iš nuosekliai sujungtų 100 μF kondensatoriaus ir 470 kΩ rezistoriaus, laiko konstanta?",
-        "choices": ["470 s.", "47 s.", "0,47s."],
+        "choices": [
+          "470 s.",
+          "47 s.",
+          "0,47s."
+        ],
         "answer": 1
       },
       {
         "text": "Per kiek laiko 0,01 μF talpos kondensatorius išsikraus nuo 20 V iki 7.36 V, jo kontaktus užtrumpinus 2 MΩ rezistoriumi?",
-        "choices": ["12,64 s.", "1 s.", "0,02 s."],
+        "choices": [
+          "12,64 s.",
+          "1 s.",
+          "0,02 s."
+        ],
         "answer": 2
       },
       {
         "text": "Per kiek laiko 0,01 μF talpos kondensatorius išsikraus nuo 20 V iki 1 V, jo kontaktus užtrumpinus 2 MΩ rezistoriumi?",
-        "choices": ["0,01 s.", "0,04 s.", "0,06 s."],
+        "choices": [
+          "0,01 s.",
+          "0,04 s.",
+          "0,06 s."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia 4 μF kondensatoriaus talpinė varža esant 50 Hz dažniui?",
-        "choices": ["274 Ω.", "796 Ω.", "1,6 kΩ."],
+        "choices": [
+          "274 Ω.",
+          "796 Ω.",
+          "1,6 kΩ."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia 100 pF kondensatoriaus talpinė varža esant 10 MHz dažniui?",
-        "choices": ["318 kΩ.", "159 Ω.", "79 Ω."],
+        "choices": [
+          "318 kΩ.",
+          "159 Ω.",
+          "79 Ω."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia 1 pF kondensatoriaus talpinė varža esant 2 GHz dažniui?",
-        "choices": ["80 Ω.", "119 Ω.", "142 Ω."],
+        "choices": [
+          "80 Ω.",
+          "119 Ω.",
+          "142 Ω."
+        ],
         "answer": 0
       },
       {
         "text": "Kokia 0,5 H ritės induktyvioji varža esant 50 Hz dažniui?",
-        "choices": ["157 Ω.", "628 Ω.", "1256 Ω."],
+        "choices": [
+          "157 Ω.",
+          "628 Ω.",
+          "1256 Ω."
+        ],
         "answer": 0
       },
       {
         "text": "Kokia 2 H ritės induktyvioji varža esant 50 Hz dažniui?",
-        "choices": ["157 Ω.", "628 Ω.", "1256 Ω."],
+        "choices": [
+          "157 Ω.",
+          "628 Ω.",
+          "1256 Ω."
+        ],
         "answer": 1
       },
       {
         "text": "Kokia 50 μH ritės induktyvioji varža esant 20 MHz  dažniui?",
-        "choices": ["20,5 kΩ.", "31,4 kΩ.", "6,28 kΩ."],
+        "choices": [
+          "20,5 kΩ.",
+          "31,4 kΩ.",
+          "6,28 kΩ."
+        ],
         "answer": 2
       },
       {
         "text": "Kurie iš A3 pav. atvaizduotų yra dvipoliai tranzistoriai?",
         "image": "/examImg/a3.png",
-        "choices": ["E ir f.", "C ir d.", "A ir b."],
+        "choices": [
+          "E ir f.",
+          "C ir d.",
+          "A ir b."
+        ],
         "answer": 2
       },
       {
         "text": "Kuris iš A3 pav. atvaizduotų yra pnp tranzistorius?",
         "image": "/examImg/a3.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 1
       },
       {
         "text": "Kuris iš A3 pav. atvaizduotų yra npn tranzistorius?",
         "image": "/examImg/a3.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 0
       },
       {
         "text": "Kurie iš A3 pav. atvaizduotų yra lauko tranzistoriai?",
         "image": "/examImg/a3.png",
-        "choices": ["a ir b.", "Tik e ir f.", "c, d, e ir f."],
+        "choices": [
+          "a ir b.",
+          "Tik e ir f.",
+          "c, d, e ir f."
+        ],
         "answer": 2
       },
       {
         "text": "Kurie iš A3 pav. atvaizduotų yra tranzistoriai su n kanalu?",
         "image": "/examImg/a3.png",
-        "choices": ["a ir b.", "d ir e.", "c ir f."],
+        "choices": [
+          "a ir b.",
+          "d ir e.",
+          "c ir f."
+        ],
         "answer": 1
       },
       {
         "text": "Kurie iš A3 pav. atvaizduotų yra tranzistoriai su p kanalu?",
         "image": "/examImg/a3.png",
-        "choices": ["a ir b.", "d ir e.", "c ir f."],
+        "choices": [
+          "a ir b.",
+          "d ir e.",
+          "c ir f."
+        ],
         "answer": 2
       },
       {
         "text": "Prie A4 pav. parodytos grandinės įėjimo (a ir b) prijungta pastovioji 25 V įtampa. Išėjime (c ir d) įtampa lygi 5 V. Koks elementas pažymėtas klaustuku?",
         "image": "/examImg/a4.png",
-        "choices": ["Kondensatorius.", "Rezistorius.", "Transformatorius."],
+        "choices": [
+          "Kondensatorius.",
+          "Rezistorius.",
+          "Transformatorius."
+        ],
         "answer": 1
       },
       {
@@ -3341,7 +4209,11 @@
       {
         "text": "Prie A5 pav. parodytos grandinės įėjimo (a ir b) prijungta kintamoji 120 V įtampa. Išėjime (c ir d) gaunama 120 V pastovioji įtampa. Kas prijungtas klaustuku pažymėtoje vietoje?",
         "image": "/examImg/a5.png",
-        "choices": ["Diodų tiltas.", "Kondensatorius.", "Transformatorius."],
+        "choices": [
+          "Diodų tiltas.",
+          "Kondensatorius.",
+          "Transformatorius."
+        ],
         "answer": 0
       },
       {
@@ -3355,7 +4227,11 @@
       },
       {
         "text": "Kurio dažnio elektros srovei tekant varinio laidininko varža mažiausia?",
-        "choices": ["50 Hz.", "5 MHz.", "50 MHz."],
+        "choices": [
+          "50 Hz.",
+          "5 MHz.",
+          "50 MHz."
+        ],
         "answer": 0
       },
       {
@@ -3388,19 +4264,31 @@
       {
         "text": "Kurioje iš A6 pav. schemų pavaizduotas dvipusis lygintuvas?",
         "image": "/examImg/a6.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 1
       },
       {
         "text": "Kuris iš A7 pav. parodytų grafikų vaizduoja įtampą lygintuvo įėjime?",
         "image": "/examImg/a7.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 0
       },
       {
         "text": "Kuris iš A7 pav. parodytų grafikų vaizduoja įtampą dvipusio lygintuvo išėjime?",
         "image": "/examImg/a7.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 2
       },
       {
@@ -3469,85 +4357,141 @@
       {
         "text": "Kokiam dažniui suderintas A8 pav. pavaizduotas kontūras, kai L = 25 mH, C1 = 150 pF, C2 = 100 pF?",
         "image": "/examImg/a8.png",
-        "choices": ["1140 kHz.", "64 kHz.", "128 kHz."],
+        "choices": [
+          "1140 kHz.",
+          "64 kHz.",
+          "128 kHz."
+        ],
         "answer": 1
       },
       {
         "text": "Kokiam dažniui suderintas A8 pav. pavaizduotas kontūras, kai L = 10 mH, C1 = 120 pF, C2 = 180 pF?",
         "image": "/examImg/a8.png",
-        "choices": ["139 kHz.", "145 MHz.", "92 kHz."],
+        "choices": [
+          "139 kHz.",
+          "145 MHz.",
+          "92 kHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kokiam dažniui suderintas A8 pav. pavaizduotas kontūras, kai L = 50 μH, C1 = 10 pF, C2 = 50 pF?",
         "image": "/examImg/a8.png",
-        "choices": ["9,2 MHz.", "15 MHz.", "2,7 MHz."],
+        "choices": [
+          "9,2 MHz.",
+          "15 MHz.",
+          "2,7 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kokiam dažniui suderintas A8 pav. pavaizduotas kontūras, kai L = 30 μH,  C1 = 50 pF, C2 = 80 pF?",
         "image": "/examImg/a8.png",
-        "choices": ["1,7 MHz.", "2,5 MHz.", "7 MHz."],
+        "choices": [
+          "1,7 MHz.",
+          "2,5 MHz.",
+          "7 MHz."
+        ],
         "answer": 1
       },
       {
         "text": "Koks A8 pav. pavaizduoto kontūro rezonansinis dažnis, kai L = 10 μH, C1 = 15 pF, C2 = 20 pF ?",
         "image": "/examImg/a8.png",
-        "choices": ["12,4 MHz.", "36,8 MHz.", "8,5 MHz."],
+        "choices": [
+          "12,4 MHz.",
+          "36,8 MHz.",
+          "8,5 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Koks A8 pav. pavaizduoto kontūro rezonansinis dažnis, kai L = 5 μH, C1 = 20 pF, C2 = 5 pF ?",
         "image": "/examImg/a8.png",
-        "choices": ["14,2 MHz.", "28,5 MHz.", "5,7 MHz."],
+        "choices": [
+          "14,2 MHz.",
+          "28,5 MHz.",
+          "5,7 MHz."
+        ],
         "answer": 0
       },
       {
         "text": "Prie televizoriaus įėjimo prijungtas filtras, praleidžiantis signalus virš 54 MHz. Kuri iš A9 pav. parodytų amplitudės-dažnio charakteristikų atspindi šio filtro savybes?",
         "image": "/examImg/a9.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 0
       },
       {
         "text": "Prie ryšių imtuvo įėjimo prijungtas filtras, slopinantis signalus virš 30 MHz. Kuri iš A9 pav. parodytų amplitudės-dažnio charakteristikų atspindi šio filtro savybes?",
         "image": "/examImg/a9.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 1
       },
       {
         "text": "Superheterodininiame imtuve įjungtas filtras, slopinantis trukdantį radijo signalą 612 kHz dažniu. Kuri iš A9 pav. parodytų amplitudės-dažnio charakteristikų atspindi šio filtro savybes?",
         "image": "/examImg/a9.png",
-        "choices": ["a.", "b.", "c."],
+        "choices": [
+          "a.",
+          "b.",
+          "c."
+        ],
         "answer": 2
       },
       {
         "text": "Kuriame paveiksle atvaizduotas nemoduliuotas aukšto dažnio radijo signalas?",
         "image": "/examImg/a10.png",
-        "choices": ["A10 b.", "A10 c.", "A10 d."],
+        "choices": [
+          "A10 b.",
+          "A10 c.",
+          "A10 d."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriame paveiksle atvaizduotas žemo dažnio signalas?",
         "image": "/examImg/a10.png",
-        "choices": ["A10 a.", "A10 d.", "A10 c."],
+        "choices": [
+          "A10 a.",
+          "A10 d.",
+          "A10 c."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriame paveiksle atvaizduotas kampinio moduliavimo radijo signalas?",
         "image": "/examImg/a10.png",
-        "choices": ["A10 d.", "A10 b.", "A10 c."],
+        "choices": [
+          "A10 d.",
+          "A10 b.",
+          "A10 c."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriame paveiksle atvaizduotas dažnio moduliavimo radijo signalas?",
         "image": "/examImg/a10.png",
-        "choices": ["A10 a.", "A10 c.", "A10 d."],
+        "choices": [
+          "A10 a.",
+          "A10 c.",
+          "A10 d."
+        ],
         "answer": 2
       },
       {
         "text": "Kuriame paveiksle atvaizduotas amplitudės moduliavimo signalas?",
         "image": "/examImg/a10.png",
-        "choices": ["A10 b.", "A10 c.", "A10 d."],
+        "choices": [
+          "A10 b.",
+          "A10 c.",
+          "A10 d."
+        ],
         "answer": 1
       },
       {
@@ -3642,27 +4586,47 @@
       },
       {
         "text": "Imtuvo 2,7 kHz tarpinio dažnio juostos plotis yra tinkamiausias priimti:",
-        "choices": ["CW signalus.", "AM signalus.", "SSB signalus."],
+        "choices": [
+          "CW signalus.",
+          "AM signalus.",
+          "SSB signalus."
+        ],
         "answer": 2
       },
       {
         "text": "Imtuvo 6 kHz tarpinio dažnio juostos plotis yra tinkamiausias priimti:",
-        "choices": ["AM signalus.", "CW signalus.", "SSB signalus."],
+        "choices": [
+          "AM signalus.",
+          "CW signalus.",
+          "SSB signalus."
+        ],
         "answer": 0
       },
       {
         "text": "Kuris iš išvardytų imtuvo juostos pločių geriausia tinka priimti CW signalus?",
-        "choices": ["2,7 kHz.", "6 kHz.", "0,5 kHz."],
+        "choices": [
+          "2,7 kHz.",
+          "6 kHz.",
+          "0,5 kHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kuris iš išvardytų balso telefonijos signalų turi mažiausią juostos plotį?",
-        "choices": ["FM.", "USB.", "AM."],
+        "choices": [
+          "FM.",
+          "USB.",
+          "AM."
+        ],
         "answer": 1
       },
       {
         "text": "Koks turėtų būti imtuvo tarpinio dažnio stiprintuvo juostos plotis priimant mėgėjų RTTY signalus?",
-        "choices": ["100 Hz.", "300 Hz.", "2400 Hz."],
+        "choices": [
+          "100 Hz.",
+          "300 Hz.",
+          "2400 Hz."
+        ],
         "answer": 1
       },
       {
@@ -3685,22 +4649,38 @@
       },
       {
         "text": "Superheterodininio imtuvo tarpinis dažnis lygus 455 kHz. Kuriuo dažniu veikia imtuvo heterodinas, jei priimamas 3575 kHz dažnis?",
-        "choices": ["2,665 kHz.", "3,779 kHz.", "4,030 kHz."],
+        "choices": [
+          "2,665 kHz.",
+          "3,779 kHz.",
+          "4,030 kHz."
+        ],
         "answer": 2
       },
       {
         "text": "Superheterodininio imtuvo tarpinis dažnis lygus 1,6 MHz. Kuriame dažnių juostoje veikia heterodinas, jei imtuvas gali priimti signalus nuo 6,995 iki 8,295 MHz?",
-        "choices": ["5,395–6,695 MHz.", "7,554–9,374 MHz.", "4,782–8,093 MHz."],
+        "choices": [
+          "5,395–6,695 MHz.",
+          "7,554–9,374 MHz.",
+          "4,782–8,093 MHz."
+        ],
         "answer": 0
       },
       {
         "text": "FM imtuvas, kurio tarpinis dažnis lygus 10,7 MHz, suderintas priimti siųstuvo, veikiančio 90 MHz dažniu, signalus. Imtuvo heterodinas veikia aukštesniu nei priimamo signalo dažniu. Kito siųstuvo signalas sukelia trukdžius imtuve veidrodiniu kanalu. Šio siųstuvo darbo dažnis yra:",
-        "choices": ["79,3 MHz.", "100,7 MHz.", "111,4 MHz."],
+        "choices": [
+          "79,3 MHz.",
+          "100,7 MHz.",
+          "111,4 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "FM imtuvas, kurio tarpinis dažnis lygus 21,4 MHz, priima siųstuvo, veikiančio 156 MHz dažniu, signalus. Imtuvo heterodinas veikia žemesniu nei priimamo signalo dažniu. Kito siųstuvo signalo antra harmonika sukelia trukdžius imtuve veidrodiniu kanalu. Šio siųstuvo darbo dažnis yra:",
-        "choices": ["56,6 MHz.", "67,3 MHz.", "113,2 MHz."],
+        "choices": [
+          "56,6 MHz.",
+          "67,3 MHz.",
+          "113,2 MHz."
+        ],
         "answer": 0
       },
       {
@@ -3714,7 +4694,11 @@
       },
       {
         "text": "Kokiu būdu iš DSB signalo pašalinama nereikalinga šalinė juosta?",
-        "choices": ["Filtruojant.", "Maišant signalus.", "Neutralizuojant."],
+        "choices": [
+          "Filtruojant.",
+          "Maišant signalus.",
+          "Neutralizuojant."
+        ],
         "answer": 0
       },
       {
@@ -3728,7 +4712,11 @@
       },
       {
         "text": "Tam tikra schema pakeičia tarpinio dažnio signalą į žemo dažnio signalą. Kaip vadinama tokia schema?",
-        "choices": ["Heterodinas.", "Detektorius.", "Žemo dažnio keitiklis."],
+        "choices": [
+          "Heterodinas.",
+          "Detektorius.",
+          "Žemo dažnio keitiklis."
+        ],
         "answer": 1
       },
       {
@@ -3823,7 +4811,11 @@
       },
       {
         "text": "Kurį filtrą reikėtų prijungti prie superheterodininio imtuvo įėjimo tam, kad būtų galima atskirti naudingą signalą nuo nepageidaujamo signalo, sklindančio imtuvo tarpiniu dažniu?",
-        "choices": ["Užtvarinį.", "Žemųjų dažnių.", "Aukštųjų dažnių."],
+        "choices": [
+          "Užtvarinį.",
+          "Žemųjų dažnių.",
+          "Aukštųjų dažnių."
+        ],
         "answer": 0
       },
       {
@@ -3864,42 +4856,74 @@
       },
       {
         "text": "Voltmetru, kurio skalė pažymėta voltais, matuojama 3500 milivoltų įtampa. Ką rodo prietaisas?",
-        "choices": ["0,035 V.", "0,35 V.", "3,5 V."],
+        "choices": [
+          "0,035 V.",
+          "0,35 V.",
+          "3,5 V."
+        ],
         "answer": 2
       },
       {
         "text": "Voltmetru, kurio skalė pažymėta kilovoltais, matuojama 1500 voltų įtampa. Ką rodo prietaisas?",
-        "choices": ["0,15 kV.", "1,5 kV.", "15 kV."],
+        "choices": [
+          "0,15 kV.",
+          "1,5 kV.",
+          "15 kV."
+        ],
         "answer": 1
       },
       {
         "text": "Ampermetru, kurio skalė pažymėta mikroamperais, matuojama 0,05 mA srovė. Ką rodo prietaisas?",
-        "choices": ["0,05 μA.", "5,0 μA.", "50 μA."],
+        "choices": [
+          "0,05 μA.",
+          "5,0 μA.",
+          "50 μA."
+        ],
         "answer": 2
       },
       {
         "text": "Ampermetru, kurio skalė pažymėta amperais, matuojama 100 mA srovė. Ką rodo prietaisas?",
-        "choices": ["0,1 A.", "1,0 A.", "10 A."],
+        "choices": [
+          "0,1 A.",
+          "1,0 A.",
+          "10 A."
+        ],
         "answer": 0
       },
       {
         "text": "Imtuvas iš elektros tinklo naudoja 0,04 kW galią. Kiek tai yra vatų?",
-        "choices": ["0,4 W.", "40 W.", "4 W."],
+        "choices": [
+          "0,4 W.",
+          "40 W.",
+          "4 W."
+        ],
         "answer": 1
       },
       {
         "text": "Siųstuvo išėjimo galia 250 vatų. Kiek tai yra kilovatų?",
-        "choices": ["0,25 kW.", "2,5 kW.", "25 kW."],
+        "choices": [
+          "0,25 kW.",
+          "2,5 kW.",
+          "25 kW."
+        ],
         "answer": 0
       },
       {
         "text": "Siųstuvas veikia 0,71 MHz dažniu. Kiek tai yra kilohercų?",
-        "choices": ["0,071 kHz.", "710 kHz.", "7,1 kHz."],
+        "choices": [
+          "0,071 kHz.",
+          "710 kHz.",
+          "7,1 kHz."
+        ],
         "answer": 1
       },
       {
         "text": "Imtuvas nustatytas 1,5 GHz dažniu. Kiek tai yra megahercų?",
-        "choices": ["0,15 MHz.", "150 MHz.", "1500 MHz."],
+        "choices": [
+          "0,15 MHz.",
+          "150 MHz.",
+          "1500 MHz."
+        ],
         "answer": 2
       },
       {
@@ -3913,7 +4937,11 @@
       },
       {
         "text": "Oscilografo vertikalioji ašis atvaizduoja:",
-        "choices": ["Signalo amplitudę.", "Signalo trukmę.", "Signalo dažnį."],
+        "choices": [
+          "Signalo amplitudę.",
+          "Signalo trukmę.",
+          "Signalo dažnį."
+        ],
         "answer": 0
       },
       {
@@ -3936,22 +4964,38 @@
       },
       {
         "text": "Siųstuvo signalo harmonika girdima 145 MHz dažnyje. Kokiame dažnyje gali veikti siųstuvas?",
-        "choices": ["72,5 MHz.", "217,5 MHz.", "290,0 MHz."],
+        "choices": [
+          "72,5 MHz.",
+          "217,5 MHz.",
+          "290,0 MHz."
+        ],
         "answer": 0
       },
       {
         "text": "Koks gali būti siųstuvo signalo dažnis, jei jo harmonika girdima 18 MHz dažnyje?",
-        "choices": ["3 MHz.", "32 MHz.", "36 MHz."],
+        "choices": [
+          "3 MHz.",
+          "32 MHz.",
+          "36 MHz."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriuo dažniu galima girdėti siųstuvo, veikiančio 7160 kHz dažniu, ketvirtąją harmoniką?",
-        "choices": ["21,48 MHz.", "35,80 MHz.", "28,64 MHz."],
+        "choices": [
+          "21,48 MHz.",
+          "35,80 MHz.",
+          "28,64 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kuriuo dažniu galima girdėti siųstuvo, veikiančio 21 MHz dažniu, trečiąją harmoniką?",
-        "choices": ["7 MHz.", "42 MHz.", "63 MHz."],
+        "choices": [
+          "7 MHz.",
+          "42 MHz.",
+          "63 MHz."
+        ],
         "answer": 2
       },
       {
@@ -4019,22 +5063,38 @@
       },
       {
         "text": "0 dBm signalo lygis atitinka:",
-        "choices": ["1 mV įtampą.", "1 mW galią.", "1 mA srovę."],
+        "choices": [
+          "1 mV įtampą.",
+          "1 mW galią.",
+          "1 mA srovę."
+        ],
         "answer": 1
       },
       {
         "text": "Išmatavus šalutinio spinduliavimo lygį gauta reikšmė -40db(PEP). Kieno atžvilgiu pateikti matavimų rezultatai?",
-        "choices": ["Nešlio.", "Trukdančio signalo.", "Antenos centro."],
+        "choices": [
+          "Nešlio.",
+          "Trukdančio signalo.",
+          "Antenos centro."
+        ],
         "answer": 0
       },
       {
         "text": "Kuri balso telefonijos rūšis radijo mėgėjų dažniausiai naudojama radijo dažnių diapazonuose iki 10 MHz?",
-        "choices": ["USB.", "LSB.", "SSB."],
+        "choices": [
+          "USB.",
+          "LSB.",
+          "SSB."
+        ],
         "answer": 1
       },
       {
         "text": "Kuri balso telefonijos rūšis radijo mėgėjų dažniausiai naudojama radijo dažnių diapazonuose virš 10 MHz?",
-        "choices": ["USB.", "LSB.", "SSB."],
+        "choices": [
+          "USB.",
+          "LSB.",
+          "SSB."
+        ],
         "answer": 0
       },
       {
@@ -4093,12 +5153,20 @@
       },
       {
         "text": "Kuris skaitmeninis informacijos siuntimo būdas trumposiomis bangomis labiausiai paplitęs?",
-        "choices": ["DTMF.", "CTCSS.", "FSK."],
+        "choices": [
+          "DTMF.",
+          "CTCSS.",
+          "FSK."
+        ],
         "answer": 2
       },
       {
         "text": "Kurie iš čia išvardytų signalų yra skaitmeniniai?",
-        "choices": ["FSK, RTTY.", "CW.", "Visi čia išvardyti."],
+        "choices": [
+          "FSK, RTTY.",
+          "CW.",
+          "Visi čia išvardyti."
+        ],
         "answer": 0
       },
       {
@@ -4121,7 +5189,11 @@
       },
       {
         "text": "Kiek paketinio ryšio retransliatoriaus kanalų pakanka, palaikant dvipusį ryšį tarpusavyje 3 vartotojams?",
-        "choices": ["1.", "3.", "6."],
+        "choices": [
+          "1.",
+          "3.",
+          "6."
+        ],
         "answer": 0
       },
       {
@@ -4198,7 +5270,11 @@
       },
       {
         "text": "Kokiais vienetais matuojamas antenos stiprinimas?",
-        "choices": ["Vatais.", "Decibelais.", "Amperais."],
+        "choices": [
+          "Vatais.",
+          "Decibelais.",
+          "Amperais."
+        ],
         "answer": 1
       },
       {
@@ -4212,12 +5288,20 @@
       },
       {
         "text": "Pusės bangos ilgio antenos geometrinis ilgis 1 metras. Šios antenos rezonansinis dažnis:",
-        "choices": ["300 MHz.", "150 MHz.", "75 MHz."],
+        "choices": [
+          "300 MHz.",
+          "150 MHz.",
+          "75 MHz."
+        ],
         "answer": 1
       },
       {
         "text": "λ/4 antenos geometrinis ilgis 75 cm. Šios antenos rezonansinis dažnis:",
-        "choices": ["200 MHz.", "150 MHz.", "100 MHz."],
+        "choices": [
+          "200 MHz.",
+          "150 MHz.",
+          "100 MHz."
+        ],
         "answer": 2
       },
       {
@@ -4231,17 +5315,29 @@
       },
       {
         "text": "Kuriam bangos ilgiui to paties tipo antenos geometriniai matmenys mažiausi?",
-        "choices": ["4,25 m.", "12,38 m.", "45,18 m."],
+        "choices": [
+          "4,25 m.",
+          "12,38 m.",
+          "45,18 m."
+        ],
         "answer": 0
       },
       {
         "text": "Kuriam bangos ilgiui to paties tipo antenos geometriniai matmenys didžiausi?",
-        "choices": ["3 m.", "28 m.", "300 m."],
+        "choices": [
+          "3 m.",
+          "28 m.",
+          "300 m."
+        ],
         "answer": 2
       },
       {
         "text": "Antena sujungta su radijo stotimi ilgu kabeliu. Kurio dažnio radijo signalas kabelyje slopinamas labiausiai?",
-        "choices": ["Didžiausio.", "Mažiausio.", "Vidutinio."],
+        "choices": [
+          "Didžiausio.",
+          "Mažiausio.",
+          "Vidutinio."
+        ],
         "answer": 0
       },
       {
@@ -4300,12 +5396,20 @@
       },
       {
         "text": "Kuri banginio kanalo antena turi plačiausią pagrindinį krypties diagramos lapelį?",
-        "choices": ["3 elementų.", "7 elementų.", "10 elementų."],
+        "choices": [
+          "3 elementų.",
+          "7 elementų.",
+          "10 elementų."
+        ],
         "answer": 0
       },
       {
         "text": "Kuri iš čia išvardytų antenų horizontalioje plokštumoje turi siauriausią krypties diagramos lapelį?",
-        "choices": ["Strypinė.", "Banginio kanalo.", "Dipolis."],
+        "choices": [
+          "Strypinė.",
+          "Banginio kanalo.",
+          "Dipolis."
+        ],
         "answer": 1
       },
       {
@@ -4355,12 +5459,20 @@
       },
       {
         "text": "Dažniui mažėjant, radijo bangos ilgis:",
-        "choices": ["Nekinta.", "Didėja.", "Mažėja."],
+        "choices": [
+          "Nekinta.",
+          "Didėja.",
+          "Mažėja."
+        ],
         "answer": 1
       },
       {
         "text": "Bangos ilgiui didėjant, radijo dažnis:",
-        "choices": ["Nekinta.", "Didėja.", "Mažėja."],
+        "choices": [
+          "Nekinta.",
+          "Didėja.",
+          "Mažėja."
+        ],
         "answer": 2
       },
       {
@@ -4383,7 +5495,11 @@
       },
       {
         "text": "Kuri troposferos dalis leidžia užmegzti tolimus radijo ryšius trumposiomis bangomis?",
-        "choices": ["Biosfera.", "Jonosfera.", "Stratosfera."],
+        "choices": [
+          "Biosfera.",
+          "Jonosfera.",
+          "Stratosfera."
+        ],
         "answer": 1
       },
       {
@@ -4406,7 +5522,11 @@
       },
       {
         "text": "Kuriuo paros metu jonosferos jonizavimas mažiausias?",
-        "choices": ["Po saulėlydžio.", "Prieš pat saulėtekį.", "Vidurdienį."],
+        "choices": [
+          "Po saulėlydžio.",
+          "Prieš pat saulėtekį.",
+          "Vidurdienį."
+        ],
         "answer": 1
       },
       {
@@ -4420,17 +5540,29 @@
       },
       {
         "text": "Kuris jonosferos sluoksnis yra arčiausiai Žemės paviršiaus?",
-        "choices": ["D sluoksnis.", "E sluoksnis.", "F sluoksnis."],
+        "choices": [
+          "D sluoksnis.",
+          "E sluoksnis.",
+          "F sluoksnis."
+        ],
         "answer": 0
       },
       {
         "text": "Dienos metu vienas iš jonosferos sluoksnių skyla į du. Kuris?",
-        "choices": ["E.", "D.", "F."],
+        "choices": [
+          "E.",
+          "D.",
+          "F."
+        ],
         "answer": 2
       },
       {
         "text": "Koks yra vidutinis Saulės aktyvumo periodas?",
-        "choices": ["Apie 18 m.", "Apie 11 m.", "Apie 5 m."],
+        "choices": [
+          "Apie 18 m.",
+          "Apie 11 m.",
+          "Apie 5 m."
+        ],
         "answer": 1
       },
       {
@@ -4588,17 +5720,29 @@
       },
       {
         "text": "Kokios radijo bangos turi didžiausią neigiamą įtaką akims?",
-        "choices": ["Ilgos.", "Trumpos.", "Ultratrumpos."],
+        "choices": [
+          "Ilgos.",
+          "Trumpos.",
+          "Ultratrumpos."
+        ],
         "answer": 2
       },
       {
         "text": "Kurio iš čia išvardytų radijo dažnių energija akims yra pavojingiausia?",
-        "choices": ["3,5 MHz.", "144 MHz.", "1260 MHz."],
+        "choices": [
+          "3,5 MHz.",
+          "144 MHz.",
+          "1260 MHz."
+        ],
         "answer": 2
       },
       {
         "text": "Kurio diapazono radijo dažnių energiją žmogaus kūnas labiausiai absorbuoja?",
-        "choices": ["3–30 MHz.", "30–300 MHz.", "0,3–3 GHz."],
+        "choices": [
+          "3–30 MHz.",
+          "30–300 MHz.",
+          "0,3–3 GHz."
+        ],
         "answer": 1
       },
       {

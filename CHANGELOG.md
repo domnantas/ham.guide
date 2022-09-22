@@ -11,6 +11,10 @@
 - Updated dependencies, fixed breaking config changes
 - Hide untranslated pages
 
+### Removed
+
+- Scrapers for DXCC and LHFA due to security issues in their dependencies
+
 ## 2021-10-31
 
 ### Added
