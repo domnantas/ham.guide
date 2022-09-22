@@ -1,5 +1,16 @@
 # Changelog
 
+## 2022-09-22
+
+### Added
+
+- **Lithuanian** Mark correct answers after submitting the Exam
+
+### Changed
+
+- Updated dependencies, fixed breaking config changes
+- Hide untranslated pages
+
 ## 2021-10-31
 
 ### Added
