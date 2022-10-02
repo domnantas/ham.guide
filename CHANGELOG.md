@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-10-02
+
+### Added
+
+- **Lithuanian** Height of a point in QTH map
+
 ## 2022-09-22
 
 ### Added
