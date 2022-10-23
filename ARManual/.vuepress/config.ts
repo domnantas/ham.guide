@@ -1,6 +1,11 @@
 import { path } from '@vuepress/utils'
+import { defineUserConfig, defaultTheme } from 'vuepress-vite'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
 
-export default {
+export default defineUserConfig({
   title: 'ARManual',
   description: 'Introduction to amateur radio',
   locales: {
@@ -84,9 +89,9 @@ export default {
       }
     ]
   ],
-  themeConfig: {
+  theme: defaultTheme({
     repo: 'domnantas/ARManual',
-    editLinks: true,
+    editLink: true,
     docsDir: 'ARManual',
     logo: '/logo.svg',
     sidebarDepth: 1,
@@ -235,46 +240,35 @@ export default {
         ]
       },
     }
-  },
+  }),
   plugins: [
-    [
-      '@vuepress/register-components',
-      {
-        componentsDir: path.resolve(__dirname, './components'),
-      },
-    ],
-    [
-      '@vuepress/docsearch',
-      {
-        apiKey: '2f148ce036146414349f66708050eb31',
-        indexName: 'armanual',
-        locales: {
-          '/': {
-            placeholder: 'Search',
-          },
-          '/lt/': {
-            placeholder: 'Paieška',
-          },
-          '/es/': {
-            placeholder: 'Buscar',
-          },
-          '/ru/': {
-            placeholder: 'Поиск',
-          },
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+    docsearchPlugin({
+      apiKey: '2f148ce036146414349f66708050eb31',
+      indexName: 'armanual',
+      appId: 'KAI83AR9ZR',
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+        '/lt/': {
+          placeholder: 'Paieška',
+        },
+        '/es/': {
+          placeholder: 'Buscar',
+        },
+        '/ru/': {
+          placeholder: 'Поиск',
         },
       },
-    ],
-    [
-      '@vuepress/plugin-google-analytics',
-      {
-        id: 'G-9BCS1N7E1G',
-      },
-    ],
-    [
-      '@vuepress/pwa',
-      {
-        skipWaiting: true,
-      },
-    ],
+    }),
+    googleAnalyticsPlugin({
+      id: 'G-9BCS1N7E1G',
+    }),
+    pwaPlugin({
+      skipWaiting: true,
+    }),
   ],
-};
+});
