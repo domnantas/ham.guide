@@ -246,7 +246,7 @@ export default defineUserConfig({
       componentsDir: path.resolve(__dirname, './components'),
     }),
     docsearchPlugin({
-      apiKey: '2f148ce036146414349f66708050eb31',
+      apiKey: '128f6dee6aa7749577ea604740536dd4',
       indexName: 'armanual',
       appId: 'KAI83AR9ZR',
       locales: {
