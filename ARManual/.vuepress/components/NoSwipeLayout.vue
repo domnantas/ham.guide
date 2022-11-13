@@ -52,11 +52,9 @@ import Home from '@vuepress/theme-default/lib/client/components/Home.vue';
 import Navbar from '@vuepress/theme-default/lib/client/components/Navbar.vue';
 import Page from '@vuepress/theme-default/lib/client/components/Page.vue';
 import Sidebar from '@vuepress/theme-default/lib/client/components/Sidebar.vue';
-import {
-  useScrollPromise,
-  useSidebarItems,
-  useThemeLocaleData,
-} from '@vuepress/theme-default/lib/client/composables';
+import { useScrollPromise } from '@vuepress/theme-default/lib/client/composables/useScrollPromise';
+import { useSidebarItems } from '@vuepress/theme-default/lib/client/composables/useSidebarItems';
+import { useThemeLocaleData } from '@vuepress/theme-default/lib/client/composables/useThemeData';
 
 const page = usePageData();
 const frontmatter = usePageFrontmatter<DefaultThemePageFrontmatter>();
