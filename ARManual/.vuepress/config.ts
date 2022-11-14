@@ -195,7 +195,7 @@ export default defineUserConfig({
           //   ]
           // },
           '/es/phonetic-alphabet/',
-          // '/q-code/',
+          '/es/q-code/',
           // '/dxcc-prefixes/',
           {
             text: 'Contribuye',
