@@ -1,5 +1,5 @@
 import { path } from '@vuepress/utils'
-import { defineUserConfig, defaultTheme } from 'vuepress-vite'
+import { defineUserConfig, defaultTheme } from 'vuepress'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
