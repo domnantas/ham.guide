@@ -1,5 +1,16 @@
 # Changelog
 
+## 2022-11-15
+
+### Added
+
+- **Spanish** Q Code [@taicoding](https://github.com/taicoding)
+
+### Changed
+
+- Updated dependencies
+- Fixed search
+
 ## 2022-10-02
 
 ### Added
