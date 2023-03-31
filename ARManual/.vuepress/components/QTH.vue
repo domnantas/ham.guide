@@ -56,12 +56,12 @@ export default {
 
     this.map.on('load', () => {
       this.map.addSource('mapbox-dem', {
-        'type': 'raster-dem',
-        'url': 'mapbox://mapbox.terrain-rgb',
-        'tileSize': 512,
-        'maxzoom': 14
+        type: 'raster-dem',
+        url: 'mapbox://mapbox.terrain-rgb',
+        tileSize: 512,
+        maxzoom: 14,
       });
-      this.map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+      this.map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.5 });
 
       this.drawMaidenheadField();
       this.drawMaidenheadSquare();
@@ -70,7 +70,9 @@ export default {
     this.map.on('click', (event) => {
       const latitude = parseFloat(event.lngLat.lat.toFixed(3));
       const longitude = parseFloat(event.lngLat.lng.toFixed(3));
-      const elevation = this.map.queryTerrainElevation(event.lngLat, { exaggerated: false }).toFixed(1);
+      const elevation = this.map
+        .queryTerrainElevation(event.lngLat, { exaggerated: false })
+        .toFixed(1);
       const googleMapsNavigationUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
 
       const popupHTML = `<div class="map-info">
@@ -78,7 +80,10 @@ export default {
             <div class="map-info-header">Koordinatės</div>
             <div class="map-info-data"><a href="${googleMapsNavigationUrl}">${latitude}, ${longitude}</a></div>
             <div class="map-info-header">QTH</div>
-            <div class="map-info-data">${this.calculateMaidenhead(latitude, longitude)}</div>
+            <div class="map-info-data">${this.calculateMaidenhead(
+              latitude,
+              longitude
+            )}</div>
             <div class="map-info-header">Aukštis virš jūros lygio</div>
             <div class="map-info-data">${elevation} m</div>
           </div>
