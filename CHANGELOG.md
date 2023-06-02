@@ -1,5 +1,13 @@
 # Changelog
 
+## 2023-06-02
+
+### Changed
+
+- Updated dependencies
+- **Lithuanian** WAL map allows changing layers
+- **Lithuanian** No longer possible to rotate and tilt WAL map
+
 ## 2022-11-15
 
 ### Added

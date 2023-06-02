@@ -61,7 +61,14 @@ export default {
         [19.970833, 52.896667],
         [27.835556, 57.450278],
       ],
+      pitchWithRotate: false
     });
+
+    // disable map rotation using right click + drag
+    this.map.dragRotate.disable();
+
+    // disable map rotation using touch rotation gesture
+    this.map.touchZoomRotate.disableRotation();
 
     this.addControls();
 
