@@ -61,7 +61,8 @@ export default {
         [19.970833, 52.896667],
         [27.835556, 57.450278],
       ],
-      pitchWithRotate: false
+      pitchWithRotate: false,
+      touchPitch: false
     });
 
     // disable map rotation using right click + drag
