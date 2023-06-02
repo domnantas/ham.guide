@@ -49,6 +49,7 @@ export default {
       accessToken:
         'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
       container: this.$refs.map,
+      zoom: 2,
       style: 'mapbox://styles/mapbox/outdoors-v12',
     });
 
