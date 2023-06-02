@@ -32,7 +32,7 @@ export default {
       accessToken:
         'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
       container: this.$refs.map,
-      style: 'mapbox://styles/mapbox/outdoors-v11',
+      style: 'mapbox://styles/mapbox/outdoors-v12',
       center: [23.8813, 55.1694],
       zoom: 7,
       maxBounds: [
