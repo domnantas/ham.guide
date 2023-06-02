@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
     <div id="map" ref="map"></div>
+    <div class="style-switch">
+      <button v-if="currentStyle !== 'satellite-streets-v12'" @click="setMapStyle('satellite-streets-v12')">Satellite</button>
+      <button v-if="currentStyle !== 'outdoors-v12'" @click="setMapStyle('outdoors-v12')">Terrain</button>
+    </div>
     <div class="box" v-if="this.currentLatitude && this.currentLongitude">
       <div class="data">
         <span>
@@ -31,6 +35,7 @@ export default {
     return {
       currentLatitude: null,
       currentLongitude: null,
+      currentStyle: 'outdoors-v12',
       map: null,
       maidenheadFieldFeatures: null,
       maidenheadSquareFeatures: null,
@@ -50,20 +55,13 @@ export default {
         'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
       container: this.$refs.map,
       zoom: 2,
-      style: 'mapbox://styles/mapbox/outdoors-v12',
+      style: `mapbox://styles/mapbox/${this.currentStyle}`,
     });
 
     this.addControls();
 
     this.map.on('load', () => {
-      this.map.addSource('mapbox-dem', {
-        type: 'raster-dem',
-        url: 'mapbox://mapbox.terrain-rgb',
-        tileSize: 512,
-        maxzoom: 14,
-      });
-      this.map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.5 });
-
+      this.addTerrain();
       this.drawMaidenheadField();
       this.drawMaidenheadSquare();
     });
@@ -142,6 +140,15 @@ export default {
       }
       return locator;
     },
+    addTerrain() {
+      this.map.addSource('mapbox-dem', {
+        type: 'raster-dem',
+        url: 'mapbox://mapbox.terrain-rgb',
+        tileSize: 512,
+        maxzoom: 14,
+      });
+      this.map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.5 });
+    },
     drawMaidenheadField() {
       const maidenheadFieldDivisions = 18;
       this.maidenheadFieldFeatures = Array(maidenheadFieldDivisions)
@@ -180,13 +187,18 @@ export default {
         data: maidenheadFieldBBoxes,
       });
 
+      const gridColorMap = {
+        'satellite-streets-v12': '#FFFFFF',
+        'outdoors-v12': '#647DEE'
+      }
+
       this.map.addLayer({
         id: 'maidenhead-field-lines',
         type: 'line',
         source: 'maidenheadFieldBBoxes',
         maxzoom: 5,
         paint: {
-          'line-color': '#647DEE',
+          'line-color': gridColorMap[this.currentStyle],
           'line-width': 1,
         },
       });
@@ -199,10 +211,18 @@ export default {
         layout: {
           'text-field': ['get', 'maidenheadField'],
           'text-allow-overlap': true,
-          'text-size': 18,
+          'text-size': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            0,
+            3,
+            5,
+            50
+          ]
         },
         paint: {
-          'text-color': '#647DEE',
+          'text-color': gridColorMap[this.currentStyle],
         },
       });
     },
@@ -248,13 +268,18 @@ export default {
         data: maidenheadSquareBBoxes,
       });
 
+      const gridColorMap = {
+        'satellite-streets-v12': '#FFFFFF',
+        'outdoors-v12': '#647DEE'
+      }
+
       this.map.addLayer({
         id: 'maidenhead-square-lines',
         type: 'line',
         source: 'maidenheadSquareBBoxes',
         minzoom: 5,
         paint: {
-          'line-color': '#647DEE',
+          'line-color': gridColorMap[this.currentStyle],
           'line-width': 1,
         },
       });
@@ -267,13 +292,28 @@ export default {
         layout: {
           'text-field': ['get', 'maidenheadSquare'],
           'text-allow-overlap': true,
-          'text-size': 18,
+          'text-size': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            5,
+            18,
+            20,
+            250
+          ],
         },
         paint: {
-          'text-color': '#647DEE',
+          'text-color': gridColorMap[this.currentStyle],
         },
       });
     },
+    setMapStyle(styleId) {
+      this.map.once("styledata", this.addTerrain);
+      this.map.once("styledata", this.drawMaidenheadField);
+      this.map.once("styledata", this.drawMaidenheadSquare);
+      this.currentStyle = styleId;
+      this.map.setStyle(`mapbox://styles/mapbox/${styleId}`);
+    }
   },
 };
 </script>
@@ -303,6 +343,12 @@ export default {
 .data {
   display: flex;
   flex-direction: column;
+}
+
+.style-switch {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
 }
 </style>
 

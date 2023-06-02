@@ -5,8 +5,10 @@
 ### Changed
 
 - Updated dependencies
-- **Lithuanian** WAL map allows changing layers
 - **Lithuanian** No longer possible to rotate and tilt WAL map
+- **Lithuanian** WAL map text scaling improved
+- **Lithuanian** Updated all map style versions
+- **Lithuanian** All maps allow changing layers
 
 ## 2022-11-15
 

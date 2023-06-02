@@ -658,6 +658,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
 .style-switch {
   position: absolute;
   bottom: 40px;
