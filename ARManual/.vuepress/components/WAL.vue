@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
     <div id="map" ref="map"></div>
+    <div class="style-switch">
+      <button v-if="currentStyle !== 'satellite-streets-v12'" @click="setMapStyle('satellite-streets-v12')">Satellite</button>
+      <button v-if="currentStyle !== 'outdoors-v12'" @click="setMapStyle('outdoors-v12')">Terrain</button>
+    </div>
     <div class="box" v-if="this.currentLatitude && this.currentLongitude">
       <div class="data">
         <span>
@@ -35,6 +39,7 @@ export default {
     return {
       currentLatitude: null,
       currentLongitude: null,
+      currentStyle: 'outdoors-v12',
       map: null,
     };
   },
@@ -54,7 +59,7 @@ export default {
       accessToken:
         'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
       container: this.$refs.map,
-      style: 'mapbox://styles/mapbox/outdoors-v12',
+      style: `mapbox://styles/mapbox/${this.currentStyle}`,
       center: [23.8813, 55.1694],
       zoom: 7,
       maxBounds: [
@@ -581,12 +586,17 @@ export default {
         data: WALbboxes,
       });
 
+      const gridColorMap = {
+        'satellite-streets-v12': '#FFFFFF',
+        'outdoors-v12': '#647DEE'
+      }
+
       this.map.addLayer({
         id: 'WAL-lines',
         type: 'line',
         source: 'WALbboxes',
         paint: {
-          'line-color': '#647DEE',
+          'line-color': gridColorMap[this.currentStyle],
           'line-width': 1,
         },
       });
@@ -598,13 +608,26 @@ export default {
         layout: {
           'text-field': ['get', 'WAL'],
           'text-allow-overlap': true,
-          'text-size': 15,
+          'text-size': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            7,
+            13,
+            20,
+            250
+          ]
         },
         paint: {
-          'text-color': '#647DEE',
+          'text-color': gridColorMap[this.currentStyle],
         },
       });
     },
+    setMapStyle(styleId) {
+      this.map.once("styledata", this.drawGrid);
+      this.currentStyle = styleId;
+      this.map.setStyle(`mapbox://styles/mapbox/${styleId}`);
+    }
   },
 };
 </script>
@@ -634,6 +657,11 @@ export default {
 .data {
   display: flex;
   flex-direction: column;
+}
+.style-switch {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
 }
 </style>
 
