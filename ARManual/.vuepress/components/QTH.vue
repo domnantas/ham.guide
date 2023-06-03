@@ -299,7 +299,7 @@ export default {
             5,
             18,
             20,
-            250
+            200
           ],
         },
         paint: {
