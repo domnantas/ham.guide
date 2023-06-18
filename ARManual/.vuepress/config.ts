@@ -1,28 +1,28 @@
-import { path } from '@vuepress/utils'
-import { defineUserConfig, defaultTheme } from 'vuepress'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { pwaPlugin } from '@vuepress/plugin-pwa'
+import { path } from '@vuepress/utils';
+import { defineUserConfig, defaultTheme } from 'vuepress';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { pwaPlugin } from '@vuepress/plugin-pwa';
 
 export default defineUserConfig({
   title: 'ARManual',
   description: 'Introduction to amateur radio',
   locales: {
     '/': {
-      lang: 'en-US'
+      lang: 'en-US',
     },
     '/lt/': {
       lang: 'lt-LT',
-      description: 'Įvadas į mėgėjišką radiją'
+      description: 'Įvadas į mėgėjišką radiją',
     },
     '/es/': {
       lang: 'es-ES',
-      description: 'Introduction a la radioafición'
+      description: 'Introduction a la radioafición',
     },
     '/ru/': {
       lang: 'ru-RU',
-      description: 'Введение в любительскую радиосвязь'
+      description: 'Введение в любительскую радиосвязь',
     },
   },
   head: [
@@ -31,8 +31,8 @@ export default defineUserConfig({
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: `/icons/apple-touch-icon.png`
-      }
+        href: `/icons/apple-touch-icon.png`,
+      },
     ],
     [
       'link',
@@ -40,8 +40,8 @@ export default defineUserConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `/icons/favicon-32x32.png`
-      }
+        href: `/icons/favicon-32x32.png`,
+      },
     ],
     [
       'link',
@@ -49,23 +49,23 @@ export default defineUserConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: `/icons/favicon-16x16.png`
-      }
+        href: `/icons/favicon-16x16.png`,
+      },
     ],
     [
       'link',
       {
         rel: 'manifest',
-        href: `/manifest.webmanifest`
-      }
+        href: `/manifest.webmanifest`,
+      },
     ],
     [
       'link',
       {
         rel: 'mask-icon',
         href: `/icons/safari-pinned-tab.svg`,
-        color: '#647dee'
-      }
+        color: '#647dee',
+      },
     ],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
     ['meta', { name: 'application-name', content: 'ARManual' }],
@@ -75,8 +75,8 @@ export default defineUserConfig({
       'meta',
       {
         property: 'og:image',
-        content: 'https://armanual.org/icons/og-image.jpg'
-      }
+        content: 'https://armanual.org/icons/og-image.jpg',
+      },
     ],
     ['meta', { property: 'og:title', content: 'ARManual' }],
     ['meta', { property: 'og:url', content: 'https://armanual.org' }],
@@ -85,9 +85,9 @@ export default defineUserConfig({
       {
         property: 'og:description',
         content:
-          'Introduction to amateur radio - Open source, multilingual and works offline!'
-      }
-    ]
+          'Introduction to amateur radio - Open source, multilingual and works offline!',
+      },
+    ],
   ],
   theme: defaultTheme({
     repo: 'domnantas/ARManual',
@@ -114,17 +114,17 @@ export default defineUserConfig({
               '/radio-operating-ethics/introduction',
               '/radio-operating-ethics/general-operating',
               '/radio-operating-ethics/advanced-operating',
-              '/radio-operating-ethics/authors'
-            ]
+              '/radio-operating-ethics/authors',
+            ],
           },
           '/phonetic-alphabet/',
           '/q-code/',
           '/dxcc-prefixes/',
           {
             text: 'Contribute',
-            children: ['/contribute/', '/contribute/markdown-tips']
-          }
-        ]
+            children: ['/contribute/', '/contribute/markdown-tips'],
+          },
+        ],
       },
       '/lt/': {
         selectLanguageName: 'Lietuvių',
@@ -138,8 +138,8 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Pakeitimai',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
-          }
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+          },
         ],
         sidebar: [
           {
@@ -151,8 +151,8 @@ export default defineUserConfig({
               '/lt/radio-operating-ethics/general-operating',
               '/lt/radio-operating-ethics/advanced-operating',
               '/lt/radio-operating-ethics/authors',
-              '/lt/radio-operating-ethics/translators-note'
-            ]
+              '/lt/radio-operating-ethics/translators-note',
+            ],
           },
           '/lt/phonetic-alphabet/',
           '/lt/q-code/',
@@ -163,9 +163,9 @@ export default defineUserConfig({
           '/lt/qth/',
           {
             text: 'Prisidėkite',
-            children: ['/lt/contribute/', '/lt/contribute/markdown-tips']
-          }
-        ]
+            children: ['/lt/contribute/', '/lt/contribute/markdown-tips'],
+          },
+        ],
       },
       '/es/': {
         selectLanguageName: 'Español',
@@ -179,8 +179,8 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Cambios',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
-          }
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+          },
         ],
         sidebar: [
           // {
@@ -199,9 +199,9 @@ export default defineUserConfig({
           // '/dxcc-prefixes/',
           {
             text: 'Contribuye',
-            children: ['/contribute/', '/contribute/markdown-tips']
-          }
-        ]
+            children: ['/contribute/', '/contribute/markdown-tips'],
+          },
+        ],
       },
       '/ru/': {
         selectLanguageName: 'Русский',
@@ -215,8 +215,8 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Изменения',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md'
-          }
+            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+          },
         ],
         sidebar: [
           // {
@@ -235,11 +235,11 @@ export default defineUserConfig({
           // '/dxcc-prefixes/',
           {
             text: 'Участие в проекте',
-            children: ['/contribute/', '/contribute/markdown-tips']
-          }
-        ]
+            children: ['/contribute/', '/contribute/markdown-tips'],
+          },
+        ],
       },
-    }
+    },
   }),
   plugins: [
     registerComponentsPlugin({

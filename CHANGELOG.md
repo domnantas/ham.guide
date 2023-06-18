@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Updated dependencies
 - **Lithuanian** Adjusted LHFA hill marker colors to increase contrast
 
 ## 2023-06-02
