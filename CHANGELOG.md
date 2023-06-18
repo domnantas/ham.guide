@@ -5,6 +5,7 @@
 ### Changed
 
 - Updated dependencies
+- Fixed .fullscreen page style
 - **Lithuanian** Adjusted LHFA hill marker colors to increase contrast
 
 ## 2023-06-02
