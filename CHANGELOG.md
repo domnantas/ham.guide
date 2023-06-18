@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023-06-18
+
+### Changed
+
+- **Lithuanian** Adjusted LHFA hill marker colors to increase contrast
+
 ## 2023-06-02
 
 ### Changed
