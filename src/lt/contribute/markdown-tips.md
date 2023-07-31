@@ -255,7 +255,7 @@ const foo = bar => {
 Šio projekto `markdown` failuose galima naudoti [Vue](https://vuejs.org/) komponentus
 
 `.vuepress/components/DoubleNumber.vue`
-@[code](../.vuepress/components/DoubleNumber.vue)
+@[code](../../.vuepress/components/DoubleNumber.vue)
 
 ```md
 <!-- *.md -->
