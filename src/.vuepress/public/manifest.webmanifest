@@ -1,8 +1,8 @@
 {
-  "name": "ARManual",
+  "name": "ham.guide",
   "description": "Introduction to amateur radio",
   "start_url": "/",
-  "short_name": "ARManual",
+  "short_name": "ham.guide",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",

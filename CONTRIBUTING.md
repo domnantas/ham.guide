@@ -1,10 +1,10 @@
 ## How can I help?
 
-First off — thank you for taking interest in helping this project grow. There are many ways you can contribute — tell your friends about ARManual, fix typos you find, correct outdated information, translate it to a language you know or even write new content. Anything helps! Furthermore, go to our [Github Issue page](https://github.com/domnantas/ARManual/issues), check out the issues with a label _help wanted_ and see if you could fix that issue.
+First off — thank you for taking interest in helping this project grow. There are many ways you can contribute — tell your friends about ham.guide, fix typos you find, correct outdated information, translate it to a language you know or even write new content. Anything helps! Furthermore, go to our [Github Issue page](https://github.com/domnantas/ham.guide/issues), check out the issues with a label _help wanted_ and see if you could fix that issue.
 
 ## Issues
 
-If you have any suggestions, questions or found a bug, please go to our [Github Issue page](https://github.com/domnantas/ARManual/issues) and submit a new issue.
+If you have any suggestions, questions or found a bug, please go to our [Github Issue page](https://github.com/domnantas/ham.guide/issues) and submit a new issue.
 
 ## Simple editing
 
@@ -16,7 +16,7 @@ If you found a typo, incorrect information or would like to clarify something, f
 - Click **Propose file change** button and **Create pull request** in the next page.
 - Make sure your pull request has an appropriate title and description and click **Create pull request**
 
-Thank you for improving ARManual! We will review your changes and you should see them on the webpage after we approve them. Check back on your [pull request](https://github.com/domnantas/ARManual/pulls) every once in a while — you might find some comments and questions there.
+Thank you for improving ham.guide! We will review your changes and you should see them on the webpage after we approve them. Check back on your [pull request](https://github.com/domnantas/ham.guide/pulls) every once in a while — you might find some comments and questions there.
 
 ## Advanced editing
 
@@ -44,7 +44,7 @@ You will need to [install Yarn](https://yarnpkg.com/getting-started/install) to 
 
 ---
 
-1. After you have the prerequisites installed, [fork and clone ARManual repository and create a new branch](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
+1. After you have the prerequisites installed, [fork and clone ham.guide repository and create a new branch](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 2. Install dependencies
 
@@ -58,13 +58,13 @@ yarn
 yarn dev
 ```
 
-After that, visit `localhost:8080` and you should see ARManual running locally.
+After that, visit `localhost:8080` and you should see ham.guide running locally.
 
 ### Project structure
 
 ```
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 |   ├── phonetic-alphabet
@@ -83,12 +83,12 @@ After that, visit `localhost:8080` and you should see ARManual running locally.
 
 This is a simplified diagram of directory structure.
 
-- `ARManual/` folder contains all the content presented on this webpage.
-- `ARManual/.vuepress` contains Vuepress configuration and style files, component and public directories. More information about it can be found on [Vuepress documentation](https://vuepress.vuejs.org/), but it rarely needs modification.
+- `src/` folder contains all the content presented on this webpage.
+- `src/.vuepress` contains Vuepress configuration and style files, component and public directories. More information about it can be found on [Vuepress documentation](https://vuepress.vuejs.org/), but it rarely needs modification.
 
 ```{4,5,6,7}
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 │   ├── phonetic-alphabet
@@ -102,15 +102,15 @@ This is a simplified diagram of directory structure.
 ...
 ```
 
-Directories like `ARManua/contribute/` or `ARManual/q-code/` are **page** or **page group** folders. **Page** is a directory with a single `README.md` file. **Page group** is a directory containing a `README.md` and other `.md` files for additional pages.
+Directories like `src/contribute/` or `src/q-code/` are **page** or **page group** folders. **Page** is a directory with a single `README.md` file. **Page group** is a directory containing a `README.md` and other `.md` files for additional pages.
 
 ::: warning
-If you want to create a **new** page or page group, you need to modify `ARManual/.vuepress/config.js` file `themeConfig.locales.sidebar` property in order to see your page in the navigation menu. Try doing this yourself following already existing code as an example, but don't be afraid to ask for help on Github if you get stuck!
+If you want to create a **new** page or page group, you need to modify `src/.vuepress/config.js` file `themeConfig.locales.sidebar` property in order to see your page in the navigation menu. Try doing this yourself following already existing code as an example, but don't be afraid to ask for help on Github if you get stuck!
 :::
 
 ```{8,9,10,11,12}
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 │   ├── phonetic-alphabet
@@ -124,4 +124,4 @@ If you want to create a **new** page or page group, you need to modify `ARManual
 ...
 ```
 
-Folders named using a two-letter language code are **language directories**. The default language of this project is English, therefore `ARManual/contribute/` and `ARManual/radio-operating-ethics/` don't need to be nested in a language directory. Additional languages must have a language directory and it _should_ contain the same **page** and **page group** folders as does English.
+Folders named using a two-letter language code are **language directories**. The default language of this project is English, therefore `src/contribute/` and `src/radio-operating-ethics/` don't need to be nested in a language directory. Additional languages must have a language directory and it _should_ contain the same **page** and **page group** folders as does English.

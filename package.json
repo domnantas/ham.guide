@@ -1,9 +1,9 @@
 {
-  "name": "armanual",
+  "name": "ham.guide",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev ARManual",
-    "build": "vuepress build ARManual"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "dependencies": {

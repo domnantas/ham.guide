@@ -6,7 +6,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { pwaPlugin } from '@vuepress/plugin-pwa';
 
 export default defineUserConfig({
-  title: 'ARManual',
+  title: 'ham.guide',
   description: 'Introduction to amateur radio',
   locales: {
     '/': {
@@ -67,19 +67,19 @@ export default defineUserConfig({
         color: '#647dee',
       },
     ],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'ARManual' }],
-    ['meta', { name: 'application-name', content: 'ARManual' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'ham.guide' }],
+    ['meta', { name: 'application-name', content: 'ham.guide' }],
     ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
     ['meta', { name: 'theme-color', content: '#647dee' }],
     [
       'meta',
       {
         property: 'og:image',
-        content: 'https://armanual.org/icons/og-image.jpg',
+        content: 'https://ham.guide/icons/og-image.jpg',
       },
     ],
-    ['meta', { property: 'og:title', content: 'ARManual' }],
-    ['meta', { property: 'og:url', content: 'https://armanual.org' }],
+    ['meta', { property: 'og:title', content: 'ham.guide' }],
+    ['meta', { property: 'og:url', content: 'https://ham.guide' }],
     [
       'meta',
       {
@@ -90,9 +90,9 @@ export default defineUserConfig({
     ],
   ],
   theme: defaultTheme({
-    repo: 'domnantas/ARManual',
+    repo: 'domnantas/ham.guide',
     editLink: true,
-    docsDir: 'ARManual',
+    docsDir: 'src',
     logo: '/logo.svg',
     sidebarDepth: 1,
     locales: {
@@ -102,7 +102,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Changelog',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
           },
         ],
         sidebar: [
@@ -138,7 +138,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Pakeitimai',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
           },
         ],
         sidebar: [
@@ -179,7 +179,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Cambios',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
           },
         ],
         sidebar: [
@@ -215,7 +215,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: 'Изменения',
-            link: 'https://github.com/domnantas/ARManual/blob/main/CHANGELOG.md',
+            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
           },
         ],
         sidebar: [
@@ -247,7 +247,7 @@ export default defineUserConfig({
     }),
     docsearchPlugin({
       apiKey: '128f6dee6aa7749577ea604740536dd4',
-      indexName: 'armanual',
+      indexName: 'ham.guide',
       appId: 'KAI83AR9ZR',
       locales: {
         '/': {

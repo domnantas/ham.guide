@@ -4,11 +4,11 @@ Bendruomenės pagalba yra labai laukiama! Nesijaudinkite jeigu turite mažai pat
 
 ## Kaip galiu padėti?
 
-Pirmiausa - ačiū kad norite padėti šiam projektui augti. Yra daugelis būdų kaip galite prisidėti — papasakokite draugams apie ARManual, pataisykite gramatines klaidas kurias randate, patikslinkite pasenusią informaciją, išverskite puslapius į kitą kalbą, ar net pridėkite daugiau turinio. Mūsų [Github Issue puslapyje](https://github.com/domnantas/ARManual/issues) ieškokite pranešimų pažymėtų _help wanted_ ir bandykite prisidėti prie jų sprendimo.
+Pirmiausa - ačiū kad norite padėti šiam projektui augti. Yra daugelis būdų kaip galite prisidėti — papasakokite draugams apie ham.guide, pataisykite gramatines klaidas kurias randate, patikslinkite pasenusią informaciją, išverskite puslapius į kitą kalbą, ar net pridėkite daugiau turinio. Mūsų [Github Issue puslapyje](https://github.com/domnantas/ham.guide/issues) ieškokite pranešimų pažymėtų _help wanted_ ir bandykite prisidėti prie jų sprendimo.
 
 ## _Issues_
 
-Jeigu turite pasiūlymų, klausimų ar radote klaidų, parašykite pranešimą mūsų [Github Issue puslapyje](https://github.com/domnantas/ARManual/issues).
+Jeigu turite pasiūlymų, klausimų ar radote klaidų, parašykite pranešimą mūsų [Github Issue puslapyje](https://github.com/domnantas/ham.guide/issues).
 
 ## Redagavimas pradedantiesiams
 
@@ -20,7 +20,7 @@ Jeigu radote gramatinę klaidą, neteisingą informaciją, ar norėtumėte patik
 - Spauskite **Propose file change** mygtuką ir **Create pull request** kitame puslapyje.
 - Įsitikinkite kad jūsų _pull request_ turi atitinkamą antraštę ir aprašymą ir spauskite **Create pull request**
 
-Dėkojame, kad tobulinate ARManual! Mes peržiūrėsime jūsų pakeitimus ir atnaujintą puslapį matysite, kai pakeitimus patvirtinsime. Kartas nuo karto patikrinkite savo [_pull request_](https://github.com/domnantas/ARManual/pulls) — ten galite rasti komentarus ir klausimus susijusius su jūsų pakeitimais.
+Dėkojame, kad tobulinate ham.guide! Mes peržiūrėsime jūsų pakeitimus ir atnaujintą puslapį matysite, kai pakeitimus patvirtinsime. Kartas nuo karto patikrinkite savo [_pull request_](https://github.com/domnantas/ham.guide/pulls) — ten galite rasti komentarus ir klausimus susijusius su jūsų pakeitimais.
 
 ## Redagavimas pažengusiems
 
@@ -48,7 +48,7 @@ Taip pat reikės [įdiegti Yarn](https://yarnpkg.com/getting-started/install)
 
 ---
 
-1. Kai įdiegsite Git ir Node, [klonuokite ARManual repozitoriją ir sukurkite naują šaką](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
+1. Kai įdiegsite Git ir Node, [klonuokite ham.guide repozitoriją ir sukurkite naują šaką](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 1. Įrašykite būtinus modulius
 
@@ -62,13 +62,13 @@ yarn
 yarn dev
 ```
 
-Apsilankykite `localhost:8080` ir turėtumėte pamatyti ARManual veikiantį vietiniame tinkle.
+Apsilankykite `localhost:8080` ir turėtumėte pamatyti ham.guide veikiantį vietiniame tinkle.
 
 ### Projekto struktūra
 
 ```
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 |   ├── phonetic-alphabet
@@ -87,12 +87,12 @@ Apsilankykite `localhost:8080` ir turėtumėte pamatyti ARManual veikiantį viet
 
 Tai yra supaprastinta projekto struktūros diagrama.
 
-- `ARManual/` aplanke talpinamas visas svetainės turinys.
-- `ARManual/.vuepress` yra Vuepress konfigūracijos ir stilių failai, komponentų ir viešų failų katalogai. Daugiau informacijos apie tai galite rasti [Vuepress dokumentacijoje](https://vuepress.vuejs.org/), bet šiems failams retai reikalingos modifikacijos.
+- `src/` aplanke talpinamas visas svetainės turinys.
+- `src/.vuepress` yra Vuepress konfigūracijos ir stilių failai, komponentų ir viešų failų katalogai. Daugiau informacijos apie tai galite rasti [Vuepress dokumentacijoje](https://vuepress.vuejs.org/), bet šiems failams retai reikalingos modifikacijos.
 
 ```{4,5,6,7}
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 │   ├── phonetic-alphabet
@@ -106,15 +106,15 @@ Tai yra supaprastinta projekto struktūros diagrama.
 ...
 ```
 
-Aplankai `ARManua/contribute/` ar `ARManual/q-code/` yra **puslapių** arba **puslapių grupių** aplankai. **Puslapis** yra aplankas talpinantis vieną `README.md` failą. **Puslapių grupė** yra aplankas turintis `README.md` ir kitus `.md` failus papildomiems puslapiams.
+Aplankai `src/contribute/` ar `src/q-code/` yra **puslapių** arba **puslapių grupių** aplankai. **Puslapis** yra aplankas talpinantis vieną `README.md` failą. **Puslapių grupė** yra aplankas turintis `README.md` ir kitus `.md` failus papildomiems puslapiams.
 
 ::: warning Perspėjimas
-Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuoti `ARManual/.vuepress/config.js` failo `themeConfig.locales.sidebar` nustatymą, tam kad jūsų puslapis būtų rodomas navigacijoje. Bandykite tai padaryti pats, naudodami jau aprašytą kodą kaip pavyzdį, tačiau nebijokite prašyti pagalbos mūsų Github puslapyje, jeigu užstrigsite!
+Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuoti `src/.vuepress/config.js` failo `themeConfig.locales.sidebar` nustatymą, tam kad jūsų puslapis būtų rodomas navigacijoje. Bandykite tai padaryti pats, naudodami jau aprašytą kodą kaip pavyzdį, tačiau nebijokite prašyti pagalbos mūsų Github puslapyje, jeigu užstrigsite!
 :::
 
 ```{8,9,10,11,12}
 .
-├── ARManual
+├── src
 │   ├── .vuepress
 │   ├── contribute
 │   ├── phonetic-alphabet
@@ -128,4 +128,4 @@ Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuot
 ...
 ```
 
-Aplankai pavadinti pagal dviejų raidžių šalies kodą yra **kalbos aplankai**. Numatytoji kalbia šiame projekte yra anglų, todėl `ARManual/contribute/` ir `ARManual/radio-operating-ethics/` nereikalingas kalbos aplankas. Kitos kalbos privalo turėti kalbos aplanką ir jis _turėtų_ talpinti tuos pačius **puslapius** ir **puslapių grupes** kurie yra parašyti anglų kalba.
+Aplankai pavadinti pagal dviejų raidžių šalies kodą yra **kalbos aplankai**. Numatytoji kalbia šiame projekte yra anglų, todėl `src/contribute/` ir `src/radio-operating-ethics/` nereikalingas kalbos aplankas. Kitos kalbos privalo turėti kalbos aplanką ir jis _turėtų_ talpinti tuos pačius **puslapius** ir **puslapių grupes** kurie yra parašyti anglų kalba.
