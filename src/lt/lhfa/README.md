@@ -1,7 +1,7 @@
 ---
 pageClass: fullscreen
 layout: NoSwipeLayout
-title: LHFA
+title: LHFA žemėlapis
 ---
 
 <ClientOnly>

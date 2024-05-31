@@ -1,7 +1,7 @@
 ---
 pageClass: fullscreen
 layout: NoSwipeLayout
-title: WAL
+title: WAL žemėlapis
 ---
 
 <ClientOnly>
