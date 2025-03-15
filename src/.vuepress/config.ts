@@ -1,185 +1,189 @@
-import { path } from '@vuepress/utils';
-import { defineUserConfig, defaultTheme } from 'vuepress';
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
-import { docsearchPlugin } from '@vuepress/plugin-docsearch';
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
-import { pwaPlugin } from '@vuepress/plugin-pwa';
+import { path } from "@vuepress/utils";
+import { defineUserConfig, defaultTheme } from "vuepress";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { pwaPlugin } from "@vuepress/plugin-pwa";
 
 export default defineUserConfig({
-  title: 'ham.guide',
-  description: 'Introduction to amateur radio',
+  title: "ham.guide",
+  description: "Introduction to amateur radio",
   locales: {
-    '/': {
-      lang: 'en-US',
+    "/": {
+      lang: "en-US",
     },
-    '/lt/': {
-      lang: 'lt-LT',
-      description: 'Įvadas į mėgėjišką radiją',
+    "/lt/": {
+      lang: "lt-LT",
+      description: "Įvadas į mėgėjišką radiją",
     },
-    '/es/': {
-      lang: 'es-ES',
-      description: 'Introduction a la radioafición',
+    "/es/": {
+      lang: "es-ES",
+      description: "Introduction a la radioafición",
     },
-    '/ru/': {
-      lang: 'ru-RU',
-      description: 'Введение в любительскую радиосвязь',
+    "/ru/": {
+      lang: "ru-RU",
+      description: "Введение в любительскую радиосвязь",
     },
   },
   head: [
     [
-      'link',
+      "link",
       {
-        rel: 'apple-touch-icon',
-        sizes: '180x180',
+        rel: "apple-touch-icon",
+        sizes: "180x180",
         href: `/icons/apple-touch-icon.png`,
       },
     ],
     [
-      'link',
+      "link",
       {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '32x32',
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
         href: `/icons/favicon-32x32.png`,
       },
     ],
     [
-      'link',
+      "link",
       {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '16x16',
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
         href: `/icons/favicon-16x16.png`,
       },
     ],
     [
-      'link',
+      "link",
       {
-        rel: 'manifest',
+        rel: "manifest",
         href: `/manifest.webmanifest`,
       },
     ],
     [
-      'link',
+      "link",
       {
-        rel: 'mask-icon',
+        rel: "mask-icon",
         href: `/icons/safari-pinned-tab.svg`,
-        color: '#647dee',
+        color: "#647dee",
       },
     ],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'ham.guide' }],
-    ['meta', { name: 'application-name', content: 'ham.guide' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#647dee' }],
-    ['meta', { name: 'theme-color', content: '#647dee' }],
+    ["meta", { name: "apple-mobile-web-app-title", content: "ham.guide" }],
+    ["meta", { name: "application-name", content: "ham.guide" }],
+    ["meta", { name: "msapplication-TileColor", content: "#647dee" }],
+    ["meta", { name: "theme-color", content: "#647dee" }],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:image',
-        content: 'https://ham.guide/icons/og-image.jpg',
+        property: "og:image",
+        content: "https://ham.guide/icons/og-image.jpg",
       },
     ],
-    ['meta', { property: 'og:title', content: 'ham.guide' }],
-    ['meta', { property: 'og:url', content: 'https://ham.guide' }],
+    ["meta", { property: "og:title", content: "ham.guide" }],
+    ["meta", { property: "og:url", content: "https://ham.guide" }],
     [
-      'meta',
+      "meta",
       {
-        property: 'og:description',
+        property: "og:description",
         content:
-          'Introduction to amateur radio - Open source, multilingual and works offline!',
+          "Introduction to amateur radio - Open source, multilingual and works offline!",
       },
     ],
   ],
   theme: defaultTheme({
-    repo: 'domnantas/ham.guide',
+    repo: "domnantas/ham.guide",
     editLink: true,
-    docsDir: 'src',
-    logo: '/logo.svg',
+    docsDir: "src",
+    logo: "/logo.svg",
     sidebarDepth: 1,
     locales: {
-      '/': {
-        selectLanguageName: 'English',
-        selectLanguageText: 'Languages',
+      "/": {
+        selectLanguageName: "English",
+        selectLanguageText: "Languages",
         navbar: [
           {
-            text: 'Changelog',
-            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
+            text: "Bandplan",
+            link: "https://bandplan.ham.guide",
+          },
+          {
+            text: "Changelog",
+            link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
           },
         ],
         sidebar: [
           {
-            text: 'Ethics and operating procedures for the radio amateur',
+            text: "Ethics and operating procedures for the radio amateur",
             children: [
-              '/radio-operating-ethics/',
-              '/radio-operating-ethics/radio-amateurs-code',
-              '/radio-operating-ethics/introduction',
-              '/radio-operating-ethics/general-operating',
-              '/radio-operating-ethics/advanced-operating',
-              '/radio-operating-ethics/authors',
+              "/radio-operating-ethics/",
+              "/radio-operating-ethics/radio-amateurs-code",
+              "/radio-operating-ethics/introduction",
+              "/radio-operating-ethics/general-operating",
+              "/radio-operating-ethics/advanced-operating",
+              "/radio-operating-ethics/authors",
             ],
           },
-          '/phonetic-alphabet/',
-          '/q-code/',
-          '/dxcc-prefixes/',
+          "/phonetic-alphabet/",
+          "/q-code/",
+          "/dxcc-prefixes/",
           {
-            text: 'Contribute',
-            children: ['/contribute/', '/contribute/markdown-tips'],
+            text: "Contribute",
+            children: ["/contribute/", "/contribute/markdown-tips"],
           },
         ],
       },
-      '/lt/': {
-        selectLanguageName: 'Lietuvių',
-        selectLanguageText: 'Kalba',
-        editLinkText: 'Redaguoti šį puslapį',
-        lastUpdatedText: 'Atnaujinta',
-        contributorsText: 'Autoriai',
-        tip: 'PATARIMAS',
-        warning: 'ĮSPĖJIMAS',
-        danger: 'PAVOJUS',
+      "/lt/": {
+        selectLanguageName: "Lietuvių",
+        selectLanguageText: "Kalba",
+        editLinkText: "Redaguoti šį puslapį",
+        lastUpdatedText: "Atnaujinta",
+        contributorsText: "Autoriai",
+        tip: "PATARIMAS",
+        warning: "ĮSPĖJIMAS",
+        danger: "PAVOJUS",
         navbar: [
           {
-            text: 'Pakeitimai',
-            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
+            text: "Pakeitimai",
+            link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
           },
         ],
         sidebar: [
           {
-            text: 'Radijo mėgėjo etikos ir darbo eteryje kodeksas',
+            text: "Radijo mėgėjo etikos ir darbo eteryje kodeksas",
             children: [
-              '/lt/radio-operating-ethics/',
-              '/lt/radio-operating-ethics/radio-amateurs-code',
-              '/lt/radio-operating-ethics/introduction',
-              '/lt/radio-operating-ethics/general-operating',
-              '/lt/radio-operating-ethics/advanced-operating',
-              '/lt/radio-operating-ethics/authors',
-              '/lt/radio-operating-ethics/translators-note',
+              "/lt/radio-operating-ethics/",
+              "/lt/radio-operating-ethics/radio-amateurs-code",
+              "/lt/radio-operating-ethics/introduction",
+              "/lt/radio-operating-ethics/general-operating",
+              "/lt/radio-operating-ethics/advanced-operating",
+              "/lt/radio-operating-ethics/authors",
+              "/lt/radio-operating-ethics/translators-note",
             ],
           },
-          '/lt/phonetic-alphabet/',
-          '/lt/q-code/',
-          '/lt/dxcc-prefixes/',
-          '/lt/exam/',
-          '/lt/lhfa/',
-          '/lt/wal/',
-          '/lt/qth/',
+          "/lt/phonetic-alphabet/",
+          "/lt/q-code/",
+          "/lt/dxcc-prefixes/",
+          "/lt/exam/",
+          "/lt/lhfa/",
+          "/lt/wal/",
+          "/lt/qth/",
           {
-            text: 'Prisidėkite',
-            children: ['/lt/contribute/', '/lt/contribute/markdown-tips'],
+            text: "Prisidėkite",
+            children: ["/lt/contribute/", "/lt/contribute/markdown-tips"],
           },
         ],
       },
-      '/es/': {
-        selectLanguageName: 'Español',
-        selectLanguageText: 'Idiomas',
-        editLinkText: 'Editar',
-        lastUpdatedText: 'Actualizado',
-        contributorsText: 'Colaboradores',
-        tip: 'SUGERENCIA',
-        warning: 'ADVERTENCIA',
-        danger: 'PELIGRO',
+      "/es/": {
+        selectLanguageName: "Español",
+        selectLanguageText: "Idiomas",
+        editLinkText: "Editar",
+        lastUpdatedText: "Actualizado",
+        contributorsText: "Colaboradores",
+        tip: "SUGERENCIA",
+        warning: "ADVERTENCIA",
+        danger: "PELIGRO",
         navbar: [
           {
-            text: 'Cambios',
-            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
+            text: "Cambios",
+            link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
           },
         ],
         sidebar: [
@@ -194,28 +198,28 @@ export default defineUserConfig({
           //     '/radio-operating-ethics/authors'
           //   ]
           // },
-          '/es/phonetic-alphabet/',
-          '/es/q-code/',
+          "/es/phonetic-alphabet/",
+          "/es/q-code/",
           // '/dxcc-prefixes/',
           {
-            text: 'Contribuye',
-            children: ['/contribute/', '/contribute/markdown-tips'],
+            text: "Contribuye",
+            children: ["/contribute/", "/contribute/markdown-tips"],
           },
         ],
       },
-      '/ru/': {
-        selectLanguageName: 'Русский',
-        selectLanguageText: 'Язык',
-        editLinkText: 'Изменить',
-        lastUpdatedText: 'Обновлено',
-        contributorsText: 'Соавторы',
-        tip: 'ПОДСКАЗКА',
-        warning: 'ПРЕДУПРЕЖДЕНИЕ',
-        danger: 'ОПАСНОСТЬ',
+      "/ru/": {
+        selectLanguageName: "Русский",
+        selectLanguageText: "Язык",
+        editLinkText: "Изменить",
+        lastUpdatedText: "Обновлено",
+        contributorsText: "Соавторы",
+        tip: "ПОДСКАЗКА",
+        warning: "ПРЕДУПРЕЖДЕНИЕ",
+        danger: "ОПАСНОСТЬ",
         navbar: [
           {
-            text: 'Изменения',
-            link: 'https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md',
+            text: "Изменения",
+            link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
           },
         ],
         sidebar: [
@@ -230,12 +234,12 @@ export default defineUserConfig({
           //     '/radio-operating-ethics/authors'
           //   ]
           // },
-          '/ru/phonetic-alphabet/',
-          '/ru/q-code/',
+          "/ru/phonetic-alphabet/",
+          "/ru/q-code/",
           // '/dxcc-prefixes/',
           {
-            text: 'Участие в проекте',
-            children: ['/contribute/', '/contribute/markdown-tips'],
+            text: "Участие в проекте",
+            children: ["/contribute/", "/contribute/markdown-tips"],
           },
         ],
       },
@@ -243,29 +247,29 @@ export default defineUserConfig({
   }),
   plugins: [
     registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
+      componentsDir: path.resolve(__dirname, "./components"),
     }),
     docsearchPlugin({
-      apiKey: '128f6dee6aa7749577ea604740536dd4',
-      indexName: 'ham.guide',
-      appId: 'KAI83AR9ZR',
+      apiKey: "128f6dee6aa7749577ea604740536dd4",
+      indexName: "ham.guide",
+      appId: "KAI83AR9ZR",
       locales: {
-        '/': {
-          placeholder: 'Search',
+        "/": {
+          placeholder: "Search",
         },
-        '/lt/': {
-          placeholder: 'Paieška',
+        "/lt/": {
+          placeholder: "Paieška",
         },
-        '/es/': {
-          placeholder: 'Buscar',
+        "/es/": {
+          placeholder: "Buscar",
         },
-        '/ru/': {
-          placeholder: 'Поиск',
+        "/ru/": {
+          placeholder: "Поиск",
         },
       },
     }),
     googleAnalyticsPlugin({
-      id: 'G-9BCS1N7E1G',
+      id: "G-9BCS1N7E1G",
     }),
     pwaPlugin({
       skipWaiting: true,
