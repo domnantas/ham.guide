@@ -11,5 +11,5 @@ features:
     details: La información debería ser accesible para cualquier persona, sin importar su lugar de origen o la lengua que hablen. Si tu idioma no aparece en ham.guide, considera ayudar a tu comunidad traduciéndolo.
   - title: Sin necesidad de conexión
     details: ham.guide no necesita de una conexión a internet para funcionar, se almacena en tu dispositivo y se actualiza cuando se publique algún contenido nuevo. Incluso puedes instalar esta página web como una aplicación en tu dispositivo móvil!
-footer: MIT Licensed | Copyright © 2018 Domantas Petrauskas
+footer: MIT Licensed | Copyright © 2018 Domantas Vasiliauskas LY1JA
 ---

@@ -11,5 +11,5 @@ features:
     details: Informacija turėtų būti prieinama visiems, nesvarbu kokia kalba jie kalba. Jeigu ham.guide nėra išversta į Jūsų kalbą, padėkite savo bendruomenei jį išversti.
   - title: Veikia Offline
     details: ham.guide veikia be interneto prieigos - jis išsaugomas įrenginyje ir atsinaujina atsiradus naujam turiniui. Jeigu apsilankysite šiame puslapyje per mobiliojo įrenginio naršyklę, galėsite net įsirašyti ham.guide kaip programėlę!
-footer: MIT Licencija | Copyright © 2018 Domantas Petrauskas
+footer: MIT Licencija | Copyright © 2018 Domantas Vasiliauskas LY1JA
 ---
