@@ -20,6 +20,10 @@ export default defineUserConfig({
       lang: "es-ES",
       description: "Introduction a la radioafición",
     },
+    "/ru/": {
+      lang: "ru-RU",
+      description: "Введение в любительскую радиосвязь",
+    },
   },
   head: [
     [
@@ -203,6 +207,42 @@ export default defineUserConfig({
           },
         ],
       },
+      "/ru/": {
+        selectLanguageName: "Русский",
+        selectLanguageText: "Язык",
+        editLinkText: "Редактировать эту страницу",
+        lastUpdatedText: "Обновлено",
+        contributorsText: "Участники",
+        tip: "СОВЕТ",
+        warning: "ВНИМАНИЕ",
+        danger: "ОПАСНОСТЬ",
+        navbar: [
+          {
+            text: "Изменения",
+            link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
+          },
+        ],
+        sidebar: [
+          {
+            text: "Этика и порядок работы в эфире для радиолюбителя",
+            children: [
+              "/ru/radio-operating-ethics/",
+              "/ru/radio-operating-ethics/radio-amateurs-code",
+              "/ru/radio-operating-ethics/introduction",
+              "/ru/radio-operating-ethics/general-operating",
+              "/ru/radio-operating-ethics/advanced-operating",
+              "/ru/radio-operating-ethics/authors",
+            ],
+          },
+          "/ru/phonetic-alphabet/",
+          "/ru/q-code/",
+          "/ru/dxcc-prefixes/",
+          {
+            text: "Участие",
+            children: ["/ru/contribute/", "/ru/contribute/markdown-tips"],
+          },
+        ],
+      },
     },
   }),
   plugins: [
@@ -222,6 +262,9 @@ export default defineUserConfig({
         },
         "/es/": {
           placeholder: "Buscar",
+        },
+        "/ru/": {
+          placeholder: "Поиск",
         },
       },
     }),
