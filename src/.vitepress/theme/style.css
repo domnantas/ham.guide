@@ -21,6 +21,13 @@
   padding-bottom: 0;
 }
 
+/* VitePress centers content on wide screens; let the map fill the space instead */
+@media (min-width: 1440px) {
+  .Layout.fullscreen .VPContent.has-sidebar {
+    padding-right: 0;
+  }
+}
+
 .fullscreen .VPPage {
   height: 100%;
 }
