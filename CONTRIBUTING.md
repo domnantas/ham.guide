@@ -20,9 +20,9 @@ Thank you for improving ham.guide! We will review your changes and you should se
 
 ## Advanced editing
 
-### Vuepress
+### VitePress
 
-Project is built using [Vuepress](https://vuepress.vuejs.org/).
+Project is built using [VitePress](https://vitepress.dev/).
 
 ### Running locally
 
@@ -38,34 +38,28 @@ Install Git and Node as described [here](https://gist.github.com/nerdenough/d288
 
 Install Git and Node using your distro package manager.
 
----
-
-You will need to [install Yarn](https://yarnpkg.com/getting-started/install) to manage dependencies
-
----
-
 1. After you have the prerequisites installed, [fork and clone ham.guide repository and create a new branch](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 2. Install dependencies
 
 ```bash
-yarn
+npm install
 ```
 
 3. Run the dev server
 
 ```bash
-yarn dev
+npm run dev
 ```
 
-After that, visit `localhost:8080` and you should see ham.guide running locally.
+After that, visit `localhost:5173` and you should see ham.guide running locally.
 
 ### Project structure
 
 ```
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 |   ├── phonetic-alphabet
 |   ├── q-code
@@ -84,12 +78,12 @@ After that, visit `localhost:8080` and you should see ham.guide running locally.
 This is a simplified diagram of directory structure.
 
 - `src/` folder contains all the content presented on this webpage.
-- `src/.vuepress` contains Vuepress configuration and style files, component and public directories. More information about it can be found on [Vuepress documentation](https://vuepress.vuejs.org/), but it rarely needs modification.
+- `src/.vitepress` contains VitePress configuration and style files, component and public directories. More information about it can be found on [VitePress documentation](https://vitepress.dev/), but it rarely needs modification.
 
-```{4,5,6,7}
+```text{4,5,6,7}
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 │   ├── phonetic-alphabet
 |   ├── q-code
@@ -102,16 +96,16 @@ This is a simplified diagram of directory structure.
 ...
 ```
 
-Directories like `src/contribute/` or `src/q-code/` are **page** or **page group** folders. **Page** is a directory with a single `README.md` file. **Page group** is a directory containing a `README.md` and other `.md` files for additional pages.
+Directories like `src/contribute/` or `src/q-code/` are **page** or **page group** folders. **Page** is a directory with a single `index.md` file. **Page group** is a directory containing a `index.md` and other `.md` files for additional pages.
 
 ::: warning
-If you want to create a **new** page or page group, you need to modify `src/.vuepress/config.js` file `themeConfig.locales.sidebar` property in order to see your page in the navigation menu. Try doing this yourself following already existing code as an example, but don't be afraid to ask for help on Github if you get stuck!
+If you want to create a **new** page or page group, you need to modify `src/.vitepress/config.mts` file `locales.<lang>.themeConfig.sidebar` property in order to see your page in the navigation menu. Try doing this yourself following already existing code as an example, but don't be afraid to ask for help on Github if you get stuck!
 :::
 
-```{8,9,10,11,12}
+```text{8,9,10,11,12}
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 │   ├── phonetic-alphabet
 |   ├── q-code
