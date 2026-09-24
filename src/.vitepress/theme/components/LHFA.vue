@@ -29,8 +29,7 @@ export default {
   },
   mounted() {
     this.map = new mapboxgl.Map({
-      accessToken:
-        'pk.eyJ1IjoiZmlzdG1lbmFydXRvIiwiYSI6ImNqeXd6bmMxeTEybzMzbXJyZG9tMjVkemgifQ.5cwA9ergt7yRmWfNAIuDHw',
+      accessToken: import.meta.env.VITE_MAPBOX_TOKEN,
       container: this.$refs.map,
       style: 'mapbox://styles/mapbox/outdoors-v12',
       center: [23.8813, 55.1694],
@@ -157,7 +156,7 @@ export default {
 
 <style scoped>
 .wrapper {
-  height: calc(100vh - 3.6rem);
+  height: calc(100vh - var(--vp-nav-height));
   position: relative;
 }
 

@@ -1,9 +1,9 @@
 ---
 pageClass: fullscreen
-layout: NoSwipeLayout
-title: LHFA žemėlapis
+layout: page
+title: WAL žemėlapis
 ---
 
 <ClientOnly>
-  <LHFA />
+  <WAL />
 </ClientOnly>

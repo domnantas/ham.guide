@@ -1,6 +1,6 @@
 # [ham.guide](https://ham.guide)
 
-<img width="100px" src="/src/.vuepress/public/logo.svg" alt="ham.guide logo">
+<img width="100px" src="/src/public/logo.svg" alt="ham.guide logo">
 
 [Amateur radio](https://en.wikipedia.org/wiki/Amateur_radio) knowledge base offered in multiple languages and built by community. ham.guide also contains tools, maps and calculators, which can be used offline.
 
