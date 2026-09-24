@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-09-24
+
+### Added
+
+- Local search, which also works offline
+
+### Changed
+
+- Migrated from VuePress to VitePress, with a new look
+- Refreshed home page
+- Sidebar pages grouped into sections
+- **Lithuanian** Maps fill the full width of the page
+- **Lithuanian** Exam buttons restyled
+
+### Removed
+
+- Algolia DocSearch (replaced by local search)
+
 ## 2023-06-18
 
 ### Changed
