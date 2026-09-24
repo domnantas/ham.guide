@@ -1,5 +1,13 @@
 import { defineConfig } from "vitepress";
 import { withPwa } from "@vite-pwa/vitepress";
+import { fileURLToPath } from "node:url";
+import { loadEnv } from "vite";
+
+const envDir = fileURLToPath(new URL("../..", import.meta.url));
+
+if (!loadEnv("", envDir, "VITE_").VITE_MAPBOX_TOKEN) {
+  console.warn("VITE_MAPBOX_TOKEN is not set, map pages will not load. See .env.example");
+}
 
 const brandColor = "#647dee";
 
@@ -276,6 +284,10 @@ export default withPwa(
           },
         },
       },
+    },
+    vite: {
+      // Read .env from the repository root rather than src/
+      envDir,
     },
     markdown: {
       container: {

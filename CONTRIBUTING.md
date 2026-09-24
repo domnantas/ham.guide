@@ -46,6 +46,8 @@ Install Git and Node using your distro package manager.
 npm install
 ```
 
+To see the map pages locally, copy `.env.example` to `.env` and set `VITE_MAPBOX_TOKEN` to your own [Mapbox access token](https://account.mapbox.com/access-tokens/). The rest of the site works without it.
+
 3. Run the dev server
 
 ```bash

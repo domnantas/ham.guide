@@ -14,3 +14,6 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Local environment
+.env

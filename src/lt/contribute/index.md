@@ -50,6 +50,8 @@ Naudodami savo distribucijos paketų tvarkyklę, įsidiekite programas Git ir No
 npm install
 ```
 
+Norėdami matyti žemėlapius, nukopijuokite `.env.example` į `.env` ir įrašykite savo [Mapbox prieigos raktą](https://account.mapbox.com/access-tokens/) į `VITE_MAPBOX_TOKEN`. Likusi svetainės dalis veikia ir be jo.
+
 3. Paleiskite vietinį serverį
 
 ```bash
