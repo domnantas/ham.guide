@@ -13,10 +13,52 @@
 - Sidebar pages grouped into sections
 - **Lithuanian** Maps fill the full width of the page
 - **Lithuanian** Exam buttons restyled
+- Fixed antenna symbol in the logo
 
 ### Removed
 
 - Algolia DocSearch (replaced by local search)
+
+## 2026-06-01
+
+### Changed
+
+- Updated author name
+
+### Removed
+
+- **Russian** translation
+
+## 2026-01-18
+
+### Changed
+
+- Fixed typo in "How to make QSOs in a phone contest?" [@sasetz](https://github.com/sasetz)
+
+## 2025-03-15
+
+### Added
+
+- Link to [bandplan.ham.guide](https://bandplan.ham.guide)
+
+## 2024-05-31
+
+### Changed
+
+- **Lithuanian** Improved LHFA and WAL map titles for search engines
+
+## 2024-02-05
+
+### Changed
+
+- **Lithuanian** Fixed answers to two Exam questions [@erstec](https://github.com/erstec)
+
+## 2023-07-31
+
+### Changed
+
+- Rebranded to ham.guide
+- Fixed Markdown tips page example
 
 ## 2023-06-18
 
