@@ -318,7 +318,7 @@ DF0xx siunčia **TO ALL: wir warten auf K3614** (ką tai bereikštų)
 | **10m**    | ± 28 080 (RTTY)       |
 | **10m**    | 28 490 – 28 500 (SSB) |
 
-::: tip
+::: tip PATARIMAS
 Pirmi kiekvieno diapazono 5 kHz taip pat neoficialiai naudojami CW DX ryšiui.
 :::
 

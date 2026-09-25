@@ -1,15 +1,29 @@
 ---
-home: true
-heroImage: /logo.svg
-actions:
-  - text: Читать →
-    link: /ru/radio-operating-ethics/
+layout: home
+
+hero:
+  name: ham.guide
+  text: Введение в любительскую радиосвязь
+  tagline: Открытый исходный код, многоязычный и работает офлайн
+  image:
+    src: /logo.svg
+    alt: ham.guide
+  actions:
+    - theme: brand
+      text: Читать
+      link: /ru/radio-operating-ethics/
+    - theme: alt
+      text: GitHub
+      link: https://github.com/domnantas/ham.guide
+
 features:
-  - title: Создаётся сообществом
+  - icon: 🤝
+    title: Создаётся сообществом
     details: Содержание этого руководства имеет открытый исходный код и поддерживается сообществом. Внести вклад в развитие проекта может каждый.
-  - title: Многоязычный
+  - icon: 🌍
+    title: Многоязычный
     details: Информация должна быть доступна всем, независимо от того, на каком языке они говорят. Если ham.guide не переведён на ваш язык, помогите своему сообществу перевести его.
-  - title: Работает офлайн
+  - icon: 📡
+    title: Работает офлайн
     details: ham.guide работает без доступа к интернету — он сохраняется на устройстве и обновляется по мере появления нового содержания. А если вы откроете эту страницу в браузере мобильного устройства, то сможете даже установить ham.guide как приложение!
-footer: Лицензия MIT | Copyright © 2018 Domantas Vasiliauskas LY1JA
 ---

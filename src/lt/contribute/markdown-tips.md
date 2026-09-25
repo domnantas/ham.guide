@@ -105,30 +105,30 @@ _Pasviręs tekstas_
 ## Pranešimų konteineriai
 
 ```md
-::: tip
+::: tip PATARIMAS
 Čia yra patarimas
 :::
 
-::: warning
+::: warning ĮSPĖJIMAS
 Čia yra įspėjimas
 :::
 
-::: danger
+::: danger PAVOJUS
 Čia yra įspėjimas apie pavojų
 :::
 ```
 
 #### Pavyzdys
 
-::: tip
+::: tip PATARIMAS
 Čia yra patarimas
 :::
 
-::: warning
+::: warning ĮSPĖJIMAS
 Čia yra įspėjimas
 :::
 
-::: danger
+::: danger PAVOJUS
 Čia yra įspėjimas apie pavojų
 :::
 
@@ -176,7 +176,7 @@ Pavojus, toliau neikite
 
 [Vidinė nuoroda į sekciją](/lt/contribute/markdown-tips.md#pranesimu-konteineriai)
 
-::: warning
+::: warning ĮSPĖJIMAS
 Neužmirškite vidinių nuorodų užbaigti su `/`, kitaip atsidursite 404 puslapyje.
 :::
 
@@ -254,8 +254,8 @@ const foo = bar => {
 
 Šio projekto `markdown` failuose galima naudoti [Vue](https://vuejs.org/) komponentus
 
-`.vuepress/components/DoubleNumber.vue`
-@[code](../../.vuepress/components/DoubleNumber.vue)
+`.vitepress/theme/components/DoubleNumber.vue`
+<<< @/.vitepress/theme/components/DoubleNumber.vue
 
 ```md
 <!-- *.md -->

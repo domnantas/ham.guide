@@ -254,8 +254,8 @@ const foo = bar => {
 
 In this project it is possible to use [Vue](https://vuejs.org/) components inside `markdown` files
 
-`.vuepress/components/DoubleNumber.vue`
-@[code](../.vuepress/components/DoubleNumber.vue)
+`.vitepress/theme/components/DoubleNumber.vue`
+<<< @/.vitepress/theme/components/DoubleNumber.vue
 
 ```md
 <!-- *.md -->

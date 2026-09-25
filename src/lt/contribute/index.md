@@ -24,9 +24,9 @@ Dėkojame, kad tobulinate ham.guide! Mes peržiūrėsime jūsų pakeitimus ir at
 
 ## Redagavimas pažengusiems
 
-### Vuepress
+### VitePress
 
-Projektas sukurtas naudojant [Vuepress](https://vuepress.vuejs.org/).
+Projektas sukurtas naudojant [VitePress](https://vitepress.dev/).
 
 ### Paleidimas vietiniame tinkle
 
@@ -42,34 +42,30 @@ Projektas sukurtas naudojant [Vuepress](https://vuepress.vuejs.org/).
 
 Naudodami savo distribucijos paketų tvarkyklę, įsidiekite programas Git ir Node
 
----
-
-Taip pat reikės [įdiegti Yarn](https://yarnpkg.com/getting-started/install)
-
----
-
 1. Kai įdiegsite Git ir Node, [klonuokite ham.guide repozitoriją ir sukurkite naują šaką](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 1. Įrašykite būtinus modulius
 
 ```bash
-yarn
+npm install
 ```
+
+Norėdami matyti žemėlapius, nukopijuokite `.env.example` į `.env` ir įrašykite savo [Mapbox prieigos raktą](https://account.mapbox.com/access-tokens/) į `VITE_MAPBOX_TOKEN`. Likusi svetainės dalis veikia ir be jo.
 
 3. Paleiskite vietinį serverį
 
 ```bash
-yarn dev
+npm run dev
 ```
 
-Apsilankykite `localhost:8080` ir turėtumėte pamatyti ham.guide veikiantį vietiniame tinkle.
+Apsilankykite `localhost:5173` ir turėtumėte pamatyti ham.guide veikiantį vietiniame tinkle.
 
 ### Projekto struktūra
 
 ```
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 |   ├── phonetic-alphabet
 |   ├── q-code
@@ -88,12 +84,12 @@ Apsilankykite `localhost:8080` ir turėtumėte pamatyti ham.guide veikiantį vie
 Tai yra supaprastinta projekto struktūros diagrama.
 
 - `src/` aplanke talpinamas visas svetainės turinys.
-- `src/.vuepress` yra Vuepress konfigūracijos ir stilių failai, komponentų ir viešų failų katalogai. Daugiau informacijos apie tai galite rasti [Vuepress dokumentacijoje](https://vuepress.vuejs.org/), bet šiems failams retai reikalingos modifikacijos.
+- `src/.vitepress` yra VitePress konfigūracijos ir stilių failai, komponentų ir viešų failų katalogai. Daugiau informacijos apie tai galite rasti [VitePress dokumentacijoje](https://vitepress.dev/), bet šiems failams retai reikalingos modifikacijos.
 
-```{4,5,6,7}
+```text{4,5,6,7}
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 │   ├── phonetic-alphabet
 |   ├── q-code
@@ -106,16 +102,16 @@ Tai yra supaprastinta projekto struktūros diagrama.
 ...
 ```
 
-Aplankai `src/contribute/` ar `src/q-code/` yra **puslapių** arba **puslapių grupių** aplankai. **Puslapis** yra aplankas talpinantis vieną `README.md` failą. **Puslapių grupė** yra aplankas turintis `README.md` ir kitus `.md` failus papildomiems puslapiams.
+Aplankai `src/contribute/` ar `src/q-code/` yra **puslapių** arba **puslapių grupių** aplankai. **Puslapis** yra aplankas talpinantis vieną `index.md` failą. **Puslapių grupė** yra aplankas turintis `index.md` ir kitus `.md` failus papildomiems puslapiams.
 
 ::: warning Perspėjimas
-Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuoti `src/.vuepress/config.js` failo `themeConfig.locales.sidebar` nustatymą, tam kad jūsų puslapis būtų rodomas navigacijoje. Bandykite tai padaryti pats, naudodami jau aprašytą kodą kaip pavyzdį, tačiau nebijokite prašyti pagalbos mūsų Github puslapyje, jeigu užstrigsite!
+Jeigu norite sukurti **naują** puslapį ar puslapių grupę, reikės modifikuoti `src/.vitepress/config.mts` failo `locales.<lang>.themeConfig.sidebar` nustatymą, tam kad jūsų puslapis būtų rodomas navigacijoje. Bandykite tai padaryti pats, naudodami jau aprašytą kodą kaip pavyzdį, tačiau nebijokite prašyti pagalbos mūsų Github puslapyje, jeigu užstrigsite!
 :::
 
-```{8,9,10,11,12}
+```text{8,9,10,11,12}
 .
 ├── src
-│   ├── .vuepress
+│   ├── .vitepress
 │   ├── contribute
 │   ├── phonetic-alphabet
 |   ├── q-code

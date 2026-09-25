@@ -86,17 +86,28 @@ export default {
 
 <style scoped>
 button {
-  color: #fff;
-  font-size: 1.2rem;
-  background-color: var(--c-brand);
-  padding: 1rem;
-  border: none;
+  color: var(--vp-button-brand-text);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--vp-button-brand-bg);
+  padding: 0 20px;
+  line-height: 40px;
+  border: 1px solid var(--vp-button-brand-border);
+  border-radius: 20px;
   cursor: pointer;
+  margin-top: 16px;
   margin-bottom: 20px;
+  transition: background-color 0.25s;
 }
 
-.select>button:not(:last-of-type) {
-  margin-right: 20px;
+button:hover {
+  background-color: var(--vp-button-brand-hover-bg);
+}
+
+.select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .question {
@@ -132,14 +143,14 @@ button {
 .result {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: green;
+  color: var(--vp-c-success-1);
 }
 
 .error {
-  color: red;
+  color: var(--vp-c-danger-1);
 }
 
 .correct {
-  color: green;
+  color: var(--vp-c-success-1);
 }
 </style>

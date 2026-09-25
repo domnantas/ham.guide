@@ -1,6 +1,6 @@
 ---
 pageClass: fullscreen
-layout: NoSwipeLayout
+layout: page
 title: QTH
 ---
 

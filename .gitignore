@@ -1,7 +1,6 @@
-# VuePress files
-src/.vuepress/.temp/
-src/.vuepress/.cache/
-src/.vuepress/dist/
+# VitePress files
+src/.vitepress/cache/
+src/.vitepress/dist/
 
 .DS_Store
 node_modules
@@ -15,3 +14,6 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Local environment
+.env

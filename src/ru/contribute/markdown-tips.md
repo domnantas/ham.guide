@@ -105,30 +105,30 @@ _Курсив_
 ## Контейнеры сообщений
 
 ```md
-::: tip
+::: tip СОВЕТ
 Это подсказка
 :::
 
-::: warning
+::: warning ВНИМАНИЕ
 Это предупреждение
 :::
 
-::: danger
+::: danger ОПАСНОСТЬ
 Это предупреждение об опасности
 :::
 ```
 
 #### Пример
 
-::: tip
+::: tip СОВЕТ
 Это подсказка
 :::
 
-::: warning
+::: warning ВНИМАНИЕ
 Это предупреждение
 :::
 
-::: danger
+::: danger ОПАСНОСТЬ
 Это предупреждение об опасности
 :::
 
@@ -176,7 +176,7 @@ _Курсив_
 
 [Внутренняя ссылка на секцию](/ru/contribute/markdown-tips.md#контейнеры-сообщений)
 
-::: warning
+::: warning ВНИМАНИЕ
 Не забывайте завершать внутренние ссылки символом `/`, иначе окажетесь на странице 404.
 :::
 
@@ -254,8 +254,8 @@ const foo = bar => {
 
 В `markdown`-файлах этого проекта можно использовать компоненты [Vue](https://vuejs.org/)
 
-`.vuepress/components/DoubleNumber.vue`
-@[code](../../.vuepress/components/DoubleNumber.vue)
+`.vitepress/theme/components/DoubleNumber.vue`
+<<< @/.vitepress/theme/components/DoubleNumber.vue
 
 ```md
 <!-- *.md -->
