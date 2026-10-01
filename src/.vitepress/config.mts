@@ -207,6 +207,78 @@ export default withPwa(
           },
         },
       },
+      ru: {
+        label: "Русский",
+        lang: "ru-RU",
+        description: "Введение в любительскую радиосвязь",
+        themeConfig: {
+          nav: [
+            {
+              text: "Изменения",
+              link: "https://github.com/domnantas/ham.guide/blob/main/CHANGELOG.md",
+            },
+          ],
+          sidebar: [
+            {
+              text: "Этика и порядок работы в эфире для радиолюбителя",
+              items: [
+                { text: "Обзор", link: "/ru/radio-operating-ethics/" },
+                {
+                  text: "Кодекс радиолюбителя по W9EEA",
+                  link: "/ru/radio-operating-ethics/radio-amateurs-code",
+                },
+                { text: "Введение", link: "/ru/radio-operating-ethics/introduction" },
+                {
+                  text: "Работа в радиоэфире",
+                  link: "/ru/radio-operating-ethics/general-operating",
+                },
+                {
+                  text: "Работа в эфире для продвинутых",
+                  link: "/ru/radio-operating-ethics/advanced-operating",
+                },
+                { text: "Авторы", link: "/ru/radio-operating-ethics/authors" },
+              ],
+            },
+            {
+              text: "Справочник",
+              items: [
+                { text: "Международный фонетический алфавит", link: "/ru/phonetic-alphabet/" },
+                { text: "Международный Q-код", link: "/ru/q-code/" },
+                { text: "Префиксы DXCC", link: "/ru/dxcc-prefixes/" },
+              ],
+            },
+            {
+              text: "Участие",
+              items: [
+                { text: "Руководство", link: "/ru/contribute/" },
+                { text: "Советы по Markdown", link: "/ru/contribute/markdown-tips" },
+              ],
+            },
+          ],
+          footer: {
+            message: "Лицензия MIT",
+            copyright: "Copyright © 2018 Domantas Vasiliauskas LY1JA",
+          },
+          editLink: {
+            pattern: "https://github.com/domnantas/ham.guide/edit/main/src/:path",
+            text: "Редактировать эту страницу",
+          },
+          lastUpdated: { text: "Обновлено" },
+          outline: { label: "На этой странице" },
+          docFooter: { prev: "Назад", next: "Далее" },
+          langMenuLabel: "Язык",
+          returnToTopLabel: "Наверх",
+          sidebarMenuLabel: "Меню",
+          darkModeSwitchLabel: "Тема",
+          lightModeSwitchTitle: "Светлая тема",
+          darkModeSwitchTitle: "Тёмная тема",
+          notFound: {
+            title: "СТРАНИЦА НЕ НАЙДЕНА",
+            quote: "Такой страницы не существует.",
+            linkText: "На главную",
+          },
+        },
+      },
     },
     head: [
       ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-touch-icon.png" }],
@@ -277,6 +349,22 @@ export default withPwa(
                     selectText: "seleccionar",
                     navigateText: "navegar",
                     closeText: "cerrar",
+                  },
+                },
+              },
+            },
+            ru: {
+              translations: {
+                button: { buttonText: "Поиск", buttonAriaLabel: "Поиск" },
+                modal: {
+                  displayDetails: "Показать подробный список",
+                  resetButtonTitle: "Сбросить поиск",
+                  backButtonTitle: "Закрыть поиск",
+                  noResultsText: "Ничего не найдено",
+                  footer: {
+                    selectText: "выбрать",
+                    navigateText: "перейти",
+                    closeText: "закрыть",
                   },
                 },
               },
